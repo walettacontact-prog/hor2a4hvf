@@ -47,3 +47,9 @@ Dikkat edilecekler:
 - Görselleri medya klasörüne **alt klasör oluşturmadan** yükleyin.
 - Facebook, Instagram, YouTube veya WhatsApp alanını boş bırakırsanız o buton sitede gizlenir.
 - Hakkımızda görseli boş bırakılırsa varsayılan görsel kullanılır.
+
+## Hız notları
+
+- IcoFont, sadece sitede kullanılan 7 ikonu içeren `public/fonts/icofont/fonts/icofont-subset.ttf` dosyasından yükleniyor. Şablonlara yeni bir `icofont-*` ikonu eklenirse bu dosya o ikonu da içerecek şekilde yeniden üretilmeli (`hb-subset`), yoksa ikon görünmez.
+- Ana sayfadaki ilk slider görselinin dikey ekranlar için kırpılmış sürümü `public/images/slider/5-mobile.webp`. `5.webp` değişirse bu da güncellenmeli.
+- Yeni görselleri yüklemeden önce WebP'ye çevirip sıkıştırmak (kalite ~80) siteyi hızlı tutar.

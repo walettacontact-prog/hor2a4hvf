@@ -103,12 +103,38 @@
 
 
     <!-- ✅ CSS Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- İlk slider görseli: sayfa açılır açılmaz insin (dikey ekranlarda kırpılmış küçük sürüm) -->
+    <link rel="preload" as="image" href="/static/images/slider/5.webp" media="(min-aspect-ratio: 751/1000)" fetchpriority="high">
+    <link rel="preload" as="image" href="/static/images/slider/5-mobile.webp" media="(max-aspect-ratio: 3/4)" fetchpriority="high">
+    <style>
+        .hero-bg-1 { background-image: url(/static/images/slider/5.webp); background-size: cover; background-repeat: no-repeat; }
+        @media (max-aspect-ratio: 3/4) { .hero-bg-1 { background-image: url(/static/images/slider/5-mobile.webp); } }
+    </style>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="/static/css/plugins.css" rel="stylesheet" type="text/css">
     <link href="/static/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="/static/fonts/fontawesome4/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/brands.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/solid.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/icofont/icofont.min.css" rel="stylesheet" type="text/css">
     <link href="/static/css/style.css" rel="stylesheet" type="text/css">
     <link href="/static/css/coloring.css" rel="stylesheet" type="text/css">
     <link id="colors" href="/static/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <style>
+        /* JS yüklenmeden önceki görünüm yüklendikten sonrakiyle aynı olsun */
+        .jarallax:has(.jarallax-img) { position: relative; z-index: 0; }
+        .jarallax > .jarallax-img { position: absolute; object-fit: cover; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+        /* jarallax (hız 0.5) görseli bölüm + ekran yüksekliğinin yarısı kadar uzatır; JS gelince kırpım değişmesin */
+        #subheader.jarallax:has(> .jarallax-img) { overflow: hidden; }
+        #subheader.jarallax > .jarallax-img { height: calc(50% + 50vh); }
+        @media (max-width: 993px) { header:not(.header-mobile) #mainmenu { display: none; } }
+        /* Logo boyutu sabitlendi */
+        #logo img { max-width: 130px; height: auto; display: inline-block; margin: 10px; }
+    </style>
 </head>
 
 
@@ -192,7 +218,7 @@
                                 <!-- logo begin -->
                                 <div id="logo" class="text-start">
                                     <a href="/">
-                                        <img class="logo-main" src="/static/yataylogo.png"
+                                        <img class="logo-main" src="/static/yataylogo.webp"
                                             alt="Fırtına Klima & Kombi">
                                     </a>
                                 </div>
@@ -247,6 +273,7 @@
 
 
         </header>
+        <script>if (window.matchMedia("screen and (max-width: 993px)").matches) document.querySelector("header").classList.add("header-mobile");</script>
 
         <!-- header close -->
         <!-- content begin -->
@@ -262,7 +289,7 @@
 
                             <!-- Slide 1 -->
                             <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(/static/images/slider/5.webp)">
+                                <div class="swiper-inner hero-bg-1">
                                     <div class="sw-caption">
                                         <div class="container">
                                             <div class="row gx-5 justify-content-center align-items-center">
@@ -292,7 +319,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-lg-4 d-none d-lg-block">
-                                                                <img src="/static/images/slider/7.webp"
+                                                                <img src="/static/images/slider/7.webp" fetchpriority="low"
                                                                     class="w-100 slider-extra"
                                                                     alt="Teknik Servis Ekibi">
                                                             </div>
@@ -320,7 +347,7 @@
 
                                                 <div class="col-lg-6 col-6 text-center mb-sm-30">
                                                     <div class="relative slider-fadeIn">
-                                                        <img src="/static/images/slider/p4.webp" class="img-fluid"
+                                                        <img src="/static/images/slider/p4.webp" fetchpriority="low" class="img-fluid"
                                                             alt="İstanbul Kombi Servisi">
                                                     </div>
                                                 </div>
@@ -340,7 +367,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-lg-4 d-none d-lg-block">
-                                                                <img src="/static/images/slider/7.webp"
+                                                                <img src="/static/images/slider/7.webp" fetchpriority="low"
                                                                     class="w-100 slider-extra"
                                                                     alt="Kombi Servisi Görseli">
                                                             </div>
@@ -376,12 +403,12 @@
                             <div class="overflow-hidden rounded-5">
                                 <div class="relative">
                                     <h3 class="abs-centered z-1000 text-white mb-0 fs-30"><%= hizmet.baslik %></h3>
-                                    <img src="/static/assets/uploads/<%= hizmet.resim %>" class="img-fluid"
+                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= hizmet.resim %>" class="img-fluid"
                                         alt="Klima Montaj Hizmeti">
                                     <div class="de-overlay-gradient-2"></div>
                                 </div>
                                 <div class="padding40 bg-white relative">
-                                    <img src="/static/images/svg-color/air-conditioner-svgrepo-com.svg"
+                                    <img loading="lazy" decoding="async" src="/static/images/svg-color/air-conditioner-svgrepo-com.svg"
                                         class="w-70px p-2 bg-white abs abs-center rounded-1 mt-70" alt="Klima İkonu">
                                     <p class="no-bottom">
                                         <%= hizmet.aciklama.slice(0,70)%>...
@@ -417,7 +444,7 @@
                                     <div
                                         class="abs bg-dark end-0 m-4 my-2 d-inline bg-color-2 text-light fw-bold px-3 rounded-20px">
                                         Fırtına Teknik Servis</div>
-                                    <img src="/static/assets/uploads/<%= blog.resim %>" class="w-80" alt="">
+                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= blog.resim %>" class="w-80" width="800" height="800" style="height: auto" alt="">
                                     <h4><%= blog.baslik %></h4>
                                 </div>
                             </div>
@@ -458,7 +485,7 @@
                                                     <div class="d-flex rounded-5 align-items-center justify-content-center h-100 p-4 bg-color text-light wow scaleIn"
                                                         data-wow-delay=".8s">
                                                         <div class="d-block text-center">
-                                                            <img src="/static/images/icons/white/call.webp"
+                                                            <img decoding="async" src="/static/images/icons/white/call.webp" width="512" height="512" style="height: auto"
                                                                 class="w-40 mb-3" alt="">
                                                             <p class="lead mb-0">7/24 Servis Hattı</p>
                                                             <h4 class="mb-0"><%= iletisim.telefon %></h4>
@@ -488,7 +515,7 @@
                             <div class="owl-4-dots owl-carousel owl-theme">
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/labor.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/labor.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Uzman Teknik Ekip</h4>
@@ -500,7 +527,7 @@
 
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/calendar.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/calendar.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Esnek Randevu Seçenekleri</h4>
@@ -512,7 +539,7 @@
 
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/best-price.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/best-price.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Şeffaf Fiyat Politikası</h4>
@@ -524,7 +551,7 @@
 
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/spare-parts.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/spare-parts.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Orijinal Yedek Parçalar</h4>
@@ -536,7 +563,7 @@
 
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/siren.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/siren.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Acil Servis Desteği</h4>
@@ -548,7 +575,7 @@
 
                                 <div class="item">
                                     <div class="relative">
-                                        <img src="/static/images/icons/white/guarantee.webp"
+                                        <img loading="lazy" decoding="async" src="/static/images/icons/white/guarantee.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Memnuniyet Garantisi</h4>
@@ -578,7 +605,7 @@
                                     <blockquote>
                                         <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
-                                            <img class="bg-white circle" alt="" src="/static/images/testimonial/1.jpg">
+                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/1.jpg">
                                             <div>Ahmet K.<span>Müşteri</span></div>
                                         </div>
                                         <p>"Klima tamirine bu kadar hızlı gelen bir ekip görmedim. Hem profesyonel hem
@@ -599,7 +626,7 @@
                                     <blockquote>
                                         <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
-                                            <img class="bg-white circle" alt="" src="/static/images/testimonial/2.jpg">
+                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/2.jpg">
                                             <div>Ali T.<span>Müşteri</span></div>
                                         </div>
                                         <p>"Kombim sürekli arıza veriyordu. Birçok yere sordum, en sonunda buradan
@@ -621,7 +648,7 @@
                                     <blockquote>
                                         <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
-                                            <img class="bg-white circle" alt="" src="/static/images/testimonial/3.jpg">
+                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/3.jpg">
                                             <div>Mehmet A.<span>Müşteri</span></div>
                                         </div>
                                         <p>"Kombi bakımı için çağırdım, sadece temizlik değil genel kontrol de yaptılar.
@@ -642,7 +669,7 @@
                                     <blockquote>
                                         <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
-                                            <img class="bg-white circle" alt="" src="/static/images/testimonial/4.jpg">
+                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/4.jpg">
                                             <div>Semih Y.<span>Müşteri</span></div>
                                         </div>
                                         <p>"Yeni klima montajı yaptırdım. Ekip çok özenli çalıştı, kablo düzenine kadar
@@ -663,7 +690,7 @@
                                     <blockquote>
                                         <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
-                                            <img class="bg-white circle" alt="" src="/static/images/testimonial/5.jpg">
+                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/5.jpg">
                                             <div>İsmail D.<span>Müşteri</span></div>
                                         </div>
                                         <p>"Kışın ortasında kombim bozuldu, bir saat içinde gelip tamir ettiler.
@@ -689,7 +716,7 @@
                         <div class="col-lg-6 mb-sm-20 position-relative">
                             <div class="relative overflow-hidden rounded-10">
                                 <h3 class="abs-centered z-1000 text-white mb-0 fs-30">Hemen Arayın</h3>
-                                <img src="/static/images/misc/1.webp" class="img-fluid wow scaleIn" data-wow-delay="0s"
+                                <img loading="lazy" decoding="async" src="/static/images/misc/1.webp" width="1000" height="665" class="img-fluid wow scaleIn" data-wow-delay="0s"
                                     alt="">
                                 <div class="de-overlay-gradient-2"></div>
                             </div>
@@ -820,7 +847,7 @@
                     <!-- Logo ve Hakkımızda -->
                     <!-- Logo ve Hakkımızda -->
                     <div id="logo" class="col-lg-4 col-sm-6 text-center">
-                        <img src="/static/logobeyaz.png" alt="Logo" class="footer-logo">
+                        <img loading="lazy" decoding="async" src="/static/logobeyaz.webp" width="450" height="450" alt="Logo" class="footer-logo">
 
                         <div class="spacer-20"></div>
                         <p>İstanbul’da klima ve kombi alanında profesyonel hizmet sunuyoruz. Uzman teknisyenlerimiz,
@@ -927,15 +954,6 @@
     <script src="/static/js/swiper.js"></script>
     <script src="/static/js/custom-marquee.js"></script>
     <script src="/static/js/custom-swiper-1.js"></script>
-    <style>
-        /* Logo boyutu sabitlendi */
-        #logo img {
-            max-width: 130px;
-            height: auto;
-            display: inline-block;
-            margin: 10px;
-        }
-    </style>
     <!-- WhatsApp ve Telefon Butonları -->
     <% if (iletisim.whatsapp) { %>
     <a href="<%= iletisim.whatsapp %>" target="_blank" class="whatsapp-float" title="WhatsApp">

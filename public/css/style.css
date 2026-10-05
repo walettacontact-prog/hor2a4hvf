@@ -50,7 +50,7 @@ Table of content:
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Google Fonts ve ikon fontları sayfaların <head> kısmında <link> ile yükleniyor (@import, style.css inmeden başlamıyordu). */
 
 /* ================================================== */
 
@@ -60,13 +60,7 @@ Table of content:
 
 /* ================================================== */
 
-@import url("../fonts/fontawesome4/css/font-awesome.css");
-@import url("../fonts/fontawesome6/css/fontawesome.css");
-@import url("../fonts/fontawesome6/css/brands.css");
-@import url("../fonts/fontawesome6/css/solid.css");
-@import url("../fonts/elegant_font/HTML_CSS/style.css");
-@import url("../fonts/et-line-font/style.css");
-@import url("../fonts/icofont/icofont.min.css");
+/* İkon fontları <head> içinde <link> ile yükleniyor. elegant_font ve et-line-font sitede kullanılmadığı için kaldırıldı. */
 
 * {
   --title-font: "Manrope", Helvetica, Arial, sans-serif;

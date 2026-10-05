@@ -78,12 +78,31 @@
     </script>
 
     <!-- ✅ CSS Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="/static/css/plugins.css" rel="stylesheet" type="text/css">
     <link href="/static/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="/static/fonts/fontawesome4/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/brands.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/solid.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/icofont/icofont.min.css" rel="stylesheet" type="text/css">
     <link href="/static/css/style.css" rel="stylesheet" type="text/css">
     <link href="/static/css/coloring.css" rel="stylesheet" type="text/css">
     <link id="colors" href="/static/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <style>
+        /* JS yüklenmeden önceki görünüm yüklendikten sonrakiyle aynı olsun */
+        .jarallax:has(.jarallax-img) { position: relative; z-index: 0; }
+        .jarallax > .jarallax-img { position: absolute; object-fit: cover; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+        /* jarallax (hız 0.5) görseli bölüm + ekran yüksekliğinin yarısı kadar uzatır; JS gelince kırpım değişmesin */
+        #subheader.jarallax:has(> .jarallax-img) { overflow: hidden; }
+        #subheader.jarallax > .jarallax-img { height: calc(50% + 50vh); }
+        @media (max-width: 993px) { header:not(.header-mobile) #mainmenu { display: none; } }
+        /* Logo boyutu sabitlendi */
+        #logo img { max-width: 130px; height: auto; display: inline-block; margin: 10px; }
+    </style>
 </head>
 
 <body>
@@ -93,9 +112,6 @@
         </div>
         <div class="scrollbar-v show-on-scroll"></div>
         
-        <!-- page preloader begin -->
-        <div id="de-loader"></div>
-        <!-- page preloader close -->
 
         <!-- header begin -->
                 <header class="transparent scroll-light has-topbar">
@@ -169,7 +185,7 @@
                                 <!-- logo begin -->
                                 <div id="logo" class="text-start">
                                     <a href="/">
-                                        <img class="logo-main" src="/static/yataylogo.png"
+                                        <img class="logo-main" src="/static/yataylogo.webp"
                                             alt="Fırtına Klima & Kombi">
                                     </a>
                                 </div>
@@ -224,13 +240,14 @@
 
 
         </header>
+        <script>if (window.matchMedia("screen and (max-width: 993px)").matches) document.querySelector("header").classList.add("header-mobile");</script>
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
             <!-- section begin -->
             <section id="subheader" class="jarallax text-light">
-                <img src="/static/images/background/4.webp" class="jarallax-img" alt="">
+                <img fetchpriority="high" src="/static/images/background/4.webp" class="jarallax-img" alt="">
                 <div class="container relative z-index-1000">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -286,7 +303,7 @@
                     <!-- Logo ve Hakkımızda -->
                     <!-- Logo ve Hakkımızda -->
                     <div id="logo" class="col-lg-4 col-sm-6 text-center">
-                        <img src="/static/logobeyaz.png" alt="Logo" class="footer-logo">
+                        <img loading="lazy" decoding="async" src="/static/logobeyaz.webp" width="450" height="450" alt="Logo" class="footer-logo">
 
                         <div class="spacer-20"></div>
                         <p>İstanbul’da klima ve kombi alanında profesyonel hizmet sunuyoruz. Uzman teknisyenlerimiz,
@@ -393,15 +410,6 @@
     <script src="/static/js/swiper.js"></script>
     <script src="/static/js/custom-marquee.js"></script>
     <script src="/static/js/custom-swiper-1.js"></script>
-    <style>
-        /* Logo boyutu sabitlendi */
-        #logo img {
-            max-width: 130px;
-            height: auto;
-            display: inline-block;
-            margin: 10px;
-        }
-    </style>
     <!-- WhatsApp ve Telefon Butonları -->
     <% if (iletisim.whatsapp) { %>
     <a href="<%= iletisim.whatsapp %>" target="_blank" class="whatsapp-float" title="WhatsApp">
