@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<%- include('partials/head') %>
+<%- include('partials/sayfa-stil') %>
+</head>
+
+<body>
+<%- include('partials/header') %>
+<% const h = page.hizmet, s = page.sayfa; %>
+        <!-- content begin -->
+        <div id="content" class="no-top no-bottom">
+            <div id="top"></div>
+<%- include('partials/subheader', { arkaplan: '/static/images/background/4.webp', rozet: 'Hizmetlerimiz', h1: s.h1, crumbs: page.crumbs }) %>
+
+            <section>
+                <div class="container">
+                    <article class="icerik">
+                        <p class="giris"><%= doldur(s.giris[0]) %></p>
+
+<%- include('partials/ara-kutusu', { baslik: h.baslik + ' için hemen arayın' }) %>
+
+                        <% s.giris.slice(1).forEach(function (p) { %><p><%= doldur(p) %></p><% }) %>
+
+                        <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= h.resim %>" alt="<%= h.resim_alt %>"
+                            class="rounded-10 mb-4" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+
+                        <% s.bolumler.forEach(function (b) { %>
+                        <h2><%= b.baslik %></h2>
+                        <% (b.paragraflar || []).forEach(function (p) { %><p><%= doldur(p) %></p><% }) %>
+                        <% if (b.maddeler && b.maddeler.length) { %>
+                        <ul>
+                            <% b.maddeler.forEach(function (m) { %><li><%= doldur(m) %></li><% }) %>
+                        </ul>
+                        <% } %>
+                        <% }) %>
+
+                        <% if (s.sss.length) { %>
+                        <h2>Sık Sorulan Sorular</h2>
+                        <% s.sss.forEach(function (q) { %>
+                        <h3 class="sss-soru"><%= q.soru %></h3>
+                        <p><%= doldur(q.cevap) %></p>
+                        <% }) %>
+                        <% } %>
+
+<%- include('partials/ara-kutusu', { baslik: 'Klima veya kombiniz için servis çağırın' }) %>
+
+                        <% const ilgili = yazilar.filter(function (y) { return (y.ilgili_hizmetler || []).indexOf(h.slug) !== -1; }); %>
+                        <% if (ilgili.length) { %>
+                        <h2>Faydalı Yazılar</h2>
+                        <ul>
+                            <% ilgili.forEach(function (y) { %><li><a href="/<%= y.slug %>"><%= y.baslik %></a></li><% }) %>
+                        </ul>
+                        <% } %>
+
+                        <h2>Diğer Hizmetlerimiz</h2>
+                        <p class="diger-hizmetler">
+                            <% hizmetler.filter(function (x) { return x.slug !== h.slug; }).forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+<%- include('partials/cta') %>
+        </div>
+        <!-- content close -->
+<%- include('partials/footer') %>
+</body>
+
+</html>

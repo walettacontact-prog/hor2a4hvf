@@ -1,0 +1,81 @@
+{
+  "slug": "klima-montaji",
+  "hizmet": "Klima Montajı",
+  "seo_baslik": "Klima Montajı Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Tüm marka split klimalar için montaj: bakır boru, drenaj, elektrik, vakumlama ve test. Çoğu çağrıda aynı gün servis. Arayın: {telefon}",
+  "h1": "Bahçelievler'de Klima Montajı",
+  "giris": [
+    "Split klimanın verimli ve sessiz çalışması büyük ölçüde montajın doğru yapılmasına bağlıdır. İç ve dış ünitenin yerleşimi, bakır boru bağlantıları, drenaj eğimi, elektrik hattı ve vakumlama adımlarından biri aksarsa cihaz ne kadar iyi olursa olsun soğutma zayıflayabilir; su damlatma veya gaz kaçağı gibi sorunlar da ortaya çıkabilir.",
+    "Fırtına Klima & Kombi olarak Yenibosna ve çevresinde tüm marka klimaların montajını yapıyoruz. Herhangi bir markanın yetkili servisi değil, bağımsız bir özel teknik servisiz. Çoğu çağrıda aynı gün servis verebiliyoruz; yaptığımız işler işçilik garantimiz kapsamındadır. Montaj randevusu için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Split klima montajı nasıl yapılır?",
+      "paragraflar": [
+        "Standart bir duvar tipi split klimada montaj genellikle şu adımlarla ilerler:"
+      ],
+      "maddeler": [
+        "Yer tespiti: İç ünite için hava akışının engellenmediği, dış ünite için havalandırması iyi ve servis erişimi olan noktalar belirlenir, boru güzergâhı planlanır.",
+        "İç ünite: Askı sacı su terazisiyle düz olacak şekilde duvara sabitlenir; boru ve drenaj geçişi için duvar dışa doğru hafif eğimle delinir.",
+        "Dış ünite: Taşıyıcı konsol sağlam bir yüzeye monte edilir, ünite titreşimi en aza indirecek şekilde yerleştirilir.",
+        "Bakır boru ve izolasyon: Gidiş-dönüş boruları ölçüsünde kesilip havşalanır, rakorlar uygun torkla sıkılır ve borular izolasyonla korunur.",
+        "Drenaj: Yoğuşma suyunun iç üniteden taşmadan akması için hortum kesintisiz bir eğimle döşenir.",
+        "Elektrik bağlantısı: Üniteler arası kablolama yapılır; cihazın gücüne uygun hat ve sigorta kontrol edilir.",
+        "Vakumlama ve kaçak kontrolü: Hat vakum pompasıyla vakumlanır ve vakumun korunup korunmadığı manometreden izlenir. Ardından dış ünitedeki gaz sisteme verilir ve bağlantı noktaları kaçağa karşı kontrol edilir.",
+        "Test: Klima soğutma ve ısıtma modlarında çalıştırılır; üfleme sıcaklığı, drenaj ve çalışma sesi kontrol edilir. Son olarak filtre temizliği ve kullanım hakkında bilgi verilir."
+      ]
+    },
+    {
+      "baslik": "Vakumlama nedir, neden şarttır?",
+      "paragraflar": [
+        "Vakumlama, gaz sisteme verilmeden önce bakır borulardaki ve iç ünitedeki hava ile nemin vakum pompasıyla dışarı alınmasıdır. Boru hattında kalan nem, soğutucu akışkan ve kompresör yağıyla birleşerek zamanla asidik bileşiklere ve tıkanmalara yol açabilir; hava ise çalışma basınçlarını yükselterek verimi düşürür.",
+        "Bu nedenle vakumlama isteğe bağlı bir ek işlem değil, doğru montajın parçasıdır ve üreticilerin montaj talimatlarında da yer alır. R32 ve R410A gibi güncel soğutucu akışkanlarla çalışan cihazlarda hattı gazla süpürmek yerine vakum pompası ve manometre kullanılmalıdır. Vakumlama yapılmadan kurulan bir klima ilk günlerde sorunsuz görünse bile zamanla soğutma performansı ve kompresör ömrü olumsuz etkilenebilir."
+      ]
+    },
+    {
+      "baslik": "Klima montaj ücreti ne kadar, neye göre değişir?",
+      "paragraflar": [
+        "Montaj ücreti işin kapsamına göre değiştiği için sabit bir rakam yazmıyoruz. Cihaz modelini, kurulacak yeri ve iç-dış ünite arasındaki yaklaşık mesafeyi paylaşırsanız telefonda fiyat bilgisi veriyoruz; gerekirse yeri görerek netleştiriyoruz. Ücreti her zaman işe başlamadan önce bildiriyoruz.",
+        "Fiyatı belirleyen başlıca etkenler şunlardır:"
+      ],
+      "maddeler": [
+        "Cihazın kapasitesi (BTU) ve tipi",
+        "Standart montaj setine ek olarak gereken bakır boru, izolasyon ve kablo",
+        "Dış ünitenin konumu, kat yüksekliği ve erişim koşulları",
+        "Duvar yapısı ile kablo kanalı ve konsol gibi ek malzemeler",
+        "Eski bir klimanın sökülmesi gibi ek işler"
+      ]
+    },
+    {
+      "baslik": "Montaj öncesinde nelere dikkat etmelisiniz?",
+      "paragraflar": [
+        "Montaj gününün sorunsuz geçmesi için şu noktaları önceden netleştirmenizi öneririz."
+      ],
+      "maddeler": [
+        "İç ve dış ünitenin konacağı yeri kabaca belirleyin; iç ünitenin önünde ve üstünde hava akışı için boşluk kalmasına dikkat edin.",
+        "Apartmanınızda dış cephe veya balkon kullanımıyla ilgili bir kural varsa yönetimle önceden görüşün.",
+        "Cihazın model ve BTU bilgisini hazır bulundurun.",
+        "Yeni cihazlarda garanti belgesini kontrol edin; bazı üreticiler garantinin geçerli olması için montajın yetkili servis tarafından yapılmasını şart koşabilir.",
+        "Mevcut bir klimanın sökülmesi veya yerinin değiştirilmesi gerekiyorsa bunu baştan belirtin; söküm ve yeniden kurulum işlerini de yapıyoruz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima montajı ne kadar sürer?",
+      "cevap": "Boru mesafesi kısa ve dış üniteye erişimi kolay olan standart bir split klima montajı çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen boru hattı, zor erişilen bir dış ünite yeri, kalın betonarme duvar veya ayrı elektrik hattı ihtiyacı süreyi uzatabilir."
+    },
+    {
+      "soru": "Klimayı kendim monte edebilir miyim?",
+      "cevap": "Önermeyiz. Havşa bağlantıları, vakumlama, gazın sisteme verilmesi ve elektrik bağlantısı özel ekipman ve deneyim gerektirir. Hatalı bir montaj gaz kaçağına, su damlatmaya ve zamanla kompresör arızalarına yol açabilir; dış cephede çalışmak ise ayrıca ciddi bir düşme riski taşır."
+    },
+    {
+      "soru": "Montajdan sonra klima hemen çalıştırılabilir mi?",
+      "cevap": "Vakumlama yapılıp gaz sisteme verildikten sonra klima test için hemen çalıştırılır. Dış ünite taşıma sırasında yan yatırıldıysa kompresör yağının yerine dönmesi için bir süre dik bekletilmesi önerilir; bekleme süresi için cihazın kullanım kılavuzuna bakılmalıdır."
+    },
+    {
+      "soru": "Aynı gün klima montajı yapıyor musunuz?",
+      "cevap": "Çoğu çağrıda aynı gün servis verebiliyoruz; kesin saat o günkü iş yoğunluğuna göre belirlenir. Her gün 08.00–21.00 arasında {telefon} numarasından arayarak ya da WhatsApp'tan yazarak uygun saati öğrenebilirsiniz."
+    }
+  ]
+}

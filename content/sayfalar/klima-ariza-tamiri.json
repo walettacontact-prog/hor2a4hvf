@@ -1,0 +1,83 @@
+{
+  "slug": "klima-ariza-tamiri",
+  "hizmet": "Klima Arıza ve Tamiri",
+  "seo_baslik": "Klima Tamiri ve Arıza Servisi Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Açılmayan, soğutmayan, su akıtan ya da arıza kodu veren klimalarda yerinde tespit ve onarım. Tüm marka klimalar için özel servis. Arayın: {telefon}",
+  "h1": "Bahçelievler'de Klima Arıza Tespiti ve Onarımı",
+  "giris": [
+    "Klimanız açılmıyor, soğutmuyor, su damlatıyor ya da ekranında bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Aynı belirtinin farklı nedenleri olabilir; doğru tespit, gereksiz parça değişiminin önüne geçer.",
+    "Fırtına Klima & Kombi, Yenibosna'daki adresinden çevredeki ev ve iş yerlerine hizmet veren bağımsız bir özel servistir; tüm marka klimalara bakıyoruz, ancak hiçbir markanın yetkili servisi değiliz. Her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün servis verebiliyoruz. Servis için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Klima arızalarında sık görülen belirtiler",
+      "paragraflar": [
+        "Aşağıdaki belirtiler ve olası nedenleri yalnızca ön fikir verir; kesin neden yerinde yapılan kontrollerle anlaşılır."
+      ],
+      "maddeler": [
+        "Hiç açılmıyor, kumandaya tepki vermiyor: kumanda ya da pilleri, inmiş sigorta, iç ünitedeki alıcı göz veya elektronik kart.",
+        "Çalışıyor ama soğutmuyor ya da ısıtmıyor: kirli filtre veya petek, gaz eksikliği, devreye girmeyen kompresör, fan motoru ya da sensör arızası.",
+        "İç üniteden su akıyor: tıkanmış ya da eğimi bozulmuş drenaj hortumu, yanlış eğimle monte edilmiş iç ünite veya buzlanıp çözülen petek.",
+        "Dış ünite ya da kompresör devreye girmiyor: kalkış kondansatörü, kontaktör, üniteler arası iletişim hattı ya da inverter kartı; daha seyrek olarak kompresörün kendisi.",
+        "Ses veya titreşim yapıyor: gevşemiş konsol ya da gövde vidaları, fana sürtünen bir parça, yıpranmış fan motoru rulmanı.",
+        "Kötü koku geliyor: rutubet kokusu genellikle petekte ve fanda biriken küften kaynaklanır. Yanık kokusu alırsanız klimayı hemen kapatın ve sigortasını indirin.",
+        "Sigortayı attırıyor: nem almış ya da gevşek bağlantılar, kısa devre yapan bir motor veya cihaza uygun olmayan hat ya da sigorta."
+      ]
+    },
+    {
+      "baslik": "Klima arıza kodu ne anlama gelir?",
+      "paragraflar": [
+        "Klimalar bir sorun algıladığında ekranda bir kod gösterir ya da ışıklarını belirli bir düzende yakıp söndürür. Kodlar markaya ve modele göre değişir; aynı kod iki cihazda başka arızaları gösterebilir. Kodun karşılığı çoğu zaman kullanım kılavuzunda yazar.",
+        "Kodlar çoğunlukla sensör, üniteler arası iletişim, fan motoru, koruma devreleri ya da kompresör ve inverter kartıyla ilgilidir. Klimayı kapatıp birkaç dakika sonra yeniden açmayı deneyebilirsiniz. Kod yeniden çıkıyorsa cihazı zorlamayın; servis çağırırken kodu ve klimanızın modelini bize iletin."
+      ]
+    },
+    {
+      "baslik": "Servis çağırmadan önce kontrol edebilecekleriniz",
+      "paragraflar": [
+        "Bazı şikâyetlerin nedeni arıza değil, yanlış ayar ya da kirli filtredir. Güvenliğiniz için ünitelerin gövdesini sökmeyin, karta ve kablolara dokunmayın; inverter klimaların kartında, cihaz kapatıldıktan sonra da bir süre tehlikeli gerilim kalabilir. Dış üniteye ulaşmak için pencereden dışarı sarkmayın. Kendi başınıza şunlara bakabilirsiniz:"
+      ],
+      "maddeler": [
+        "Kumandanın ekranı soluksa ya da hiç yanmıyorsa pillerini değiştirin.",
+        "Soğutma modunun seçili olduğunu ve ayar sıcaklığının oda sıcaklığından düşük olduğunu kontrol edin; fan modunda klima soğutma yapmaz.",
+        "Klimanın sigortası inmişse bir kez kaldırın; yeniden atarsa tekrar denemeyin.",
+        "Filtreler tozla kaplıysa klimayı kapatıp filtreleri çıkarın, yıkayın ve tamamen kuruduktan sonra yerine takın.",
+        "Isıtma modunda dış ünite zaman zaman buz çözme yapar; bu sırada iç ünitenin birkaç dakika üflememesi arıza değildir.",
+        "Cihazınız hâlâ üretici garantisi kapsamındaysa, garantinin korunması için önce markanın yetkili servisine başvurmanız gerekebilir."
+      ]
+    },
+    {
+      "baslik": "Arıza tespiti ve onarım nasıl yapılır?",
+      "paragraflar": [
+        "Telefonda belirtileri, varsa arıza kodunu ve klimanızın modelini soruyoruz; model bilgisi genellikle iç ünitenin yanındaki etikette yazar. Yerinde besleme gerilimini, elektronik kartı, sensörleri, fan motorlarını, kompresörü ve gaz basıncını kontrol ederek arızanın kaynağını buluyoruz. Yapılacak işi ve ücreti onarıma başlamadan önce bildiriyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; onardığımız arıza tekrarlarsa işçilik garantimiz kapsamında ücretsiz olarak yeniden müdahale ediyoruz.",
+        "Gaz basıncı düşükse bu genellikle devrede bir kaçak olduğunu gösterir; kapalı devrede dolaşan gaz, klima kullanıldıkça eksilmez. Bu durumda önce kaçağı bulup gideriyor, devredeki hava ve nemi almak için vakumlama yapıyor, ardından cihazın gaz tipine (R32, R410A gibi) uygun gazı üreticinin belirttiği miktarda dolduruyoruz. Kaçak giderilmeden yapılan dolum geçici bir çözümdür; gaz zamanla yine azalır."
+      ]
+    },
+    {
+      "baslik": "Onarım ücreti neye göre değişir?",
+      "paragraflar": [
+        "Onarımın maliyetini belirleyen başlıca etkenler şunlardır:"
+      ],
+      "maddeler": [
+        "Arızanın türü: tıkalı bir drenaj hattını açmak ile kompresör ya da kart değiştirmek aynı iş değildir.",
+        "Değişecek parça ve bu parçanın bulunabilirliği.",
+        "Cihazın tipi: duvar, salon ya da kaset tipi split klima veya multi sistem.",
+        "Gaz kaçağı varsa kaçağın yeri ve sonrasında gereken gaz dolumu.",
+        "Dış ünitenin konumu ve ulaşılabilirliği."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima neden su akıtıyor?",
+      "cevap": "En sık neden, yoğuşma suyunu dışarı taşıyan drenaj hortumunun tıkanması ya da eğiminin bozulmasıdır. Yanlış eğimle monte edilmiş bir iç ünite veya kirli filtre yüzünden buzlanan peteğin çözülmesi de taşmaya yol açabilir. Damlayan su duvara ve elektrik aksamına zarar verebileceği için klimayı kapatıp kontrol ettirmeniz iyi olur."
+    },
+    {
+      "soru": "Arızalı klima aynı gün onarılabilir mi?",
+      "cevap": "Çoğu çağrıda aynı gün servis verebiliyoruz. Arıza yerinde giderilebilecek türdense onarım aynı ziyarette yapılabilir; parça değişimi gerekiyorsa süre, parçanın temin edilmesine bağlıdır."
+    },
+    {
+      "soru": "Klima tamir ücreti ne kadar?",
+      "cevap": "Ücret arızanın nedenine ve değişecek parçaya göre değiştiği için arızayı görmeden sabit bir rakam vermiyoruz. Telefonda belirtileri ve varsa arıza kodunu paylaşırsanız olası nedenleri anlatırız; kesin ücreti tespitten sonra, işe başlamadan önce söyleriz. Bilgi almak için {telefon} numarasını arayabilirsiniz."
+    }
+  ]
+}

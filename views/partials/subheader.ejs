@@ -1,0 +1,21 @@
+            <section id="subheader" class="jarallax text-light">
+                <img fetchpriority="high" src="<%= arkaplan %>" class="jarallax-img" alt="">
+                <div class="container relative z-index-1000">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="subtitle s2 bg-color text-light wow fadeInUp mb-2"><%= rozet %></div>
+                            <h1><%= h1 %></h1>
+                            <ul class="crumb">
+                                <li><a href="/">Ana Sayfa</a></li>
+                                <% crumbs.forEach(function(c, i) { %>
+                                <% if (i === crumbs.length - 1) { %><li class="active"><%= c.ad %></li><% } else { %><li><a href="<%= c.route %>"><%= c.ad %></a></li><% } %>
+                                <% }) %>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <div class="fs-20 fw-600 no-bottom sm-hide"><%= iletisim.firma_adi %> — Sorunlar karşısında hızımız fırtına, çözümlerimiz kalıcı.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="de-overlay"></div>
+            </section>

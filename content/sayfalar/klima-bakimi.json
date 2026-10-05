@@ -1,0 +1,87 @@
+{
+  "slug": "klima-bakimi",
+  "hizmet": "Klima Bakımı & Temizlik",
+  "seo_baslik": "Klima Bakımı ve Temizliği Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Filtre, evaporatör, drenaj ve dış ünite temizliği, gaz basıncı kontrolü. Tüm marka klimalara özel servis bakımı. Arayın: {telefon}",
+  "h1": "Bahçelievler'de Klima Bakımı ve Temizliği",
+  "giris": [
+    "Düzenli bakımı yapılan bir klima, bakımsız bir cihaza göre daha az elektrik harcar ve odayı daha çabuk soğutur; açıldığında kötü koku yayma ihtimali de azalır. Periyodik bakımda iç ve dış üniteyi temizliyor, gaz basıncını ve elektrik bağlantılarını kontrol ediyoruz.",
+    "Fırtına Klima & Kombi, herhangi bir markaya bağlı olmayan bağımsız bir özel servistir. Yenibosna ve çevresindeki ev ve iş yerlerinde tüm marka klimalara bakım yapıyoruz. Çoğu çağrıda aynı gün servis verebiliyoruz; çalışma saatlerimiz her gün 08.00–21.00."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Klima bakımında neler yapılır?",
+      "paragraflar": [
+        "Bakım yalnızca filtreyi yıkamaktan ibaret değildir. Standart bir split klimada yaptığımız başlıca işlemler şunlardır:"
+      ],
+      "maddeler": [
+        "Filtrelerin sökülüp yıkanması ve kuruduktan sonra yerine takılması",
+        "İç ünitedeki evaporatörün (soğutucu petek) uygun bir temizlik ürünüyle temizlenmesi; bu sırada duvar ve eşyalar korunur",
+        "Fan üzerinde biriken toz ve küf tabakasının temizlenmesi",
+        "Drenaj tavası ve gider hortumunun açılması; iç üniteden su damlamasının en sık nedenlerinden biri bu hattın tıkanmasıdır",
+        "Dış ünitedeki kondenser peteğinin ve fanın temizlenmesi",
+        "Gaz basıncının manometreyle kontrol edilmesi, elektrik bağlantılarının ve kumandanın kontrolü",
+        "Son olarak klimanın çalıştırılması ve üflenen havanın sıcaklığının ölçülmesi"
+      ]
+    },
+    {
+      "baslik": "Klima bakımı yapılmazsa ne olur?",
+      "paragraflar": [
+        "Filtrelerde ve peteklerde biriken toz hava akışını azaltır. Cihaz aynı sıcaklığa ulaşmak için daha uzun çalışır, elektrik tüketimi artar ve kompresör gereğinden fazla zorlanır. Sürekli nemli kalan evaporatör üzerinde küf ve bakteri üreyebilir; açılışta hissedilen rutubet kokusu çoğunlukla buradan gelir. Uzun vadede bu durum cihazın ömrünü kısaltabilir ve daha masraflı arızalara yol açabilir.",
+        "Aşağıdaki belirtilerden birini fark ediyorsanız bakım ya da kontrol zamanı gelmiş olabilir:"
+      ],
+      "maddeler": [
+        "Klima eskisi kadar soğutmuyor ya da ısıtmıyor",
+        "Açıldığında kötü veya rutubet kokusu geliyor",
+        "İç üniteden su damlıyor",
+        "Üfleme zayıfladı ya da cihaz eskisinden daha gürültülü çalışıyor",
+        "Borularda veya iç ünitede buzlanma oluşuyor",
+        "Elektrik faturasında belirgin bir artış var"
+      ]
+    },
+    {
+      "baslik": "Klima bakım ücreti neye göre değişir?",
+      "paragraflar": [
+        "Klima bakım fiyatları için herkese geçerli tek bir rakam söylemek doğru olmaz; ücret işin kapsamına göre belirlenir. Telefonda klimanızın tipini ve sayısını söylemeniz çoğu zaman fiyat vermemiz için yeterlidir; gerekirse işi yerinde görüp netleştiririz. Her durumda ücreti işe başlamadan önce size bildiririz.",
+        "Fiyatı etkileyen başlıca konular şunlardır:"
+      ],
+      "maddeler": [
+        "Bakımı yapılacak klima sayısı",
+        "Cihazın tipi: duvar tipi split ile salon tipi ya da multi sistem bakımı aynı emeği gerektirmez",
+        "Kirlilik düzeyi: çok kirli veya küflenmiş iç ünitelerde daha kapsamlı söküm gerekebilir",
+        "Dış ünitenin konumu: cephede ya da ulaşılması zor bir yerde olması işi uzatır",
+        "Bakım sırasında gaz eksikliği ya da parça değişimi gibi ek bir ihtiyaç çıkması"
+      ]
+    },
+    {
+      "baslik": "Servis öncesi hazırlık ve bakım süresi",
+      "paragraflar": [
+        "Tek bir split klimanın bakımı çoğu zaman bir saat civarında sürer; cihaz çok kirliyse ya da dış üniteye ulaşmak zorsa süre uzayabilir. Birden fazla klimanız varsa bunu randevu alırken belirtmeniz planlamayı kolaylaştırır.",
+        "Servisten önce iç ünitenin altındaki eşyaları biraz kenara çekmeniz ve dış üniteye (balkon, teras) erişimi açık bırakmanız yeterlidir. Fark ettiğiniz koku, su damlatma veya ses gibi sorunları teknisyene söylemeniz kontrolün doğru yere odaklanmasını sağlar.",
+        "Bakım sırasında bir arıza fark edersek önce size bilgi veririz. Onarım gerekirse orijinal yedek parça kullanırız; yaptığımız onarımlar işçilik garantisi kapsamındadır ve aynı arıza tekrarlarsa ücretsiz müdahale ederiz. Bakım randevusu ve fiyat bilgisi için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima bakımı kaç ayda bir yapılmalı?",
+      "cevap": "Genel öneri, klimanın yılda en az bir kez, yaz sezonu başlamadan önce bakımdan geçirilmesidir. Klimayı kışın ısıtma için de kullanıyorsanız ısıtma sezonu öncesinde ikinci bir bakım faydalı olur. Dükkân ve ofis gibi yoğun kullanılan ya da tozlu ortamlarda daha sık bakım gerekebilir."
+    },
+    {
+      "soru": "Klima filtresini kendim temizleyebilir miyim?",
+      "cevap": "Evet. Klimayı kapatıp fişini çektikten ya da sigortasını indirdikten sonra filtreyi kullanım kılavuzunda gösterildiği gibi çıkarabilir, ılık suyla yıkayıp gölgede kuruttuktan sonra yerine takabilirsiniz. Yoğun kullanılan dönemlerde bunu iki ila dört haftada bir yapmak verimi korur. Ancak filtre temizliği periyodik bakımın yerini tutmaz; evaporatör, fan, drenaj ve dış ünite temizliği ile gaz kontrolü ekipman gerektirir."
+    },
+    {
+      "soru": "Klimadan gelen kötü koku bakımla geçer mi?",
+      "cevap": "Koku çoğunlukla evaporatör ve fan üzerinde biriken nem, toz ve küften kaynaklanır. Bu parçalar uygun bir temizlik ürünüyle temizlenip drenaj hattı açıldığında koku çoğu durumda giderilir. Kokunun tekrar oluşmaması için bakımdan sonra filtreleri düzenli temizlemeniz önerilir."
+    },
+    {
+      "soru": "Klima bakımında gaz dolumu da yapılır mı?",
+      "cevap": "Bakımda gaz basıncını kontrol ederiz, ancak her bakımda gaz dolumu gerekmez. Klima gazı normal kullanımda eksilmez; basınç düşükse sistemde büyük olasılıkla bir kaçak vardır. Bu durumda önce kaçak bulunup giderilir, ardından sistem vakumlanır ve klimanızın kullandığı gaz türüyle (örneğin R32 veya R410A) dolum yapılır."
+    },
+    {
+      "soru": "Hangi marka klimalara bakım yapıyorsunuz?",
+      "cevap": "Tüm marka klima ve kombilere hizmet veriyoruz. Bağımsız bir özel servis olarak çalışıyoruz; herhangi bir markanın yetkili servisi değiliz. Split klimaların yanı sıra multi ve VRF sistemlerin servisini de yapıyoruz."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+    <div id="wrapper">
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Yukarı çık</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+
+        <!-- header begin -->
+        <header class="transparent scroll-light has-topbar">
+            <div style="background-color: black !important;" id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="header-widget d-flex">
+                                    <div class="topbar-widget"><a href="tel:<%= iletisim.telefon %>"><i class="icofont-phone"></i> <%= telGoster(iletisim.telefon) %></a></div>
+                                    <div class="topbar-widget"><a href="mailto:<%= iletisim.email %>"><i class="icofont-envelope"></i> <%= iletisim.email %></a></div>
+                                    <div class="topbar-widget"><a href="/iletisim"><i class="icofont-wall-clock"></i> <%= iletisim.calisma_saatleri %></a></div>
+                                </div>
+
+                                <div class="social-icons">
+                                    <% if (iletisim.facebook) { %><a href="<%= iletisim.facebook %>" aria-label="Facebook"><i class="fa-brands fa-facebook fa-lg"></i></a><% } %>
+                                    <% if (iletisim.instagram) { %><a href="<%= iletisim.instagram %>" aria-label="Instagram"><i class="fa-brands fa-instagram fa-lg"></i></a><% } %>
+                                    <% if (iletisim.youtube) { %><a href="<%= iletisim.youtube %>" aria-label="YouTube"><i class="fa-brands fa-youtube fa-lg"></i></a><% } %>
+                                    <% if (iletisim.whatsapp) { %><a href="<%= iletisim.whatsapp %>" aria-label="WhatsApp ile yazın"><i class="fa-brands fa-whatsapp fa-lg"></i></a><% } %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo" class="text-start">
+                                    <a href="/">
+                                        <img class="logo-main" src="/static/yataylogo.webp" alt="<%= iletisim.firma_adi %>">
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="/">Ana Sayfa</a></li>
+                                    <li><a class="menu-item" href="/hakkimizda">Hakkımızda</a></li>
+                                    <li><a class="menu-item" href="/hizmetler">Hizmetler</a>
+                                        <ul>
+                                            <% hizmetler.forEach(function(hizmet) { %>
+                                            <li><a class="menu-item" href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
+                                            <% }) %>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="/serviscagir#bolgeler">Bölgeler</a>
+                                        <ul>
+                                            <% teknikServis.forEach(function(bolge) { %>
+                                            <li><a class="menu-item" href="/serviscagir#bolgeler"><%= bolge.bolge %></a></li>
+                                            <% }) %>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="/iletisim">İletişim</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a style="background-color: #dc1d2c;" href="/serviscagir" class="btn-main bg-color-2">Servis Talebi Oluştur</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script>if (window.matchMedia("screen and (max-width: 993px)").matches) document.querySelector("header").classList.add("header-mobile");</script>
+        <!-- header close -->

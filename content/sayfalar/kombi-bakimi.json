@@ -1,0 +1,80 @@
+{
+  "slug": "kombi-bakimi",
+  "hizmet": "Kombi Bakımı",
+  "seo_baslik": "Kombi Bakımı Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Yıllık kombi bakımı: brülör, eşanjör, fan, baca ve su basıncı kontrolü, güvenlik testleri. Tüm marka kombilere özel servis. Arayın: {telefon}",
+  "h1": "Bahçelievler'de Kombi Bakımı",
+  "giris": [
+    "Kombi bakımı, cihazın kış boyunca güvenli ve verimli çalışması için yılda bir kez yapılan kontrol ve temizlik işlemidir. Yanma odasında biriken kir ya da kireçlenmeye başlayan bir eşanjör çoğu zaman fark edilmeden verimi düşürür ve gaz tüketimini artırabilir; gözden kaçan küçük sorunlar da ilk soğuk günlerde arızaya dönüşebilir. Baca ve atık gaz hattındaki bir kaçak ise karbon monoksit riski nedeniyle doğrudan bir güvenlik meselesidir.",
+    "Fırtına Klima & Kombi olarak Yenibosna ve çevresindeki semtlerde tüm marka kombilere bakım yapıyoruz. Herhangi bir markanın yetkili servisi değil, bağımsız bir özel teknik servisiz. Çoğu çağrıda aynı gün servis vermek mümkün oluyor."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Kombi bakımında neler yapılır?",
+      "paragraflar": [
+        "Bakımda amaç, cihazı yalnızca temizlemek değil, ısıtma sezonu boyunca sorun çıkarabilecek noktaları önceden görmektir. Kontrol listesi kombinin tipine göre biraz değişse de rutin bir bakım genel olarak şu adımları kapsar:"
+      ],
+      "maddeler": [
+        "Yanma odası ve brülörün temizlenmesi, ateşleme ile alev yapısının kontrolü",
+        "Ana eşanjörün kir ve is birikimine karşı kontrolü, kullanım suyu eşanjöründe kireçlenmenin değerlendirilmesi",
+        "Fanın temizlenmesi ve hava-duman hattındaki emniyet elemanlarının kontrol edilmesi",
+        "Baca bağlantısı ile contaların kontrolü ve atık gazın dışarıya sorunsuz tahliye edildiğinin doğrulanması",
+        "Sistem su basıncının ölçülmesi ve gerekirse üreticinin önerdiği aralığa getirilmesi",
+        "Genleşme tankı ön basıncının kontrolü; bu basınç düşükse sistem ısındıkça su basıncı aşırı yükselebilir, soğuyunca da düşebilir",
+        "Yoğuşmalı kombilerde yoğuşma suyu sifonunun ve tahliye hattının temizlenmesi",
+        "Kombinin gaz bağlantısında sızdırmazlık kontrolü ile alev algılama, aşırı ısınma koruması ve emniyet ventili gibi güvenlik sistemlerinin test edilmesi"
+      ]
+    },
+    {
+      "baslik": "Kombi bakımı ne zaman yaptırılmalı?",
+      "paragraflar": [
+        "Kombi bakımının yılda bir kez, ısıtma sezonu başlamadan önce yapılması önerilir. Eylül ve ekim ayları bunun için uygun bir dönemdir; hava soğuduğunda servis talepleri yoğunlaştığı için bakımı erken planlamak işinizi kolaylaştırır. Yeni taşındığınız bir evdeki kombinin en son ne zaman bakım gördüğünü bilmiyorsanız ilk kıştan önce bakım yaptırmanız iyi olur.",
+        "Bakım süresince kombi kapalı olacağı için sıcak su ve ısıtma kullanılamaz. Hazırlık olarak kombinin önünü boş bırakmanız ve varsa son servis kaydını hazır tutmanız yeterlidir."
+      ]
+    },
+    {
+      "baslik": "Bakım zamanının geldiğini gösteren işaretler",
+      "paragraflar": [
+        "Aşağıdaki belirtilerden birini fark ediyorsanız sezonu beklemeden cihazı kontrol ettirmeniz yerinde olur:"
+      ],
+      "maddeler": [
+        "Su basıncının sık sık düşmesi ve sürekli su eklemek zorunda kalmanız",
+        "Peteklerin eskisi kadar ısınmaması ya da evin geç ısınması",
+        "Sıcak suyun bir ılık bir soğuk gelmesi",
+        "Kombiden uğultu, tıkırtı veya kaynama sesi gelmesi",
+        "Cihazın sık sık hata kodu verip kendini kapatması",
+        "Kullanım alışkanlıklarınız aynı kaldığı hâlde doğal gaz faturasının belirgin şekilde artması"
+      ]
+    },
+    {
+      "baslik": "Kombi bakım fiyatları neye göre değişir?",
+      "paragraflar": [
+        "Bakım ücreti her cihaz için aynı değildir. Kombinin yoğuşmalı ya da konvansiyonel olması, yaşı, en son ne zaman bakım gördüğü ve ne kadar kirlendiği işin kapsamını ve süresini belirler. Bakım sırasında conta, sensör ya da genleşme tankı gibi bir parçanın değiştirilmesi gerekirse bu da maliyete eklenir. Cihazın dar bir dolabın içinde olması gibi erişim koşulları da işi etkileyebilir.",
+        "Bu yüzden ücreti telefonda cihazınızın markası, modeli ve durumu hakkında birkaç bilgi aldıktan sonra söylüyoruz. Ek bir parça ya da işlem gerekirse bunu cihazı gördükten sonra, işe başlamadan önce size bildiriyoruz. Değişimlerde orijinal yedek parça kullanıyoruz; yaptığımız onarımdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Bakım randevusu için her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kombi bakımı kaç yılda bir yapılmalı?",
+      "cevap": "Her yıl, tercihen ısıtma sezonu başlamadan önce yapılması önerilir. Birkaç yıl bakım görmemiş cihazlarda kir ve kireç birikimi daha fazla olacağından ilk bakımda daha kapsamlı temizlik gerekebilir. Üreticinin önerdiği bakım aralığını cihazınızın kullanım kılavuzunda da bulabilirsiniz."
+    },
+    {
+      "soru": "Kombi bakımı ne kadar sürer?",
+      "cevap": "Rutin bir kombi bakımı, cihazın durumuna bağlı olarak çoğu zaman bir iki saat içinde tamamlanır. Uzun süredir bakım görmemiş, kireçlenmiş ya da parça değişimi gereken cihazlarda bu süre uzayabilir."
+    },
+    {
+      "soru": "Kombi bakımı kiracıya mı ev sahibine mi ait?",
+      "cevap": "Yıllık periyodik bakım, cihazın olağan kullanımının bir parçası sayıldığı için genellikle kiracının sorumluluğunda kabul edilir. Cihazın eskimesinden kaynaklanan büyük parça değişimleri ise farklı değerlendirilebilir. Kesin durum kira sözleşmenize göre değişebileceğinden sözleşmenizi kontrol etmenizi, emin değilseniz ev sahibinizle önceden konuşmanızı öneririz."
+    },
+    {
+      "soru": "Garantisi devam eden kombiye bakım yapıyor musunuz?",
+      "cevap": "Tüm marka kombilere bakım yapıyoruz, ancak herhangi bir markanın yetkili servisi değiliz. Bazı üreticiler garanti süresi boyunca bakımın yetkili servis tarafından yapılmasını şart koşabilir. Cihazınız garanti kapsamındaysa önce garanti belgenizdeki koşulları kontrol etmenizi öneririz."
+    },
+    {
+      "soru": "Kombiden gaz kokusu gelirse ne yapmalıyım?",
+      "cevap": "Elektrik düğmelerine dokunmadan, kombiyi çalıştırmadan ve ateş yakmadan gaz vanasını kapatın; kapı ve pencereleri açıp ortamı terk edin. Ardından 187 Doğal Gaz Acil hattını bina dışından arayın. Gaz kaçağı acil bir durumdur ve önce dağıtım şirketinin müdahalesi gerekir. Kaçak giderildikten sonra cihazın kontrolü ve bakımı için bize ulaşabilirsiniz."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "kombi-ariza-onarimi",
+  "hizmet": "Kombi Arıza Onarımı",
+  "seo_baslik": "Kombi Arıza Onarımı Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Isıtmayan, sıcak su vermeyen, basınç düşüren ya da su akıtan kombilerde arıza tespiti ve onarım. Tüm marka kombilere özel servis. Arayın: {telefon}",
+  "h1": "Bahçelievler'de Kombi Arıza Onarımı",
+  "giris": [
+    "Kombiniz ısıtmıyor, sıcak su vermiyor, basıncı sürekli düşüyor ya da ekranda bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Doğru tespit, gereksiz parça değişiminin önüne geçer. Fırtına Klima & Kombi olarak Yenibosna'daki adresimizden çevredeki ev ve iş yerlerine kombi arıza onarımı hizmeti veriyoruz.",
+    "Tüm marka kombilere hizmet veren özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Kombi arızalarında sık görülen belirtiler",
+      "paragraflar": [
+        "Aşağıdaki belirtiler çoğu zaman belirli parçalara ya da tesisattaki bir soruna işaret eder. Kesin neden ancak yerinde kontrolle anlaşılır; yine de bu liste, servisi ararken neler anlatacağınızı netleştirir."
+      ],
+      "maddeler": [
+        "Kombi çalışıyor ama petekler ısınmıyor: tesisatta hava, sirkülasyon pompası, üç yollu vana ya da kirlenmiş tesisat.",
+        "Sıcak su gelmiyor veya ılık geliyor: akış sensörü, üç yollu vana ya da plakalı eşanjörde kireçlenme.",
+        "Basınç sürekli düşüyor: kombide veya tesisatta su kaçağı, su atan emniyet ventili ya da genleşme tankının ön basıncının düşmesi.",
+        "Su akıtıyor veya damlatıyor: emniyet ventili, conta ve rakor bağlantıları; yoğuşmalı kombilerde yoğuşma suyu tahliye hattı.",
+        "Ses yapıyor: tesisatta kalan hava, pompadan ya da fandan gelen ses veya eşanjördeki kireçlenmenin yol açtığı kaynama sesi.",
+        "Sık sık kapanıyor: aşırı ısınma, baca veya fan sorunu, düşük su basıncı, sensör arızası ya da gaz beslemesinde aksaklık."
+      ]
+    },
+    {
+      "baslik": "Kombi arıza kodları ne anlatır?",
+      "paragraflar": [
+        "Arıza kodları markaya ve modele göre değişir; aynı kod iki farklı kombide farklı anlama gelebilir. Kesin karşılığı kombinizin kullanım kılavuzunda yazar. Genel olarak kodlar birkaç gruba ayrılır: ateşleme alamama veya alev algılanmaması, düşük su basıncı, aşırı ısınma, baca ya da fan hataları ve sensör arızaları.",
+        "Kod bir kez göründüyse kombiyi reset tuşuyla bir kez yeniden başlatmayı deneyebilirsiniz. Aynı kod tekrar geliyorsa üst üste reset atmak yerine servis çağırın. Bizi ararken ekrandaki kodu ve kombinizin modelini söylemeniz hazırlık yapmamızı kolaylaştırır."
+      ]
+    },
+    {
+      "baslik": "Servisi çağırmadan önce kontrol edebilecekleriniz",
+      "paragraflar": [
+        "Bazı durumlar arıza değil, basit bir ayar ya da besleme sorunudur. Kombinin kapağını açmadan şunlara bakabilirsiniz:"
+      ],
+      "maddeler": [
+        "Kombinin elektriği var mı, sigorta atmış olabilir mi?",
+        "Gaz vanası açık mı? Kartlı sayaç kullanıyorsanız bakiye bitmiş olabilir.",
+        "Basınç göstergesi ne gösteriyor? Çoğu kombide soğukken yaklaşık 1–1,5 bar önerilir; doğru değer kılavuzda yazar. Doldurma musluğundan tamamladığınız basınç kısa sürede yeniden düşüyorsa büyük olasılıkla bir yerde su kaçağı vardır.",
+        "Oda termostatı açık mı, pili bitmiş mi, sıcaklık doğru ayarlanmış mı?"
+      ]
+    },
+    {
+      "baslik": "Onarım nasıl ilerler, ücret neye göre belirlenir?",
+      "paragraflar": [
+        "Telefonda belirtileri dinliyor, varsa arıza kodunu ve kombinizin modelini soruyoruz. Yerinde basınç, ateşleme, gaz beslemesi, pompa, sensörler ve baca bağlantısını kontrol ederek arızanın kaynağını buluyoruz. Ne yapılması gerektiğini ve ücreti işe başlamadan önce size söylüyoruz.",
+        "Ücret arızanın kaynağına, değişmesi gereken parçaya (elektronik kart, pompa, vana, sensör veya eşanjör gibi), parçanın bulunabilirliğine ve sorunun kombiden mi yoksa tesisattan mı kaynaklandığına göre değişir. Değişen parçalarda orijinal yedek parça kullanıyoruz. İşçilik garantisi kapsamında, onardığımız arıza tekrarlarsa ücretsiz olarak yeniden müdahale ediyoruz.",
+        "Kombiniz hâlâ üretici garantisi kapsamındaysa garantinin korunması için önce markanın yetkili servisine danışmanızı öneririz."
+      ]
+    },
+    {
+      "baslik": "Gaz kokusu alırsanız",
+      "paragraflar": [
+        "Gaz kokusu, servis çağırıp beklenecek bir arıza değil, acil bir durumdur. Böyle bir durumda şu adımları izleyin:"
+      ],
+      "maddeler": [
+        "Elektrik düğmelerine, prizlere ve zile dokunmayın; çakmak veya kibrit yakmayın, gaz kokan ortamda telefon kullanmayın.",
+        "Güvenle ulaşabiliyorsanız sayaçtaki ya da kombinin altındaki gaz vanasını kapatın.",
+        "Kapı ve pencereleri açarak ortamı havalandırın.",
+        "Binadan çıktıktan sonra 187 Doğal Gaz Acil hattını arayın. Kaçağa doğal gaz ekipleri müdahale eder; tesisat güvenli hâle getirildikten sonra kombinizin kontrolü için bizden servis isteyebilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kombi neden su akıtıyor?",
+      "cevap": "En sık nedenler emniyet ventilinin su atması, yıpranmış conta ve rakorlar ile yoğuşmalı kombilerde tıkanan yoğuşma suyu hattıdır. Emniyet ventili genellikle basınç fazla yükseldiğinde su atar; bu, sisteme fazla su doldurulduğunu ya da genleşme tankında bir sorun olduğunu gösterebilir. Damlayan su elektronik parçalara zarar verebileceği için sorunu ertelemeden kontrol ettirmeniz iyi olur."
+    },
+    {
+      "soru": "Kombi basıncı neden sürekli düşüyor?",
+      "cevap": "Basınç düşmesi çoğunlukla sistemde bir yerden su kaybı olduğunu gösterir: petek vanaları, tesisat bağlantıları, kombi içi bağlantılar ya da emniyet ventili. Sürekli su eklemek sorunu çözmez; kaçağın yerini bulup gidermek gerekir."
+    },
+    {
+      "soru": "Kombi tamiri ne kadar sürer?",
+      "cevap": "Süre arızanın türüne bağlıdır. Sensör, ateşleme elektrodu ya da conta gibi parçalarla ilgili arızalar çoğu zaman tek ziyarette giderilebilir. Parça temini gerekiyorsa onarım, parça bulunana kadar uzayabilir; bu durumda size baştan bilgi veririz."
+    },
+    {
+      "soru": "Kombi arıza onarımı ücreti ne kadar?",
+      "cevap": "Ücret arızanın nedenine ve değişecek parçaya göre değiştiği için sabit bir rakam vermiyoruz. Telefonda belirtileri ve arıza kodunu paylaşırsanız olası nedenleri anlatırız; kesin ücreti arızayı tespit ettikten sonra, işe başlamadan önce söyleriz. Servis için {telefon} numarasını arayabilirsiniz."
+    }
+  ]
+}

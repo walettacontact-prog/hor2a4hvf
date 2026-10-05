@@ -1,0 +1,106 @@
+{
+  "slug": "kombi-bakimi-rehberi",
+  "baslik": "Kış Gelmeden Kombi Bakımı: Ne Zaman Yapılır, Neler Kontrol Edilir?",
+  "kart_baslik": "Kış Öncesi Kombi Bakımı Rehberi",
+  "seo_baslik": "Kış Öncesi Kombi Bakımı Rehberi | Fırtına Klima",
+  "seo_aciklama": "Kombi bakımı neden kış öncesi yapılır, bakımda neler kontrol edilir, basınç kaç bar olmalı? Servis gerektiren belirtiler ve güvenlik önerileri.",
+  "ozet": "Kış öncesi kombi bakımında neler yapılır, basınç göstergesi nasıl okunur ve hangi belirtilerde servis çağırmalısınız?",
+  "resim": "/static/assets/uploads/71b17b1ad9994605b1beba51be1364f1-1761673551684.webp",
+  "resim_alt": "Teknisyen duvar tipi kombinin bakımını yapıyor",
+  "tarih": "2026-10-06",
+  "ilgili_hizmetler": [
+    "kombi-bakimi",
+    "kombi-ariza-onarimi"
+  ],
+  "giris": [
+    "Kombiler yaz boyunca çoğunlukla yalnızca sıcak su için çalışır; asıl yükü ilk soğuklarla birlikte, petekler devreye girdiğinde taşır. Bu yüzden bazı sorunlar ancak sezonun ilk günlerinde, tam da kombiye en çok ihtiyaç duyduğunuz anda ortaya çıkar. Isıtma sezonu başlamadan yapılan bakım bu tür sürprizlerin önüne geçmeye yardımcı olur ve cihazın güvenli çalıştığından emin olmanızı sağlar.",
+    "Bu yazıda kombi bakımının neden ve ne zaman yapılması gerektiğini, bakımda nelere bakıldığını, kendi başınıza güvenle yapabileceğiniz basit kontrolleri ve hangi belirtilerde bir teknisyen çağırmanız gerektiğini anlatıyoruz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Kombi bakımı neden kıştan önce yapılmalı?",
+      "paragraflar": [
+        "Yanma kalıntıları ve toz zamanla brülör ve eşanjör yüzeylerinde birikir. Kirlenen yüzeyler ısıyı suya daha zor aktarır; cihaz aynı sıcaklığa ulaşmak için daha uzun çalışır ve daha fazla gaz harcayabilir. Kullanım suyu tarafında biriken kireç ise sıcak suyun dalgalanmasına ve eşanjörün zorlanmasına yol açabilir.",
+        "İşin bir de güvenlik tarafı var. Fanı düzgün çalışmayan, contaları yıpranmış ya da baca bağlantısında sorun olan bir kombi atık gazları dışarıya tam olarak atamayabilir. Karbon monoksit renksiz ve kokusuz olduğu için böyle bir sorun çoğu zaman ancak kontrolle anlaşılır.",
+        "Kombi bakımının yılda bir, ısıtma sezonu öncesinde yapılması önerilir; eylül ve ekim ayları bunun için en uygun dönemdir. Hava soğuyunca servis talepleri de artar. Bakımı erkene almak hem randevu bulmayı kolaylaştırır hem de bir parça değişimi gerekirse zaman kazandırır. Üreticinin önerdiği bakım aralığını kombinizin kullanım kılavuzunda da görebilirsiniz."
+      ]
+    },
+    {
+      "baslik": "Bakımda teknisyen neleri kontrol eder?",
+      "paragraflar": [
+        "Kontrol listesi kombinin yoğuşmalı ya da konvansiyonel olmasına göre biraz değişir, ancak düzgün bir bakımda genellikle şu adımlar yer alır:"
+      ],
+      "maddeler": [
+        "Brülör ve yanma odasının temizlenmesi, ateşleme ve alev yapısının kontrolü",
+        "Ana eşanjörde kir birikiminin, kullanım suyu eşanjöründe kireçlenmenin kontrolü",
+        "Fanın ve hava-duman hattının temizliği, baca bağlantısı ile contaların sızdırmazlık kontrolü",
+        "Sistem su basıncının ve genleşme tankı ön basıncının ölçülmesi",
+        "Yoğuşmalı modellerde yoğuşma suyu sifonunun ve tahliye hattının temizlenmesi",
+        "Gaz bağlantılarında sızdırmazlık kontrolü; aşırı ısınma koruması, alev algılama ve emniyet ventili gibi güvenlik elemanlarının test edilmesi"
+      ]
+    },
+    {
+      "baslik": "Kendi başınıza yapabileceğiniz basit kontroller",
+      "paragraflar": [
+        "Kombinin kapağını açmak, gaz ya da baca bağlantılarına müdahale etmek kullanıcıya göre değildir. Aşağıdaki kontroller ise güvenle yapılabilir ve bir sorunu erken fark etmenizi sağlar:"
+      ],
+      "maddeler": [
+        "Basınç göstergesine bakın. Çoğu kombide su basıncının 1–2 bar aralığında olması beklenir; cihaz soğukken 1–1,5 bar civarı yeterlidir, çalışırken ibrenin biraz yükselmesi normaldir. Kombiniz için önerilen değer kullanım kılavuzunda yazar.",
+        "Basınç düşükse kombi soğukken doldurma musluğunu yavaşça açın, ibre önerilen değere gelince kapatın. Musluğu açık bırakmayın; fazla doldurmak da sorun yaratır.",
+        "Bir petek üstten soğuk, alttan sıcaksa içinde hava birikmiş olabilir. Kombiyi kapatıp peteklerin biraz soğumasını bekleyin, hava alma tapasını altına bir bez tutarak yavaşça açın ve su gelmeye başlayınca kapatın. Havayı aldıktan sonra basınç düşebileceği için göstergeyi yeniden kontrol edin.",
+        "Oda termostatının ayarını ve pilini kontrol edin; kablosuz modellerde pilin bitmesi kombinin hiç devreye girmemesine yol açabilir.",
+        "Kombinin altına ve bağlantı borularına bakın; damla izi, nem ya da paslanma görürseniz not alın ve bakım sırasında teknisyene gösterin.",
+        "Kombinin bulunduğu alandaki havalandırma açıklıklarının ve baca çıkışının önünün kapanmadığından emin olun."
+      ]
+    },
+    {
+      "baslik": "Teknisyen çağırmanız gereken uyarı işaretleri",
+      "paragraflar": [
+        "Aşağıdaki durumlar basit bir ayarla geçmez ve ertelendikçe arıza büyüyebilir:"
+      ],
+      "maddeler": [
+        "Basıncı tamamladıktan kısa süre sonra ibre yeniden düşüyor; bu çoğu zaman kombide ya da tesisatta bir su kaçağına veya genleşme tankındaki bir soruna işaret eder.",
+        "Basınç 3 bara yaklaşıyor ya da emniyet ventilinden su geliyor; genleşme tankının ve doldurma musluğunun kontrol edilmesi gerekir.",
+        "Kombi aynı arıza kodunu tekrar tekrar veriyor ya da sık sık kendini kapatıyor.",
+        "Cihazdan uğultu, tıkırtı veya kaynamaya benzer sesler geliyor.",
+        "Petekler eşit ısınmıyor, ev eskisine göre geç ısınıyor ya da sıcak su bir ılık bir sıcak geliyor.",
+        "Kombinin ya da baca bağlantısının çevresinde is lekesi, kararma veya yanık kokusu var.",
+        "Kullanım alışkanlığınız değişmediği hâlde gaz tüketimi belirgin şekilde arttı."
+      ]
+    },
+    {
+      "baslik": "Kombi güvenliği: karbon monoksit ve gaz kokusu",
+      "paragraflar": [
+        "Karbon monoksit zehirlenmesinin ilk belirtileri baş ağrısı, baş dönmesi, bulantı ve halsizlik gibi gündelik şikâyetlere benzer. Bu belirtiler evde birden fazla kişide aynı anda görülüyorsa ya da dışarı çıkınca hafifliyorsa vakit kaybetmeden kombiyi kapatın, pencereleri açın, evden çıkın ve 112'yi arayın. Kombinin bulunduğu alana karbon monoksit dedektörü taktırmak bu riske karşı basit ve etkili bir önlemdir.",
+        "Kombiniz sonradan kapatılmış bir balkonda ya da dar bir dolabın içindeyse bunu bakım sırasında mutlaka teknisyene söyleyin. Özellikle yanma havasını bulunduğu ortamdan alan bacalı eski tip cihazlarda yetersiz havalandırma tehlikelidir.",
+        "Gaz kokusu aldığınızda elektrik düğmelerine, prizlere ve zile dokunmayın, ateş yakmayın. Gaz vanasını kapatın, pencereleri açın, binadan çıkın ve dışarıdan 187 Doğal Gaz Acil hattını arayın. Gaz kaçağına önce dağıtım şirketi müdahale eder; cihazın kontrolü bundan sonra yapılır."
+      ]
+    },
+    {
+      "baslik": "Bakım ücreti neye göre değişir, randevu nasıl alınır?",
+      "paragraflar": [
+        "Kombi bakım ücreti her cihazda aynı değildir. Kombinin tipi ve yaşı, en son ne zaman bakım gördüğü, ne kadar kirlendiği ve cihaza erişimin kolay olup olmadığı işin süresini, dolayısıyla ücretini belirler. Bakım sırasında conta, sensör ya da genleşme tankı gibi bir parçanın değişmesi gerekirse parça bedeli de eklenir. Bu yüzden ücreti kombinizin markasını, modelini ve durumunu telefonda öğrendikten sonra söylüyoruz; ek bir işlem gerekirse bunu cihazı gördükten sonra ve işe başlamadan önce bildiriyoruz.",
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde tüm marka kombilere bakım ve arıza onarımı yapıyoruz. Bağımsız bir özel servisiz, herhangi bir markanın yetkili servisi değiliz; kombiniz hâlâ üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Parça değişimlerinde orijinal yedek parça kullanıyoruz; onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Çoğu çağrıda aynı gün servis verebiliyoruz. Bakım randevusu için her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kombi basıncı kaç bar olmalı?",
+      "cevap": "Çoğu kombide su basıncının 1–2 bar aralığında olması beklenir; cihaz soğukken 1–1,5 bar civarı uygundur. Çalışırken ibrenin biraz yükselmesi normaldir. Basınç sık sık 1 barın altına düşüyor ya da 3 bara yaklaşıyorsa cihazın ve tesisatın kontrol edilmesi gerekir."
+    },
+    {
+      "soru": "Kombi bakımı yapılmazsa ne olur?",
+      "cevap": "Kombi bir süre çalışmaya devam eder, ancak brülör ve eşanjörde biriken kir verimi düşürür ve gaz tüketimini artırabilir. Küçük sorunlar fark edilmeden büyüyüp sezon ortasında arızaya dönüşebilir. Baca ve fan hattındaki aksaklıklar ise kontrol edilmediği sürece güvenlik riski oluşturur."
+    },
+    {
+      "soru": "Kombi bakımı hangi ayda yapılmalı?",
+      "cevap": "En uygun dönem, ısıtma sezonu başlamadan önceki eylül ve ekim aylarıdır. Bu dönemde yapılan bakım, olası bir parça değişimi için de zaman tanır. Bakımı kaçırdıysanız kış içinde de yaptırabilirsiniz; bu, bakımsız bir sezon geçirmekten daha iyidir."
+    },
+    {
+      "soru": "Kombi bakımı ne kadar sürer, bu sırada sıcak su kesilir mi?",
+      "cevap": "Standart bir bakım cihazın durumuna göre çoğu zaman bir iki saat içinde tamamlanır; uzun süredir bakım görmemiş cihazlarda bu süre uzayabilir. Bakım sırasında kombi kapatıldığı için ısıtma ve sıcak su bu süre boyunca kesilir."
+    }
+  ]
+}

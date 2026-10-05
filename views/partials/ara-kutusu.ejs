@@ -1,0 +1,11 @@
+<%# Arama odaklı servis kutusu. Parametre: baslik (isteğe bağlı) %>
+<div class="ara-kutusu">
+    <p class="ara-kutusu-baslik"><%= locals.baslik || 'Servis için hemen arayın' %></p>
+    <p class="ara-kutusu-metin"><%= iletisim.calisma_saatleri %> · Çoğu çağrıya aynı gün servis · Orijinal yedek parça · İşçilik garantisi</p>
+    <div class="ara-kutusu-butonlar">
+        <a class="ara-btn ara-btn-tel" href="tel:<%= iletisim.telefon %>"><i class="fa-solid fa-phone"></i> <%= telGoster(iletisim.telefon) %></a>
+        <% if (iletisim.whatsapp) { %>
+        <a class="ara-btn ara-btn-wa" href="<%= iletisim.whatsapp %>" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp’tan yazın</a>
+        <% } %>
+    </div>
+</div>

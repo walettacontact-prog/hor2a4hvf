@@ -1,4 +1,4 @@
-# Her push'ta (Pages CMS'teki her "Kaydet" dahil) siteyi build edip GitHub Pages'e yayınlar.
+# Her push'ta siteyi build edip GitHub Pages'e yayınlar.
 # Build hata verirse yayın yapılmaz ve sitedeki önceki sürüm olduğu gibi kalır.
 name: Siteyi yayınla
 

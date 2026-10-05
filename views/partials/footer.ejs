@@ -1,0 +1,191 @@
+        <footer style="background-color: #1a3a60;" class="section-dark">
+            <div class="container">
+                <div class="row gx-5">
+                    <!-- Logo ve Hakkımızda -->
+                    <div id="logo" class="col-lg-4 col-sm-6 text-center">
+                        <img loading="lazy" decoding="async" src="/static/logobeyaz.webp" width="450" height="450" alt="<%= iletisim.firma_adi %>" class="footer-logo">
+
+                        <div class="spacer-20"></div>
+                        <p>Bahçelievler ve Yenibosna merkezli klima ve kombi teknik servisiyiz. Klima montajı, bakımı, gaz dolumu, kombi bakımı ve arıza onarımı için ev ve iş yerinize geliyoruz.</p>
+
+                        <div class="social-icons mb-sm-30">
+                            <% if (iletisim.facebook) { %><a href="<%= iletisim.facebook %>" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><% } %>
+                            <% if (iletisim.instagram) { %><a href="<%= iletisim.instagram %>" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><% } %>
+                            <% if (iletisim.youtube) { %><a href="<%= iletisim.youtube %>" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><% } %>
+                        </div>
+                    </div>
+
+                    <style>
+                        /* Footer logosunu ortala */
+                        #logo.text-center {
+                            text-align: center;
+                        }
+
+                        #logo.text-center img.footer-logo {
+                            display: inline-block;
+                            max-width: 150px;
+                            height: auto;
+                        }
+                    </style>
+
+                    <!-- Menüler -->
+                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Şirket</h5>
+                                    <ul>
+                                        <li><a href="/">Ana Sayfa</a></li>
+                                        <li><a href="/hakkimizda">Hakkımızda</a></li>
+                                        <li><a href="/hizmetler">Hizmetler</a></li>
+                                        <li><a href="/serviscagir#bolgeler">Bölgeler</a></li>
+                                        <li><a href="/iletisim">İletişim</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Hizmetlerimiz</h5>
+                                    <ul>
+                                        <% hizmetler.forEach(function(hizmet) { %>
+                                        <li><a href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
+                                        <% }) %>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- İletişim -->
+                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
+                        <div class="widget">
+                            <h5 class="id-color-2">Servis Hattı</h5>
+                            <h2 style="font-size: 35px;" class="jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i class="icofont-phone-circle id-color-2"></i>
+                                <a href="tel:<%= iletisim.telefon %>" style="color: inherit;"><%= telGoster(iletisim.telefon) %></a>
+                            </h2>
+
+                            <div class="spacer-20"></div>
+
+                            <div class="fw-bold text-white"><i class="icofont-wall-clock me-2 id-color-2"></i>Çalışma Saatleri</div>
+                            <%= iletisim.calisma_saatleri %>
+                            <div class="spacer-20"></div>
+
+                            <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Adres</div>
+                            <%= iletisim.adres %>
+                            <div class="spacer-20"></div>
+
+                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>E-posta</div>
+                            <a href="mailto:<%= iletisim.email %>" style="color: inherit;"><%= iletisim.email %></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                    &copy; <%= new Date().getFullYear() %> - <%= iletisim.firma_adi %>
+                                </div>
+                                <ul class="menu-simple">
+                                    <li><a href="https://wa.me/905510319632?text=Merhaba%2C%20bilgi%20almak%20istiyorum.">created by <span style="color:red;">Ensar Ocakçı</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="/static/js/plugins.js"></script>
+    <script src="/static/js/designesia.js"></script>
+    <script src="/static/js/swiper.js"></script>
+    <script src="/static/js/custom-marquee.js"></script>
+    <script src="/static/js/custom-swiper-1.js"></script>
+    <!-- WhatsApp ve Telefon Butonları -->
+    <% if (iletisim.whatsapp) { %>
+    <a href="<%= iletisim.whatsapp %>" target="_blank" rel="noopener" class="whatsapp-float" title="WhatsApp" aria-label="WhatsApp ile yazın">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <% } %>
+
+    <a href="tel:<%= iletisim.telefon %>" class="call-float" title="Ara" aria-label="Telefonla arayın">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+    <style>
+        /* WhatsApp Butonu */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 100px;
+            /* telefon butonunun üstüne gelecek şekilde */
+            right: 30px;
+            background-color: #25D366;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        /* Telefon Butonu */
+        .call-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 28px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .call-float:hover {
+            transform: scale(1.1);
+        }
+
+        /* Mobil uyumlu ikon boyutları */
+        @media(max-width:768px) {
+
+            .whatsapp-float,
+            .call-float {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+            }
+        }
+    </style>
+    <script>
+        // Arama ve WhatsApp tıklamalarını Google Analytics'e dönüşüm olarak bildir
+        document.addEventListener("click", function (e) {
+            var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href*="wa.me/"]');
+            if (!a || typeof gtag !== "function" || a.href.indexOf("905510319632") !== -1) return;
+            var tel = a.href.indexOf("tel:") === 0;
+            gtag("event", tel ? "telefon_arama" : "whatsapp_tiklama", { link_url: a.href, sayfa: location.pathname });
+        });
+    </script>

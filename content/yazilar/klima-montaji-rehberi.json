@@ -1,0 +1,117 @@
+{
+  "slug": "klima-montaji-rehberi",
+  "baslik": "Klima Montajından Önce Bilmeniz Gerekenler: Yer Seçimi, Vakumlama ve Maliyet",
+  "kart_baslik": "Klima Montajı: Bilmeniz Gerekenler",
+  "seo_baslik": "Klima Montajı Öncesi Bilmeniz Gerekenler | Fırtına Klima",
+  "seo_aciklama": "İç ve dış ünite yeri nasıl seçilir, vakumlama neden şarttır, montaj ne kadar sürer, ücreti neye göre değişir? Klima taktırmadan önce okuyun.",
+  "ozet": "Klima taktırmadan önce ünite yerleri, vakumlama, montaj süresi, ücreti belirleyen etkenler ve sık yapılan hatalar üzerine pratik bir rehber.",
+  "resim": "/static/assets/uploads/3-1761676767290.webp",
+  "resim_alt": "Duvara monte edilmiş split klima iç ünitesi ve dış ünitesi",
+  "tarih": "2026-10-06",
+  "ilgili_hizmetler": [
+    "klima-montaji"
+  ],
+  "giris": [
+    "Yeni bir klima alırken genellikle marka, kapasite ve enerji sınıfı üzerinde durulur; montaj ise çoğu zaman son ana kalır. Oysa aynı cihaz, özenli bir montajla uzun yıllar sessiz ve verimli çalışabilir; aceleyle kurulduğunda ise zayıf soğutma, su damlatma, gürültü ve gaz kaçağı gibi sorunlar çıkarabilir.",
+    "Bu rehberde, klimayı taktırmadan önce netleştirmeniz gereken konuları ve servisle konuşurken sorabileceğiniz soruları sırayla ele aldık."
+  ],
+  "bolumler": [
+    {
+      "baslik": "İç ünite nereye takılmalı?",
+      "paragraflar": [
+        "İç ünitenin yeri hem konforu hem de cihazın verimini belirler. Amaç, havanın odaya dengeli dağılması ve doğrudan oturulan ya da yatılan yere yönelmemesidir."
+      ],
+      "maddeler": [
+        "Üfleme yönünü düşünün: Yatağın, kanepenin veya çalışma masasının hemen üstüne gelen bir ünite soğuk havayı doğrudan vücudunuza yöneltir. Havayı odanın uzun tarafı boyunca yayabilecek bir duvar genellikle daha iyi sonuç verir.",
+        "Üstte ve yanlarda boşluk bırakın: Duvar tipi iç ünite havayı üst kısmından emer. Tavana ya da yan duvara çok yakın monte edilirse hava rahat dolaşmaz; gereken mesafeler cihazın kurulum kılavuzunda yer alır.",
+        "Önünü kapatmayın: Dolap, perde veya kiriş hava akışını keser. Filtre temizliği için ünitenin önüne rahatça ulaşılabilmesi de gerekir.",
+        "Isı kaynaklarından ve elektronik eşyalardan uzak tutun: Isı yayan cihazların yakınındaki bir ünite oda sıcaklığını yanlış algılayabilir. Televizyon gibi eşyaların hemen üstünde ise olası bir su damlaması zarara yol açabilir.",
+        "Dış duvara yakın bir yer seçin: İç ünite dış üniteye ne kadar yakın olursa boru hattı o kadar kısa olur; bu hem verim hem de maliyet açısından avantajlıdır."
+      ]
+    },
+    {
+      "baslik": "Dış ünite için doğru yer nasıl seçilir?",
+      "paragraflar": [
+        "Dış ünite, soğutma sırasında odadan alınan ısıyı dışarı atan bölümdür. Çevresinde hava rahat dolaşmazsa ısıyı yeterince atamaz; klima daha uzun çalışır, daha fazla elektrik harcar ve kompresör zorlanır."
+      ],
+      "maddeler": [
+        "Havalandırma: Ünitenin önü ve arkası kapalı olmamalıdır. Camla kapatılmış bir balkon ya da dar bir köşe, ünitenin attığı sıcak havayı yeniden emmesine neden olur.",
+        "Sağlam sabitleme: Ünite, ağırlığını taşıyabilecek bir duvara uygun konsol ve dübellerle sabitlenmeli, titreşim takozları üzerine oturtulmalıdır. Bu yapılmazsa ses ve titreşim duvar yoluyla içeriye ve komşulara geçebilir.",
+        "Servis erişimi: Dış üniteye ileride bakım ve onarım için ulaşmak gerekecektir. Yalnızca riskli bir cephe çalışmasıyla erişilebilen bir yer, her servis ziyaretini zorlaştırır.",
+        "Komşular ve apartman kuralları: Ünitenin sıcak havası ve sesi komşu pencerelere yönelmemelidir. Dış cepheyle ilgili bir apartman kuralı varsa yönetimle önceden konuşmak, sonradan çıkabilecek sorunları önler.",
+        "Boru uzunluğu ve kot farkı: İç ve dış ünite arasındaki mesafe ile yükseklik farkı, üreticinin belirttiği sınırlar içinde kalmalıdır. Standart uzunluğu aşan hatlarda ek gaz gerekebilir."
+      ]
+    },
+    {
+      "baslik": "Vakumlama neden atlanmamalı?",
+      "paragraflar": [
+        "İç ve dış ünite bakır borularla birleştirildiğinde boruların içinde hava ve nem kalır. Vakumlama, gaz sisteme verilmeden önce bu hava ve nemin vakum pompasıyla dışarı çekilmesidir. Split klimalarda dış ünite genellikle fabrikadan gazı yüklenmiş olarak gelir; montajda amaç, bu gazı temiz ve kuru bir hatta salmaktır.",
+        "Vakumlama yapılmazsa hatta kalan nem, soğutucu akışkan ve kompresör yağıyla birleşerek zamanla asidik bileşiklere ve tıkanmalara yol açabilir; hava ise çalışma basınçlarını yükseltir ve verimi düşürür. Sorun ilk günlerde fark edilmeyebilir ancak kompresör ömrünü kısaltabilir.",
+        "R32 ve R410A gibi güncel soğutucu akışkanlarla çalışan klimalarda hattı gazla süpürmek doğru bir yöntem değildir. Hangi klimacıyla çalışırsanız çalışın, vakum pompası ve manometre kullanılıp kullanılmayacağını önceden sormanız yerinde olur. Gaz sisteme verildikten sonra bağlantı noktalarının kaçağa karşı kontrol edilmesi de işin bir parçasıdır."
+      ]
+    },
+    {
+      "baslik": "Montaj ne kadar sürer, nasıl hazırlanmalısınız?",
+      "paragraflar": [
+        "Standart bir duvar tipi split klimanın kurulumu, boru hattı kısa ve dış üniteye erişim kolaysa çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen bir boru hattı, kalın betonarme duvarlar, zor erişilen bir dış ünite yeri veya ayrı bir elektrik hattı çekilmesi ihtiyacı bu süreyi uzatabilir.",
+        "Montaj gününün sorunsuz geçmesi için şu hazırlıklar işinizi kolaylaştırır:"
+      ],
+      "maddeler": [
+        "Cihazın modelini ve kapasitesini (BTU) not edin; kutunun ya da cihaz etiketinin bir fotoğrafı da işinizi görür.",
+        "Ünitenin takılacağı duvarın önünü boşaltın; delme sırasında toz çıkabileceği için yakındaki eşyaları örtün.",
+        "Dış ünitenin konacağı balkonun ya da pencere önünün boş ve erişilebilir olmasını sağlayın.",
+        "Eski bir klimanın sökülmesi ya da yerinin değiştirilmesi gerekiyorsa bunu baştan belirtin."
+      ]
+    },
+    {
+      "baslik": "Montaj ücretini neler belirler?",
+      "paragraflar": [
+        "Klima montaj fiyatları her iş için aynı değildir; kullanılan malzeme ve harcanan emek işten işe değişir. Cihaz modelini, kurulacak yeri ve iç ile dış ünite arasındaki yaklaşık mesafeyi paylaştığınızda fiyatı telefonda veriyor, gerekirse yeri gördükten sonra netleştiriyoruz. Ücreti her zaman işe başlamadan önce söylüyoruz.",
+        "Teklifleri karşılaştırırken yalnızca rakama değil, vakumlama, kaçak kontrolü ve test gibi adımların işe dâhil olup olmadığına da bakın. Fiyatı etkileyen başlıca konular şunlardır:"
+      ],
+      "maddeler": [
+        "Cihazın kapasitesi (BTU) ve tipi",
+        "Standart montaj setinin yetmediği durumlarda gereken ek bakır boru, izolasyon ve kablo",
+        "Dış ünitenin konumu, bulunduğu kat ve erişim koşulları",
+        "Duvarın yapısı ve kalınlığı",
+        "Kablo kanalı, dış ünite konsolu gibi ek malzemeler",
+        "Eski klimanın sökülmesi ya da taşınması gibi ek işler"
+      ]
+    },
+    {
+      "baslik": "Sık yapılan montaj hataları",
+      "paragraflar": [
+        "Aşağıdaki hatalar hemen fark edilmeyebilir ancak zamanla arıza ve verim kaybı olarak geri döner:"
+      ],
+      "maddeler": [
+        "Vakumlamayı atlamak ya da hattı gazla süpürmek.",
+        "Drenaj hortumuna yeterli eğim vermemek: Su iç üniteden taşabilir; duvarda leke ve damlama görülür.",
+        "Duvar deliğini düz ya da içeri doğru eğimli açmak: Delik dışarıya doğru hafifçe aşağı eğimli olmalıdır; böylece drenaj suyu rahat akar ve yağmur suyu içeri girmez.",
+        "Bakır boruların havşasını özensiz açmak ya da rakorları yanlış torkla sıkmak: Bu hatalar zamanla gaz kaçağına yol açabilir.",
+        "Boruları izolasyonsuz ya da eksik izolasyonla bırakmak: Borularda yoğuşan su damlayabilir ve verim düşer.",
+        "Klimayı gücüne uygun olmayan bir priz, kablo veya sigortayla çalıştırmak: Bu durum sigortanın atmasına ve kablolarda ısınmaya neden olabilir."
+      ]
+    },
+    {
+      "baslik": "Klima montajı için bize ulaşın",
+      "paragraflar": [
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde tüm marka klimaların montajını yapıyoruz. Herhangi bir markanın yetkili servisi değiliz; bağımsız bir özel teknik servis olarak çalışıyoruz. Hattı vakumluyor, bağlantıları kaçağa karşı kontrol ediyor ve klimayı test ederek teslim ediyoruz. Yaptığımız işe işçilik garantisi veriyoruz; müdahalemizden sonra aynı sorun tekrarlarsa ücretsiz olarak yeniden ilgileniyoruz.",
+        "Ünite yerleşimiyle ilgili sorularınızı telefonda yanıtlıyoruz ve çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima dış ünitesi balkona konabilir mi?",
+      "cevap": "Balkon açık ve havadarsa, ünitenin önünde ve arkasında da yeterli boşluk kalıyorsa dış ünite balkona konabilir. Camla kapatılmış bir balkonda ise ünite attığı sıcak havayı yeniden emer; verim düşer ve cihaz zorlanır."
+    },
+    {
+      "soru": "Eski klimayı söküp başka bir yere taktırabilir miyim?",
+      "cevap": "Evet, klima sökülüp başka bir yere yeniden monte edilebilir. Söküm sırasında gazın dış üniteye toplanması gerekir; bu yapılmazsa gaz havaya karışır ve boşa gider. Yeni yerde hat yeniden vakumlanır, gerekirse eksik gaz tamamlanır ve klima test edilir."
+    },
+    {
+      "soru": "Klima montajını yetkili servis mi yapmalı, özel servis mi?",
+      "cevap": "Bu, öncelikle cihazınızın garanti şartlarına bağlıdır. Garanti belgesinde montajın yetkili servise yaptırılması şart koşuluyorsa garantinin geçerli kalması için bu şarta uymanız gerekir. Böyle bir şart yoksa ya da garanti süresi dolmuşsa işi tüm marka klimalarla çalışan bağımsız bir özel servise yaptırabilirsiniz."
+    }
+  ]
+}

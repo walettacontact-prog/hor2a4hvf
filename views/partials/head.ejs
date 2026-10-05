@@ -1,0 +1,80 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7NVQ239V2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-D7NVQ239V2');
+    </script>
+    <title><%= seo.title %></title>
+    <meta name="description" content="<%= seo.description %>">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="<%= seo.url %>">
+<% if (seo.url === 'https://www.firtinaklima.com/') { %>
+    <meta name="google-site-verification" content="CbLznQypm_F4rZPbMJ4aaycGCTzKez0h7JDUHMZdlUs">
+<% } %>
+    <meta name="theme-color" content="<%= seo.themeColor %>">
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/static/images/brand/icon-192.png" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:type" content="<%= locals.ogType || 'website' %>">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="<%= seo.siteName %>">
+    <meta property="og:title" content="<%= seo.title %>">
+    <meta property="og:description" content="<%= seo.description %>">
+    <meta property="og:url" content="<%= seo.url %>">
+    <meta property="og:image" content="<%= seo.image.url %>">
+<% if (seo.image.width) { %>
+    <meta property="og:image:type" content="<%= seo.image.type %>">
+    <meta property="og:image:width" content="<%= seo.image.width %>">
+    <meta property="og:image:height" content="<%= seo.image.height %>">
+<% } %>
+    <meta property="og:image:alt" content="<%= seo.imageAlt %>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="<%= seo.imageAlt %>">
+    <script type="application/ld+json"><%- seo.jsonLd %></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<% if (locals.heroPreload) { %>
+    <!-- İlk slider görseli: sayfa açılır açılmaz insin (dikey ekranlarda kırpılmış küçük sürüm) -->
+    <link rel="preload" as="image" href="/static/images/slider/5.webp" media="(min-aspect-ratio: 751/1000)" fetchpriority="high">
+    <link rel="preload" as="image" href="/static/images/slider/5-mobile.webp" media="(max-aspect-ratio: 3/4)" fetchpriority="high">
+    <style>
+        .hero-bg-1 { background-image: url(/static/images/slider/5.webp); background-size: cover; background-repeat: no-repeat; }
+        @media (max-aspect-ratio: 3/4) { .hero-bg-1 { background-image: url(/static/images/slider/5-mobile.webp); } }
+    </style>
+<% } %>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="/static/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="/static/fonts/fontawesome4/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/brands.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/fontawesome6/css/solid.css" rel="stylesheet" type="text/css">
+    <link href="/static/fonts/icofont/icofont.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/coloring.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="/static/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <style>
+        /* JS yüklenmeden önceki görünüm yüklendikten sonrakiyle aynı olsun */
+        .jarallax:has(.jarallax-img) { position: relative; z-index: 0; }
+        .jarallax > .jarallax-img { position: absolute; object-fit: cover; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+        /* jarallax (hız 0.5) görseli bölüm + ekran yüksekliğinin yarısı kadar uzatır; JS gelince kırpım değişmesin */
+        #subheader.jarallax:has(> .jarallax-img) { overflow: hidden; }
+        #subheader.jarallax > .jarallax-img { height: calc(50% + 50vh); }
+        @media (max-width: 993px) { header:not(.header-mobile) #mainmenu { display: none; } }
+        /* Logo boyutu sabitlendi */
+        #logo img { max-width: 130px; height: auto; display: inline-block; margin: 10px; }
+        /* Hizmet kartı başlıkları h3 -> h2 oldu; eski h3 görünümünü koru */
+        h2.abs-centered.fs-30 { line-height: 1.4em; letter-spacing: normal; padding-bottom: 0; }
+        /* Ana sayfa H1'i h2 boyutunda; temanın büyük başlık harf aralığı burada harfleri birleştiriyor */
+        h1.h2 { letter-spacing: -1.25px; }
+        /* Uzun sayfa başlıkları telefonda ilk ekranı doldurmasın */
+        @media (max-width: 576px) { #subheader h1 { font-size: 32px; line-height: 1.15; } }
+    </style>

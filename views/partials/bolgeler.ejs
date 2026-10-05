@@ -1,0 +1,10 @@
+            <section id="bolgeler" class="pt60 pb60">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <h2>Hizmet Verdiğimiz Bölgeler</h2>
+                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki adresimizden başta Yenibosna ve Bahçelievler olmak üzere <%= teknikServis.slice(2).map(function (b) { return b.bolge; }).join(', ') %> semtlerindeki ev ve iş yerlerine klima ve kombi servisi için geliyoruz. Servis için <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından arayabilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
