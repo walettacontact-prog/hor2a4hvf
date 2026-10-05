@@ -1,0 +1,34 @@
+{
+  "hizmetler": [
+    {
+      "baslik": "Klima Montajı",
+      "aciklama": "Profesyonel ekibimizle her marka ve model klima montaj hizmeti sunuyoruz.",
+      "resim": "/static/assets/uploads/klima-montaj-ucretleri-724x394-1761673400071.webp"
+    },
+    {
+      "baslik": "Klima Bakımı & Temizlik",
+      "aciklama": "Düzenli klima bakım hizmeti ile klimanızın ömrünü uzatın.",
+      "resim": "/static/assets/uploads/klima-bakimi-1761673440537.jpeg"
+    },
+    {
+      "baslik": "VRF / Multi Sistem Servisi",
+      "aciklama": "Her türlü klima arıza ve onarım hizmetleri için yanınızdayız.",
+      "resim": "/static/assets/uploads/multi-split-klima-ile-vrf-farki-1761673477389.jpg"
+    },
+    {
+      "baslik": "Kombi Bakımı",
+      "aciklama": "Yıl boyunca sorunsuz kullanım için kombinizin düzenli bakımını yapıyoruz.",
+      "resim": "/static/assets/uploads/71b17b1ad9994605b1beba51be1364f1-1761673551684.webp"
+    },
+    {
+      "baslik": "Kombi Arıza Onarımı",
+      "aciklama": "Arıza mı çıktı? Fırtına hızında ekibimiz gelerek sorunu anında çözüyor.",
+      "resim": "/static/assets/uploads/Yogusmali-Kombi-Bakimi-1761673587895.jpg"
+    },
+    {
+      "baslik": "Gaz Dolumu ve Kaçak Tespiti",
+      "aciklama": "Buzdolabı, çamaşır makinesi, bulaşık makinesi ve diğer beyaz eşyalarınızın teknik sorunlarını uzman ekibimiz çözüyor.",
+      "resim": "/static/assets/uploads/Antalya-Klima-Gaz-Dolumu-ve-Kacak-Tespiti-Hizmeti-1761673681216.jpg"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Sayfa Bulunamadı | Fırtına Klima & Kombi</title>
+    <script>
+        // GitHub Pages sunucu tarafında yönlendirme yapamıyor; eski adresler burada yönlendirilir.
+        (function () {
+            var path = location.pathname;
+            var lower = path.toLowerCase();
+            // Eski admin paneli kaldırıldı, içerik Pages CMS'ten düzenleniyor.
+            if (/^\/(admin|account)(\/|$)/.test(lower)) return location.replace("https://app.pagescms.org");
+            // Eski Express sitesi büyük/küçük harf ve sondaki "/" farkını önemsemiyordu: /Hakkimizda/ -> /hakkimizda
+            var clean = lower.replace(/\/+$/, "").replace(/\.html$/, "");
+            var pages = ["/hakkimizda", "/hizmetler", "/serviscagir", "/iletisim"];
+            if (pages.indexOf(clean) !== -1 && clean !== path) location.replace(clean + location.search + location.hash);
+        })();
+    </script>
+    <link rel="icon" href="/static/images/icon.png" type="image/png" sizes="16x16">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <style>
+        .notfound { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40px 16px; }
+        .notfound img { max-width: 220px; height: auto; margin-bottom: 32px; }
+        .notfound h1 { font-size: 72px; margin-bottom: 8px; }
+        .notfound .btn-main { margin: 6px; }
+    </style>
+</head>
+
+<body>
+    <main class="notfound">
+        <div>
+            <a href="/"><img src="/static/yataylogo.png" alt="Fırtına Klima"></a>
+            <h1>404</h1>
+            <p class="lead mb-4">Aradığınız sayfa bulunamadı.</p>
+            <a href="/" class="btn-main">Ana Sayfa</a>
+            <a href="/hizmetler" class="btn-main">Hizmetlerimiz</a>
+            <a href="tel:<%= iletisim.telefon %>" class="btn-main">Hemen Arayın: <%= iletisim.telefon %></a>
+        </div>
+    </main>
+</body>
+
+</html>

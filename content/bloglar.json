@@ -1,0 +1,19 @@
+{
+  "bloglar": [
+    {
+      "baslik": "Profesyonel Klima Kurulum & Montaj",
+      "aciklama": "Ev ve iş yerinizde tüm klima modelleri için güvenli ve hızlı montaj. Ekiplerimiz klima sisteminizi en verimli şekilde kurar, enerji tasarrufu ve uzun ömür sağlar.",
+      "resim": "/static/assets/uploads/3-1761676767290.webp"
+    },
+    {
+      "baslik": "Kombi Bakım & Arıza Onarımı",
+      "aciklama": "Kombinizin performansını artırmak ve olası arızaları önlemek için düzenli bakım ve hızlı onarım hizmeti. Sıcak su ve ısınmada kesinti yaşamadan konforunuzu koruyun.",
+      "resim": "/static/assets/uploads/1-1761428862959.webp"
+    },
+    {
+      "baslik": "Acil Teknik Servis & Beyaz Eşya Onarımı",
+      "aciklama": "Klima, kombi veya beyaz eşyalarınızda ani arızalara karşı 7/24 hızlı müdahale. Uzman ekibimiz sorunları yerinde çözer ve sizi mağdur etmeden hizmet verir.",
+      "resim": "/static/assets/uploads/5-1761676780981.webp"
+    }
+  ]
+}

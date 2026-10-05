@@ -1,0 +1,155 @@
+# Pages CMS yapılandırması (https://pagescms.org/docs/configuration/)
+# Görseller repoda public/assets/uploads klasörüne kaydedilir,
+# JSON'a ise sitede yayınlandığı yol yazılır: /static/assets/uploads/<dosya>
+media:
+  input: public/assets/uploads
+  output: /static/assets/uploads
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, gif, avif]
+
+settings:
+  commit:
+    templates:
+      update: "İçerik güncellendi: {path} (Pages CMS)"
+
+content:
+  - name: iletisim
+    label: İletişim Bilgileri
+    type: file
+    path: content/iletisim.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: telefon
+        label: Telefon
+        type: string
+        description: "Uluslararası biçimde, boşluksuz yazın. Örnek: +905334120894"
+        required: true
+      - name: email
+        label: E-posta
+        type: string
+        required: true
+      - name: adres
+        label: Adres
+        type: text
+        description: Birden fazla satır yazabilirsiniz.
+      - name: calisma_saatleri
+        label: Çalışma Saatleri
+        type: string
+        description: "Örnek: Pzt - Cmt 08.00 - 20.00"
+      - name: facebook
+        label: Facebook adresi
+        type: string
+        description: Boş bırakırsanız sitedeki ikon gizlenir.
+      - name: instagram
+        label: Instagram adresi
+        type: string
+        description: Boş bırakırsanız sitedeki ikon gizlenir.
+      - name: youtube
+        label: YouTube adresi
+        type: string
+        description: Boş bırakırsanız sitedeki ikon gizlenir.
+      - name: whatsapp
+        label: WhatsApp bağlantısı
+        type: string
+        description: "Örnek: https://wa.me/905334120894"
+
+  - name: hizmetler
+    label: Hizmetler
+    type: file
+    path: content/hizmetler.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: hizmetler
+        label: Hizmet listesi
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{baslik}"
+        fields:
+          - name: baslik
+            label: Başlık
+            type: string
+            required: true
+          - name: aciklama
+            label: Açıklama
+            type: text
+            required: true
+            description: Kartlarda ilk 70 karakteri görünür.
+          - name: resim
+            label: Görsel
+            type: image
+            required: true
+
+  - name: hakkimizda
+    label: Hakkımızda
+    type: file
+    path: content/hakkimizda.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: baslik
+        label: Başlık
+        type: string
+        required: true
+      - name: aciklama
+        label: Metin
+        type: text
+        description: Paragrafları boş bir satırla ayırın.
+      - name: resim
+        label: Görsel
+        type: image
+        description: Boş bırakılırsa varsayılan görsel kullanılır.
+
+  - name: bloglar
+    label: Blog Kartları
+    type: file
+    path: content/bloglar.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: bloglar
+        label: Blog kartları
+        description: Ana sayfada en fazla 6 kart gösterilir.
+        type: object
+        list:
+          max: 6
+          collapsible:
+            collapsed: true
+            summary: "{baslik}"
+        fields:
+          - name: baslik
+            label: Başlık
+            type: string
+            required: true
+          - name: aciklama
+            label: Açıklama
+            type: text
+          - name: resim
+            label: Görsel
+            type: image
+            required: true
+
+  - name: bolgeler
+    label: Hizmet Bölgeleri
+    type: file
+    path: content/bolgeler.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: bolgeler
+        label: Bölgeler
+        type: object
+        list: true
+        fields:
+          - name: bolge
+            label: Bölge adı
+            type: string
+            required: true
