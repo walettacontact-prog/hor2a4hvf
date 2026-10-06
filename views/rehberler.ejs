@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<%- include('partials/head') %>
+<%- include('partials/sayfa-stil') %>
+    <style>
+        .rehber-kart { display: flex; flex-direction: column; height: 100%; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 6px 24px rgba(26, 58, 96, .08); }
+        .rehber-kart img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+        .rehber-kart .icerik-alan { padding: 20px 22px 24px; display: flex; flex-direction: column; flex-grow: 1; }
+        .rehber-kart h3 { font-size: 20px; line-height: 1.3; margin-bottom: 10px; }
+        .rehber-kart h3 a { color: inherit; }
+        .rehber-kart p { flex-grow: 1; margin-bottom: 14px; }
+    </style>
+</head>
+
+<body>
+<%- include('partials/header') %>
+<% const GRUPLAR = [{ kategori: 'kombi', baslik: 'Kombi Rehberleri' }, { kategori: 'klima', baslik: 'Klima Rehberleri' }]; %>
+        <!-- content begin -->
+        <div id="content" class="no-top no-bottom">
+            <div id="top"></div>
+<%- include('partials/subheader', { arkaplan: '/static/images/background/1.webp', rozet: 'Rehber', h1: page.h1, crumbs: page.crumbs }) %>
+
+            <section class="bg-light">
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-lg-9 text-center">
+                            <p class="lead mb-0">Klima ve kombinizde sık karşılaşılan sorunları, evde güvenle yapabileceğiniz kontrolleri ve ne zaman servis çağırmanız gerektiğini anlatan rehberlerimiz. Sorun devam ederse bize ulaşın. <%= iletisim.calisma_saatleri %> arası <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından servis çağırabilirsiniz.</p>
+                        </div>
+                    </div>
+
+                    <% GRUPLAR.forEach(function (g) { %>
+                    <% const liste = yazilar.filter(function (y) { return y.kategori === g.kategori; }); %>
+                    <% if (liste.length) { %>
+                    <h2 class="mt-4 mb-4 text-center"><%= g.baslik %></h2>
+                    <div class="row g-4 mb-5">
+                        <% liste.forEach(function (y) { %>
+                        <div class="col-lg-4 col-md-6">
+                            <article class="rehber-kart">
+                                <a href="/<%= y.slug %>" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" src="/static/assets/uploads/<%= y.resim %>" alt="<%= y.resim_alt %>"></a>
+                                <div class="icerik-alan">
+                                    <h3><a href="/<%= y.slug %>"><%= y.baslik %></a></h3>
+                                    <p><%= y.ozet %></p>
+                                    <a class="btn-main" href="/<%= y.slug %>" aria-label="<%= y.kart_baslik %> yazısını oku">Yazıyı Oku</a>
+                                </div>
+                            </article>
+                        </div>
+                        <% }) %>
+                    </div>
+                    <% } %>
+                    <% }) %>
+
+                    <div class="icerik">
+<%- include('partials/ara-kutusu', { baslik: 'Klima veya kombiniz için servis çağırın' }) %>
+                    </div>
+                </div>
+            </section>
+
+<%- include('partials/cta') %>
+        </div>
+        <!-- content close -->
+<%- include('partials/footer') %>
+</body>
+
+</html>

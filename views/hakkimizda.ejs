@@ -18,7 +18,7 @@
                         <div class="col-lg-6">
                             <div class="subtitle wow fadeInUp mb-3">Hakkımızda</div>
                             <h2 class="wow fadeInUp" data-wow-delay=".2s"><%= hakkimizda[0].baslik %></h2>
-                            <p style="white-space: pre-line;"><%= (hakkimizda[0].aciklama || "").trim() %></p>
+                            <p style="white-space: pre-line;"><%- linkle((hakkimizda[0].aciklama || "").trim()) %></p>
                         </div>
 
                         <div class="col-lg-6">

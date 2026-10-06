@@ -127,6 +127,12 @@ function seoFor(data, page) {
   if (page.crumbs && page.crumbs.length) webpage.breadcrumb = { "@id": `${url}#breadcrumb` };
   if (page.route === "/hizmetler") webpage.mainEntity = { "@id": `${SITE_URL}/#hizmetler` };
   if (page.route === "/iletisim" || page.route === "/hakkimizda") webpage.mainEntity = { "@id": `${SITE_URL}/#isletme` };
+  if (page.route === "/rehberler") {
+    webpage.mainEntity = {
+      "@type": "ItemList",
+      itemListElement: data.yazilar.map((y, i) => ({ "@type": "ListItem", position: i + 1, url: pageUrl(`/${y.slug}`), name: y.baslik })),
+    };
+  }
   graph.push(webpage);
 
   // Hizmetler sayfada görünen her hizmet için Service düğümü (hizmet sayfası, hizmetler listesi ve ana sayfa kartları)

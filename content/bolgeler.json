@@ -36,5 +36,71 @@
     {
       "bolge": "Maltepe"
     }
-  ]
+  ],
+  "sayfa": {
+    "giris": [
+      "Bahçelievler Hürriyet Mahallesi’ndeki adresimizden İstanbul Avrupa Yakası’nda ev ve iş yerlerine klima ve kombi servisi veriyoruz. Ağırlıklı olarak Yenibosna ve Bahçelievler’deyiz; Şirinevler, Sefaköy, Bakırköy, Ataköy, Küçükçekmece, Güneşli, Halkalı, İkitelli, Güngören ve Maltepe’ye de geliyoruz.",
+      "Çoğu çağrıya aynı gün ulaşıyoruz. Aşağıda bölgelere göre en sık çağrıldığımız işleri ve dikkat edilmesi gerekenleri bulabilirsiniz."
+    ],
+    "bolumler": [
+      {
+        "id": "yenibosna-bahcelievler",
+        "baslik": "Yenibosna ve Bahçelievler",
+        "paragraflar": [
+          "Servisimiz Bahçelievler’in Hürriyet Mahallesi’nde olduğu için Yenibosna ve Bahçelievler’e en kısa sürede ulaşıyoruz. Bu bölgede en sık soğutmayan, su damlatan ya da ses yapan klimalar, fan motoru arızaları ve gaz eksilmesi için çağrılıyoruz; bunları yerinde tespit edip mümkünse aynı ziyarette onarıyoruz.",
+          "Kışın kombi tarafında ateşleme arızası, düşen su basıncı, gürültülü çalışma ve sıcak su gelmemesi öne çıkıyor. [[/kombi-ariza-onarimi|Kombi arıza onarımında]] parça değişimlerinde orijinal yedek parça kullanıyoruz."
+        ]
+      },
+      {
+        "id": "atakoy-bakirkoy",
+        "baslik": "Ataköy ve Bakırköy",
+        "paragraflar": [
+          "Ataköy’ün 1. Kısım’dan 9. Kısım’a uzanan sitelerinde ve Bakırköy’deki apartmanlarda uzun süredir kullanılan klimalarda verim düşmesi, kötü koku ve düzensiz soğutma şikâyetleriyle sık karşılaşıyoruz. Bu sorunların önemli bir kısmı filtrenin, iç ünite peteğinin ve drenaj hattının temizlenmesiyle giderilebilir; [[/klima-bakimi|düzenli klima bakımı]] cihazın daha verimli çalışmasına ve arızaların önlenmesine yardımcı olur.",
+          "Sitelerde dış ünitenin yeri ve cephe kullanımıyla ilgili kurallar olabildiği için yeni montaj ya da yer değişikliğinden önce site yönetimiyle görüşmenizi öneririz."
+        ]
+      },
+      {
+        "id": "sirinevler-gunesli-gungoren",
+        "baslik": "Şirinevler, Güneşli ve Güngören",
+        "paragraflar": [
+          "Yeni eve taşınan ya da klimasının yerini değiştirmek isteyenler için iç ve dış ünite montajı, bakır boru hattı kontrolü, vakumlama ve gerektiğinde gaz dolumu yapıyoruz. Sökümde gazı dış üniteye toplayıp yeni yerde hattı vakumlayarak ve kaçak testi yaparak kuruyoruz; nelere dikkat etmeniz gerektiğini [[/klima-tasima|taşınırken klima rehberimizde]] anlattık.",
+          "[[/klima-montaji|Klima montajı]] ücretini gereken boru uzunluğu, dış ünitenin konumu ve ek malzeme ihtiyacına göre işe başlamadan önce söylüyoruz."
+        ]
+      },
+      {
+        "id": "kucukcekmece-sefakoy-halkali",
+        "baslik": "Küçükçekmece, Sefaköy ve Halkalı",
+        "paragraflar": [
+          "Bu semtlerden kışın en çok peteklerin ısınmaması ve kombinin fazla gaz harcaması şikâyetiyle aranıyoruz. Bu belirtilerin nedeni bazen petekte biriken hava ya da yanlış ayar, bazen de kirlenmiş brülör ve eşanjör olabilir. [[/kombi-bakimi|Kombi bakımında]] yanma ve güvenlik kontrollerini yapıyor, su basıncını ve bağlantıları kontrol ediyoruz.",
+          "Servis çağırmadan önce evde yapabileceğiniz basit kontrolleri [[/petekler-isinmiyor|petekler ısınmıyorsa yazımızda]] bulabilirsiniz."
+        ]
+      },
+      {
+        "id": "ikitelli",
+        "baslik": "İkitelli ve İkitelli OSB",
+        "paragraflar": [
+          "İkitelli Organize Sanayi Bölgesi’ndeki ofis, mağaza ve üretim tesislerinde VRF/VRV ve multi klima sistemlerinin bakımını, arıza tespitini ve onarımını yapıyoruz: hata kodu okuma, gaz kaçağı tespiti ve gaz şarjı, elektronik kart arızaları ve borulama kontrolleri.",
+          "Sistemlerin sürekli çalışması gereken iş yerlerinde arızaya hızlı müdahale etmeye çalışıyoruz. Ayrıntılar [[/vrf-multi-klima-servisi|VRF ve multi klima servisi]] sayfamızda."
+        ]
+      },
+      {
+        "id": "markalar",
+        "baslik": "Hangi markalara servis veriyoruz?",
+        "paragraflar": [
+          "Daikin, Mitsubishi, Arçelik, Bosch, Vestel, LG ve Samsung başta olmak üzere tüm marka klimalara; DemirDöküm, Vaillant, ECA, Baymak, Bosch ve Ariston başta olmak üzere tüm marka kombilere servis veriyoruz.",
+          "Bu markaların yetkili servisi değiliz; bağımsız bir özel servisiz. Cihazınız üretici garantisi kapsamındaysa önce garanti belgenizdeki koşulları kontrol etmenizi öneririz."
+        ]
+      }
+    ],
+    "sss": [
+      {
+        "soru": "Bölgem listede yoksa ne yapmalıyım?",
+        "cevap": "Bizi arayın; adresinize gelip gelemeyeceğimizi ve ne zaman gelebileceğimizi telefonda söyleriz. Servis için {telefon} numarasını arayabilir ya da WhatsApp’tan yazabilirsiniz."
+      },
+      {
+        "soru": "Hangi saatlerde servis veriyorsunuz?",
+        "cevap": "Her gün 08.00–21.00 arasında servis talebi alıyor ve adreslere geliyoruz; çoğu çağrıya aynı gün ulaşıyoruz."
+      }
+    ]
+  }
 }

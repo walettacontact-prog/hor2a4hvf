@@ -1,8 +1,8 @@
 {
   "slug": "klima-montaji",
   "hizmet": "Klima Montajı",
-  "seo_baslik": "Klima Montajı Bahçelievler | Fırtına Klima",
-  "seo_aciklama": "Tüm marka split klimalar için montaj: bakır boru, drenaj, elektrik, vakumlama ve test. Çoğu çağrıda aynı gün servis. Arayın: {telefon}",
+  "seo_baslik": "Klima Montajı, Sökme ve Takma Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Tüm marka split klima montajı, sökme ve yeniden takma; çoğu çağrıda aynı gün. Vakumlama ve test dâhil, işçilik garantili. {telefon}",
   "h1": "Bahçelievler'de Klima Montajı",
   "giris": [
     "Split klimanın verimli ve sessiz çalışması büyük ölçüde montajın doğru yapılmasına bağlıdır. İç ve dış ünitenin yerleşimi, bakır boru bağlantıları, drenaj eğimi, elektrik hattı ve vakumlama adımlarından biri aksarsa cihaz ne kadar iyi olursa olsun soğutma zayıflayabilir; su damlatma veya gaz kaçağı gibi sorunlar da ortaya çıkabilir.",
@@ -33,6 +33,13 @@
       ]
     },
     {
+      "baslik": "Klima sökme ve yeniden takma (taşınma)",
+      "paragraflar": [
+        "Ev ya da iş yeri değiştirirken klimanızı söküp yeni adresinize takıyoruz. Sökümden önce sistemdeki gaz dış üniteye toplanır; böylece borular ayrıldığında gazın büyük kısmı cihazda kalır. Yeni adreste montaj, ilk montajdaki adımlarla yapılır: boru bağlantıları, vakumlama, kaçak testi ve çalışma kontrolü.",
+        "Ücret, gereken boru uzunluğuna, yeni boru ya da konsol gerekip gerekmediğine, dış ünitenin konumuna ve ek gaz ihtiyacına göre değişir ve işe başlamadan önce söylenir. Taşınırken dikkat edilmesi gerekenleri [[/klima-tasima|klima taşıma rehberimizde]] adım adım anlattık."
+      ]
+    },
+    {
       "baslik": "Klima montaj ücreti ne kadar, neye göre değişir?",
       "paragraflar": [
         "Montaj ücreti işin kapsamına göre değiştiği için sabit bir rakam yazmıyoruz. Cihaz modelini, kurulacak yeri ve iç-dış ünite arasındaki yaklaşık mesafeyi paylaşırsanız telefonda fiyat bilgisi veriyoruz; gerekirse yeri görerek netleştiriyoruz. Ücreti her zaman işe başlamadan önce bildiriyoruz.",
@@ -52,8 +59,9 @@
         "Montaj gününün sorunsuz geçmesi için şu noktaları önceden netleştirmenizi öneririz."
       ],
       "maddeler": [
-        "İç ve dış ünitenin konacağı yeri kabaca belirleyin; iç ünitenin önünde ve üstünde hava akışı için boşluk kalmasına dikkat edin.",
+        "İç ve dış ünitenin konacağı yeri kabaca belirleyin; iç ünitenin önünde ve üstünde hava akışı için boşluk kalmasına dikkat edin. Yer seçimini [[/klima-montaji-rehberi|klima montajı öncesi rehberimizde]] ayrıntılı anlattık.",
         "Apartmanınızda dış cephe veya balkon kullanımıyla ilgili bir kural varsa yönetimle önceden görüşün.",
+        "Yoğuşma suyunun nereye akacağını planlayın: su yağmur borusuna ya da koku tutuculu (sifonlu) bir gidere bağlanır; dış cepheye veya alt kattaki balkona akıtılmaz. Doğal eğim sağlanamıyorsa bunu montajdan önce birlikte konuşalım.",
         "Cihazın model ve BTU bilgisini hazır bulundurun.",
         "Yeni cihazlarda garanti belgesini kontrol edin; bazı üreticiler garantinin geçerli olması için montajın yetkili servis tarafından yapılmasını şart koşabilir.",
         "Mevcut bir klimanın sökülmesi veya yerinin değiştirilmesi gerekiyorsa bunu baştan belirtin; söküm ve yeniden kurulum işlerini de yapıyoruz."
@@ -63,11 +71,11 @@
   "sss": [
     {
       "soru": "Klima montajı ne kadar sürer?",
-      "cevap": "Boru mesafesi kısa ve dış üniteye erişimi kolay olan standart bir split klima montajı çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen boru hattı, zor erişilen bir dış ünite yeri, kalın betonarme duvar veya ayrı elektrik hattı ihtiyacı süreyi uzatabilir."
+      "cevap": "Boru mesafesi kısa ve dış üniteye erişimi kolay olan standart bir split klima montajı çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen boru hattı, zor erişilen bir dış ünite yeri veya kalın betonarme duvar süreyi uzatabilir. Cihaz için ayrı bir elektrik hattı gerekiyorsa bunun montajdan önce bir elektrikçiye hazırlatılması gerekir."
     },
     {
       "soru": "Klimayı kendim monte edebilir miyim?",
-      "cevap": "Önermeyiz. Havşa bağlantıları, vakumlama, gazın sisteme verilmesi ve elektrik bağlantısı özel ekipman ve deneyim gerektirir. Hatalı bir montaj gaz kaçağına, su damlatmaya ve zamanla kompresör arızalarına yol açabilir; dış cephede çalışmak ise ayrıca ciddi bir düşme riski taşır."
+      "cevap": "Önermeyiz. Havşa bağlantıları, vakumlama, gazın sisteme verilmesi ve elektrik bağlantısı özel ekipman ve deneyim gerektirir. Hatalı bir montaj [[/klima-gaz-dolumu|gaz kaçağına]], su damlatmaya ve zamanla kompresör arızalarına yol açabilir; dış cephede çalışmak ise ayrıca ciddi bir düşme riski taşır."
     },
     {
       "soru": "Montajdan sonra klima hemen çalıştırılabilir mi?",

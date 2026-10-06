@@ -1,0 +1,113 @@
+{
+  "slug": "petekler-isinmiyor",
+  "baslik": "Petekler Isınmıyor mu? Hava Alma, Tortu ve Kombi Kaynaklı Nedenler",
+  "kart_baslik": "Petekler Isınmıyorsa",
+  "seo_baslik": "Petekler Isınmıyor mu? Nedenleri, Hava Alma | Fırtına Klima",
+  "seo_aciklama": "Kombi çalışıyor ama petekler ısınmıyor mu? Bazı peteklerin soğuk kalması, üstü sıcak altı soğuk petek, hava alma ve tortu için kontrol listesi.",
+  "ozet": "Petekler ısınmıyorsa belirtiye göre ayar, vana, hava alma, tortu ve kombi arızası kontrollerini adım adım anlattık.",
+  "resim": "/static/assets/uploads/petek-isitma.webp",
+  "resim_alt": "Ellerini kalorifer peteğine yaklaştırarak ısınan kişi",
+  "tarih": "2026-10-06",
+  "kategori": "kombi",
+  "ilgili_hizmetler": [
+    "kombi-ariza-onarimi",
+    "kombi-bakimi"
+  ],
+  "giris": [
+    "Kombi çalışıyor, musluktan sıcak su da geliyor ama petekler soğuk ya da yalnızca bir kısmı ısınıyor. Bunun nedeni kimi zaman unutulmuş bir ayar veya kapalı bir vana, kimi zaman peteklerde biriken hava ya da tortu, kimi zaman da kombideki bir arızadır. Peteğin hangi bölümünün soğuk kaldığı ve kaç peteğin ısınmadığı, sorunu nerede aramanız gerektiğini büyük ölçüde gösterir.",
+    "Aşağıda kendi başınıza güvenle yapabileceğiniz kontrolleri belirtiye göre sıraladık. Kombinin kapağını açmak, gaz bağlantılarına ya da elektrik aksamına dokunmak bu kontrollerin dışındadır. Dairenizde kombi yoksa ve bina merkezi sistemle ısınıyorsa, ısınma sorunları için önce bina yönetimiyle iletişime geçin."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Önce ayarları ve vanaları kontrol edin",
+      "paragraflar": [
+        "Kombiyi sonbaharda ilk kez ısıtmaya açtıysanız ya da evde biri ayarları değiştirdiyse sorun basit bir ayar olabilir. Teknik bir neden aramadan önce şunlara bakın:"
+      ],
+      "maddeler": [
+        "Kombi kış konumunda mı? Pek çok kombide yaz konumu yalnızca sıcak su verir, petekleri ısıtmaz. Ekranda ya da düğmelerde genellikle radyatör simgesiyle gösterilen ısıtma fonksiyonunun açık olduğundan emin olun.",
+        "Kalorifer suyu sıcaklığı çok düşük ayarlıysa petekler ılık kalır; ayarı yükseltip bir süre bekleyin. Yoğuşmalı kombiler düşük su sıcaklığında daha verimli çalıştığından peteklerin elle tutulamayacak kadar sıcak olmaması tek başına arıza sayılmaz; asıl ölçü odaların ısınıp ısınmadığıdır.",
+        "Oda termostatı kullanıyorsanız ayarlanan sıcaklık oda sıcaklığının üzerinde olmalıdır; aksi hâlde kombi ısıtmaya başlamaz. Kablosuz termostatlarda pilin bitmesi, programlı modellerde ise o saatin kapalı zaman dilimine denk gelmesi aynı sonucu verir.",
+        "Petek vanaları açık mı? Peteğin bir ucundaki giriş vanası elle açılıp kapanır. Diğer uçtaki dönüş vanası çoğu zaman bir kapağın altındadır ve dengeleme için belirli bir konumda bırakılmıştır; bu vanayı nedenini bilmeden çevirmek diğer peteklerin ısınmasını da etkileyebilir.",
+        "Termostatik vana başlığı düşük bir kademedeyse oda o sıcaklığa ulaştığında vana kapanır ve petek soğur. Bu bir arıza değildir; başlığı daha yüksek bir kademeye getirip bekleyin."
+      ]
+    },
+    {
+      "baslik": "Peteğin üstü soğuk, altı sıcaksa: hava birikmesi",
+      "paragraflar": [
+        "Tesisattaki hava peteğin en yüksek noktasında toplanır ve sıcak suyun üst bölüme ulaşmasını engeller. Peteğin üstü soğuk, altı sıcaksa ya da petekten şırıltı, fokurtu gibi sesler geliyorsa önce hava almayı deneyin. Bunun için peteğin üst köşesindeki hava alma tapası (purjör) kullanılır; çoğu tapa düz bir tornavidayla ya da nalburlarda satılan purjör anahtarıyla açılır. Adımlar şöyledir:"
+      ],
+      "maddeler": [
+        "Kombiyi kapatın ve peteklerin biraz soğumasını bekleyin. Sıcak petekten çıkan su elinizi yakabilir; su dolaşmadığında da hava tapanın bulunduğu noktada daha iyi toplanır.",
+        "Tapanın altına katlanmış bir bez tutun; damlayan su için altına küçük bir kap da koyabilirsiniz.",
+        "Tapayı saat yönünün tersine yavaşça ve az miktarda çevirin; tamamen sökmeyin. Önce tıslama sesiyle hava çıkar.",
+        "Hava bitip kesintisiz su gelmeye başlayınca tapayı kapatın. Fazla sıkmayın; sızdırmayacak kadar kapatmanız yeterlidir.",
+        "Isınmayan diğer peteklerde de aynı işlemi yapın.",
+        "İşiniz bitince kombinin basınç göstergesine bakın; havanın boşalttığı yeri su doldurduğu için basınç düşmüş olabilir. Çoğu kombide soğukken yaklaşık 1–1,5 bar yeterlidir; çalışırken 1–2 bar aralığında biraz yükselmesi normaldir, kesin değer kullanım kılavuzunda yazar.",
+        "Basınç düştüyse kombi soğukken doldurma musluğunu yavaşça açın, ibre önerilen değere gelince kapatın. Musluğu açık unutmayın, fazla da doldurmayın; basınç aşırı yükselirse çoğu kombide 3 bar civarında açılan emniyet ventili su atar. Ayrıntıları [[/kombi-su-basinci|kombi su basıncı rehberimizde]] bulabilirsiniz.",
+        "Kombiyi yeniden açın ve petekler ısındığında üst kısmı yoklayın. Aynı petek kısa süre içinde yeniden hava yapıyorsa tesisata bir yerden hava giriyor ya da tesisatın içinde korozyon oluşuyor olabilir; bunun yerinde kontrol edilmesi gerekir."
+      ]
+    },
+    {
+      "baslik": "Peteğin üstü sıcak, altı soğuksa: tortu ve çamur birikimi",
+      "paragraflar": [
+        "Bir peteğin üst kısmının alttan biraz daha sıcak olması normaldir. Ancak alt bölüm, özellikle ortası, belirgin şekilde soğuk kalıyorsa sorun büyük olasılıkla tortudur. Tesisatta zamanla oluşan pas, kireç ve kir parçacıkları suyla taşınır ve çamur kıvamında peteğin dibine çöker. Sıcak su bu birikintinin üzerinden geçtiği için alt bölüm ısınmaz ve petek odaya yeterince ısı veremez.",
+        "Hava almak bu sorunu çözmez, çünkü tortu peteğin dibindedir. Purjörden siyah ya da koyu kahverengi, çamurlu su gelmesi de tortuya işaret eder. Biriken çamur yalnızca petekleri değil kombiyi de etkileyebilir; sirkülasyon pompasını zorlayabilir, kombinin dönüş girişindeki pislik tutucuyu ve eşanjörü tıkayabilir. Bu belirtileri görüyorsanız aşağıda anlattığımız tesisat temizliği gündeme gelebilir."
+      ]
+    },
+    {
+      "baslik": "Bazı petekler ısınıyor, bazıları ısınmıyorsa",
+      "paragraflar": [
+        "Bu durumda kombi çalışıyor ve sıcak suyu tesisata gönderebiliyor demektir; sorun, suyun bazı peteklere yeterince ulaşmamasıdır. Olası nedenler şunlardır:"
+      ],
+      "maddeler": [
+        "Sıkışmış termostatik vana pimi: Yaz boyunca kapalı kalan vanalarda başlığın altındaki pim takılı kalabilir. Çoğu modelde başlık elle ya da bir halka gevşetilerek çıkar; pime parmağınızla bastırdığınızda içeri girip geri çıkması gerekir. Pim hareket etmiyorsa pense gibi bir aletle zorlamayın, vana su kaçırabilir.",
+        "Kombiden uzak petekler: Su en kolay yolu izlediği için kombiye yakın petekler daha fazla su alır, uzaktakiler ılık kalabilir. Bunun çözümü genellikle dönüş vanaları ayarlanarak her peteğe uygun miktarda su gitmesini sağlayan dengelemedir. Deneme yanılmayla yapılırsa diğer petekler de etkilenir; bu işi bilen birine yaptırın.",
+        "Dubleks dairelerde üst kat: Hava tesisatın en yüksek noktalarında toplanır. Alt kat ısınıp üst kat soğuk kalıyorsa önce üst kattaki peteklerin havasını alın.",
+        "Tek petekte tortu: Isınmayan petek üstten sıcak, alttan soğuksa yukarıda anlattığımız tortu birikimini düşünün."
+      ]
+    },
+    {
+      "baslik": "Hiçbir petek ısınmıyorsa: kombi tarafındaki nedenler",
+      "paragraflar": [
+        "Ayarlar doğru ve vanalar açık olduğu hâlde hiçbir petek ısınmıyorsa sorun büyük olasılıkla kombidedir; kombi ya ısıtma için devreye girmiyor ya da sıcak suyu peteklere gönderemiyordur. Basınç, gaz ve arıza kodu kontrollerini kendiniz yapabilirsiniz; diğer nedenler kombinin içindeki parçalarla ilgili olduğu için teknisyen işidir. Başlıca nedenler şunlardır:"
+      ],
+      "maddeler": [
+        "Düşük su basıncı: Basınç belirli bir değerin altına düşünce kombi kendini korumak için çalışmaz ve genellikle ekranda uyarı verir. Basıncı tamamladıktan kısa süre sonra yeniden düşüyorsa kombide ya da tesisatta büyük olasılıkla bir su kaçağı vardır.",
+        "Ateşleme alamama: Kombi ateşleme alamıyorsa genellikle musluktan da sıcak su gelmez. Gaz vanasının açık olduğunu, kartlı sayaç kullanıyorsanız bakiyenizi kontrol edin. Ekranda arıza kodu varsa kombiyi reset tuşuyla bir kez yeniden başlatabilirsiniz; aynı kod tekrar gelirse resete basmaya devam etmeyin, servis çağırın.",
+        "Sirkülasyon pompası: Suyu tesisatta dolaştıran pompa, özellikle yaz boyunca az çalıştıktan sonra sıkışabilir ya da arızalanabilir. Bu durumda kombi yanar ama su dolaşmadığı için kısa sürede aşırı ısınıp kapanabilir; kombiye yakın borular ısınırken petekler soğuk kalır.",
+        "Üç yollu vana: Kombinin içindeki bu vana sıcak suyu peteklere ya da musluk tarafına yönlendirir. Musluk tarafında takılı kalırsa sıcak su gelir ama petekler ısınmaz. Tersi bir durum yaşıyorsanız, yani petekler ısındığı hâlde musluktan sıcak su gelmiyorsa [[/kombi-sicak-su-gelmiyor|sıcak su sorunlarını anlattığımız yazıya]] göz atabilirsiniz.",
+        "Tıkanmış pislik tutucu: Tesisattan gelen tortu, kombinin dönüş hattındaki süzgeçte birikip su akışını kısabilir. Süzgecin temizlenmesi için vanaların kapatılıp tesisatın bir bölümünün boşaltılması gerektiğinden bu işi teknisyene bırakın."
+      ]
+    },
+    {
+      "baslik": "Petek (tesisat) temizliği ne zaman gerekir?",
+      "paragraflar": [
+        "Petek ya da tesisat temizliği, tesisattaki suyun boşaltılıp biriken tortunun temizlik solüsyonları ve sirkülasyon makinesiyle, gerektiğinde de peteklerin sökülüp yıkanmasıyla giderilmesidir. Bu iş [[/kombi-bakimi|yıllık kombi bakımından]] ayrıdır. Kombi bakımı cihazın kendisini, tesisat temizliği ise kombinin dışındaki boruları ve petekleri kapsar.",
+        "Hava, kapalı bir vana ya da kombideki bir arıza da benzer belirtiler verebildiği için temizliğe karar vermeden önce bu olasılıkları elemek gerekir. Tortu belirtileri hava alındıktan ve vanalar kontrol edildikten sonra da sürüyorsa temizlik gündeme gelir; bu sıra gereksiz bir masrafın önüne geçer."
+      ]
+    },
+    {
+      "baslik": "Ne zaman servis çağırmalısınız?",
+      "paragraflar": [
+        "Yukarıdaki kontrollerden sonra sorun sürüyorsa kombiyi zorlamayın ve üst üste reset atmayın. Emniyet ventilinden su gelmesi ya da kombiden uğultu, tıkırtı veya kaynamaya benzer sesler duyulması da bir teknisyenin bakması gereken durumlardır.",
+        "Gaz kokusu alırsanız servis beklemeyin. Elektrik düğmelerine ve prizlere dokunmayın, ateş yakmayın; gaz vanasını kapatın, kapı ve pencereleri açın, binadan çıktıktan sonra 187 Doğal Gaz Acil hattını arayın.",
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler'de tüm marka kombilere hizmet veren bağımsız bir özel servisiz; herhangi bir markanın yetkili servisi değiliz. Pompa, üç yollu vana, ateşleme ve basınç sorunları gibi kombi kaynaklı arızaları [[/kombi-ariza-onarimi|kombi arıza onarımı]] kapsamında tespit edip gideriyoruz. Ücret arızanın kaynağına ve değişmesi gereken parçaya göre değiştiği için sabit bir rakam vermiyoruz; arızayı tespit ettikten sonra ücreti işe başlamadan önce bildiriyoruz. Değişimlerde orijinal yedek parça kullanıyor, onardığımız arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Petekler ısınıyor ama oda neden ısınmıyor?",
+      "cevap": "Petek sıcak olduğu hâlde oda ısınmıyorsa sorun çoğu zaman ısının odaya yayılmasındadır. Peteğin önündeki koltuk, kalın perde ya da peteği saran dekoratif bir kapak sıcak havanın odada dolaşmasını engeller. Pencere ve kapı kenarlarından giren soğuk hava da ısınmayı yavaşlatır. Bunlara rağmen oda ısınmıyorsa peteğin yüzeyinin tamamen ısınıp ısınmadığına bakın; yalnızca bir bölümü ısınan petek odaya yeterli ısı veremez."
+    },
+    {
+      "soru": "Petek temizliği her yıl yapılmalı mı?",
+      "cevap": "Genellikle gerekmez. Kombi bakımının her yıl yapılması önerilir; petek temizliğine ise takvime göre değil, belirtilere göre karar verilir. Hava alındığı hâlde petekler alttan soğuk kalıyorsa ya da purjörden çamurlu su geliyorsa gündeme gelir; bu belirtiler yoksa yalnızca zaman geçti diye yaptırmanıza gerek yoktur."
+    },
+    {
+      "soru": "Ne petekler ısınıyor ne sıcak su geliyorsa sorun ne olabilir?",
+      "cevap": "Bu durumda kombi büyük olasılıkla hiç çalışmıyor ya da ateşleme alamıyordur. Kombinin elektriğini, basınç göstergesini, gaz vanasının açık olup olmadığını ve kartlı sayaç kullanıyorsanız bakiyenizi kontrol edin. Ekranda arıza kodu varsa kombiyi bir kez resetleyebilirsiniz; kod tekrar gelirse resete basmaya devam etmeyin ve servis çağırın."
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "slug": "vrf-multi-klima-servisi",
   "hizmet": "VRF / Multi Sistem Servisi",
-  "seo_baslik": "VRF ve Multi Klima Servisi Bahçelievler | Fırtına Klima",
-  "seo_aciklama": "Multi split ve VRF klima sistemlerinde bakım, arıza tespiti ve onarım. Tüm marka klimalara özel servis, orijinal yedek parça. Arayın: {telefon}",
+  "seo_baslik": "VRF ve Multi Klima Servisi İstanbul Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Ofis, mağaza ve evlerde VRF ve multi split sistemlerde bakım, hata kodu okuma, arıza tespiti ve onarım. Tüm markalar, orijinal parça. {telefon}",
   "h1": "Bahçelievler'de VRF ve Multi Klima Servisi",
   "giris": [
     "Multi split klimalar, evde birden fazla odayı tek bir dış üniteyle iklimlendirir; VRF sistemler ise ofis, mağaza ve çok katlı binalarda çok sayıda iç üniteyi ortak bir altyapıyla çalıştırır. Bu sistemlerde bir ünitedeki sorun diğerlerini de etkileyebildiği için bakım ve arıza tespiti, tek iç üniteli bir split klimaya göre daha fazla ölçüm ve dikkat ister.",
@@ -48,7 +48,7 @@
       "baslik": "Arıza tespiti ve onarım nasıl yapılır?",
       "paragraflar": [
         "Önce hata kodlarını okuyup basınç, sıcaklık ve elektrik ölçümleri yapıyor, gerekirse iletişim hattını ve sensörleri tek tek kontrol ediyoruz. Amaç, parça değiştirmeden önce arızanın gerçek kaynağını bulmaktır.",
-        "Gaz kaçağı varsa kaçak noktası bulunup onarılır ve hat basınç testiyle kontrol edilir. Ardından sistem vakumlanarak nem ve havadan arındırılır, kullandığı gaz (çoğunlukla R410A, daha yeni modellerde R32) üretici değerlerine uygun miktarda şarj edilir. Kart, sensör, fan motoru veya genleşme valfi gibi parça değişimlerinde orijinal yedek parça kullanıyoruz. Onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "[[/klima-gaz-dolumu|Gaz kaçağı]] varsa kaçak noktası bulunup onarılır ve hat basınç testiyle kontrol edilir. Ardından sistem vakumlanarak nem ve havadan arındırılır, kullandığı gaz (çoğunlukla R410A, daha yeni modellerde R32) üretici değerlerine uygun miktarda şarj edilir. Kart, sensör, fan motoru veya genleşme valfi gibi parça değişimlerinde orijinal yedek parça kullanıyoruz. Onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
         "Arıza için {telefon} numarasından arayabilir ya da WhatsApp'tan hata kodunu ve ünitenin fotoğrafını gönderebilirsiniz."
       ]
     },
@@ -77,7 +77,7 @@
     },
     {
       "soru": "Multi klimada tek bir iç ünite soğutmuyorsa sorun nerede olabilir?",
-      "cevap": "Diğer üniteler normal çalışıyorsa sorun çoğunlukla o üniteye özgüdür; tıkalı bir filtre ya da o üniteye ait sensör, kart veya genleşme valfindeki bir arıza bunlara örnektir. Bütün üniteler zayıf soğutuyorsa gaz eksikliği, kirli dış ünite ya da dış ünite kaynaklı başka bir arıza akla gelir. Kesin neden ancak ölçüm yapılarak belirlenir."
+      "cevap": "Diğer üniteler normal çalışıyorsa sorun çoğunlukla o üniteye özgüdür; tıkalı bir filtre ya da o üniteye ait sensör, kart veya genleşme valfindeki bir arıza bunlara örnektir. Bütün üniteler zayıf soğutuyorsa gaz eksikliği, kirli dış ünite ya da dış ünite kaynaklı başka bir arıza akla gelir. Kesin neden ancak ölçüm yapılarak belirlenir. Split klimalarda benzer belirtilerin nedenlerini [[/klima-sogutmuyor|klima soğutmuyor yazımızda]] anlattık."
     },
     {
       "soru": "VRF ve multi klima servis ücreti ne kadar?",

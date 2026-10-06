@@ -1,8 +1,8 @@
 {
   "slug": "kombi-ariza-onarimi",
   "hizmet": "Kombi Arıza Onarımı",
-  "seo_baslik": "Kombi Arıza Onarımı Bahçelievler | Fırtına Klima",
-  "seo_aciklama": "Isıtmayan, sıcak su vermeyen, basınç düşüren ya da su akıtan kombilerde arıza tespiti ve onarım. Tüm marka kombilere özel servis. Arayın: {telefon}",
+  "seo_baslik": "Bahçelievler Kombi Servisi ve Tamiri | Fırtına Klima",
+  "seo_aciklama": "Kombi ısıtmıyor, kırmızı ışık yanıyor ya da arıza kodu mu veriyor? Çoğu çağrıya aynı gün yerinde arıza tespiti ve onarım. Tüm markalar. {telefon}",
   "h1": "Bahçelievler'de Kombi Arıza Onarımı",
   "giris": [
     "Kombiniz ısıtmıyor, sıcak su vermiyor, basıncı sürekli düşüyor ya da ekranda bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Doğru tespit, gereksiz parça değişiminin önüne geçer. Fırtına Klima & Kombi olarak Yenibosna'daki adresimizden çevredeki ev ve iş yerlerine kombi arıza onarımı hizmeti veriyoruz.",
@@ -15,8 +15,8 @@
         "Aşağıdaki belirtiler çoğu zaman belirli parçalara ya da tesisattaki bir soruna işaret eder. Kesin neden ancak yerinde kontrolle anlaşılır; yine de bu liste, servisi ararken neler anlatacağınızı netleştirir."
       ],
       "maddeler": [
-        "Kombi çalışıyor ama petekler ısınmıyor: tesisatta hava, sirkülasyon pompası, üç yollu vana ya da kirlenmiş tesisat.",
-        "Sıcak su gelmiyor veya ılık geliyor: akış sensörü, üç yollu vana ya da plakalı eşanjörde kireçlenme.",
+        "[[/petekler-isinmiyor|Kombi çalışıyor ama petekler ısınmıyor]]: tesisatta hava, sirkülasyon pompası, üç yollu vana ya da kirlenmiş tesisat.",
+        "[[/kombi-sicak-su-gelmiyor|Sıcak su gelmiyor]] veya ılık geliyor: akış sensörü, üç yollu vana ya da plakalı eşanjörde kireçlenme.",
         "Basınç sürekli düşüyor: kombide veya tesisatta su kaçağı, su atan emniyet ventili ya da genleşme tankının ön basıncının düşmesi.",
         "Su akıtıyor veya damlatıyor: emniyet ventili, conta ve rakor bağlantıları; yoğuşmalı kombilerde yoğuşma suyu tahliye hattı.",
         "Ses yapıyor: tesisatta kalan hava, pompadan ya da fandan gelen ses veya eşanjördeki kireçlenmenin yol açtığı kaynama sesi.",
@@ -40,6 +40,14 @@
         "Gaz vanası açık mı? Kartlı sayaç kullanıyorsanız bakiye bitmiş olabilir.",
         "Basınç göstergesi ne gösteriyor? Çoğu kombide soğukken yaklaşık 1–1,5 bar önerilir; doğru değer kılavuzda yazar. Doldurma musluğundan tamamladığınız basınç kısa sürede yeniden düşüyorsa büyük olasılıkla bir yerde su kaçağı vardır.",
         "Oda termostatı açık mı, pili bitmiş mi, sıcaklık doğru ayarlanmış mı?"
+      ]
+    },
+    {
+      "baslik": "Kombi ateşleme yapmıyor ya da kırmızı ışık yanıyorsa",
+      "paragraflar": [
+        "Kombide kırmızı ışığın yanması ya da yanıp sönmesi çoğu zaman cihazın kendini güvenlik için kilitlediğini gösterir. Kombi ateşleme yapamadığında, alevi algılayamadığında ya da fan ve baca tarafında bir sorun tespit ettiğinde gazı keser ve bir hata kodu ya da ışıkla uyarı verir.",
+        "Önce gaz vanasının açık olduğunu, kartlı sayacınızda bakiye bulunduğunu, su basıncının uygun aralıkta olduğunu ve elektriğin geldiğini kontrol edin. Bunlar yerindeyse kombiyi kullanım kılavuzunda anlatıldığı şekilde bir kez resetleyebilirsiniz. Kombi kısa süre sonra yeniden kilitleniyorsa resetlemeyi tekrarlamayın; sorun ateşleme elektrodu, alev algılama, gaz valfi, fan ya da baca emniyeti gibi bir parçada olabilir ve yerinde kontrol gerekir.",
+        "Bizi aradığınızda kombinizin markasını, modelini ve ekranda görünen kodu ya da ışığın nasıl yanıp söndüğünü söylerseniz olası nedenleri telefonda daha net konuşabiliriz."
       ]
     },
     {
@@ -69,8 +77,8 @@
       "cevap": "En sık nedenler emniyet ventilinin su atması, yıpranmış conta ve rakorlar ile yoğuşmalı kombilerde tıkanan yoğuşma suyu hattıdır. Emniyet ventili genellikle basınç fazla yükseldiğinde su atar; bu, sisteme fazla su doldurulduğunu ya da genleşme tankında bir sorun olduğunu gösterebilir. Damlayan su elektronik parçalara zarar verebileceği için sorunu ertelemeden kontrol ettirmeniz iyi olur."
     },
     {
-      "soru": "Kombi basıncı neden sürekli düşüyor?",
-      "cevap": "Basınç düşmesi çoğunlukla sistemde bir yerden su kaybı olduğunu gösterir: petek vanaları, tesisat bağlantıları, kombi içi bağlantılar ya da emniyet ventili. Sürekli su eklemek sorunu çözmez; kaçağın yerini bulup gidermek gerekir."
+      "soru": "Basınç sorununda hangi parçalar onarılır ya da değişir?",
+      "cevap": "Basınç sürekli düşüyorsa genellikle bir su kaçağı, su atan emniyet ventili ya da ön basıncı düşmüş genleşme tankı vardır; kendiliğinden yükseliyorsa tam kapanmayan doldurma musluğu ya da plakalı eşanjördeki bir kaçak akla gelir. Yerinde ölçümle nedeni bulup ilgili parçayı onarıyor ya da değiştiriyoruz. Sürekli su eklemek sorunu çözmez; evde yapabileceğiniz kontrolleri [[/kombi-su-basinci|basıncın neden düşüp yükseldiğini anlattığımız yazıda]] bulabilirsiniz."
     },
     {
       "soru": "Kombi tamiri ne kadar sürer?",

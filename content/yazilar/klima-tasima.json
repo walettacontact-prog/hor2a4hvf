@@ -1,0 +1,129 @@
+{
+  "slug": "klima-tasima",
+  "baslik": "Taşınırken Klima Sökümü ve Yeni Evde Montaj: Adım Adım Rehber",
+  "kart_baslik": "Taşınırken Klima",
+  "seo_baslik": "Ev Taşırken Klima Nasıl Sökülür ve Taşınır? | Fırtına Klima",
+  "seo_aciklama": "Ev taşırken klima nasıl sökülür, gazı kaçar mı, yeni evde nelere dikkat edilir? Gaz toplama, taşıma, vakumlama ve yeniden montaj adımları.",
+  "ozet": "Taşınırken klimanın gazı kaçmadan sökülmesi, güvenle taşınması ve yeni evde vakumlanarak kurulması için adım adım rehber.",
+  "resim": "/static/assets/uploads/klima-dis-unite-teknisyen.webp",
+  "resim_alt": "Teknisyen alet çantasıyla klima dış ünitesinin başında",
+  "tarih": "2026-10-06",
+  "kategori": "klima",
+  "ilgili_hizmetler": [
+    "klima-montaji",
+    "klima-gaz-dolumu"
+  ],
+  "giris": [
+    "Ev taşırken klimayı da götürmek çoğu zaman mantıklıdır; ancak klima, koliye konup taşınabilecek bir eşya değildir. İç ve dış ünite, içinde soğutucu gaz dolaşan bakır borularla birbirine bağlıdır. Söküm ve taşıma doğru yapılmazsa gaz boşa gider, borular yolda ezilebilir ve klima yeni evde beklendiği gibi soğutmayabilir.",
+    "Bu rehberde taşınmadan önce neleri planlamanız gerektiğini, söküm ve montajda atlanmaması gereken adımları ve ücreti belirleyen etkenleri sırayla anlatıyoruz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Taşınmadan önce neleri planlamalısınız?",
+      "paragraflar": [
+        "Nakliye ekibi geldiğinde klimanın sökülmüş ve taşımaya hazır olması gerekir; bu yüzden söküm randevusunu birkaç gün önceden almanızı öneririz. Yeni ev için şu konuları önceden netleştirmek montaj gününü kolaylaştırır:"
+      ],
+      "maddeler": [
+        "Ünitelerin yeri ve boru güzergâhı: İç ünitenin hangi duvara, dış ünitenin balkona mı cepheye mi konacağına kabaca karar verin; evde daha önce açılmış bir klima deliği varsa yerini not edin. Yer seçiminde dikkat edilecek noktaları [[/klima-montaji-rehberi|klima montajı rehberimizde]] anlattık.",
+        "Yönetim ve ev sahibi: Bina yönetimine dış cephe ve balkon kullanımıyla ilgili bir kural olup olmadığını sorun. Kiracıysanız duvarın delinmesi için ev sahibinin onayını önceden alın.",
+        "Drenaj: Yoğuşma suyu cepheye ya da alt kattaki komşunun balkonuna akıtılmamalıdır. Pis su hattına bağlanacaksa araya mutlaka koku tutucu (sifon) konmalıdır.",
+        "Elektrik: Klimanın konacağı yerin yakınında, cihazın gücüne uygun bir priz ve hat bulunup bulunmadığını öğrenin. Ayrı bir hat gerekiyorsa bunu taşınmadan önce bir elektrikçiyle planlayın."
+      ]
+    },
+    {
+      "baslik": "Söküm sırasında gaz neden dış üniteye toplanır?",
+      "paragraflar": [
+        "Split klimada soğutucu gaz, iç ve dış ünite arasındaki bakır borularda dolaşır. Sökümden önce teknisyen bu gazı dış üniteye toplar; bu işleme gaz toplama ya da pump-down denir. Klima soğutma modunda çalışırken önce ince borunun servis vanası kapatılır ve kompresör gazı dış üniteye çeker. Basınç manometrede uygun seviyeye inince kalın borunun vanası da kapatılır ve cihaz durdurulur. Borular ancak bundan sonra ayrılır.",
+        "Vanaların yanlış sırayla ya da geç kapatılması kompresöre zarar verebilir; işlemin erken bitirilmesi ise gazın bir kısmının boşa gitmesine yol açar. Kompresör çalışırken bağlantıların açılması da ciddi bir güvenlik riskidir. Bu yüzden söküm, manometreyle çalışan bir teknisyen tarafından yapılmalıdır; vanalara ve rakorlara kendiniz müdahale etmeyin.",
+        "Gaz toplamak için klimanın çalışabilmesi gerekir; cihaz arızalıysa ya da devrede zaten bir kaçak varsa gaz bu yolla toplanamayabilir. Böyle bir durumu randevu alırken belirtin."
+      ]
+    },
+    {
+      "baslik": "Klima nasıl taşınmalı?",
+      "paragraflar": [
+        "Doğru sökülen bir klima yolda da özen ister. Taşımayı nakliye ekibi yapacaksa şu noktaları onlara önceden söyleyin:"
+      ],
+      "maddeler": [
+        "Dış ünite mümkün olduğunca dik taşınmalı, yan ya da sırt üstü yatırılmamalıdır; yatırılan ünitede kompresör yağı yer değiştirebilir. Yolda yatırıldıysa çalıştırılmadan önce bir süre dik bekletilmesi önerilir; süre için cihazın kullanım kılavuzuna bakılmalıdır.",
+        "Dış ünite servis vanalarından ya da boru çıkışlarından tutularak kaldırılmamalıdır; bu noktalar zarar görürse kaçak oluşabilir.",
+        "Söküm sırasında boru uçlarına ve vana ağızlarına takılan tapa ya da bantlar, içeri toz ve nem girmemesi için yolda çıkarılmamalıdır.",
+        "İç ünite, ön paneli ve ince lamelleri ezilmeyecek şekilde kalın bir örtüyle sarılmalı, üzerine ağır eşya konmamalıdır. Arkasındaki bakır boru uçları tekrar tekrar bükülmemelidir.",
+        "Kumanda, askı sacı, konsol ve vidalar kaybolmaması için bir arada tutulmalıdır."
+      ]
+    },
+    {
+      "baslik": "Yeni evde montaj: boru, vakumlama ve gaz kontrolü",
+      "paragraflar": [
+        "Taşınan bir klimanın montajı, yeni bir klimanınkiyle aynı özeni ister; üstelik borular eski evin yerleşimine göre kesilmiştir."
+      ],
+      "maddeler": [
+        "Boru hattı: Eski borunun boyu ve uçlarının durumu, yeni güzergâha göre yerinde değerlendirilir; yeni yerleşime uymuyorsa yeni bakır boru ve izolasyon kullanılır.",
+        "Havşa ve rakorlar: Boru uçları yeniden havşalanır, rakorlar uygun torkla sıkılır. Eski havşayı olduğu gibi kullanmak kaçak riskini artırabilir.",
+        "Vakumlama: Söküm sırasında açık kalan borulara ve iç üniteye hava ile nem girer; bu yüzden gaz verilmeden önce hat vakum pompasıyla mutlaka vakumlanır.",
+        "Kaçak kontrolü: Vakumun korunup korunmadığı bir süre manometreden izlenir. Vakum korunuyorsa dış ünitenin vanaları açılarak gaz devreye verilir ve rakorlar kaçağa karşı kontrol edilir.",
+        "Gaz kontrolü: Klima çalıştırılıp basınçlar ve üfleme sıcaklığı ölçülür. Gaz eksikse cihaz etiketindeki gaz türüyle tamamlanır; standart uzunluğu aşan hatlarda üreticinin belirttiği ek miktar da hesaba katılır. Ölçüm yapmadan, tedbir olsun diye gaz eklemek doğru değildir.",
+        "Elektrik, drenaj ve test: Üniteler arası kablo bağlanır, drenaj hortumu kesintisiz bir eğimle döşenir ve klima soğutma ile ısıtma modlarında çalıştırılarak test edilir."
+      ]
+    },
+    {
+      "baslik": "Taşımadan sonra klima soğutmuyorsa",
+      "paragraflar": [
+        "Yeni evde kurulan klima hiç soğutmuyorsa ya da soğutması kısa süre sonra zayıfladıysa sorun söküm, taşıma ya da montaj aşamalarından kaynaklanıyor olabilir. Rakorlarda kaçak, gazın sökümde tam toplanamaması, yolda ezilen bir boru, tam açılmamış bir servis vanası ya da yanlış bağlanmış bir ara kablo olası nedenlerdendir.",
+        "Rakorları sıkmaya, vanaları açıp kapatmaya ya da gaz eklemeye kalkışmayın. Gaz eksikse önce kaçağın bulunup giderilmesi gerekir; aksi hâlde eklenen gaz da zamanla kaybolur. Bu süreci [[/klima-gaz-dolumu|gaz dolumu ve kaçak tespiti sayfamızda]] anlattık. Servis çağırmadan önce şu basit kontrolleri yapabilirsiniz:"
+      ],
+      "maddeler": [
+        "Kumandanın soğutma modunda olduğundan ve ayarlanan sıcaklığın oda sıcaklığının altında olduğundan emin olun.",
+        "İç ünitenin filtresine bakın; taşınma sırasında tozlandıysa temizleyin.",
+        "Dış ünite balkonda ya da güvenle görebileceğiniz bir yerdeyse fanının dönüp dönmediğine ve önünün kapalı olup olmadığına bakın; görmek için pencereden sarkmayın.",
+        "Dış ünitedeki bağlantılarda yağlı bir leke ya da ince boruda karlanma kaçağa işaret edebilir. Bu noktalara dokunmayın.",
+        "Sorun sürüyorsa klimayı uzun süre çalıştırarak zorlamayın ve servis çağırın. Ayar ve filtre dışındaki olası nedenleri [[/klima-sogutmuyor|klimanın neden soğutmadığını anlattığımız rehberde]] ele aldık."
+      ]
+    },
+    {
+      "baslik": "Söküm ve montaj ücretini neler belirler?",
+      "paragraflar": [
+        "Klima sökme ve takma ücreti her taşınmada aynı değildir; işin kapsamı iki evin koşullarına göre değiştiği için sabit bir rakam yazmıyoruz. Ünite yerlerinin ve cihaz etiketinin fotoğraflarını WhatsApp'tan gönderirseniz ön bilgi vermemiz kolaylaşır; gerekirse yeri görerek netleştiriyor, ücreti her zaman işe başlamadan önce bildiriyoruz. Fiyatı etkileyen başlıca konular şunlardır:"
+      ],
+      "maddeler": [
+        "Yeni evde iç ve dış ünite arasında gereken boru uzunluğu",
+        "Yeni bakır boru, izolasyon, kablo ya da drenaj hortumu gerekip gerekmediği",
+        "Dış ünitenin iki evdeki konumu, bulunduğu kat ve erişim koşulları",
+        "Dış ünite konsolunun ya da iç ünite askı sacının yenilenmesi gerekip gerekmediği",
+        "Montajdan sonra gaz tamamlama ihtiyacı",
+        "Cihazın kapasitesi ve taşınacak klima sayısı"
+      ]
+    },
+    {
+      "baslik": "Garanti belgenizi kontrol edin",
+      "paragraflar": [
+        "Klimanız hâlâ üretici garantisi kapsamındaysa taşınmadan önce garanti belgesini okuyun. Bazı üreticiler garantinin geçerli kalması için söküm ve yeniden montajın yetkili servis tarafından yapılmasını şart koşabilir; böyle bir şart varsa garantinizi kaybetmemek için buna uymanız gerekir.",
+        "Fırtına Klima herhangi bir markanın yetkili servisi değil, tüm marka klima ve kombilere hizmet veren bağımsız bir özel servistir. Garanti belgenizde böyle bir şart yoksa ya da garanti süresi dolmuşsa söküm ve montajı bize yaptırabilirsiniz."
+      ]
+    },
+    {
+      "baslik": "Klima sökme ve yeniden montaj için bize ulaşın",
+      "paragraflar": [
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde, taşınma nedeniyle klima sökümü ve yeni evde yeniden montaj yapıyoruz. Gazı dış üniteye toplayarak söküyor, yeni evde hattı vakumlayıp kaçak kontrolü yapıyor ve klimayı test ederek teslim ediyoruz. Kurulumla ilgili ayrıntılar için [[/klima-montaji|klima sökme ve takma hizmetimize]] göz atabilirsiniz. Yaptığımız işe işçilik garantisi veriyoruz; müdahalemizden sonra aynı sorun tekrarlarsa ücretsiz olarak yeniden ilgileniyoruz.",
+        "Çoğu çağrıda aynı gün servis verebiliyoruz; taşınma tarihiniz belliyse önceden randevu almanız planlamayı kolaylaştırır. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima sökülürken gazı kaçar mı?",
+      "cevap": "Söküm öncesinde gaz dış üniteye doğru şekilde toplanırsa gazın büyük kısmı cihazda kalır ve kayıp çok az olur. Gaz toplanmadan yapılan bir sökümde ise gaz boşa gider ve yeni evde yeniden dolum gerekir. Gazın ne ölçüde korunduğu, montajdan sonraki basınç ölçümüyle anlaşılır."
+    },
+    {
+      "soru": "Eski bakır borular yeni evde kullanılabilir mi?",
+      "cevap": "Bu, borunun yeni yerleşime yetecek uzunlukta olmasına, geçeceği güzergâha ve havşa uçlarıyla izolasyonun durumuna bağlıdır. Eski evin düzenine göre kesilmiş borular yeni evde kısa kalabilir. Kısa kalan boruyu ek yaparak uzatmak mümkün olsa da her ek olası bir kaçak noktasıdır; bu yüzden karar montajda yerinde verilir."
+    },
+    {
+      "soru": "Söküm ve yeni evde montaj aynı gün yapılabilir mi?",
+      "cevap": "Yeni evde ünite yerleri belliyse ve eşyalar zamanında ulaşıyorsa söküm ile montaj aynı gün içinde yapılabilir. Kesin saat o günkü iş yoğunluğuna ve nakliyenin ne zaman biteceğine bağlı olduğu için taşınma tarihini önceden bildirmeniz iyi olur."
+    },
+    {
+      "soru": "Sökülen klima ne kadar süre bekletilebilir?",
+      "cevap": "Gaz dış üniteye toplanmış, servis vanaları kapalı ve boru uçları tapalanmışsa klima bir süre depoda bekletilebilir; bunun için kesin bir süre vermek doğru olmaz. Üniteleri kuru bir yerde, dış üniteyi dik konumda ve üzerine yük koymadan saklayın. Montajda hat yine vakumlanır ve basınçlar ölçülür; bekleme sırasında oluşmuş küçük bir kaçak varsa bu kontrollerde fark edilebilir."
+    }
+  ]
+}

@@ -4,11 +4,11 @@
       "baslik": "Klima Montajı",
       "slug": "klima-montaji",
       "aciklama": "Her marka split klimanın iç ve dış ünite montajını, bakır boru bağlantısını ve vakumlama işlemini yapıyoruz.",
-      "resim": "/static/assets/uploads/klima-montaj-ucretleri-724x394-1761673400071.webp",
+      "resim": "/static/assets/uploads/split-klima-montaji.webp",
       "resim_alt": "Teknisyen duvara split klima iç ünitesi monte ediyor"
     },
     {
-      "baslik": "Klima Arıza ve Tamiri",
+      "baslik": "Klima Arıza Tamiri",
       "slug": "klima-ariza-tamiri",
       "aciklama": "Klimanız çalışmıyor, soğutmuyor, su akıtıyor ya da arıza kodu veriyorsa arızayı yerinde tespit edip onarıyoruz.",
       "resim": "klima-ariza-tamiri.webp",
@@ -18,28 +18,28 @@
       "baslik": "Klima Bakımı & Temizlik",
       "slug": "klima-bakimi",
       "aciklama": "Filtre, iç ünite ve dış ünite temizliğiyle düzenli klima bakımı; klimanız daha verimli çalışır, ömrü uzar.",
-      "resim": "/static/assets/uploads/klima-bakimi-1761673440537.jpeg",
+      "resim": "/static/assets/uploads/klima-filtre-temizligi.jpeg",
       "resim_alt": "Teknisyen klima iç ünitesinin filtresini temizliyor"
     },
     {
       "baslik": "VRF / Multi Sistem Servisi",
       "slug": "vrf-multi-klima-servisi",
       "aciklama": "Ev ve iş yerlerindeki multi split ve VRF klima sistemlerinin bakımını, arıza tespitini ve onarımını yapıyoruz.",
-      "resim": "/static/assets/uploads/multi-split-klima-ile-vrf-farki-1761673477389.jpg",
+      "resim": "/static/assets/uploads/vrf-klima-dis-uniteleri.jpg",
       "resim_alt": "Çatıda yan yana dizilmiş VRF klima dış üniteleri"
     },
     {
       "baslik": "Kombi Bakımı",
       "slug": "kombi-bakimi",
       "aciklama": "Isıtma sezonu öncesi kombinizin yıllık bakımını yapıyor, verimli ve güvenli çalışması için gerekli kontrolleri yapıyoruz.",
-      "resim": "/static/assets/uploads/71b17b1ad9994605b1beba51be1364f1-1761673551684.webp",
+      "resim": "/static/assets/uploads/kombi-bakimi-teknisyen.webp",
       "resim_alt": "Teknisyen duvar tipi kombinin bakımını yapıyor"
     },
     {
       "baslik": "Kombi Arıza Onarımı",
       "slug": "kombi-ariza-onarimi",
       "aciklama": "Kombiniz ısıtmıyor, sıcak su vermiyor ya da arıza kodu gösteriyorsa adresinize gelip arızayı yerinde tespit edip onarıyoruz.",
-      "resim": "/static/assets/uploads/Yogusmali-Kombi-Bakimi-1761673587895.jpg",
+      "resim": "/static/assets/uploads/kombi-ariza-onarimi.jpg",
       "resim_alt": "Açık kombi kasasında arıza onarımı yapan teknisyen"
     },
     {

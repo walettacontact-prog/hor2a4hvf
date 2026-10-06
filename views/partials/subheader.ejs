@@ -1,5 +1,8 @@
             <section id="subheader" class="jarallax text-light">
-                <img fetchpriority="high" src="<%= arkaplan %>" class="jarallax-img" alt="">
+<% /* Dikey telefonlarda görsel ekranın ~%45'i kadar kırpılıyor; ortadan kırpılmış küçük sürüm aynı alanı gösterir.
+      Dikey tabletler (genişlik > 600px) tam görseli alır. <picture> kullanılmaz: jarallax img'yi taşıyınca ikinci indirme olur. */ %>
+<% const DIKEY = { '1': [1920, 810], '4': [2000, 1000], '8': [1920, 810] }; const bgNo = (arkaplan.match(/\/(\d+)\.webp$/) || [])[1]; const bgW = DIKEY[bgNo]; %>
+                <img fetchpriority="high" src="<%= arkaplan %>"<% if (bgW) { %> srcset="<%= arkaplan.replace(/\.webp$/, '-dikey.webp') %> <%= bgW[1] %>w, <%= arkaplan %> <%= bgW[0] %>w" sizes="(max-aspect-ratio: 3/4) and (max-width: 600px) 270px, 100vw"<% } %> class="jarallax-img" alt="">
                 <div class="container relative z-index-1000">
                     <div class="row align-items-center">
                         <div class="col-lg-6">

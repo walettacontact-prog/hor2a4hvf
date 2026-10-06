@@ -19,10 +19,10 @@
             <section>
                 <div class="container">
                     <article class="icerik">
-                        <p class="text-muted mb-4"><time datetime="<%= y.tarih %>"><%= tarihYaz(y.tarih) %></time> · <%= iletisim.firma_adi %></p>
+                        <p class="text-muted mb-4"><time datetime="<%= y.tarih %>"><%= tarihYaz(y.tarih) %></time><% if (y.guncelleme && y.guncelleme !== y.tarih) { %> · Güncellendi: <time datetime="<%= y.guncelleme %>"><%= tarihYaz(y.guncelleme) %></time><% } %> · <%= iletisim.firma_adi %></p>
 
                         <% y.giris.forEach(function (p, i) { %>
-                        <p<% if (i === 0) { %> class="giris"<% } %>><%= doldur(p) %></p>
+                        <p<% if (i === 0) { %> class="giris"<% } %>><%- linkle(p) %></p>
                         <% }) %>
 
                         <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= y.resim %>" alt="<%= y.resim_alt %>"
@@ -30,10 +30,10 @@
 
                         <% y.bolumler.forEach(function (b, i) { %>
                         <h2><%= b.baslik %></h2>
-                        <% (b.paragraflar || []).forEach(function (p) { %><p><%= doldur(p) %></p><% }) %>
+                        <% (b.paragraflar || []).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
                         <% if (b.maddeler && b.maddeler.length) { %>
                         <ul>
-                            <% b.maddeler.forEach(function (m) { %><li><%= doldur(m) %></li><% }) %>
+                            <% b.maddeler.forEach(function (m) { %><li><%- linkle(m) %></li><% }) %>
                         </ul>
                         <% } %>
                         <% if (i === 1) { %>
@@ -45,7 +45,7 @@
                         <h2>Sık Sorulan Sorular</h2>
                         <% y.sss.forEach(function (q) { %>
                         <h3 class="sss-soru"><%= q.soru %></h3>
-                        <p><%= doldur(q.cevap) %></p>
+                        <p><%- linkle(q.cevap) %></p>
                         <% }) %>
                         <% } %>
 
@@ -59,13 +59,14 @@
                         </p>
                         <% } %>
 
-                        <% const digerYazilar = yazilar.filter(function (x) { return x.slug !== y.slug; }); %>
+                        <% const digerYazilar = yazilar.filter(function (x) { return x.slug !== y.slug && x.kategori === y.kategori; }); %>
                         <% if (digerYazilar.length) { %>
-                        <h2>Diğer Yazılar</h2>
+                        <h2><%= y.kategori === 'kombi' ? 'Kombi Hakkında Diğer Yazılar' : 'Klima Hakkında Diğer Yazılar' %></h2>
                         <ul>
                             <% digerYazilar.forEach(function (x) { %><li><a href="/<%= x.slug %>"><%= x.baslik %></a></li><% }) %>
                         </ul>
                         <% } %>
+                        <p><a href="/rehberler">Tüm klima ve kombi rehberleri</a></p>
                     </article>
                 </div>
             </section>

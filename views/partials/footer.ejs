@@ -9,9 +9,9 @@
                         <p>Bahçelievler ve Yenibosna merkezli klima ve kombi teknik servisiyiz. Klima montajı, bakımı, gaz dolumu, kombi bakımı ve arıza onarımı için ev ve iş yerinize geliyoruz.</p>
 
                         <div class="social-icons mb-sm-30">
-                            <% if (iletisim.facebook) { %><a href="<%= iletisim.facebook %>" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><% } %>
-                            <% if (iletisim.instagram) { %><a href="<%= iletisim.instagram %>" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><% } %>
-                            <% if (iletisim.youtube) { %><a href="<%= iletisim.youtube %>" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><% } %>
+                            <% if (iletisim.facebook) { %><a href="<%= iletisim.facebook %>" aria-label="Facebook"><i class="fa fa-facebook"></i></a><% } %>
+                            <% if (iletisim.instagram) { %><a href="<%= iletisim.instagram %>" aria-label="Instagram"><i class="fa fa-instagram"></i></a><% } %>
+                            <% if (iletisim.youtube) { %><a href="<%= iletisim.youtube %>" aria-label="YouTube"><i class="fa fa-youtube"></i></a><% } %>
                         </div>
                     </div>
 
@@ -38,7 +38,8 @@
                                         <li><a href="/">Ana Sayfa</a></li>
                                         <li><a href="/hakkimizda">Hakkımızda</a></li>
                                         <li><a href="/hizmetler">Hizmetler</a></li>
-                                        <li><a href="/serviscagir#bolgeler">Bölgeler</a></li>
+                                        <li><a href="/hizmet-bolgeleri">Bölgeler</a></li>
+                                        <li><a href="/rehberler">Rehberler</a></li>
                                         <li><a href="/iletisim">İletişim</a></li>
                                     </ul>
                                 </div>
@@ -60,21 +61,21 @@
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
                             <h5 class="id-color-2">Servis Hattı</h5>
-                            <h2 style="font-size: 35px;" class="jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i class="icofont-phone-circle id-color-2"></i>
+                            <p style="font-size: 35px;" class="h2 text-white jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-phone id-color-2"></i>
                                 <a href="tel:<%= iletisim.telefon %>" style="color: inherit;"><%= telGoster(iletisim.telefon) %></a>
-                            </h2>
+                            </p>
 
                             <div class="spacer-20"></div>
 
-                            <div class="fw-bold text-white"><i class="icofont-wall-clock me-2 id-color-2"></i>Çalışma Saatleri</div>
+                            <div class="fw-bold text-white"><i class="fa fa-clock-o me-2 id-color-2"></i>Çalışma Saatleri</div>
                             <%= iletisim.calisma_saatleri %>
                             <div class="spacer-20"></div>
 
-                            <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Adres</div>
+                            <div class="fw-bold text-white"><i class="fa fa-map-marker me-2 id-color-2"></i>Adres</div>
                             <%= iletisim.adres %>
                             <div class="spacer-20"></div>
 
-                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>E-posta</div>
+                            <div class="fw-bold text-white"><i class="fa fa-envelope me-2 id-color-2"></i>E-posta</div>
                             <a href="mailto:<%= iletisim.email %>" style="color: inherit;"><%= iletisim.email %></a>
                         </div>
                     </div>
@@ -109,14 +110,14 @@
     <script src="/static/js/custom-marquee.js"></script>
     <script src="/static/js/custom-swiper-1.js"></script>
     <!-- WhatsApp ve Telefon Butonları -->
-    <% if (iletisim.whatsapp) { %>
-    <a href="<%= iletisim.whatsapp %>" target="_blank" rel="noopener" class="whatsapp-float" title="WhatsApp" aria-label="WhatsApp ile yazın">
-        <i class="fa-brands fa-whatsapp"></i>
+    <% if (wa) { %>
+    <a href="<%= wa %>" target="_blank" rel="noopener" class="whatsapp-float" title="WhatsApp" aria-label="WhatsApp ile yazın">
+        <i class="fa fa-whatsapp"></i>
     </a>
     <% } %>
 
     <a href="tel:<%= iletisim.telefon %>" class="call-float" title="Ara" aria-label="Telefonla arayın">
-        <i class="fa-solid fa-phone"></i>
+        <i class="fa fa-phone"></i>
     </a>
 
     <style>

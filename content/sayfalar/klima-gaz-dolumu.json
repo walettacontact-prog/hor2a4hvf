@@ -1,8 +1,8 @@
 {
   "slug": "klima-gaz-dolumu",
   "hizmet": "Klima Gaz Dolumu ve Kaçak Tespiti",
-  "seo_baslik": "Klima Gaz Dolumu ve Kaçak Tespiti Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Klima soğutmuyorsa gaz kaçağı olabilir. Kaçak tespiti, onarım, vakumlama ve doğru miktarda gaz dolumu. Her gün 08.00–21.00. Arayın: {telefon}",
+  "seo_baslik": "Klima Gaz Dolumu, Kaçak Tespiti Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Klima gazı azaldıysa büyük olasılıkla kaçak vardır. Önce kaçak tespiti ve onarım, sonra vakum ve doğru miktarda gaz. Çoğu çağrıda aynı gün. {telefon}",
   "h1": "Bahçelievler'de Klima Gaz Dolumu ve Kaçak Tespiti",
   "giris": [
     "Klimanız çalıştığı hâlde odayı eskisi gibi soğutmuyorsa ya da dış ünitenin borularında karlanma görüyorsanız soğutucu gaz eksilmiş olabilir. Bilinmesi gereken ilk şey şu: Klima gazı kullandıkça bitmez. Gaz kapalı bir devrede dolaşır; miktarı azaldıysa genellikle bir yerde kaçak vardır ve kaçak giderilmeden yapılan dolum er geç aynı sorunu geri getirir.",
@@ -16,7 +16,7 @@
         "Kaçak bazen çok yavaştır ve belirtiler aylar sonra ortaya çıkar. Kaçağın en sık görülen nedenleri şunlardır:"
       ],
       "maddeler": [
-        "Gevşeyen rakorlar ya da montajda hatalı yapılmış boru bağlantıları",
+        "Gevşeyen rakorlar ya da [[/klima-montaji-rehberi|montajda hatalı yapılmış boru bağlantıları]]",
         "Sızdırmazlığı bozulmuş servis vanaları",
         "Titreşim veya korozyon nedeniyle iç ya da dış ünite peteğinde oluşan küçük delikler",
         "Kaynak noktalarındaki çatlaklar",
@@ -39,7 +39,7 @@
     {
       "baslik": "Kaçak tespiti ve gaz dolumu nasıl yapılır?",
       "paragraflar": [
-        "Doğru gaz dolumu kaçağı bulmakla başlar. Aşağıdaki adımları split klimaların yanı sıra multi split ve VRF sistemlerde de izliyoruz; uzun boru hatları nedeniyle bu sistemlerde kaçak tespiti daha uzun sürebilir."
+        "Doğru gaz dolumu kaçağı bulmakla başlar. Aşağıdaki adımları split klimaların yanı sıra [[/vrf-multi-klima-servisi|multi split ve VRF sistemlerde]] de izliyoruz; uzun boru hatları nedeniyle bu sistemlerde kaçak tespiti daha uzun sürebilir."
       ],
       "maddeler": [
         "Ölçüm: Klimayı çalıştırıp manometreyle basınçları ve iç ünite çıkış havasının sıcaklığını kontrol ediyoruz.",
@@ -48,6 +48,18 @@
         "Vakumlama: Vakum pompasıyla devredeki havayı ve nemi alıyoruz. Devrede kalan hava ve nem soğutma verimini düşürür, zamanla kompresöre zarar verebilir.",
         "Dolum: Cihazın etiketinde yazan gaz türünü (R32, R410A gibi) üreticinin belirttiği miktarda dolduruyoruz; boru hattı uzunsa gereken ek miktarı da hesaba katıyoruz. Farklı gaz türleri birbirine karıştırılmaz.",
         "Son kontrol: Basınçları ve soğutma performansını yeniden ölçüp cihazı çalışır hâlde teslim ediyoruz."
+      ]
+    },
+    {
+      "baslik": "Klima gazı zararlı mı? R32 ve R410A hakkında",
+      "paragraflar": [
+        "Evlerde kullanılan split klimalarda en sık R32 ve R410A gazları bulunur. Uluslararası güvenlik sınıflandırmasında (ISO 817 / ASHRAE 34) her ikisi de düşük zehirlilik sınıfındadır; R410A yanıcı olmayan (A1), R32 ise hafif yanıcı (A2L) sınıfta yer alır. Bu iki gaz birbirinin yerine kullanılmaz; dolumda her zaman cihazın etiketinde yazan gaz türü kullanılır.",
+        "Küçük ve kapalı bir alanda yüksek miktarda kaçan gaz havadaki oksijenin yerini alabileceği için kaçak şüphesinde dikkatli olmak gerekir:"
+      ],
+      "maddeler": [
+        "Ortamı havalandırın ve klimayı kapatın.",
+        "Açık alev, sigara ve kıvılcım çıkarabilecek kaynakları uzak tutun.",
+        "Boru bağlantılarına kendiniz müdahale etmeyin; kaçak tespiti için servis çağırın."
       ]
     },
     {
@@ -85,8 +97,12 @@
       "cevap": "En yaygın işaretler, klimanın çalıştığı hâlde soğuk hava vermemesi ve dış ünitedeki ince boruda karlanma görülmesidir. Kesin sonuç için manometreyle basınç ölçümü gerekir. Gaz ister tamamen bitmiş ister kısmen azalmış olsun, bu durum genellikle devrede bir kaçak olduğunu gösterir."
     },
     {
+      "soru": "Klima gazı kaç yılda bir değiştirilir?",
+      "cevap": "Klima gazı kullanımla tükenmez ve belirli aralıklarla değiştirilmesi gerekmez. Gaz azalmışsa sistemde büyük olasılıkla bir kaçak vardır; önce kaçak bulunup giderilir, ardından sistem vakumlanır ve üreticinin belirttiği miktarda gaz doldurulur."
+    },
+    {
       "soru": "Klima soğutmuyorsa sorun mutlaka gaz mıdır?",
-      "cevap": "Hayır. Kirli filtre, tıkanmış dış ünite peteği, fan motoru, kapasitör, sensör ya da kompresör arızası da benzer belirtiler verebilir. Önce iç ünite filtrelerini kontrol edip temizlemenizi öneririz. Sorun devam ederse arızanın yerinde tespiti için {telefon} numarasından bize ulaşabilirsiniz."
+      "cevap": "Hayır. Kirli filtre, tıkanmış dış ünite peteği, fan motoru, kapasitör, sensör ya da kompresör arızası da benzer belirtiler verebilir. Önce iç ünite filtrelerini kontrol edip temizlemenizi öneririz; diğer kontrolleri [[/klima-sogutmuyor|klima neden soğutmuyor yazımızda]] anlattık. Sorun devam ederse [[/klima-ariza-tamiri|arızanın yerinde tespiti]] için {telefon} numarasından bize ulaşabilirsiniz."
     },
     {
       "soru": "Klima gaz dolumu garantiye girer mi?",

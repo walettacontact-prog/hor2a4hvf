@@ -1,18 +1,19 @@
 {
   "slug": "klima-montaji-rehberi",
-  "baslik": "Klima Montajından Önce Bilmeniz Gerekenler: Yer Seçimi, Vakumlama ve Maliyet",
+  "baslik": "Klima Montajından Önce Bilmeniz Gerekenler: Ünite Yeri, Vakumlama ve Sık Yapılan Hatalar",
   "kart_baslik": "Klima Montajı: Bilmeniz Gerekenler",
-  "seo_baslik": "Klima Montajı Öncesi Bilmeniz Gerekenler | Fırtına Klima",
-  "seo_aciklama": "İç ve dış ünite yeri nasıl seçilir, vakumlama neden şarttır, montaj ne kadar sürer, ücreti neye göre değişir? Klima taktırmadan önce okuyun.",
+  "seo_baslik": "Klima Nereye Takılmalı? İç ve Dış Ünite Yeri | Fırtına Klima",
+  "seo_aciklama": "İç ve dış ünite nereye konmalı, vakumlama neden atlanmamalı, montaj ne kadar sürer? Montaj öncesi hazırlık ve sık yapılan 6 montaj hatası.",
   "ozet": "Klima taktırmadan önce ünite yerleri, vakumlama, montaj süresi, ücreti belirleyen etkenler ve sık yapılan hatalar üzerine pratik bir rehber.",
-  "resim": "/static/assets/uploads/3-1761676767290.webp",
+  "resim": "/static/assets/uploads/duvar-tipi-split-klima.webp",
   "resim_alt": "Duvara monte edilmiş split klima iç ünitesi ve dış ünitesi",
   "tarih": "2026-10-06",
+  "kategori": "klima",
   "ilgili_hizmetler": [
     "klima-montaji"
   ],
   "giris": [
-    "Yeni bir klima alırken genellikle marka, kapasite ve enerji sınıfı üzerinde durulur; montaj ise çoğu zaman son ana kalır. Oysa aynı cihaz, özenli bir montajla uzun yıllar sessiz ve verimli çalışabilir; aceleyle kurulduğunda ise zayıf soğutma, su damlatma, gürültü ve gaz kaçağı gibi sorunlar çıkarabilir.",
+    "Yeni bir klima alırken genellikle marka, kapasite ve enerji sınıfı üzerinde durulur; montaj ise çoğu zaman son ana kalır. Oysa aynı cihaz, özenli bir montajla uzun yıllar sessiz ve verimli çalışabilir; aceleyle kurulduğunda ise [[/klima-sogutmuyor|zayıf soğutma]], su damlatma, gürültü ve gaz kaçağı gibi sorunlar çıkarabilir.",
     "Bu rehberde, klimayı taktırmadan önce netleştirmeniz gereken konuları ve servisle konuşurken sorabileceğiniz soruları sırayla ele aldık."
   ],
   "bolumler": [
@@ -53,7 +54,7 @@
     {
       "baslik": "Montaj ne kadar sürer, nasıl hazırlanmalısınız?",
       "paragraflar": [
-        "Standart bir duvar tipi split klimanın kurulumu, boru hattı kısa ve dış üniteye erişim kolaysa çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen bir boru hattı, kalın betonarme duvarlar, zor erişilen bir dış ünite yeri veya ayrı bir elektrik hattı çekilmesi ihtiyacı bu süreyi uzatabilir.",
+        "Standart bir duvar tipi split klimanın kurulumu, boru hattı kısa ve dış üniteye erişim kolaysa çoğu zaman birkaç saat sürer. Uzun ya da birden fazla duvardan geçen bir boru hattı, kalın betonarme duvarlar veya zor erişilen bir dış ünite yeri bu süreyi uzatabilir. Klima için ayrı bir elektrik hattı gerekiyorsa bunu montajdan önce bir elektrikçiyle planlayın.",
         "Montaj gününün sorunsuz geçmesi için şu hazırlıklar işinizi kolaylaştırır:"
       ],
       "maddeler": [
@@ -87,7 +88,7 @@
         "Vakumlamayı atlamak ya da hattı gazla süpürmek.",
         "Drenaj hortumuna yeterli eğim vermemek: Su iç üniteden taşabilir; duvarda leke ve damlama görülür.",
         "Duvar deliğini düz ya da içeri doğru eğimli açmak: Delik dışarıya doğru hafifçe aşağı eğimli olmalıdır; böylece drenaj suyu rahat akar ve yağmur suyu içeri girmez.",
-        "Bakır boruların havşasını özensiz açmak ya da rakorları yanlış torkla sıkmak: Bu hatalar zamanla gaz kaçağına yol açabilir.",
+        "Bakır boruların havşasını özensiz açmak ya da rakorları yanlış torkla sıkmak: Bu hatalar zamanla [[/klima-gaz-dolumu|gaz kaçağına]] yol açabilir.",
         "Boruları izolasyonsuz ya da eksik izolasyonla bırakmak: Borularda yoğuşan su damlayabilir ve verim düşer.",
         "Klimayı gücüne uygun olmayan bir priz, kablo veya sigortayla çalıştırmak: Bu durum sigortanın atmasına ve kablolarda ısınmaya neden olabilir."
       ]
@@ -95,7 +96,7 @@
     {
       "baslik": "Klima montajı için bize ulaşın",
       "paragraflar": [
-        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde tüm marka klimaların montajını yapıyoruz. Herhangi bir markanın yetkili servisi değiliz; bağımsız bir özel teknik servis olarak çalışıyoruz. Hattı vakumluyor, bağlantıları kaçağa karşı kontrol ediyor ve klimayı test ederek teslim ediyoruz. Yaptığımız işe işçilik garantisi veriyoruz; müdahalemizden sonra aynı sorun tekrarlarsa ücretsiz olarak yeniden ilgileniyoruz.",
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde [[/klima-montaji|tüm marka klimaların montajını]] yapıyoruz. Herhangi bir markanın yetkili servisi değiliz; bağımsız bir özel teknik servis olarak çalışıyoruz. Hattı vakumluyor, bağlantıları kaçağa karşı kontrol ediyor ve klimayı test ederek teslim ediyoruz. Yaptığımız işe işçilik garantisi veriyoruz; müdahalemizden sonra aynı sorun tekrarlarsa ücretsiz olarak yeniden ilgileniyoruz.",
         "Ünite yerleşimiyle ilgili sorularınızı telefonda yanıtlıyoruz ve çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
       ]
     }

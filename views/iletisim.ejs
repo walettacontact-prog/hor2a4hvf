@@ -18,11 +18,12 @@
                     <div class="icerik">
                         <h2 class="mt-0"><%= iletisim.firma_adi %></h2>
                         <ul class="list-unstyled">
-                            <li><i class="icofont-location-pin me-2 id-color"></i><strong>Adres:</strong> <address class="d-inline"><%= iletisim.adres %></address></li>
-                            <li><i class="icofont-phone me-2 id-color"></i><strong>Telefon ve WhatsApp:</strong> <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a></li>
-                            <li><i class="icofont-wall-clock me-2 id-color"></i><strong>Çalışma saatleri:</strong> <%= iletisim.calisma_saatleri %></li>
-                            <li><i class="icofont-envelope me-2 id-color"></i><strong>E-posta:</strong> <a href="mailto:<%= iletisim.email %>"><%= iletisim.email %></a></li>
+                            <li><i class="fa fa-map-marker me-2 id-color"></i><strong>Adres:</strong> <address class="d-inline"><%= iletisim.adres %></address></li>
+                            <li><i class="fa fa-phone me-2 id-color"></i><strong>Telefon ve WhatsApp:</strong> <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a></li>
+                            <li><i class="fa fa-clock-o me-2 id-color"></i><strong>Çalışma saatleri:</strong> <%= iletisim.calisma_saatleri %></li>
+                            <li><i class="fa fa-envelope me-2 id-color"></i><strong>E-posta:</strong> <a href="mailto:<%= iletisim.email %>"><%= iletisim.email %></a></li>
                         </ul>
+                        <p><a href="<%= iletisim.harita %>" target="_blank" rel="noopener">Google Haritalar’da yol tarifi alın</a></p>
 
 <%- include('partials/ara-kutusu') %>
                     </div>

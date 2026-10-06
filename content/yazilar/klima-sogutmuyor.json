@@ -2,12 +2,13 @@
   "slug": "klima-sogutmuyor",
   "baslik": "Klima Neden Soğutmuyor? Olası Nedenler ve Yapabileceğiniz Kontroller",
   "kart_baslik": "Klima Neden Soğutmuyor?",
-  "seo_baslik": "Klima Neden Soğutmuyor? Nedenleri ve Çözümü | Fırtına Klima",
-  "seo_aciklama": "Klima çalışıyor ama soğutmuyor mu? Ayar, filtre, dış ünite, gaz kaçağı ve elektronik arıza kontrollerini ve ne zaman servis gerektiğini anlattık.",
+  "seo_baslik": "Klima Neden Soğutmuyor? 6 Sebep ve Çözümleri | Fırtına Klima",
+  "seo_aciklama": "Klima çalışıyor ama soğutmuyor mu? Ayar, filtre, dış ünite, gaz kaçağı, elektronik arıza ve kapasite kontrolleri; hangi durumda servis gerektiği.",
   "ozet": "Klima soğutmuyorsa önce ayarları, filtreyi ve dış üniteyi kontrol edin. Gaz kaçağı ve arıza belirtilerini bu rehberde anlattık.",
-  "resim": "/static/assets/uploads/5-1761676780981.webp",
+  "resim": "/static/assets/uploads/split-klima-ic-dis-unite.webp",
   "resim_alt": "Split klima iç ünitesi ve dış ünitesi",
   "tarih": "2026-10-06",
+  "kategori": "klima",
   "ilgili_hizmetler": [
     "klima-ariza-tamiri",
     "klima-gaz-dolumu",
@@ -41,7 +42,7 @@
         "Ön kapağı kaldırıp filtreleri yuvalarından nazikçe çıkarın.",
         "Tozu elektrik süpürgesiyle alın, gerekirse ılık suyla durulayın. Sert fırça, sıcak su veya aşındırıcı temizlik ürünleri kullanmayın.",
         "Filtreleri gölgede tamamen kurutup yerine takın. Klimayı filtresiz çalıştırmayın.",
-        "Filtreler temiz olduğu hâlde soğutma düzelmiyorsa ya da kötü koku geliyorsa iç ünite peteği ve fanı da kirlenmiş olabilir. Bunların temizliği sökme gerektirdiği için periyodik bakımda teknisyene bırakılmalıdır."
+        "Filtreler temiz olduğu hâlde soğutma düzelmiyorsa ya da kötü koku geliyorsa iç ünite peteği ve fanı da kirlenmiş olabilir. Bunların temizliği sökme gerektirdiği için [[/klima-bakimi|periyodik klima bakımında]] teknisyene bırakılmalıdır."
       ]
     },
     {
@@ -60,7 +61,7 @@
       "baslik": "Gaz eksikliği ve kaçak belirtileri",
       "paragraflar": [
         "Ayarlar doğru, filtreler temiz, dış ünite de çalışıyor ama klima hâlâ soğutmuyorsa soğutucu gaz azalmış olabilir. Şunu bilmekte fayda var: Klima gazı kullandıkça bitmez. Gaz, iç ve dış ünite arasındaki kapalı bir devrede dolaşır; azalmışsa büyük olasılıkla bir yerde kaçak vardır. Kaçak giderilmeden yapılan dolum, sorunu yalnızca bir süreliğine erteler.",
-        "Gaz eksikliği tahminle değil, manometreyle basınç ölçülüp sıcaklık değerleriyle birlikte değerlendirilerek anlaşılır. Doğru onarımda önce kaçak bulunup giderilir, ardından devredeki hava ve nem vakumlanarak alınır ve cihaz etiketinde yazan gaz türüyle (R32, R410A gibi) tartılarak dolum yapılır. Gaz eksikken klimayı uzun süre çalıştırmak kompresörü zorlayabilir; şu belirtileri fark ederseniz cihazı kapatıp kontrol ettirin:"
+        "Gaz eksikliği tahminle değil, manometreyle basınç ölçülüp sıcaklık değerleriyle birlikte değerlendirilerek anlaşılır. Doğru onarımda önce kaçak bulunup giderilir, ardından devredeki hava ve nem vakumlanarak alınır ve cihaz etiketinde yazan gaz türüyle (R32, R410A gibi) tartılarak [[/klima-gaz-dolumu|gaz dolumu]] yapılır. Gaz eksikken klimayı uzun süre çalıştırmak kompresörü zorlayabilir; şu belirtileri fark ederseniz cihazı kapatıp kontrol ettirin:"
       ],
       "maddeler": [
         "Klima uzun süre çalıştığı hâlde iç üniteden oda sıcaklığına yakın hava geliyor.",
@@ -86,14 +87,14 @@
       "baslik": "Klima odaya yetersiz kalıyor olabilir mi?",
       "paragraflar": [
         "Klimanız takıldığı ilk günden beri odayı yeterince soğutmuyorsa sorun bir arıza değil, kapasite ya da montajla ilgili olabilir. Klima kapasitesi (BTU) seçilirken metrekarenin yanında odanın güneş alıp almadığı, cam yüzeylerin genişliği ve çatı katı olup olmadığı da hesaba katılmalıdır. Isı yükü yüksek bir alanda küçük kapasiteli bir klima, sürekli çalıştığı hâlde istenen dereceye ulaşamayabilir.",
-        "Gereğinden uzun çekilmiş veya ezilmiş bakır borular, havanın dolaşamayacağı bir köşeye konmuş iç ünite ve havasız bir yere yerleştirilmiş dış ünite de soğutmayı zayıflatır. Bu durumda gaz eklemek çözüm olmaz; doğru kapasite ve konum için yerinde inceleme gerekir."
+        "Gereğinden uzun çekilmiş veya ezilmiş bakır borular, havanın dolaşamayacağı bir köşeye konmuş iç ünite ve havasız bir yere yerleştirilmiş dış ünite de soğutmayı zayıflatır. Bu durumda gaz eklemek çözüm olmaz; doğru kapasite ve [[/klima-montaji-rehberi|ünite konumu]] için yerinde inceleme gerekir."
       ]
     },
     {
       "baslik": "Ne zaman servis çağırmalısınız?",
       "paragraflar": [
         "Basit kontrollerden sonra klima hâlâ soğutmuyorsa ya da yukarıdaki kaçak veya arıza belirtilerinden birini görüyorsanız klimayı zorlamayın; sigorta attıran bir cihazı ise hiç çalıştırmayın. Arızalı bir klimayı çalıştırmaya devam etmek, küçük bir sorunu kompresör arızasına dönüştürebilir.",
-        "Fırtına Klima olarak Bahçelievler'in Yenibosna tarafındaki servisimizden tüm marka klimalara bakım ve temizlik, kaçak tespiti ve gaz dolumu hizmeti veriyoruz. Herhangi bir markanın yetkili servisi değil, bağımsız bir özel teknik servisiz; klimanız üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Parça gerektiğinde orijinal yedek parça kullanıyor, onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Fırtına Klima olarak Bahçelievler'in Yenibosna tarafındaki servisimizden tüm marka klimalara bakım ve temizlik, kaçak tespiti ve gaz dolumu ile [[/klima-ariza-tamiri|arıza tespiti ve onarım]] hizmeti veriyoruz. Herhangi bir markanın yetkili servisi değil, bağımsız bir özel teknik servisiz; klimanız üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Parça gerektiğinde orijinal yedek parça kullanıyor, onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
         "Ücreti, cihazı görüp sorunu tespit ettikten sonra işe başlamadan önce bildiriyoruz; çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
       ]
     }
@@ -105,11 +106,11 @@
     },
     {
       "soru": "Klima neden soğuk yerine sıcak hava üflüyor?",
-      "cevap": "Önce modun yanlışlıkla ısıtmaya alınıp alınmadığını kontrol edin. Mod doğruysa dış üniteye bakın; dış ünite devreye girmiyorsa iç ünite yalnızca oda havasını dolaştırır ve hava ılık gelir. Dış ünite çalıştığı hâlde sıcak hava geliyorsa dört yollu vanada veya elektronik tarafta bir arıza olabilir; bu durumda servis gerekir."
+      "cevap": "Önce modun yanlışlıkla ısıtmaya alınıp alınmadığını kontrol edin. Mod doğruysa dış üniteye bakın; dış ünite devreye girmiyorsa iç ünite yalnızca oda havasını dolaştırır ve hava ılık gelir. Dış ünite çalıştığı hâlde sıcak hava geliyorsa dört yollu vanada veya elektronik tarafta bir arıza olabilir; bu durumda servis gerekir. Kışın ısıtma modunda yaşanan sorunları [[/klima-isitmiyor|klimanın ısıtmaması üzerine yazımızda]] ayrıca anlattık."
     },
     {
       "soru": "Klima soğutmuyorsa tamiri ne kadar tutar?",
-      "cevap": "Ücret soğutmamanın nedenine göre değişir. Petek temizliği, kaçak onarımı ve gaz dolumu ya da elektronik bir parçanın değişimi birbirinden farklı işlerdir; cihazın tipi, gaz türü ve dış ünitenin konumu da fiyatı etkiler. Telefonda belirtilere göre ön bilgi veriyor, kesin fiyatı cihazı gördükten sonra işe başlamadan önce bildiriyoruz."
+      "cevap": "Ücret soğutmamanın nedenine göre değişir. İç ünite peteğinin temizliği, kaçak onarımı ve gaz dolumu ya da elektronik bir parçanın değişimi birbirinden farklı işlerdir; cihazın tipi, gaz türü ve dış ünitenin konumu da fiyatı etkiler. Telefonda belirtilere göre ön bilgi veriyor, kesin fiyatı cihazı gördükten sonra işe başlamadan önce bildiriyoruz."
     }
   ]
 }

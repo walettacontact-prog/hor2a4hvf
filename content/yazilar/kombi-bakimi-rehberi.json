@@ -1,13 +1,14 @@
 {
   "slug": "kombi-bakimi-rehberi",
-  "baslik": "Kış Gelmeden Kombi Bakımı: Ne Zaman Yapılır, Neler Kontrol Edilir?",
-  "kart_baslik": "Kış Öncesi Kombi Bakımı Rehberi",
-  "seo_baslik": "Kış Öncesi Kombi Bakımı Rehberi | Fırtına Klima",
-  "seo_aciklama": "Kombi bakımı neden kış öncesi yapılır, bakımda neler kontrol edilir, basınç kaç bar olmalı? Servis gerektiren belirtiler ve güvenlik önerileri.",
+  "baslik": "Kombinizi Kışa Hazırlayın: Evde Kontroller, Uyarı İşaretleri ve Güvenlik",
+  "kart_baslik": "Kombiyi Kışa Hazırlama",
+  "seo_baslik": "Kombiyi Kışa Hazırlama: Evde Kontroller | Fırtına Klima",
+  "seo_aciklama": "Kombiyi kışa hazırlarken evde güvenle yapabileceğiniz kontroller, servis gerektiren uyarı işaretleri, karbon monoksit ve gaz güvenliği.",
   "ozet": "Kış öncesi kombi bakımında neler yapılır, basınç göstergesi nasıl okunur ve hangi belirtilerde servis çağırmalısınız?",
-  "resim": "/static/assets/uploads/71b17b1ad9994605b1beba51be1364f1-1761673551684.webp",
+  "resim": "/static/assets/uploads/kombi-bakimi-teknisyen.webp",
   "resim_alt": "Teknisyen duvar tipi kombinin bakımını yapıyor",
   "tarih": "2026-10-06",
+  "kategori": "kombi",
   "ilgili_hizmetler": [
     "kombi-bakimi",
     "kombi-ariza-onarimi"
@@ -28,7 +29,7 @@
     {
       "baslik": "Bakımda teknisyen neleri kontrol eder?",
       "paragraflar": [
-        "Kontrol listesi kombinin yoğuşmalı ya da konvansiyonel olmasına göre biraz değişir, ancak düzgün bir bakımda genellikle şu adımlar yer alır:"
+        "Kontrol listesi kombinin yoğuşmalı ya da konvansiyonel olmasına göre biraz değişir, ancak düzgün bir [[/kombi-bakimi|kombi bakımında]] genellikle şu adımlar yer alır:"
       ],
       "maddeler": [
         "Brülör ve yanma odasının temizlenmesi, ateşleme ve alev yapısının kontrolü",
@@ -45,9 +46,9 @@
         "Kombinin kapağını açmak, gaz ya da baca bağlantılarına müdahale etmek kullanıcıya göre değildir. Aşağıdaki kontroller ise güvenle yapılabilir ve bir sorunu erken fark etmenizi sağlar:"
       ],
       "maddeler": [
-        "Basınç göstergesine bakın. Çoğu kombide su basıncının 1–2 bar aralığında olması beklenir; cihaz soğukken 1–1,5 bar civarı yeterlidir, çalışırken ibrenin biraz yükselmesi normaldir. Kombiniz için önerilen değer kullanım kılavuzunda yazar.",
+        "Basınç göstergesine bakın. Çoğu kombide su basıncının 1–2 bar aralığında olması beklenir; cihaz soğukken 1–1,5 bar civarı yeterlidir, çalışırken ibrenin biraz yükselmesi normaldir. Kombiniz için önerilen değer kullanım kılavuzunda yazar. Basıncın neden düştüğünü ya da yükseldiğini [[/kombi-su-basinci|basınçla ilgili ayrıntılı yazımızda]] anlattık.",
         "Basınç düşükse kombi soğukken doldurma musluğunu yavaşça açın, ibre önerilen değere gelince kapatın. Musluğu açık bırakmayın; fazla doldurmak da sorun yaratır.",
-        "Bir petek üstten soğuk, alttan sıcaksa içinde hava birikmiş olabilir. Kombiyi kapatıp peteklerin biraz soğumasını bekleyin, hava alma tapasını altına bir bez tutarak yavaşça açın ve su gelmeye başlayınca kapatın. Havayı aldıktan sonra basınç düşebileceği için göstergeyi yeniden kontrol edin.",
+        "Bir petek üstten soğuk, alttan sıcaksa içinde hava birikmiş olabilir. Kombiyi kapatıp peteklerin biraz soğumasını bekleyin, hava alma tapasını altına bir bez tutarak yavaşça açın ve su gelmeye başlayınca kapatın. Havayı aldıktan sonra basınç düşebileceği için göstergeyi yeniden kontrol edin. Isınmayan peteklerin diğer nedenlerini [[/petekler-isinmiyor|petekler ısınmıyorsa yazımızda]] bulabilirsiniz.",
         "Oda termostatının ayarını ve pilini kontrol edin; kablosuz modellerde pilin bitmesi kombinin hiç devreye girmemesine yol açabilir.",
         "Kombinin altına ve bağlantı borularına bakın; damla izi, nem ya da paslanma görürseniz not alın ve bakım sırasında teknisyene gösterin.",
         "Kombinin bulunduğu alandaki havalandırma açıklıklarının ve baca çıkışının önünün kapanmadığından emin olun."
@@ -56,7 +57,7 @@
     {
       "baslik": "Teknisyen çağırmanız gereken uyarı işaretleri",
       "paragraflar": [
-        "Aşağıdaki durumlar basit bir ayarla geçmez ve ertelendikçe arıza büyüyebilir:"
+        "Aşağıdaki durumlar basit bir ayarla geçmez ve ertelendikçe arıza büyüyebilir; bu belirtilerde [[/kombi-ariza-onarimi|kombi arıza servisi]] çağırmanızı öneririz:"
       ],
       "maddeler": [
         "Basıncı tamamladıktan kısa süre sonra ibre yeniden düşüyor; bu çoğu zaman kombide ya da tesisatta bir su kaçağına veya genleşme tankındaki bir soruna işaret eder.",
@@ -86,10 +87,6 @@
     }
   ],
   "sss": [
-    {
-      "soru": "Kombi basıncı kaç bar olmalı?",
-      "cevap": "Çoğu kombide su basıncının 1–2 bar aralığında olması beklenir; cihaz soğukken 1–1,5 bar civarı uygundur. Çalışırken ibrenin biraz yükselmesi normaldir. Basınç sık sık 1 barın altına düşüyor ya da 3 bara yaklaşıyorsa cihazın ve tesisatın kontrol edilmesi gerekir."
-    },
     {
       "soru": "Kombi bakımı yapılmazsa ne olur?",
       "cevap": "Kombi bir süre çalışmaya devam eder, ancak brülör ve eşanjörde biriken kir verimi düşürür ve gaz tüketimini artırabilir. Küçük sorunlar fark edilmeden büyüyüp sezon ortasında arızaya dönüşebilir. Baca ve fan hattındaki aksaklıklar ise kontrol edilmediği sürece güvenlik riski oluşturur."

@@ -1,8 +1,8 @@
 {
   "slug": "klima-ariza-tamiri",
   "hizmet": "Klima Arıza ve Tamiri",
-  "seo_baslik": "Klima Tamiri ve Arıza Servisi Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Açılmayan, soğutmayan, su akıtan ya da arıza kodu veren klimalarda yerinde tespit ve onarım. Tüm marka klimalar için özel servis. Arayın: {telefon}",
+  "seo_baslik": "Klima Tamiri Bahçelievler Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Klima açılmıyor, su akıtıyor, ses yapıyor ya da arıza kodu mu veriyor? Çoğu çağrıya aynı gün servis, yerinde tespit ve onarım. Tüm markalar. {telefon}",
   "h1": "Bahçelievler'de Klima Arıza Tespiti ve Onarımı",
   "giris": [
     "Klimanız açılmıyor, soğutmuyor, su damlatıyor ya da ekranında bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Aynı belirtinin farklı nedenleri olabilir; doğru tespit, gereksiz parça değişiminin önüne geçer.",
@@ -16,11 +16,11 @@
       ],
       "maddeler": [
         "Hiç açılmıyor, kumandaya tepki vermiyor: kumanda ya da pilleri, inmiş sigorta, iç ünitedeki alıcı göz veya elektronik kart.",
-        "Çalışıyor ama soğutmuyor ya da ısıtmıyor: kirli filtre veya petek, gaz eksikliği, devreye girmeyen kompresör, fan motoru ya da sensör arızası.",
+        "Çalışıyor ama soğutmuyor ya da [[/klima-isitmiyor|kışın ısıtmıyor]]: kirli filtre veya petek, gaz eksikliği, devreye girmeyen kompresör, fan motoru ya da sensör arızası.",
         "İç üniteden su akıyor: tıkanmış ya da eğimi bozulmuş drenaj hortumu, yanlış eğimle monte edilmiş iç ünite veya buzlanıp çözülen petek.",
         "Dış ünite ya da kompresör devreye girmiyor: kalkış kondansatörü, kontaktör, üniteler arası iletişim hattı ya da inverter kartı; daha seyrek olarak kompresörün kendisi.",
         "Ses veya titreşim yapıyor: gevşemiş konsol ya da gövde vidaları, fana sürtünen bir parça, yıpranmış fan motoru rulmanı.",
-        "Kötü koku geliyor: rutubet kokusu genellikle petekte ve fanda biriken küften kaynaklanır. Yanık kokusu alırsanız klimayı hemen kapatın ve sigortasını indirin.",
+        "Kötü koku geliyor: rutubet kokusu genellikle petekte ve fanda biriken küften kaynaklanır ve çoğu zaman [[/klima-bakimi|iç ünite bakımı ve temizliğiyle]] giderilir. Yanık kokusu alırsanız klimayı hemen kapatın ve sigortasını indirin.",
         "Sigortayı attırıyor: nem almış ya da gevşek bağlantılar, kısa devre yapan bir motor veya cihaza uygun olmayan hat ya da sigorta."
       ]
     },
@@ -34,7 +34,7 @@
     {
       "baslik": "Servis çağırmadan önce kontrol edebilecekleriniz",
       "paragraflar": [
-        "Bazı şikâyetlerin nedeni arıza değil, yanlış ayar ya da kirli filtredir. Güvenliğiniz için ünitelerin gövdesini sökmeyin, karta ve kablolara dokunmayın; inverter klimaların kartında, cihaz kapatıldıktan sonra da bir süre tehlikeli gerilim kalabilir. Dış üniteye ulaşmak için pencereden dışarı sarkmayın. Kendi başınıza şunlara bakabilirsiniz:"
+        "Bazı şikâyetlerin nedeni arıza değil, yanlış ayar ya da kirli filtredir; [[/klima-sogutmuyor|klima soğutmuyorsa yapılacak kontrolleri]] ayrı bir yazıda topladık. Güvenliğiniz için ünitelerin gövdesini sökmeyin, karta ve kablolara dokunmayın; inverter klimaların kartında, cihaz kapatıldıktan sonra da bir süre tehlikeli gerilim kalabilir. Dış üniteye ulaşmak için pencereden dışarı sarkmayın. Kendi başınıza şunlara bakabilirsiniz:"
       ],
       "maddeler": [
         "Kumandanın ekranı soluksa ya da hiç yanmıyorsa pillerini değiştirin.",
@@ -49,7 +49,7 @@
       "baslik": "Arıza tespiti ve onarım nasıl yapılır?",
       "paragraflar": [
         "Telefonda belirtileri, varsa arıza kodunu ve klimanızın modelini soruyoruz; model bilgisi genellikle iç ünitenin yanındaki etikette yazar. Yerinde besleme gerilimini, elektronik kartı, sensörleri, fan motorlarını, kompresörü ve gaz basıncını kontrol ederek arızanın kaynağını buluyoruz. Yapılacak işi ve ücreti onarıma başlamadan önce bildiriyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; onardığımız arıza tekrarlarsa işçilik garantimiz kapsamında ücretsiz olarak yeniden müdahale ediyoruz.",
-        "Gaz basıncı düşükse bu genellikle devrede bir kaçak olduğunu gösterir; kapalı devrede dolaşan gaz, klima kullanıldıkça eksilmez. Bu durumda önce kaçağı bulup gideriyor, devredeki hava ve nemi almak için vakumlama yapıyor, ardından cihazın gaz tipine (R32, R410A gibi) uygun gazı üreticinin belirttiği miktarda dolduruyoruz. Kaçak giderilmeden yapılan dolum geçici bir çözümdür; gaz zamanla yine azalır."
+        "Gaz basıncı düşükse bu genellikle devrede bir kaçak olduğunu gösterir; kapalı devrede dolaşan gaz, klima kullanıldıkça eksilmez. Bu durumda önce kaçağı bulup gideriyor, devredeki hava ve nemi almak için vakumlama yapıyor, ardından cihazın gaz tipine (R32, R410A gibi) uygun gazı üreticinin belirttiği miktarda dolduruyoruz. Kaçak giderilmeden yapılan dolum geçici bir çözümdür; gaz zamanla yine azalır. Bu adımları [[/klima-gaz-dolumu|kaçak tespiti ve gaz dolumu sayfamızda]] ayrıntılı anlattık."
       ]
     },
     {
@@ -60,7 +60,7 @@
       "maddeler": [
         "Arızanın türü: tıkalı bir drenaj hattını açmak ile kompresör ya da kart değiştirmek aynı iş değildir.",
         "Değişecek parça ve bu parçanın bulunabilirliği.",
-        "Cihazın tipi: duvar, salon ya da kaset tipi split klima veya multi sistem.",
+        "Cihazın tipi: duvar, salon ya da kaset tipi split klima veya [[/vrf-multi-klima-servisi|multi ya da VRF sistem]].",
         "Gaz kaçağı varsa kaçağın yeri ve sonrasında gereken gaz dolumu.",
         "Dış ünitenin konumu ve ulaşılabilirliği."
       ]
@@ -74,6 +74,10 @@
     {
       "soru": "Arızalı klima aynı gün onarılabilir mi?",
       "cevap": "Çoğu çağrıda aynı gün servis verebiliyoruz. Arıza yerinde giderilebilecek türdense onarım aynı ziyarette yapılabilir; parça değişimi gerekiyorsa süre, parçanın temin edilmesine bağlıdır."
+    },
+    {
+      "soru": "Klima kompresörü tamir olur mu, yoksa cihaz mı değişmeli?",
+      "cevap": "Kompresör devreye girmediğinde sorun çoğu zaman kompresörün kendisinde değil; kalkış kondansatörü, kontaktör, elektronik kart ya da bir sensörde olur. Bu yüzden önce bu parçaları ölçerek arızayı ayırıyoruz. Kompresörün kendisi arızalıysa genellikle onarılmaz, değiştirilir; bu değişimin maliyetini cihazın yaşı ve genel durumuyla birlikte sizinle değerlendiriyor, ücreti işe başlamadan önce söylüyoruz. Parça değişimlerinde orijinal yedek parça kullanıyoruz."
     },
     {
       "soru": "Klima tamir ücreti ne kadar?",

@@ -1,0 +1,119 @@
+{
+  "slug": "klima-isitmiyor",
+  "baslik": "Klima Isıtmıyor mu? Kışın Klimayla Isınma, Buz Çözme ve Doğru Kullanım",
+  "kart_baslik": "Klima Isıtmıyorsa",
+  "seo_baslik": "Klima Isıtmıyor, Soğuk mu Üflüyor? Nedenleri | Fırtına Klima",
+  "seo_aciklama": "Klima ısıtma modunda soğuk üflüyor ya da arada duruyor mu? Buz çözme (defrost), dış ünitedeki buhar ve su, kışın verimli kullanım ve arıza belirtileri.",
+  "ozet": "Klima ısıtmada soğuk üflüyor ya da arada duruyor mu? Ön ısıtma, buz çözme, doğru kullanım ve arıza belirtilerini anlattık.",
+  "resim": "/static/assets/uploads/klima-kumandasi.webp",
+  "resim_alt": "Elinde klima kumandası tutan kişi",
+  "tarih": "2026-10-06",
+  "kategori": "klima",
+  "ilgili_hizmetler": [
+    "klima-ariza-tamiri",
+    "klima-bakimi"
+  ],
+  "giris": [
+    "Kışın klimayı açtığınızda ilk dakikalarda hiç hava gelmemesi ya da gelen havanın serin olması, cihazın arada bir üflemeyi kesmesi veya dış üniteden buhar yükselmesi çoğu kişiyi tedirgin eder. Bu durumların bir kısmı, ısıtmayı dış havadan aldığı ısıyla yapan klimaların normal davranışıdır; bir kısmı ise yanlış ayardan, bakımsızlıktan ya da gerçek bir arızadan kaynaklanır.",
+    "Aşağıda ısıtma modunda neyin normal olduğunu, hangi kontrolleri kendiniz yapabileceğinizi, kışın klimayı nasıl daha verimli kullanabileceğinizi ve servis gerektiren belirtileri anlatıyoruz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Açılışta hava gelmemesi ya da serin gelmesi normal mi?",
+      "paragraflar": [
+        "İlk birkaç dakika için evet. Isıtma modunda iç ünitedeki petek, kompresörün gönderdiği sıcak soğutucu gazla ısınır. Klima ilk açıldığında bu petek henüz soğuktur; çoğu cihaz odaya soğuk hava üflememek için iç ünite fanını petek ısınana kadar çalıştırmaz ya da çok düşük devirde çalıştırır. Bu sırada kanatlar açık olduğu hâlde hava gelmeyebilir; bazı modellerde ekrandaki bir ışık yanıp söner ya da ön ısıtma uyarısı görünür.",
+        "Kompresör de açılıştan sonra kendini korumak için birkaç dakika gecikmeyle devreye girebilir; bu yüzden karar vermeden önce cihaza biraz zaman tanıyın. Oda ayarladığınız dereceye ulaştığında fanın yavaşlaması ve üflenen havanın ılıklaşması da arıza değildir. Asıl dikkat edilmesi gereken, klima uzun süre çalıştığı hâlde odaya sürekli serin ya da oda sıcaklığında hava gelmesidir."
+      ]
+    },
+    {
+      "baslik": "Buz çözme (defrost) nedir, dış üniteden neden buhar çıkar?",
+      "paragraflar": [
+        "Isıtma modunda klima, dış havadaki ısıyı toplayıp içeri taşır. Bu sırada dış ünitedeki petek dış havadan daha soğuk olur; hava soğuk ve nemliyken peteğin üzerinde kırağı ve ince bir buz tabakası oluşur. Buz kalınlaştıkça dış ünite havadan ısı alamaz hâle gelir. Klima bunu önlemek için belirli aralıklarla buz çözme yapar: Çalışma yönünü kısa bir süreliğine tersine çevirir ve dış ünitedeki peteği ısıtarak buzu eritir.",
+        "Buz çözme sırasında şunları görmeniz normaldir:"
+      ],
+      "maddeler": [
+        "İç ünite birkaç dakika üflemeyi keser, ekrandaki bir ışık yanıp sönebilir. Fanın durması, odaya soğuk hava verilmemesi içindir.",
+        "Dış ünitenin fanı durur ve üniteden buhar yükselir. Bu duman değil, eriyen buzdan çıkan su buharıdır.",
+        "Dış ünitenin altından su akar ya da damlar. Isıtma sırasında dış ünitede buz çözme dışında da yoğuşma suyu oluşur.",
+        "Çalışma yönü değişirken tıslama ya da kısa süreli bir akış sesi duyulabilir.",
+        "Buz çözme bitince klima ısıtmaya kendiliğinden devam eder; iç ünite peteği yeniden ısınana kadar sıcak havanın gelmesi biraz sürebilir."
+      ]
+    },
+    {
+      "baslik": "Klima hiç ısıtmıyorsa kendiniz kontrol edebilecekleriniz",
+      "paragraflar": [
+        "Birkaç dakika beklediğiniz ve buz çözme de söz konusu olmadığı hâlde sıcak hava gelmiyorsa önce aşağıdaki basit kontrolleri yapın. Güvenliğiniz için ünitelerin kapağını açmayın, kablolara ve elektronik karta dokunmayın; dış üniteye ulaşmak için pencereden ya da balkondan dışarı sarkmayın."
+      ],
+      "maddeler": [
+        "Mod gerçekten ısıtma mı? Kumandada genellikle güneş simgesiyle gösterilir. Otomatik modda ısıtma ya da soğutma kararını cihaz verir; fan modunda yalnızca oda havası dolaştırılır, nem alma modunda ise ısıtma yapılmaz.",
+        "Ayar sıcaklığı oda sıcaklığından yüksek mi? Ayar, odanın o anki sıcaklığının altındaysa klima ısıtmaya başlamaz.",
+        "Kumandanın ekranı soluksa ya da hiç yanmıyorsa pillerini değiştirin; komutlar cihaza ulaşmıyor olabilir.",
+        "Filtreler temiz mi? Tıkalı filtre hava akışını azaltır; ısıtmada bu, ısının odaya aktarılmasını zorlaştırır ve bazı cihazlar kendini korumak için kompresörü sık sık durdurur. Filtreyi güvenle çıkarıp yıkamanın adımlarını [[/klima-sogutmuyor|klimanın soğutmamasıyla ilgili rehberimizde]] anlattık.",
+        "Dış ünitenin çevresi açık mı? Kar, yaprak, üzerine örtülmüş bir branda ya da önüne yığılmış eşyalar havanın geçişini engeller; örtü ayrıca buz çözme suyunun ünitede birikmesine yol açabilir. Güvenle ulaşabiliyorsanız klimayı kapatıp çevredeki karı ve eşyaları uzaklaştırın. Petekteki buzu sivri bir aletle kırmaya çalışmayın; ince kanatçıklar ve borular kolayca zarar görür. Buzu eritmek için üzerine su da dökmeyin; su elektrik aksamına ulaşabilir ve kısa sürede yeniden donar.",
+        "Klimanın sigortası inmişse bir kez kaldırın; yeniden atarsa tekrar denemeyin. Sigorta kutusunda bunun dışında bir işlem yapmayın.",
+        "Bunların hepsi yolundaysa klimayı kapatın, birkaç dakika bekleyip yeniden açın; geçici bir hata bu şekilde düzelebilir."
+      ]
+    },
+    {
+      "baslik": "Hava çok soğukken ısıtma neden zayıflar?",
+      "paragraflar": [
+        "Dışarısı soğudukça dış ünitenin havadan toplayabildiği ısı azalır; cihaz daha uzun çalışsa da odaya verdiği ısı düşer. Soğuk ve nemli havada ayrıca dış ünitede buz daha çabuk oluşur, buz çözme daha sık yapılır ve bu sürelerde ısıtma durur. Bu yüzden en soğuk günlerde klimanın odayı daha geç ısıtması ya da sıcaklığı zor koruması tek başına arıza anlamına gelmez.",
+        "Her modelin ısıtma için belirlenmiş bir dış ortam çalışma aralığı vardır ve bu bilgi genellikle kullanım kılavuzunda yazar. Dış sıcaklık bu aralığın altına indiğinde cihaz kendini korumak için durabilir ya da çok zayıf ısıtabilir. Kapasitesi yalnızca yazın soğutma ihtiyacına göre seçilmiş bir klima da yalıtımı zayıf, geniş cam yüzeyli ya da çatı katındaki bir odada en soğuk günlerde ısıtmaya yetmeyebilir.",
+        "Buna karşılık hava ılımanken de ısıtma zayıfsa ya da önceki kışlara göre belirgin biçimde düştüyse neden büyük olasılıkla hava koşulları değildir; filtreye, bakıma ya da olası bir arızaya bakmak gerekir."
+      ]
+    },
+    {
+      "baslik": "Kışın klimayı daha verimli kullanmak için öneriler",
+      "paragraflar": [
+        "Aşağıdaki alışkanlıklar hem konforu artırır hem de cihazın gereksiz yere zorlanmasını önler:"
+      ],
+      "maddeler": [
+        "Ayar sıcaklığını kendinizi rahat hissettiğiniz en düşük dereceye getirin. Kumandayı en yüksek dereceye almak odayı belirgin biçimde daha hızlı ısıtmaz; oda gereğinden fazla ısınır ve cihaz daha uzun süre yüksek güçte çalışır.",
+        "Kapı ve pencereleri kapalı tutun; ısıtılan odanın kapısı açık kaldığında ısı evin geri kalanına dağılır. Akşamları perdeleri çekmek camlardan kaybedilen ısıyı azaltır.",
+        "Kanatları aşağıya yönlendirin. Sıcak hava yükselme eğiliminde olduğundan kanatlar yukarı bakarken ısı tavanda birikir, ayak hizası soğuk kalır.",
+        "Filtreleri ısıtma sezonunda da düzenli temizleyin. Sezon başlamadan [[/klima-bakimi|periyodik klima bakımını]] yaptırmak da kış boyunca verim kaybı ve beklenmedik arızalarla karşılaşma ihtimalini azaltır."
+      ]
+    },
+    {
+      "baslik": "Arızaya işaret eden belirtiler",
+      "paragraflar": [
+        "Aşağıdaki durumlar normal çalışmayla ya da buz çözmeyle açıklanamaz. Belirttiğimiz nedenler yalnızca olasılıktır; kesin neden ölçümle anlaşılır. Bu kontroller soğutucu gaz devresine ve elektrik aksamına müdahale gerektirdiği için teknisyen işidir."
+      ],
+      "maddeler": [
+        "İç ünite çalıştığı hâlde dış ünite hiç devreye girmiyor; fan dönmüyor, kompresörün uğultusu duyulmuyor. Elektronik kart, üniteler arası bağlantı ya da kompresörü çalıştıran parçalardan biri sorunlu olabilir.",
+        "Klima uzun süre çalıştığı hâlde serin ya da oda sıcaklığında hava veriyor, ısıtma modunda adeta soğutma yapıyor. Isıtma ile soğutma arasında geçişi sağlayan dört yollu vananın ya da bu vanayı kumanda eden devrenin arızası bu belirtiye yol açabilir.",
+        "Dış ünitedeki buz, buz çözmeden sonra da azalmıyor; ünite giderek kalınlaşan bir buz tabakasıyla kaplanıyor. Buz çözmenin ne zaman başlayıp biteceğini belirleyen sensör ya da kart yanlış çalışıyor olabilir.",
+        "Isıtma haftalar içinde yavaş yavaş zayıfladı ve dış ünitede olağandışı buzlanma var. Soğutucu gaz eksik olabilir; gaz kullanımla bitmediği için bu durumda [[/klima-gaz-dolumu|kaçak tespiti ve gaz dolumu]] birlikte ele alınmalıdır.",
+        "Ekranda hata kodu çıkıyor ya da ışıklar buz çözme dışında da belirli bir düzende yanıp sönmeye devam ediyor. Kodun karşılığı modele göre değişir ve çoğu zaman kullanım kılavuzunda yazar.",
+        "Buz çözmedeki tıslama ve ısınan plastik parçaların hafif çıtırtısı dışında metal sürtünmesi, vuruntu ya da yüksek tıkırtı gibi alışılmadık sesler geliyor.",
+        "Klima sigortayı attırıyor, yanık kokusu geliyor ya da üniteden buhar yerine duman çıkıyor. Bu durumda klimayı hemen kapatın, sigortasını indirip kapalı tutun ve cihazı yeniden çalıştırmayın."
+      ]
+    },
+    {
+      "baslik": "Ne zaman servis çağırmalısınız?",
+      "paragraflar": [
+        "Basit kontrollerden sonra klima hâlâ ısıtmıyorsa ya da yukarıdaki belirtilerden birini görüyorsanız cihazı zorlamaya devam etmeyin. Servis çağırırken ekrandaki hata kodunu ve iç ünite etiketindeki model bilgisini not etmeniz tespiti kolaylaştırır. Cihazınız hâlâ üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz.",
+        "Fırtına Klima, Bahçelievler'in Yenibosna tarafında bulunan ve tüm marka klima ve kombilere hizmet veren bağımsız bir özel servistir; hiçbir markanın yetkili servisi değiliz. [[/klima-ariza-tamiri|Klima arıza tespiti ve onarımında]] parça gerekirse orijinal yedek parça kullanıyor, onardığımız arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz olarak yeniden müdahale ediyoruz.",
+        "Her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün servis verebiliyoruz. Servis için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Klima ısıtırken neden arada üflemeyi kesiyor?",
+      "cevap": "Çoğu zaman klima buz çözme yapıyordur: Dış ünitedeki buz eritilirken odaya soğuk hava gitmesin diye iç ünite fanı birkaç dakika durur. Oda ayarlanan sıcaklığa ulaştığında da fan yavaşlar ya da durur. Duraklamalar çok sık tekrarlıyorsa, filtreler temiz olduğu hâlde klima kendiliğinden kapanıyorsa ya da ekranda hata kodu çıkıyorsa kontrol ettirin."
+    },
+    {
+      "soru": "Klimayla ısınmak doğal gazdan daha mı ucuz?",
+      "cevap": "Bunun herkes için geçerli tek bir cevabı yoktur. Hangisinin daha ekonomik olacağı elektrik ve doğal gaz tarifelerine, klimanın verimine ve kapasitesine, evin yalıtımına ve dış sıcaklığa göre değişir; hava soğudukça klimanın ısıtma verimi düşer, ılıman günlerde ise daha avantajlı olabilir. Kendi durumunuzu görmek için klimayla ve kombiyle ısındığınız benzer dönemlerin faturalarını karşılaştırmak genel bir rakamdan daha güvenilir bir fikir verir."
+    },
+    {
+      "soru": "Kışın dış üniteden su akması ya da altında buz birikmesi sorun mu?",
+      "cevap": "Isıtma sırasında dış ünitede yoğuşma ve buz çözme suyu oluşması normaldir. Ancak bu su cepheye, yürüme yoluna ya da komşunun balkonuna akmamalı; pis su hattına bağlanacaksa araya mutlaka koku tutucu (sifon) konulmalıdır. Donan su kaygan bir zemin oluşturur, ünitenin altında biriken buz da zamanla büyüyerek üniteye ulaşabilir. Buz çözmeden sonra da azalmayan kalın bir buz tabakası görüyorsanız ya da ısıtma modunda iç üniteden odaya su damlıyorsa kontrol ettirin."
+    },
+    {
+      "soru": "Klima ısıtmıyorsa tamiri ne kadar tutar?",
+      "cevap": "Ücret ısıtmamanın nedenine göre değişir. İç ünitenin kapsamlı temizliği, bir sensörün ya da kartın değiştirilmesi, dört yollu vana arızasının giderilmesi veya kaçağın onarılıp gaz dolumu yapılması birbirinden farklı işlerdir; cihazın tipi ve dış ünitenin konumu da fiyatı etkiler. Telefonda belirtilere göre ön bilgi veriyor, kesin ücreti tespitten sonra işe başlamadan önce bildiriyoruz."
+    }
+  ]
+}

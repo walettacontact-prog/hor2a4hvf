@@ -1,8 +1,8 @@
 {
   "slug": "kombi-bakimi",
   "hizmet": "Kombi Bakımı",
-  "seo_baslik": "Kombi Bakımı Bahçelievler | Fırtına Klima",
-  "seo_aciklama": "Yıllık kombi bakımı: brülör, eşanjör, fan, baca ve su basıncı kontrolü, güvenlik testleri. Tüm marka kombilere özel servis. Arayın: {telefon}",
+  "seo_baslik": "Kombi Bakımı Bahçelievler ve Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Kış gelmeden kombi bakımı; tüm markalar, her gün 08–21. Brülör, eşanjör, fan, baca, basınç ve güvenlik kontrolleri yapılır. {telefon}",
   "h1": "Bahçelievler'de Kombi Bakımı",
   "giris": [
     "Kombi bakımı, cihazın kış boyunca güvenli ve verimli çalışması için yılda bir kez yapılan kontrol ve temizlik işlemidir. Yanma odasında biriken kir ya da kireçlenmeye başlayan bir eşanjör çoğu zaman fark edilmeden verimi düşürür ve gaz tüketimini artırabilir; gözden kaçan küçük sorunlar da ilk soğuk günlerde arızaya dönüşebilir. Baca ve atık gaz hattındaki bir kaçak ise karbon monoksit riski nedeniyle doğrudan bir güvenlik meselesidir.",
@@ -29,7 +29,7 @@
       "baslik": "Kombi bakımı ne zaman yaptırılmalı?",
       "paragraflar": [
         "Kombi bakımının yılda bir kez, ısıtma sezonu başlamadan önce yapılması önerilir. Eylül ve ekim ayları bunun için uygun bir dönemdir; hava soğuduğunda servis talepleri yoğunlaştığı için bakımı erken planlamak işinizi kolaylaştırır. Yeni taşındığınız bir evdeki kombinin en son ne zaman bakım gördüğünü bilmiyorsanız ilk kıştan önce bakım yaptırmanız iyi olur.",
-        "Bakım süresince kombi kapalı olacağı için sıcak su ve ısıtma kullanılamaz. Hazırlık olarak kombinin önünü boş bırakmanız ve varsa son servis kaydını hazır tutmanız yeterlidir."
+        "Bakım süresince kombi kapalı olacağı için sıcak su ve ısıtma kullanılamaz. Hazırlık olarak kombinin önünü boş bırakmanız ve varsa son servis kaydını hazır tutmanız yeterlidir. Evde yapabileceğiniz basit kontrolleri [[/kombi-bakimi-rehberi|kış öncesi kombi bakımı rehberimizde]] bulabilirsiniz."
       ]
     },
     {
@@ -42,7 +42,7 @@
         "Peteklerin eskisi kadar ısınmaması ya da evin geç ısınması",
         "Sıcak suyun bir ılık bir soğuk gelmesi",
         "Kombiden uğultu, tıkırtı veya kaynama sesi gelmesi",
-        "Cihazın sık sık hata kodu verip kendini kapatması",
+        "Cihazın sık sık [[/kombi-ariza-onarimi|arıza kodu]] verip kendini kapatması",
         "Kullanım alışkanlıklarınız aynı kaldığı hâlde doğal gaz faturasının belirgin şekilde artması"
       ]
     },

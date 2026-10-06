@@ -8,26 +8,23 @@
 
 <body>
 <%- include('partials/header') %>
-<% const h = page.hizmet, s = page.sayfa; %>
+<% const s = bolgeSayfasi; %>
         <!-- content begin -->
         <div id="content" class="no-top no-bottom">
             <div id="top"></div>
-<%- include('partials/subheader', { arkaplan: '/static/images/background/4.webp', rozet: 'Hizmetlerimiz', h1: s.h1, crumbs: page.crumbs }) %>
+<%- include('partials/subheader', { arkaplan: '/static/images/background/4.webp', rozet: 'Bölgeler', h1: page.h1, crumbs: page.crumbs }) %>
 
             <section>
                 <div class="container">
                     <article class="icerik">
-                        <p class="giris"><%- linkle(s.giris[0]) %></p>
+                        <% s.giris.forEach(function (p, i) { %>
+                        <p<% if (i === 0) { %> class="giris"<% } %>><%- linkle(p) %></p>
+                        <% }) %>
 
-<%- include('partials/ara-kutusu', { baslik: h.baslik + ' için hemen arayın' }) %>
-
-                        <% s.giris.slice(1).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
-
-                        <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= h.resim %>" alt="<%= h.resim_alt %>"
-                            class="rounded-10 mb-4" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+<%- include('partials/ara-kutusu', { baslik: 'Bölgenize servis için hemen arayın' }) %>
 
                         <% s.bolumler.forEach(function (b) { %>
-                        <h2><%= b.baslik %></h2>
+                        <h2 id="<%= b.id %>"><%= b.baslik %></h2>
                         <% (b.paragraflar || []).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
                         <% if (b.maddeler && b.maddeler.length) { %>
                         <ul>
@@ -35,6 +32,8 @@
                         </ul>
                         <% } %>
                         <% }) %>
+
+                        <p><a href="<%= iletisim.harita %>" target="_blank" rel="noopener">Adresimizi Google Haritalar’da görün</a></p>
 
                         <% if (s.sss.length) { %>
                         <h2>Sık Sorulan Sorular</h2>
@@ -46,17 +45,9 @@
 
 <%- include('partials/ara-kutusu', { baslik: 'Klima veya kombiniz için servis çağırın' }) %>
 
-                        <% const ilgili = yazilar.filter(function (y) { return (y.ilgili_hizmetler || []).indexOf(h.slug) !== -1; }); %>
-                        <% if (ilgili.length) { %>
-                        <h2>Faydalı Yazılar</h2>
-                        <ul>
-                            <% ilgili.forEach(function (y) { %><li><a href="/<%= y.slug %>"><%= y.baslik %></a></li><% }) %>
-                        </ul>
-                        <% } %>
-
-                        <h2>Diğer Hizmetlerimiz</h2>
+                        <h2>Hizmetlerimiz</h2>
                         <p class="diger-hizmetler">
-                            <% hizmetler.filter(function (x) { return x.slug !== h.slug; }).forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
+                            <% hizmetler.forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
                         </p>
                     </article>
                 </div>

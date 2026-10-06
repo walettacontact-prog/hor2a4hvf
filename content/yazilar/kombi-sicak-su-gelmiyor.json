@@ -1,0 +1,115 @@
+{
+  "slug": "kombi-sicak-su-gelmiyor",
+  "baslik": "Kombiden Sıcak Su Gelmiyor mu? Petekler Isınıyor ama Musluk Soğuk Kalıyorsa",
+  "kart_baslik": "Kombi Sıcak Su Vermiyorsa",
+  "seo_baslik": "Kombiden Sıcak Su Gelmiyor mu? Nedenleri | Fırtına Klima",
+  "seo_aciklama": "Kombi sıcak su vermiyor ya da bir sıcak bir soğuk mu akıyor? Petekler ısınırken musluğun soğuk kalmasının olası nedenleri ve servisten önce kontroller.",
+  "ozet": "Petekler ısınıyor ama musluktan soğuk ya da ılık su mu geliyor? Olası nedenleri ve servisten önce yapabileceğiniz kontrolleri anlattık.",
+  "resim": "/static/assets/uploads/kombi-sicak-su.webp",
+  "resim_alt": "Kombi çizimi: petek tarafı sıcak, musluktan gelen su soğuk",
+  "tarih": "2026-10-06",
+  "kategori": "kombi",
+  "ilgili_hizmetler": [
+    "kombi-ariza-onarimi"
+  ],
+  "giris": [
+    "Petekler ısınıyor, ev sıcak ama banyodaki ya da mutfaktaki musluktan soğuk su akıyor. Ya da su bir sıcak bir soğuk geliyor, duşun ortasında aniden ılıklaşıyor. Peteklerin ısınması, kombinin gaz aldığını ve yanabildiğini gösterir. Bu durumda sorun büyük olasılıkla sıcak su tarafındaki bir ayarda, su akışında ya da belirli bir parçadadır.",
+    "Bu yazıda kombiden sıcak su gelmemesinin ya da suyun ılık gelmesinin olası nedenlerini, kombinin kapağını açmadan güvenle yapabileceğiniz kontrolleri ve hangi durumlarda bir teknisyene ihtiyaç olduğunu anlatıyoruz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Servis çağırmadan önce kontrol edebilecekleriniz",
+      "paragraflar": [
+        "Sıcak su sorunlarının bir kısmı arıza değil, ayar ya da besleme kaynaklıdır. Kombinin kapağını açmadan şunlara bakabilirsiniz:"
+      ],
+      "maddeler": [
+        "Sıcak su ayarı: Kombinin ekranında ya da düğmesinde genellikle musluk simgesiyle gösterilen sıcak su sıcaklığı yanlışlıkla en düşüğe çekilmiş olabilir.",
+        "Çalışma modu: Çoğu kombi yaz modunda yalnızca sıcak su verir, kış modunda ise hem ısıtma hem sıcak su için çalışır. Bazı modellerde sıcak su işlevi ayrıca kapatılabildiği için ekranda sıcak su simgesinin görünüp görünmediğine bakın.",
+        "Su basıncı: Çoğu kombide soğukken yaklaşık 1–1,5 bar görmeniz beklenir; çalışırken 1–2 bar aralığında biraz yükselmesi normaldir, kesin değer kullanım kılavuzunda yazar. Basınç çok düşerse kombi kendini korumak için çalışmayı durdurabilir. Basıncın nasıl tamamlanacağını [[/kombi-su-basinci|kombi su basıncı rehberimizde]] anlattık.",
+        "Başka bir musluk: Sorun yalnızca tek bir musluktaysa neden büyük olasılıkla kombide değil, o musluğun bataryasında ya da ucundaki perlatördedir.",
+        "Şebeke suyu: Soğuk su da her zamankinden zayıf akıyorsa ya da binada su kesintisi veya hidrofor sorunu varsa kombi yeterli akışı algılayamaz ve sıcak su vermez."
+      ]
+    },
+    {
+      "baslik": "Musluğu açınca kombi hiç devreye girmiyorsa",
+      "paragraflar": [
+        "Musluğu açtığınızda kombi, soğuk su girişindeki akış sensörü sayesinde suyun aktığını algılar ve sıcak su moduna geçer. Bunun için belli bir asgari akış gerekir; musluk az açıksa ya da su zayıf akıyorsa kombi devreye girmez. Kombi o sırada petekleri ısıtmıyorsa ekranda alev simgesi çıkmaz, ateşleme sesi duyulmaz ve musluktan yalnızca soğuk su gelir.",
+        "Önce musluğu sonuna kadar açıp birkaç saniye bekleyin. Kombi bu şekilde çalışıyor ama musluk az açıkken çalışmıyorsa akış yetersizdir. Akışı azaltan yaygın nedenlerden biri, musluğun ucundaki perlatörün zamanla kireç ve tortuyla tıkanmasıdır. Perlatörü çoğu zaman elle çevirerek sökebilir, fırçayla temizleyebilir, kireçliyse sirkeli suda bir süre bekletip yeniden takabilirsiniz. Duş başlığının delikleri kireçle kapanmışsa duşta da aynı sorun yaşanır.",
+        "Çoğu kombinin soğuk su girişinde ayrıca bir süzgeç bulunur. Bu süzgeç tıkandığında soğuk su normal akarken bütün musluklarda sıcak su zayıf gelir. Süzgecin temizliği kombinin su bağlantılarını açmayı gerektirdiği için teknisyen işidir. Akış normal olduğu hâlde kombi musluğun açıldığını algılamıyorsa akış sensöründe ya da elektronik kartta bir sorun olabilir; bunun da servisle kontrol edilmesi gerekir."
+      ]
+    },
+    {
+      "baslik": "Petekler ısınıyor ama sıcak su gelmiyorsa: üç yollu vana",
+      "paragraflar": [
+        "Kombilerin çoğunda tek bir brülör hem petek suyunu hem de kullanım suyunu ısıtır. Isınan suyun nereye gideceğine kombinin içindeki üç yollu vana karar verir: Musluk kapalıyken sıcak suyu peteklere gönderir; musluğu açtığınızda yönü sıcak su eşanjörüne çevirir ve musluk açık kaldığı sürece peteklere giden akışı keser.",
+        "Vana ya da onu hareket ettiren motor arızalandığında vana ısıtma konumunda takılı kalabilir. Bu durumda kombi musluğun açıldığını algılayıp yanar ama ısı yine peteklere gider; petekler ısınmaya devam ederken musluktan soğuk ya da ancak ılık su akar. Kombi yaz modundayken peteklerin ısınması da aynı soruna işaret edebilir. Akış sensörü musluğun açıldığını algılamadığında da kombi petekleri ısıtmayı sürdürdüğü için tablo benzer görünür.",
+        "Tersi de olabilir: Vana sıcak su konumunda kalırsa musluk ısınır ama petekler soğuk kalır. Bu durumu [[/petekler-isinmiyor|peteklerin ısınmaması üzerine yazımızda]] ayrıca anlattık. Vananın ya da motorunun onarımı kombinin içinde yapılan bir iştir; kendiniz müdahale etmeye çalışmayın."
+      ]
+    },
+    {
+      "baslik": "Su ılık geliyor ya da bir sıcak bir soğuk akıyorsa",
+      "paragraflar": [
+        "Çoğu kombide kullanım suyu, plakalı eşanjör denen ve ince kanallardan oluşan ayrı bir eşanjörde ısınır. Sert su ısındıkça bu kanallarda kireç birikir. Kanallar daraldıkça ısı suya iyi geçemez; su ılık gelir, kombi de aşırı ısınmamak için brülörü sık sık kısıp açabilir ve su bir sıcak bir soğuk akmaya başlar. Kireçlenme genellikle yavaş ilerler; sıcak suyun aylar içinde giderek ılıklaşması tipik bir işarettir.",
+        "Akış sınırdaysa akış sensörü kombiyi bir devreye alıp bir durdurabilir; suyun sıcaklığı da buna göre dalgalanır. Sıcak suyun sıcaklığını ölçen sensör hatalı değer okuduğunda da kombi brülörü yanlış zamanda kısabilir. Eşanjör ve sensör kontrolleri cihaz açılarak yapıldığı için teknisyene bırakılmalıdır.",
+        "Kombiden şüphelenmeden önce şu olasılıkları da göz önüne alın:"
+      ],
+      "maddeler": [
+        "Musluğu açtıktan sonra ilk birkaç saniye soğuk su gelmesi normaldir; borularda bekleyen su önce boşalır. Musluğu kısa aralıklarla kapatıp açtığınızda araya bir miktar soğuk su girmesi de birçok kombide görülür.",
+        "Kombi suyu anlık ısıttığı için aynı anda iki musluk açıldığında su ılıklaşabilir. Biri kapatılınca düzeliyorsa bu bir arıza değildir.",
+        "Termostatik bataryalarda sıcaklık düğmesi ya da güvenlik sınırlayıcısı düşük bir değerde kalmış olabilir. Eskimiş bir batarya da sıcak ve soğuk suyu düzgün karıştıramayabilir."
+      ]
+    },
+    {
+      "baslik": "Ne petekler ne musluk ısınıyorsa",
+      "paragraflar": [
+        "Hem petekler hem musluk soğuksa sorun sıcak suya özgü değildir; kombi büyük olasılıkla hiç ateşleme yapmıyor ya da ateşledikten sonra kendini kilitliyordur. Kombinin elektriğini, basınç göstergesini ve sayaçtaki ya da kombinin altındaki gaz vanalarının açık olup olmadığını kontrol edin; kartlı sayaç kullanıyorsanız bakiyeye de bakın. Ekranda arıza kodu varsa kombiyi reset tuşuyla bir kez yeniden başlatabilirsiniz. Kombi yeniden kilitlenirse üst üste reset atmayın, servis çağırın. Ateşleme sorunlarını ve arıza kodlarının neye işaret ettiğini [[/kombi-ariza-onarimi|kombi arıza onarımı sayfamızda]] anlattık."
+      ]
+    },
+    {
+      "baslik": "Yoğuşma borusu ya da su boruları donduysa",
+      "paragraflar": [
+        "Yoğuşmalı kombiler çalışırken su üretir ve bu suyu plastik bir boruyla tahliye eder. Bu boru dış cepheden ya da açık bir balkondan geçiyorsa dondurucu soğuklarda içinde buz oluşabilir. Tıkanan boru suyu atamayınca çoğu kombi güvenlik için kendini kapatır ve hata verir; bu sırada ne petekler ısınır ne de sıcak su gelir. Kombinin soğuk su girişi ya da evin su boruları donmuşsa musluktan hiç su gelmeyebilir.",
+        "Böyle bir durumda şunlara dikkat edin:"
+      ],
+      "maddeler": [
+        "Kombiyi kapatın ve tekrar tekrar resetlemeyin.",
+        "Boruları açık alevle ya da sıcak hava tabancasıyla ısıtmaya çalışmayın; boru ve bağlantılar zarar görebilir.",
+        "Dışarıdaki plastik yoğuşma borusuna güvenle ulaşabiliyorsanız üzerine ılık su dökerek buzu çözebilirsiniz. Kaynar su kullanmayın; boru çatlayabilir. Pencereden sarkarak ya da yükseğe tırmanarak boruya ulaşmaya çalışmayın.",
+        "Buz çözüldükten sonra kombiyi açıp gerekirse bir kez resetleyin. Kombi yine çalışmıyorsa ya da sorun tekrarlıyorsa servis çağırın."
+      ]
+    },
+    {
+      "baslik": "Kireçlenmeyi yavaşlatmak için",
+      "paragraflar": [
+        "Kullanım suyu eşanjöründeki kireçlenme tamamen önlenemez ama yavaşlatılabilir. Kireç, su yüksek sıcaklıkta ısıtıldığında daha hızlı birikir; bu yüzden sıcak su sıcaklığını ihtiyacınızdan yüksek ayarlamamak işe yarar. Sıcak suyu bataryada zaten bolca soğukla karıştırıyorsanız kombideki ayarı biraz düşürmeyi deneyebilirsiniz. [[/kombi-bakimi|Yıllık kombi bakımında]] bu eşanjördeki kireçlenme de kontrol edilir; böylece sorun, su ılık gelmeye başlamadan fark edilebilir."
+      ]
+    },
+    {
+      "baslik": "Ne zaman servis çağırmalısınız?",
+      "paragraflar": [
+        "Ayarlar ve su akışı normal olduğu hâlde musluk açılınca kombi devreye girmiyorsa, petekler ısınırken bütün musluklardan soğuk su geliyorsa ya da sıcak su giderek ılıklaşıyorsa sorun büyük olasılıkla kombinin içindedir. Bir kez resetlendikten sonra yeniden kilitlenen, kaynamaya benzer sesler çıkaran ya da altından su sızdıran bir kombiyi de zorlamadan bir teknisyene kontrol ettirin.",
+        "Gaz kokusu, servis beklenecek bir arıza değil, acil bir durumdur. Elektrik düğmelerine ve prizlere dokunmayın, gaz vanasını kapatın, ortamı havalandırın, binadan çıkın ve dışarıdan 187 Doğal Gaz Acil hattını arayın.",
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler'de tüm marka kombilere arıza onarımı ve bakım hizmeti veriyoruz. Bağımsız bir özel teknik servisiz, herhangi bir markanın yetkili servisi değiliz; kombiniz hâlâ üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Arızayı yerinde tespit ediyor, ne yapılması gerektiğini ve ücreti işe başlamadan önce bildiriyoruz. Parça değişimlerinde orijinal yedek parça kullanıyor, onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz; ararken kombinizin modelini ve varsa ekrandaki kodu söylemeniz hazırlık yapmamızı kolaylaştırır."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kombi sıcak su verirken neden bir sıcak bir soğuk akıyor?",
+      "cevap": "Olası nedenler kireçlenmiş plakalı eşanjör, sınırda kalan su akışı ve hatalı ölçüm yapan bir sıcaklık sensörüdür. Önce musluğu sonuna kadar açın ve o sırada evde başka musluk kullanılmadığından emin olun. Dalgalanma bu şekilde de sürüyorsa sorun büyük olasılıkla kombinin içindedir ve cihazın kontrol edilmesi gerekir."
+    },
+    {
+      "soru": "Sıcak su sorunu için kombiyi resetlemek işe yarar mı?",
+      "cevap": "Reset yalnızca kombi kendini kilitlediğinde, örneğin ateşleme alamadığında ya da donan yoğuşma borusu çözüldükten sonra işe yarayabilir. Takılı kalan bir üç yollu vana, kireçlenmiş bir eşanjör ya da arızalı bir sensör resetle düzelmez. Kombiyi bir kez resetleyin; yeniden kilitlenirse ya da sorun sürerse üst üste denemeyin, servis çağırın."
+    },
+    {
+      "soru": "Plakalı eşanjör temizlenir mi, değiştirilir mi?",
+      "cevap": "Bu, kireçlenmenin derecesine ve eşanjörün durumuna bağlıdır. Kireçlenme çok ilerlememişse eşanjör sökülüp kireç çözücü bir solüsyonla temizlenebilir; kanallar ciddi şekilde tıkanmışsa, eşanjör sızdırıyorsa ya da temizlik yeterli sonuç vermiyorsa değiştirmek daha doğru olur. Hangisinin uygun olduğuna eşanjör incelendikten sonra karar verilir."
+    },
+    {
+      "soru": "Kombi sıcak su vermiyorsa tamiri ne kadar tutar?",
+      "cevap": "Ücret sorunun kaynağına göre değişir. Tıkanmış bir süzgecin temizliği, akış sensörü ya da üç yollu vana değişimi ve eşanjör temizliği veya değişimi birbirinden farklı işlerdir; kombinin modeli ve parçanın bulunabilirliği de fiyatı etkiler. Bu yüzden telefonda sabit bir rakam vermiyor, arızayı tespit ettikten sonra ücreti işe başlamadan önce bildiriyoruz."
+    }
+  ]
+}

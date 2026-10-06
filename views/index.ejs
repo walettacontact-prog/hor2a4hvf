@@ -37,31 +37,25 @@
 
                                                 <div class="col-lg-6 mb-sm-30">
                                                     <div class="sw-text-wrapper border-left">
-                                                        <h6 class="slider-extra mb-2">Bahçelievler Klima & Kombi Servisi
-                                                        </h6>
-                                                        <h2 class="slider-title mb-2">Uzman Ekip, Hızlı ve Güvenilir
-                                                            Hizmet</h2>
+                                                        <p class="h6 slider-extra mb-2"><%= iletisim.calisma_saatleri %> · Çoğu çağrıya aynı gün servis</p>
+                                                        <h1 class="slider-title slider-h1 mb-2"><%= page.h1 %></h1>
 
                                                         <div class="row g-2">
-                                                            <div class="col-lg-8">
+                                                            <div class="col-lg-10">
                                                                 <p class="slider-teaser">
-                                                                    Yenibosna, Bahçelievler ve çevresinde klima montajı,
-                                                                    klima ve kombi bakımı ve arıza onarımı.
-                                                                    Aynı gün servis imkânı, orijinal yedek parça ve
-                                                                    garantili işçilik.
+                                                                    Klima montajı, bakımı, arıza tamiri ve gaz dolumu;
+                                                                    kombi bakımı ve arıza onarımı. Tüm markalar, orijinal
+                                                                    yedek parça, garantili işçilik.
                                                                 </p>
-                                                            </div>
-                                                            <div class="col-lg-4 d-none d-lg-block">
-                                                                <img src="/static/images/slider/7.webp" fetchpriority="low"
-                                                                    class="w-100 slider-extra"
-                                                                    alt="">
                                                             </div>
 
                                                         </div>
 
                                                         <div class="spacer-10"></div>
-                                                        <a class="btn-main bg-color mb10" href="/serviscagir">Hemen
-                                                            Servis Çağır</a>
+                                                        <div class="slider-butonlar">
+                                                            <a class="btn-main bg-color" href="tel:<%= iletisim.telefon %>">Hemen Ara: <%= telGoster(iletisim.telefon) %></a>
+                                                            <a class="btn-line" href="/serviscagir">Servis Çağır</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -87,27 +81,22 @@
 
                                                 <div class="col-lg-6 mb-sm-30">
                                                     <div class="sw-text-wrapper border-left">
-                                                        <h6 class="slider-extra mb-2">Kombi Bakım & Onarım Hizmeti</h6>
+                                                        <p class="h6 slider-extra mb-2">Kombi Bakımı ve Arıza Onarımı</p>
                                                         <h2 class="slider-title mb-2">Kışa Hazırlıklı Olun</h2>
 
                                                         <div class="row g-2">
-                                                            <div class="col-lg-8">
+                                                            <div class="col-lg-10">
                                                                 <p class="slider-teaser">
-                                                                    Kombinizin performansını artırın, enerji tasarrufu
-                                                                    sağlayın.
-                                                                    Uzman teknik ekibimizle güvenli, hızlı ve kaliteli
-                                                                    hizmet alın.
+                                                                    Isıtma sezonu başlamadan kombi bakımı, arızada yerinde
+                                                                    tespit ve onarım. Ücreti işe başlamadan söylüyoruz.
                                                                 </p>
-                                                            </div>
-                                                            <div class="col-lg-4 d-none d-lg-block">
-                                                                <img src="/static/images/slider/7.webp" fetchpriority="low"
-                                                                    class="w-100 slider-extra"
-                                                                    alt="">
                                                             </div>
                                                         </div>
 
-                                                        <a class="btn-main bg-color mb10" href="/hizmetler">Hizmetleri
-                                                            İncele</a>
+                                                        <div class="slider-butonlar">
+                                                            <a class="btn-main bg-color" href="tel:<%= iletisim.telefon %>">Hemen Ara: <%= telGoster(iletisim.telefon) %></a>
+                                                            <a class="btn-line" href="/kombi-bakimi">Kombi Bakımı</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -131,8 +120,8 @@
                 <div class="container">
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-9 text-center">
-                            <h1 class="h2"><%= page.h1 %></h1>
-                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki ekibimizle klima montajı, klima bakımı ve tamiri, gaz dolumu, VRF/multi sistem servisi, kombi bakımı ve kombi arıza onarımı yapıyoruz. <%= iletisim.calisma_saatleri %> arası <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından ulaşabilirsiniz.</p>
+                            <h2>Hizmetlerimiz</h2>
+                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki servisimizden tüm marka klima ve kombilere hizmet veriyoruz. Herhangi bir markanın yetkili servisi değil, <a href="/hakkimizda">bağımsız bir özel servisiz</a>: orijinal yedek parça kullanıyor, işçiliğimize garanti veriyor ve ücreti işe başlamadan önce söylüyoruz. <%= iletisim.calisma_saatleri %> arası <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından ulaşabilirsiniz.</p>
                         </div>
                     </div>
                     <div class="row g-4 justify-content-center">
@@ -163,6 +152,8 @@
                 </div>
             </section>
 
+<%- include('partials/bolgeler') %>
+
             <section id="section-products" class="section-dark bg-color text-light">
                 <div class="container">
                     <div class="row g-4">
@@ -187,6 +178,9 @@
                             </div>
                         </div>
                         <% }) %>
+                        <div class="col-12 text-center">
+                            <a class="btn-main bg-color-2" href="/rehberler">Tüm Rehberler (<%= yazilar.length %>)</a>
+                        </div>
                         <div class="spacer-double"></div>
                     </div>
                 </div>
@@ -255,9 +249,9 @@
                                         <img loading="lazy" decoding="async" src="/static/images/icons/white/labor.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
-                                            <h4>Uzman Teknik Ekip</h4>
-                                            <p class="mb-0">Deneyimli teknisyenlerimiz, tüm klima ve kombi markalarına
-                                                profesyonel servis hizmeti sunar.</p>
+                                            <h4>Tüm Markalara Servis</h4>
+                                            <p class="mb-0">Tüm marka klima ve kombilere bağımsız özel servis olarak
+                                                hizmet veriyoruz; yetkili servis değiliz.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -267,9 +261,9 @@
                                         <img loading="lazy" decoding="async" src="/static/images/icons/white/calendar.webp" width="512" height="512" style="height: auto"
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
-                                            <h4>Esnek Randevu Seçenekleri</h4>
-                                            <p class="mb-0">Yoğun programınıza uygun şekilde hafta içi ve hafta sonu
-                                                randevu imkânı sunuyoruz.</p>
+                                            <h4>Her Gün Açığız</h4>
+                                            <p class="mb-0">Hafta içi ve hafta sonu, her gün 08.00–21.00 arası servis
+                                                talebi alıyoruz.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -339,7 +333,7 @@
                             <div class="item">
                                 <div class="de_testi s2 bg-color-3 rounded-1">
                                     <blockquote>
-                                        <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
+                                        <i class="fa fa-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
                                             <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/1.jpg">
                                             <div>Ahmet K.<span>Müşteri</span></div>
@@ -360,7 +354,7 @@
                             <div class="item">
                                 <div class="de_testi s2 bg-color-3 rounded-1">
                                     <blockquote>
-                                        <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
+                                        <i class="fa fa-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
                                             <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/2.jpg">
                                             <div>Ali T.<span>Müşteri</span></div>
@@ -382,7 +376,7 @@
                             <div class="item">
                                 <div class="de_testi s2 bg-color-3 rounded-1">
                                     <blockquote>
-                                        <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
+                                        <i class="fa fa-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
                                             <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/3.jpg">
                                             <div>Mehmet A.<span>Müşteri</span></div>
@@ -403,7 +397,7 @@
                             <div class="item">
                                 <div class="de_testi s2 bg-color-3 rounded-1">
                                     <blockquote>
-                                        <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
+                                        <i class="fa fa-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
                                         <div class="de_testi_by">
                                             <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/4.jpg">
                                             <div>Semih Y.<span>Müşteri</span></div>
@@ -421,26 +415,10 @@
                                 </div>
                             </div>
 
-                            <div class="item">
-                                <div class="de_testi s2 bg-color-3 rounded-1">
-                                    <blockquote>
-                                        <i class="icofont-quote-left fs-40 absolute start-30px top-30px id-color-2"></i>
-                                        <div class="de_testi_by">
-                                            <img loading="lazy" decoding="async" class="bg-white circle" alt="" src="/static/images/testimonial/5.jpg">
-                                            <div>İsmail D.<span>Müşteri</span></div>
-                                        </div>
-                                        <p>"Kışın ortasında kombim bozuldu, bir saat içinde gelip tamir ettiler.
-                                            Gerçekten 7/24 hizmet veriyorlar, çok memnun kaldım."</p>
-                                        <div class="de-rating-ext">
-                                            <span class="d-stars">
-                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                                    class="fa fa-star"></i>
-                                            </span>
-                                        </div>
-                                    </blockquote>
-                                </div>
                             </div>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <a class="btn-main" href="<%= iletisim.harita %>" target="_blank" rel="noopener">Google Haritalar’daki profilimizi görün</a>
                         </div>
                     </div>
                 </div>
@@ -547,8 +525,6 @@
                 }
             </style>
 
-<%- include('partials/bolgeler') %>
-
 <%- include('partials/cta') %>
 
 
@@ -557,9 +533,6 @@
 
 <%- include('partials/footer') %>
 
-    <!-- Font Awesome varsa ikonlar çalışır, yoksa ekle -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    
 </body>
 
 </html>

@@ -1,0 +1,118 @@
+{
+  "slug": "kombi-su-basinci",
+  "baslik": "Kombi Su Basıncı Neden Düşer, Neden Yükselir? Kaç Bar Olmalı?",
+  "kart_baslik": "Kombi Su Basıncı Rehberi",
+  "seo_baslik": "Kombi Basıncı Düşüyor ya da Yükseliyor mu? | Fırtına Klima",
+  "seo_aciklama": "Kombi su basıncı kaç bar olmalı, neden düşer ya da 3 bara çıkar? Güvenli su ekleme, basıncı düşürme ve servis gerektiren durumlar.",
+  "ozet": "Kombi basıncı kaç bar olmalı, neden düşer ya da kendiliğinden yükselir? Güvenle su ekleme, basıncı azaltma ve servis gerektiren durumlar.",
+  "resim": "/static/assets/uploads/kombi-basinc-gostergesi.webp",
+  "resim_alt": "Kombi basınç göstergesi çizimi: ibre 1–2 bar aralığında",
+  "tarih": "2026-10-06",
+  "kategori": "kombi",
+  "ilgili_hizmetler": [
+    "kombi-ariza-onarimi",
+    "kombi-bakimi"
+  ],
+  "giris": [
+    "Kombinin üzerindeki basınç göstergesi, kombiyle petekler arasında dolaşan kapalı devredeki suyun basıncını gösterir. Bu değer çok düşerse kombi kendini korumak için durur; çok yükselirse emniyet ventili su atmaya başlar. İki durum da çoğu zaman başlı başına bir arıza değil, başka bir sorunun belirtisidir: bir su kaçağı, tam kapanmayan bir doldurma musluğu ya da havası azalmış bir genleşme tankı gibi.",
+    "Bu yazıda göstergeyi nasıl okuyacağınızı, basıncın neden düşüp yükseldiğini, kendiniz güvenle neler yapabileceğinizi ve hangi durumlarda teknisyen çağırmanız gerektiğini anlatıyoruz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Kombi su basıncı kaç bar olmalı? Göstergeyi doğru okumak",
+      "paragraflar": [
+        "Çoğu kombide su basıncının soğukken yaklaşık 1–1,5 bar olması önerilir. Su ısındıkça genleştiği için çalışırken ibrenin 1–2 bar aralığında biraz yükselmesi normaldir. Kombiniz için kesin değer kullanım kılavuzunda yazar; dijital ekranlı modellerde basınç genellikle ekranda bar cinsinden görünür.",
+        "Doğru karşılaştırma için göstergeye kombi soğukken bakın; örneğin sabah ısıtma devreye girmeden önce. Çalışırken okunan değeri soğuk değerle karıştırırsanız basıncı olduğundan yüksek sanıp gereksiz yere su boşaltabilirsiniz.",
+        "Üst sınırda emniyet ventili devreye girer: Çoğu kombide 3 bar civarında açılarak fazla suyu dışarı atar. Peteklerin kombiden belirgin şekilde yukarıda kaldığı evlerde, örneğin kombisi alt katta olan bazı dubleks dairelerde, teknisyen biraz farklı bir değer önerebilir."
+      ]
+    },
+    {
+      "baslik": "Basınç neden sürekli düşer?",
+      "paragraflar": [
+        "Kapalı bir ısıtma devresinde normalde su eksilmez. Basınç tekrar tekrar düşüyorsa su bir yerden çıkıyor ya da basıncı dengeleyen bir parça görevini yapmıyor demektir. Başlıca nedenler şunlardır:"
+      ],
+      "maddeler": [
+        "Petek ve tesisattaki küçük kaçaklar: petek vanaları, hava alma tapaları ve rakor bağlantıları. Bu noktaların çevresinde beyaz kireç ya da pas izi olup olmadığına bakın.",
+        "Kombinin içindeki sızıntılar: Pompa, eşanjör ve boru bağlantılarındaki contalar zamanla sızdırabilir. Kombinin altında nem, damla izi ya da paslanma görüyorsanız kapağı açmadan teknisyene haber verin.",
+        "Emniyet ventilinin su atması: Sistem ısındığında basınç 3 bar civarına çıkarsa ventil açılıp su boşaltır, kombi soğuyunca da basınç bu kez normalin altına iner. Bu döngünün arkasında çoğu zaman fazla doldurma ya da ön basıncı düşmüş bir genleşme tankı vardır. Tank, ısınan suyun genleşmesini içindeki hava yastığıyla karşılar ve bu hava zamanla azalabilir.",
+        "Petek havası alındıktan sonraki düşüş: Peteklerden çıkan havanın yerini su doldurur ve basınç bir miktar iner. [[/petekler-isinmiyor|Isınmayan peteklerin havasını]] aldıktan sonra basıncı kontrol edip gerekirse bir kez su eklemeniz normaldir. Yeni doldurulmuş bir tesisatta da ilk günlerde benzer bir düşüş görülebilir."
+      ]
+    },
+    {
+      "baslik": "Basınç neden kendiliğinden yükselir?",
+      "paragraflar": [
+        "Kimse su eklemediği hâlde ibre yükseliyorsa sisteme bir yerden su giriyor ya da ısınan suyun genleşmesi karşılanamıyor demektir. Basıncın ne zaman yükseldiğine dikkat edin: Kombi kapalı ve soğukken de yavaş yavaş artıyorsa sisteme büyük olasılıkla şebeke suyu giriyordur; yalnızca çalışırken fazla yükselip soğuyunca geri iniyorsa genleşme tankı daha olası bir nedendir. Kesin tespiti cihazı yerinde kontrol eden teknisyen yapar. Üç olasılık öne çıkar:"
+      ],
+      "maddeler": [
+        "Doldurma musluğunun tam kapanmaması: Son su eklemede musluk tam kapatılmamış olabilir ya da yıpranmış contası şebeke suyunu yavaş yavaş içeri geçiriyor olabilir.",
+        "Genleşme tankının havasını kaybetmesi ya da membranının yırtılması: Tank genleşmeyi karşılayamadığında basınç ısındıkça hızla yükselir. Membran yırtıldıysa tankın hava valfinden su gelir; tank genellikle kombinin kapağının içinde olduğu için bu kontrolü teknisyen yapar.",
+        "Plakalı eşanjörde iç kaçak: Ayrı bir plakalı eşanjörü olan kombiler, musluktan akan sıcak suyu bu eşanjörde ısıtma suyunun ısısıyla hazırlar. İnce plakalardan birinde delinme olursa basıncı daha yüksek olan şebeke suyu ısıtma devresine geçer ve basınç, doldurma musluğu kapalı olduğu hâlde yükselir."
+      ]
+    },
+    {
+      "baslik": "Kombiye güvenle su ekleme",
+      "paragraflar": [
+        "Basınç soğukken önerilen değerin altındaysa su eklemek, kullanıcının kendi yapabileceği bir işlemdir. Doldurma musluğunun yeri ve şekli modele göre değişir; çoğu zaman kombinin alt kısmında, boru bağlantılarının arasında küçük bir vana ya da çevrilen bir düğmedir. Emin değilseniz kullanım kılavuzuna bakın ve musluğu gaz vanasıyla karıştırmayın. Şu sırayı izleyin:"
+      ],
+      "maddeler": [
+        "Su eklemeyi kombi soğukken yapın; sıcakken ibre daha yüksek durduğu için doğru seviyeyi tutturmak zorlaşır.",
+        "Musluğu yavaşça açın ve gözünüzü göstergeden ayırmayın; ibre beklediğinizden hızlı yükselebilir. Musluk çok sertse pense ya da anahtarla zorlamayın, kırılan bir musluk sisteme kontrolsüz su girmesine yol açabilir.",
+        "İbre yaklaşık 1–1,5 bara ya da kılavuzda yazan değere gelince musluğu tamamen kapatın. Yarım kapalı kalan musluk, basıncın sonradan kendiliğinden yükselmesine neden olur.",
+        "Düşük basınç uyarısı genellikle kendiliğinden kalkar. Kalkmazsa reset tuşuna bir kez basabilirsiniz; kombi yeniden kapanırsa tekrar denemeyin, servis çağırın.",
+        "Kombi bir süre çalıştıktan sonra ve ertesi gün soğukken göstergeyi yeniden kontrol edin."
+      ]
+    },
+    {
+      "baslik": "Basınç fazla yükseldiyse ne yapmalısınız?",
+      "paragraflar": [
+        "Basınç çalışırken 2 barı belirgin şekilde aşıyor ya da soğukken bile önerilen değerin üstünde kalıyorsa önce doldurma musluğunun tam kapalı olduğundan emin olun. Emniyet ventili tekrar tekrar su atıyorsa kombiyi kapatın ve servis çağırın. Ventilin çıkışını tıkamayın ve ventile müdahale etmeyin; görevi tam olarak bu fazla basıncı dışarı atmaktır.",
+        "Ventil su atmıyor ve basınç yalnızca biraz yüksekse fazla suyu bir petekten boşaltabilirsiniz. Bunu yalnızca kombi kapalıyken ve petekler soğuduktan sonra yapın; sıcak su yanığa yol açabilir."
+      ],
+      "maddeler": [
+        "Kombiyi kapatın ve peteklerin tamamen soğumasını bekleyin.",
+        "Bir peteğin hava alma tapasının altına bir kap tutun, çevresine bez sarın; petekten gelen koyu renkli su zemini ve duvarı lekeleyebilir.",
+        "Tapayı anahtarıyla ya da düz bir tornavidayla yavaşça ve az miktarda açın. Önce hava, ardından su gelebilir.",
+        "Mümkünse biri göstergeyi izlesin. Basınç yaklaşık 1–1,5 bara inince tapayı kapatın; tapayı tamamen sökmeyin.",
+        "Kombiyi yeniden açıp basıncı bir süre izleyin. Basınç kısa sürede yine yükseliyorsa sorun fazla suyla sınırlı değildir; musluğun, genleşme tankının ya da eşanjörün kontrol edilmesi gerekir."
+      ]
+    },
+    {
+      "baslik": "Kombi su eksiltiyor ama kaçak görünmüyorsa",
+      "paragraflar": [
+        "Önce sık karıştırılan bir durumu ayıralım: Yoğuşmalı kombilerde cihazın altından gidere giden ince bir hortumdan su gelmesi normaldir. Bu, baca gazındaki su buharının yoğuşmasıyla oluşan yoğuşma suyudur; ısıtma devresinden gelmez ve basıncı düşürmez.",
+        "Basınç düşüyor ama ne kombinin altında ne de peteklerde su görüyorsanız su, gözünüzün önünde olmayan bir yerden gidiyor olabilir:"
+      ],
+      "maddeler": [
+        "Emniyet ventilinin tahliye borusu birçok tesisatta gidere bağlıdır; ventil su attığında bunu yerde görmezsiniz. Borunun ucu ya da bağlandığı huni görünüyorsa kombi çalışırken damlama olup olmadığına bakın.",
+        "Kombinin içindeki küçük bir sızıntı sıcak parçaların üzerinde buharlaşabilir; geride yalnızca cihazın altındaki borularda kireç ya da pas izi kalabilir.",
+        "Duvar ya da zemin içinden geçen borulardaki kaçaklar görünmez. Duvarda nem lekesi, kabaran boya ya da parke, zeminde nedensiz ılık bir bölge ya da alt kattaki komşunuzun tavanında leke bu tür bir kaçağın işareti olabilir. Gömülü bir borunun onarımı ayrı bir tesisat çalışması gerektirebilir."
+      ]
+    },
+    {
+      "baslik": "Ne zaman servis çağırmalısınız?",
+      "paragraflar": [
+        "Basıncı bir kez tamamlamak çoğu zaman yeterlidir. Ancak eklediğiniz su birkaç gün içinde yine azalıyorsa, basınç kombi soğukken bile yükseliyorsa ya da emniyet ventili su atıyorsa basıncı ayarlamak yalnızca belirtiyi gizler. Kombinin altında nem veya pas izi, geçmeyen düşük basınç uyarısı ve bir kez resetlendikten sonra yeniden kapanan bir kombi de servis gerektirir.",
+        "Basınç sorunlarında [[/kombi-ariza-onarimi|kombi arıza onarımının]] ücreti nedene göre değişir: Doldurma musluğunun ya da emniyet ventilinin değişimi, genleşme tankının ön basıncının ayarlanması ya da tankın değişimi ve plakalı eşanjörün değişimi birbirinden farklı işlerdir. Arızanın kaynağını yerinde tespit ediyor, yapılacak işi ve ücretini işe başlamadan önce bildiriyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; onardığımız arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz. Kombiniz hâlâ üretici garantisi kapsamındaysa önce markanın yetkili servisine danışmanızı öneririz.",
+        "Fırtına Klima & Kombi olarak başta Yenibosna ve Bahçelievler olmak üzere çevredeki semtlerde tüm marka kombilere hizmet veriyoruz. Bağımsız bir özel servisiz, herhangi bir markanın yetkili servisi değiliz. Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kombi basıncı 0 bara düşerse kombi çalışır mı?",
+      "cevap": "Genellikle çalışmaz. Çoğu kombi, basınç belirli bir seviyenin altına indiğinde kendini korumak için ısıtmayı durdurur ve düşük basınç uyarısı ya da arıza kodu gösterir. Kombi soğukken önerilen değere kadar su eklediğinizde çoğu zaman yeniden çalışır. Basınç sıfıra kadar indiyse büyük olasılıkla belirgin bir su kaybı vardır; eklediğiniz su kısa sürede yine azalıyorsa kaçağın bulunması gerekir."
+    },
+    {
+      "soru": "Kombi basıncı yükseliyor ve su akıtıyor; tehlikeli mi?",
+      "cevap": "Su büyük olasılıkla emniyet ventilinden geliyordur. Ventil, çoğu kombide 3 bar civarında açılarak basıncın güvenli sınırın üzerine çıkmasını önler; yani güvenlik sistemi görevini yapıyordur. Yine de durum normal değildir: Akan su elektronik parçalara zarar verebilir ve sık açılan ventil zamanla tam kapanmayabilir. Kombiyi kapatıp nedenini kontrol ettirmeniz iyi olur."
+    },
+    {
+      "soru": "Kombiye ne sıklıkla su eklemek normaldir?",
+      "cevap": "Kapalı bir ısıtma sisteminde basıncın uzun süre aşağı yukarı sabit kalması beklenir; sezon başında ya da petek havası alındıktan sonra arada bir su eklemek normaldir. Her hafta su eklemek zorunda kalıyorsanız sistemde büyük olasılıkla bir kaçak ya da su atan bir ventil vardır. Sürekli eklenen taze su tesisata oksijen ve kireç de taşıdığından peteklerde ve eşanjörde korozyonu ve kireçlenmeyi hızlandırabilir."
+    },
+    {
+      "soru": "Genleşme tankına hava basmak gerekir mi, kendim yapabilir miyim?",
+      "cevap": "Tankın ön basıncı zamanla azalabilir; bu yüzden [[/kombi-bakimi|yıllık kombi bakımında]] kontrol edilir. Doğru ölçüm için ısıtma devresindeki su basıncının boşaltılması gerekir, uygun değer de kombiye ve tesisata göre belirlenir. Tank çoğu zaman kombinin kapağının içinde olduğu için bu işi teknisyene bırakın. Membran yırtılmışsa hava basmak sorunu çözmez, tankın değiştirilmesi gerekir."
+    }
+  ]
+}
