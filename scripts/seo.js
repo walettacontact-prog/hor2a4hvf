@@ -112,7 +112,10 @@ function seoFor(data, page) {
     },
   ];
 
-  const image = page.image ? { url: abs(page.image) } : page.yazi ? { url: upload(page.yazi.resim) } : SHARE;
+  // Paylaşım kartı (1200x630): sayfaya özel görsel varsa o, yoksa genel kart
+  const og = page.ogImage ? { url: abs(page.ogImage), width: 1200, height: 630, type: "image/jpeg" } : SHARE;
+  // Sayfanın asıl içerik görseli (arama sonuçları ve Görseller için)
+  const image = page.yazi ? { url: upload(page.yazi.resim) } : page.hizmet ? { url: upload(page.hizmet.resim) } : og;
   const webpage = {
     "@type": page.type || "WebPage",
     "@id": `${url}#webpage`,
@@ -146,7 +149,7 @@ function seoFor(data, page) {
       mainEntityOfPage: { "@id": `${url}#webpage` },
       headline: page.yazi.baslik,
       description: page.description,
-      image: page.image ? abs(page.image) : upload(page.yazi.resim),
+      image: [upload(page.yazi.resim), ...(page.ogImage ? [og.url] : [])],
       datePublished: page.yazi.tarih,
       dateModified: page.yazi.guncelleme || page.yazi.tarih,
       inLanguage: "tr-TR",
@@ -170,8 +173,9 @@ function seoFor(data, page) {
     title: page.title,
     description: page.description,
     siteName: iletisim.firma_adi,
-    image: page.image ? { url: abs(page.image) } : SHARE,
-    imageAlt: page.imageAlt || `${iletisim.firma_adi} – klima ve kombi servisi, ${telGoster(iletisim.telefon)}`,
+    image: og,
+    imageAlt: page.ogAlt || `${iletisim.firma_adi} – klima ve kombi servisi, ${telGoster(iletisim.telefon)}`,
+    article: page.yazi ? { published: page.yazi.tarih, modified: page.yazi.guncelleme || page.yazi.tarih, section: page.yazi.kategori === "kombi" ? "Kombi" : "Klima" } : null,
     themeColor: THEME_COLOR,
     jsonLd,
   };

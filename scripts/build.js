@@ -161,6 +161,17 @@ function loadData() {
   return { iletisim, hakkimizda, hizmetler, teknikServis, bolgeSayfasi, sayfalar, yazilar };
 }
 
+// Sayfaya özel paylaşım (Open Graph) görseli: public/images/og/<ad>.jpg (scripts/og-gorselleri.js üretir)
+const ogDosyaAdi = (route) => (route === "/" ? "ana-sayfa" : route.slice(1));
+function ogEkle(page, iletisim) {
+  const ad = ogDosyaAdi(page.route);
+  if (fs.existsSync(path.join(ROOT, "public", "images", "og", `${ad}.jpg`))) {
+    page.ogImage = `/static/images/og/${ad}.jpg`;
+    page.ogAlt = `${linksiz(page.h1)} – ${iletisim.firma_adi}, ${telGoster(iletisim.telefon)}`;
+  }
+  return page;
+}
+
 function tumSayfalar(data) {
   const list = SABIT_SAYFALAR.map((p) => ({ ...p }));
   for (const h of data.hizmetler) {
@@ -181,7 +192,7 @@ function tumSayfalar(data) {
       yazi: y, lastmod: y.guncelleme || y.tarih,
     });
   }
-  return list;
+  return list.map((p) => ogEkle(p, data.iletisim));
 }
 
 // Başlık/açıklama uzunluklarını ve tekrarları kontrol eder; tekrar varsa build durur.
@@ -284,10 +295,15 @@ function build() {
   console.log("Build tamamlandı: dist/");
 }
 
-try {
-  build();
-} catch (err) {
-  // Hata olursa build başarısız olur ve GitHub Pages yayındaki eski sürümü korur.
-  console.error(`\nBUILD HATASI: ${err.message}\n`);
-  process.exit(1);
+// scripts/og-gorselleri.js sayfa listesini buradan alır; doğrudan çalıştırılınca siteyi üretir.
+module.exports = { loadData, tumSayfalar, ogDosyaAdi, ROOT };
+
+if (require.main === module) {
+  try {
+    build();
+  } catch (err) {
+    // Hata olursa build başarısız olur ve GitHub Pages yayındaki eski sürümü korur.
+    console.error(`\nBUILD HATASI: ${err.message}\n`);
+    process.exit(1);
+  }
 }

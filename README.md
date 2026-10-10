@@ -41,6 +41,7 @@ Bir JSON dosyası bozulursa ya da zorunlu bir alan boş kalırsa build hata veri
 - Facebook, Instagram, YouTube veya WhatsApp alanı boş bırakılırsa o buton sitede gizlenir.
 - Hakkımızda görseli boş bırakılırsa varsayılan görsel kullanılır.
 - Metin içinde başka bir sayfaya bağlantı: `[[/klima-bakimi|klima bakımı]]`. Hedef sayfa yoksa build hata verir; başlık, soru ve SEO alanlarında kullanılamaz.
+- Her sayfanın paylaşım (Open Graph) görseli `public/images/og/` klasöründe. Sayfa eklendiğinde ya da başlığı değiştiğinde yeniden üretin: `CHROME=<chrome-headless-shell yolu> node scripts/og-gorselleri.js` (ffmpeg gerekir). Görseli olmayan sayfa genel paylaşım görselini kullanır.
 - Rehber yazılarında `kategori` alanı `klima` ya da `kombi` olmalı; Rehberler sayfası ve "Diğer yazılar" listesi buna göre gruplanır.
 - Zorunlu alanlardan biri boşsa build hata verir ve sitedeki önceki sürüm olduğu gibi kalır.
 
