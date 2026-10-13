@@ -44,7 +44,7 @@
                         <% }) %>
                         <% } %>
 
-<%- include('partials/ara-kutusu', { baslik: 'Klima veya kombiniz için servis çağırın' }) %>
+<%- include('partials/ara-kutusu', { baslik: 'Servis çağırmak için arayın veya yazın' }) %>
 
                         <% const ilgili = yazilar.filter(function (y) { return (y.ilgili_hizmetler || []).indexOf(h.slug) !== -1; }); %>
                         <% if (ilgili.length) { %>

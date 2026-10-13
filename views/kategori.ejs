@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<%- include('partials/head') %>
+<%- include('partials/sayfa-stil') %>
+    <style>
+        section.kategori-kartlari img.img-fluid { width: 100%; height: 250px; object-fit: cover; display: block; }
+    </style>
+</head>
+
+<body>
+<%- include('partials/header') %>
+<% const k = page.kategoriSayfa; %>
+        <!-- content begin -->
+        <div id="content" class="no-top no-bottom">
+            <div id="top"></div>
+<%- include('partials/subheader', { arkaplan: '/static/images/background/4.webp', rozet: KATEGORILER[page.kategori].ad, h1: k.h1, crumbs: page.crumbs }) %>
+
+            <section class="pb-0">
+                <div class="container">
+                    <article class="icerik">
+                        <p class="giris"><%- linkle(k.giris[0]) %></p>
+<%- include('partials/ara-kutusu', { baslik: k.hizmet + ' için hemen arayın' }) %>
+                        <% k.giris.slice(1).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
+                    </article>
+                </div>
+            </section>
+
+            <section class="bg-light kategori-kartlari mt-4">
+                <div class="container">
+                    <h2 class="text-center mb-4">Hangi cihazlara bakıyoruz?</h2>
+<%- include('partials/hizmet-kartlari', { sadece: page.kategori }) %>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <article class="icerik">
+                        <% k.bolumler.forEach(function (b) { %>
+                        <h2><%= b.baslik %></h2>
+                        <% (b.paragraflar || []).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
+                        <% if (b.maddeler && b.maddeler.length) { %>
+                        <ul>
+                            <% b.maddeler.forEach(function (m) { %><li><%- linkle(m) %></li><% }) %>
+                        </ul>
+                        <% } %>
+                        <% }) %>
+
+                        <% if (k.sss.length) { %>
+                        <h2>Sık Sorulan Sorular</h2>
+                        <% k.sss.forEach(function (q) { %>
+                        <h3 class="sss-soru"><%= q.soru %></h3>
+                        <p><%- linkle(q.cevap) %></p>
+                        <% }) %>
+                        <% } %>
+
+<%- include('partials/ara-kutusu', { baslik: 'Cihazınız için servis çağırın' }) %>
+
+                        <h2>Diğer Hizmetlerimiz</h2>
+                        <p class="diger-hizmetler">
+                            <% hizmetler.filter(function (x) { return x.kategori !== page.kategori; }).forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+<%- include('partials/cta') %>
+        </div>
+        <!-- content close -->
+<%- include('partials/footer') %>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+{
+  "slug": "firin-ocak-tamiri",
+  "hizmet": "Fırın ve Ocak Tamiri",
+  "seo_baslik": "Fırın ve Ocak Tamiri Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "Fırın ısıtmıyor, fanı çalışmıyor ya da ocak yanmıyor mu? Elektrikli fırın, ocak ve aspiratör için yerinde arıza tespiti ve onarım. {telefon}",
+  "h1": "Bahçelievler'de Fırın, Ocak ve Aspiratör Tamiri",
+  "giris": [
+    "Fırınınız ısıtmıyor, fanı dönmüyor, ocağın bir gözü yanmıyor ya da aspiratör eskisi gibi çekmiyorsa sorun çoğu zaman tek bir parçadan kaynaklanır ve yerinde giderilebilir. Fırtına Klima & Kombi olarak Yenibosna ve çevresinde ankastre ya da solo fırın, ocak ve aspiratör arızalarını adresinizde onarıyoruz.",
+    "Tüm marka cihazlara hizmet veren özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Fırın ve ocak onarımı, [[/beyaz-esya-tamiri|beyaz eşya tamiri hizmetimizin]] bir parçasıdır ve çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Fırın arızaları ve olası nedenleri",
+      "paragraflar": [
+        "Belirtiler çoğu zaman belirli bir parçaya işaret eder; kesin neden yerinde yapılan ölçümle anlaşılır. Dijital fırınlarda arıza kodlarının anlamı markaya ve modele göre değişir; bizi aradığınızda ekranda gördüğünüz kodu söylemeniz ön bilgi vermemizi kolaylaştırır."
+      ],
+      "maddeler": [
+        "Alttan ya da üstten ısıtmıyor: o bölgedeki rezistans yanmış ya da bağlantısı gevşemiş olabilir.",
+        "Yalnızca fanlı programlarda ısıtmıyor: birçok modelde fanın çevresinde ayrı bir rezistans bulunur; bu rezistans ya da fan motoru arızalanmış olabilir.",
+        "Hiç ısıtmıyor, ayarlanan sıcaklığa ulaşmıyor ya da fazla ısıtıyor: termostat, sıcaklık sensörü, fonksiyon anahtarı ya da elektronik kart kaynaklı olabilir.",
+        "Fan dönmüyor ya da ses yapıyor: fan motoru arızalanmış ya da yatakları yıpranmış olabilir; fan dönmediğinde ısı fırının içine eşit dağılmaz.",
+        "Fırını çalıştırınca sigorta atıyor: rezistanslardan birinde elektrik kaçağı ya da ısınmış, nem almış bir bağlantı olabilir.",
+        "Ekran, düğmeler ya da zamanlayıcı tepki vermiyor: elektronik kart ya da kontrol paneli kaynaklı olabilir.",
+        "Kapı tam kapanmıyor, ısı kaçırıyor ya da kapı camı çatlamış: menteşe, conta ya da cam değişimi gerekebilir."
+      ]
+    },
+    {
+      "baslik": "Ocak yanmıyor, alev sönüyor ya da göz ısıtmıyorsa",
+      "paragraflar": [
+        "Gazlı ocaklarda çakmak hiç tık sesi çıkarmıyorsa ateşleme ünitesi, çakmak anahtarı ya da kablo bağlantısı arızalı olabilir. Çakmak çalışıyor ama ocak yanmıyorsa ateşleme bujisi kirlenmiş ya da nem almış, brülör kapağı yerine tam oturmamış ya da brülör delikleri tıkanmış olabilir; taşan yemek suyu çoğu zaman buna yol açar.",
+        "Ocak yanıyor ama düğmeyi bırakınca alev sönüyorsa sorun genellikle alev emniyet sistemindedir. Termokupl adı verilen parça alevi algılar ve emniyet ventilini açık tutar; alev algılanmazsa gaz kendiliğinden kesilir. Termokupl kirlenmiş, yerinden oynamış ya da arızalanmışsa ocak ancak düğme basılı tutulduğunda yanar.",
+        "Seramik, döküm ya da indüksiyonlu elektrikli ocaklarda bir gözün ısıtmaması çoğu zaman o gözün ısıtıcısı, kontrol anahtarı ya da elektronik kartla ilgilidir. İndüksiyonlu ocakta göz yanıp sönüyor ama ısıtmıyorsa tencere indüksiyona uygun olmayabilir. Cam yüzeyi çatlamış bir ocağı kullanmayın; sigortasını kapatıp bizi arayın.",
+        "Gaz besleme hattı, boru bağlantısı ya da doğal gaz dönüşümü yaptığımız işler arasında değildir; bu işler için yetkili doğal gaz tesisat firmalarına başvurmanız gerekir."
+      ]
+    },
+    {
+      "baslik": "Aspiratör çalışmıyor, çekmiyor ya da ses yapıyorsa",
+      "paragraflar": [
+        "Çekişin zayıflaması çoğu zaman arıza değil, yağ filtresinin dolmasından kaynaklanır. Metal filtreler, fiş çekildikten sonra kullanım kılavuzunda anlatıldığı şekilde çıkarılıp yıkanabilir; bacaya bağlı olmayan modellerde karbon filtrenin de belirli aralıklarla değiştirilmesi gerekir. Bacaya giden hortumun ezilmesi ya da bükülmesi de çekişi düşürebilir.",
+        "Filtreler temizken çekiş zayıfsa, motor hiç çalışmıyorsa, uğultu geliyorsa ya da düğmeler tepki vermiyorsa sorun motor, kondansatör, düğme takımı ya da elektronik kartta olabilir."
+      ]
+    },
+    {
+      "baslik": "Servisi çağırmadan önce güvenle kontrol edebilecekleriniz",
+      "paragraflar": [
+        "Herhangi bir kontrolden önce cihazın fişini çekin; ankastre cihazlarda fişe ulaşamıyorsanız sigortasını kapatın. Ayarları denemek için elektriği yeniden verdiğinizde yalnızca düğmeleri ve kontrol panelini kullanın. Fırının arka kapağını, ocağın alt panelini ya da aspiratörün gövdesini açmayın; rezistanslara, kablolara ve gaz bağlantılarına dokunmayın."
+      ],
+      "maddeler": [
+        "Sigorta atmış mı, fiş prize tam oturuyor mu?",
+        "Dijital fırında saat yanıp sönüyorsa bazı modeller saat ayarlanmadan ısıtmaz; fonksiyon ve sıcaklık düğmelerinin doğru konumda olup olmadığına da bakın.",
+        "Elektrikli ve indüksiyonlu ocaklarda çocuk kilidi devrede kalmış olabilir.",
+        "Gazlı ocakta gaz vanası açık mı? Ocak soğuduktan sonra brülör kapaklarının kuru olduğuna ve yerine tam oturduğuna bakın."
+      ]
+    },
+    {
+      "baslik": "Gaz kokusu, yanık kokusu ya da kıvılcım fark ederseniz",
+      "paragraflar": [
+        "Aşağıdaki belirtiler servis beklenecek bir arıza değil, hemen önlem alınması gereken durumlardır."
+      ],
+      "maddeler": [
+        "Gaz kokusu: elektrik düğmelerine ve prizlere dokunmayın, çakmak ya da kibrit yakmayın, içeride telefon kullanmayın. Güvenle ulaşabiliyorsanız gaz vanasını kapatın, pencereleri açın ve evden çıkın; dışarıdan 187 Doğal Gaz Acil hattını arayın.",
+        "Yanık kokusu, duman ya da kıvılcım: cihazı kullanmayı bırakın, sigortayı kapatın, fişini çekin ve bizi arayın.",
+        "Sigortanın sürekli atması: sigortayı tekrar tekrar kaldırmayın; kapalı tutup fişi çekin ve cihazı kontrol ettirin."
+      ]
+    },
+    {
+      "baslik": "Yerinde onarım ve işçilik garantisi",
+      "paragraflar": [
+        "Telefonda belirtileri dinleyip olası nedenler hakkında ön bilgi veriyoruz. Adresinize geldiğimizde ölçüm yaparak arızanın kaynağını buluyor, ne yapılacağını ve ücretini işe başlamadan önce söylüyoruz. Talebinizi [[/serviscagir|servis çağırma formundan]] da iletebilirsiniz.",
+        "Onarımda orijinal yedek parça kullanıyoruz. İşçilik garantisi kapsamında, onarımdan sonra aynı arıza tekrarlarsa ücretsiz olarak yeniden müdahale ediyoruz. Cihazınız hâlâ üretici garantisi kapsamındaysa önce markanın yetkili servisine başvurmanızı öneririz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Ocağın çakmağı çalışıyor ama düğmeyi bırakınca alev sönüyor, ne yapmalıyım?",
+      "cevap": "Yaktıktan sonra düğmeyi birkaç saniye basılı tutun; emniyet sisteminin devreye girmesi için bu süre gerekir. Alev yine sönüyorsa termokupl ya da emniyet ventili kirlenmiş veya arızalanmış olabilir. Düğmeyi bantla ya da ağırlıkla basılı tutarak emniyet sistemini devre dışı bırakmaya çalışmayın; kontrolü ve gerekirse parça değişimini yerinde yapıyoruz. Gaz kokusu alırsanız ocağı kullanmayın ve 187 Doğal Gaz Acil hattını arayın."
+    },
+    {
+      "soru": "Fırın ve ocak tamiri ücreti neye göre değişir?",
+      "cevap": "Ücret arızanın kaynağına, değişecek parçaya (rezistans, termostat, fan motoru, termokupl, kapı camı ya da elektronik kart gibi) ve parçanın bulunabilirliğine göre değiştiği için sabit bir rakam vermiyoruz. Kesin tutarı arıza tespitinden sonra, onarıma başlamadan önce öğrenirsiniz. Servis için {telefon} numarasını arayabilirsiniz."
+    },
+    {
+      "soru": "Fırını tamir ettirmek mi yoksa yenisini almak mı daha mantıklı?",
+      "cevap": "Arıza tek bir rezistans, termostat ya da fan motorundan kaynaklanıyorsa onarım çoğu zaman mantıklıdır. Cihaz çok eskiyse, birden fazla ana parça arızalıysa ya da parça bulunamıyorsa yenisini almak daha doğru olabilir. Bu kararı arızayı gördükten sonra seçenekleri anlatarak sizinle birlikte veriyoruz."
+    },
+    {
+      "soru": "Ankastre fırın ya da ocak montajı yapıyor musunuz?",
+      "cevap": "Hayır, ankastre fırın, ocak ya da aspiratör montajı yapmıyoruz; cihaz satışımız da yok. Arızalanan ankastre cihazlarınızın tamirini ise adresinizde yapıyoruz."
+    },
+    {
+      "soru": "Başka beyaz eşyalara da bakıyor musunuz?",
+      "cevap": "Evet. [[/camasir-makinesi-tamiri|Çamaşır ve kurutma makinesi]], [[/bulasik-makinesi-tamiri|bulaşık makinesi]], buzdolabı ve derin dondurucu arızalarında da adresinizde onarım yapıyoruz."
+    }
+  ]
+}

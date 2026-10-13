@@ -30,7 +30,7 @@
 
                                                 <div class="col-lg-6 col-6 text-center mb-sm-30">
                                                     <div class="relative slider-fadeIn">
-                                                        <img src="/static/images/slider/p3.webp" class="img-fluid"
+                                                        <img src="/static/images/slider/p3.webp" srcset="/static/images/slider/p3-700.webp 700w, /static/images/slider/p3.webp 1475w" sizes="(max-width: 991px) 50vw, 540px" width="1475" height="891" class="img-fluid"
                                                             alt="Duvar tipi split klima iç ünitesi">
                                                     </div>
                                                 </div>
@@ -43,9 +43,9 @@
                                                         <div class="row g-2">
                                                             <div class="col-lg-10">
                                                                 <p class="slider-teaser">
-                                                                    Klima montajı, bakımı, arıza tamiri ve gaz dolumu;
-                                                                    kombi bakımı ve arıza onarımı. Tüm markalar, orijinal
-                                                                    yedek parça, garantili işçilik.
+                                                                    Klima montajı, bakımı ve tamiri; kombi bakımı ve arıza
+                                                                    onarımı; çamaşır, bulaşık makinesi, buzdolabı ve fırın
+                                                                    tamiri. Tüm markalar, orijinal yedek parça, garantili işçilik.
                                                                 </p>
                                                             </div>
 
@@ -74,28 +74,28 @@
 
                                                 <div class="col-lg-6 col-6 text-center mb-sm-30">
                                                     <div class="relative slider-fadeIn">
-                                                        <img src="/static/images/slider/p4.webp" fetchpriority="low" class="img-fluid"
-                                                            alt="Split klima iç ve dış ünitesi">
+                                                        <img src="/static/assets/uploads/beyaz-esya-tamiri.webp" loading="lazy" decoding="async" width="1200" height="675" class="img-fluid rounded-10"
+                                                            alt="Çamaşır makinesi, buzdolabı ve fırın çizimi">
                                                     </div>
                                                 </div>
 
                                                 <div class="col-lg-6 mb-sm-30">
                                                     <div class="sw-text-wrapper border-left">
-                                                        <p class="h6 slider-extra mb-2">Kombi Bakımı ve Arıza Onarımı</p>
-                                                        <h2 class="slider-title mb-2">Kışa Hazırlıklı Olun</h2>
+                                                        <p class="h6 slider-extra mb-2">Beyaz Eşya Tamiri</p>
+                                                        <h2 class="slider-title mb-2">Çamaşır, Bulaşık, Buzdolabı, Fırın</h2>
 
                                                         <div class="row g-2">
                                                             <div class="col-lg-10">
                                                                 <p class="slider-teaser">
-                                                                    Isıtma sezonu başlamadan kombi bakımı, arızada yerinde
-                                                                    tespit ve onarım. Ücreti işe başlamadan söylüyoruz.
+                                                                    Arızalı beyaz eşyanızı adresinizde onarıyoruz; çoğu
+                                                                    çağrıda aynı gün. Ücreti işe başlamadan söylüyoruz.
                                                                 </p>
                                                             </div>
                                                         </div>
 
                                                         <div class="slider-butonlar">
                                                             <a class="btn-main bg-color" href="tel:<%= iletisim.telefon %>">Hemen Ara: <%= telGoster(iletisim.telefon) %></a>
-                                                            <a class="btn-line" href="/kombi-bakimi">Kombi Bakımı</a>
+                                                            <a class="btn-line" href="/beyaz-esya-tamiri">Beyaz Eşya Tamiri</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -121,32 +121,10 @@
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-9 text-center">
                             <h2>Hizmetlerimiz</h2>
-                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki servisimizden tüm marka klima ve kombilere hizmet veriyoruz. Herhangi bir markanın yetkili servisi değil, <a href="/hakkimizda">bağımsız bir özel servisiz</a>: orijinal yedek parça kullanıyor, işçiliğimize garanti veriyor ve ücreti işe başlamadan önce söylüyoruz. <%= iletisim.calisma_saatleri %> arası <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından ulaşabilirsiniz.</p>
+                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki servisimizden tüm marka klima, kombi ve beyaz eşyalara hizmet veriyoruz. Herhangi bir markanın yetkili servisi değil, <a href="/hakkimizda">bağımsız bir özel servisiz</a>: orijinal yedek parça kullanıyor, işçiliğimize garanti veriyor ve ücreti işe başlamadan önce söylüyoruz. <%= iletisim.calisma_saatleri %> arası <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a> numarasından ulaşabilirsiniz.</p>
                         </div>
                     </div>
-                    <div class="row g-4 justify-content-center">
-                         <% hizmetler.forEach(function(hizmet) { %>
-                        <!-- Klima Montaj -->
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <div class="overflow-hidden rounded-5">
-                                <a href="/<%= hizmet.slug %>" class="relative d-block">
-                                    <h2 class="abs-centered z-1000 text-white mb-0 fs-30"><%= hizmet.kart_baslik || hizmet.baslik %></h2>
-                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= hizmet.resim %>" class="img-fluid"
-                                        alt="<%= hizmet.resim_alt %>">
-                                    <div class="de-overlay-gradient-2"></div>
-                                </a>
-                                <div class="padding40 bg-white relative">
-                                    <img loading="lazy" decoding="async" src="/static/images/svg-color/air-conditioner-svgrepo-com.svg"
-                                        class="w-70px p-2 bg-white abs abs-center rounded-1 mt-70" alt="">
-                                    <p class="no-bottom"><%= hizmet.aciklama %></p>
-                                    <div class="spacer-20"></div>
-                                    <a class="btn-main w-100" href="/<%= hizmet.slug %>" aria-label="<%= hizmet.baslik %> hakkında bilgi">Detaylı Bilgi</a>
-                                </div>
-                            </div>
-                        </div>
-                        <% }) %>
-
-                    </div>
+<%- include('partials/hizmet-kartlari') %>
 
                     <div class="spacer-double"></div>
                 </div>
@@ -172,7 +150,7 @@
                                     <div
                                         class="abs bg-dark end-0 m-4 my-2 d-inline bg-color-2 text-light fw-bold px-3 rounded-20px">
                                         <%= iletisim.kisa_ad %></div>
-                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= yazi.resim %>" class="w-80" width="800" height="800" style="height: auto; aspect-ratio: 1 / 1; object-fit: cover" alt="<%= yazi.resim_alt %>">
+                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= kartGorseli(yazi.resim) %>" class="w-80" width="800" height="800" style="height: auto; aspect-ratio: 1 / 1; object-fit: cover" alt="<%= yazi.resim_alt %>">
                                     <h4><%= yazi.kart_baslik %></h4>
                                 </div>
                             </div>
@@ -199,7 +177,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bg-color-2 jarallax text-light p-lg-5 p-4 rounded-1 overflow-hidden">
-                                <img src="/static/images/background/12.webp" class="jarallax-img" alt="">
+                                <img src="/static/images/background/12.webp" loading="lazy" decoding="async" class="jarallax-img" alt="">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-lg-6 relative">
                                         <div class="relative z-index-1000">
@@ -216,7 +194,7 @@
                                                     <div class="d-flex rounded-5 align-items-center justify-content-center h-100 p-4 bg-color text-light wow scaleIn"
                                                         data-wow-delay=".8s">
                                                         <div class="d-block text-center">
-                                                            <img decoding="async" src="/static/images/icons/white/call.webp" width="512" height="512" style="height: auto"
+                                                            <img loading="lazy" decoding="async" src="/static/images/icons/white/call.webp" width="200" height="200" style="height: auto"
                                                                 class="w-40 mb-3" alt="">
                                                             <p class="lead mb-0">Servis Hattı</p>
                                                             <h4 class="mb-0"><a href="tel:<%= iletisim.telefon %>" style="color: inherit;"><%= telGoster(iletisim.telefon) %></a></h4>
@@ -250,7 +228,7 @@
                                             class="bg-color w-30 padding15 rounded-10 mb-3" alt="">
                                         <div class="relative">
                                             <h4>Tüm Markalara Servis</h4>
-                                            <p class="mb-0">Tüm marka klima ve kombilere bağımsız özel servis olarak
+                                            <p class="mb-0">Tüm marka klima, kombi ve beyaz eşyalara bağımsız özel servis olarak
                                                 hizmet veriyoruz; yetkili servis değiliz.</p>
                                         </div>
                                     </div>

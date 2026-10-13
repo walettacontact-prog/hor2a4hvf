@@ -1,0 +1,34 @@
+<%# Hizmet kartları kategoriye göre gruplu: Klima, Kombi, Beyaz Eşya. Parametreler: sadece (tek kategori), grupSeviye (grup başlığı seviyesi, varsayılan 3) %>
+<% const grupSeviye = locals.grupSeviye || 3; const grupH = 'h' + grupSeviye; const kartH = locals.sadece ? 'h3' : 'h' + (grupSeviye + 1); %>
+<% const GRUP_SIRASI = locals.sadece ? [locals.sadece] : Object.keys(KATEGORILER); %>
+<% GRUP_SIRASI.forEach(function (anahtar) { %>
+<% const liste = hizmetler.filter(function (h) { return h.kategori === anahtar; }); %>
+<% if (!liste.length) return; %>
+<% const kat = KATEGORILER[anahtar]; %>
+                    <% if (!locals.sadece) { %>
+                    <div class="hizmet-grup-baslik">
+                        <<%= grupH %> class="h3" id="<%= anahtar %>"><%= kat.ad %></<%= grupH %>>
+                        <% if (kat.sayfa && kategoriSayfalari[anahtar]) { %><a href="/<%= kat.sayfa %>"><%= kat.ad %> sayfası →</a><% } %>
+                    </div>
+                    <% } %>
+                    <div class="row g-4 justify-content-center mb-5">
+                        <% liste.forEach(function (hizmet) { %>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hizmet-kart overflow-hidden rounded-5 h-100 d-flex flex-column">
+                                <a href="/<%= hizmet.slug %>" class="relative d-block">
+                                    <<%= kartH %> class="abs-centered z-1000 text-white mb-0 fs-30"><%= hizmet.kart_baslik || hizmet.baslik %></<%= kartH %>>
+                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= kartGorseli(hizmet.resim) %>" class="img-fluid" alt="<%= hizmet.resim_alt %>">
+                                    <div class="de-overlay-gradient-2"></div>
+                                </a>
+                                <div class="padding40 bg-white relative flex-grow-1 d-flex flex-column">
+                                    <img loading="lazy" decoding="async" src="/static/images/svg-color/<%= anahtar === 'klima' ? 'air-conditioner-svgrepo-com.svg' : 'wrench-line-svgrepo-com.svg' %>" width="70" height="70"
+                                        class="w-70px p-2 bg-white abs abs-center rounded-1 mt-70" alt="">
+                                    <p class="no-bottom flex-grow-1"><%= hizmet.aciklama %></p>
+                                    <div class="spacer-20"></div>
+                                    <a class="btn-main w-100" href="/<%= hizmet.slug %>" aria-label="<%= hizmet.baslik %> hakkında bilgi">Detaylı Bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                        <% }) %>
+                    </div>
+<% }) %>

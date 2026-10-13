@@ -1,0 +1,80 @@
+{
+  "slug": "buzdolabi-tamiri",
+  "hizmet": "Buzdolabı Tamiri",
+  "seo_baslik": "Buzdolabı Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Buzdolabı soğutmuyor, karlanıyor, su akıtıyor ya da ses mi yapıyor? Derin dondurucu dahil yerinde arıza tespiti ve onarım. {telefon}",
+  "h1": "Bahçelievler ve Yenibosna'da Buzdolabı Tamiri",
+  "giris": [
+    "Buzdolabınız soğutmuyor, dondurucu çalıştığı hâlde taze gıda bölümü ısınıyor, içi karlanıyor, altından su geliyor ya da alışılmadık bir ses çıkarıyorsa sorun çoğu zaman belirli bir parçadan kaynaklanır; doğru tespit gereksiz parça değişiminin de önüne geçer. Fırtına Klima & Kombi olarak [[/beyaz-esya-tamiri|beyaz eşya tamiri]] hizmetimiz kapsamında Yenibosna'daki adresimizden çevredeki evlere geliyor, buzdolaplarını ve derin dondurucuları yerinde onarıyoruz.",
+    "Tüm marka buzdolaplarına bakan özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün servis verebiliyoruz. Servis için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Belirtilere göre olası nedenler",
+      "paragraflar": [
+        "Aşağıdaki eşleştirmeler kesin teşhis değildir; aynı belirtinin birden fazla nedeni olabilir ve asıl neden yerinde kontrolle bulunur. Motor çalıştığı hâlde soğutmama ve alttan su gelmesi konularını sayfanın sonundaki sorularda ayrıca ele alıyoruz."
+      ],
+      "maddeler": [
+        "Hiç soğutmuyor, motor sesi de gelmiyor: Bu belirtide çoğu zaman elektrik beslemesi, termostat ya da sensör, kompresör rölesi ve termiği veya elektronik kart sorumludur; kompresörün kendisi daha seyrek arızalanır.",
+        "Dondurucu çalışıyor ama taze gıda bölümü soğutmuyor: Birçok No Frost buzdolabında soğuk hava bu bölüme dondurucudan bir fan ve hava kanalıyla taşınır. Fanın dönmemesi, kanalın buzla tıkanması ya da defrost sistemindeki bir arıza çoğu zaman bu tabloya yol açar.",
+        "Karlanma ve buzlanma: Kapı contası iyi kapatmıyorsa, kapı tam kapanmıyorsa ya da sık açılıyorsa içeri nemli hava girer. No Frost modellerde dondurucunun arka panelinde kalınlaşan buz çoğu zaman defrost sisteminin çalışmadığını gösterir; No Frost olmayan modellerde ise bir miktar buzlanma normaldir.",
+        "Ses yapıyor: Fan pervanesine buz sürtmesi, fan motoru, kompresör ya da cihazın dengesiz durması olabilir. Gazın akış sesi ve cihaz devreye girip çıkarken duyulan hafif tıkırtılar ise çoğu zaman normaldir.",
+        "Sürekli çalışıyor: Hava kaçıran conta, tozlanmış arka ızgara, duvara fazla yakın yerleştirme, çok düşük sıcaklık ayarı, arızalı bir sensör ya da azalmış gaz buna yol açabilir. İnverter kompresörlü bazı modellerin uzun süre düşük devirde çalışması ise normal olabilir."
+      ]
+    },
+    {
+      "baslik": "Servisi çağırmadan önce yapabileceğiniz kontroller",
+      "paragraflar": [
+        "Bazı şikâyetler arıza değil, ayar ya da yerleşimle ilgilidir. Sıcaklık ayarına bakmak dışındaki tüm kontrollerden önce buzdolabının fişini çekin. Arka kapağı ya da alttaki kompresör bölmesinin kapağını açmayın; borulara, kablolara ve kompresöre dokunmayın."
+      ],
+      "maddeler": [
+        "Sıcaklık ayarı: Düğme temizlik sırasında yanlışlıkla çevrilmiş ya da tatil modu gibi bir ayar açık kalmış olabilir. Önerilen değerleri kullanım kılavuzunda bulabilirsiniz.",
+        "Kapı contası: Kapıyı bir kâğıt parçasının üzerine kapatıp kâğıdı çekin; kolayca kayıyorsa conta o noktada iyi kapatmıyor olabilir. Contayı ılık sabunlu suyla silmek çoğu zaman işe yarar.",
+        "Havalandırma boşluğu: Serbest duran bir buzdolabı duvara dayalıysa ya da üstü ve yanları kapatılmışsa ısıyı dışarı atmakta zorlanır. Arkada açık bir ızgara varsa ve yoğun tozlanmışsa ızgaraya ve borulara dokunmayın; bunu bizi ararken belirtin.",
+        "Taşıma ve yükleme sonrası: Yeni çalıştırılan ya da taşınan bir buzdolabının istenen sıcaklığa inmesi birkaç saat sürebilir. Taşıma sırasında yatırıldıysa fişe takmadan önce bir süre dik bekletmek genellikle önerilir. Çok miktarda yiyecek koyduktan sonra bir süre aralıksız çalışması da normaldir.",
+        "Elektrik: Prizin çalıştığını başka bir cihazla deneyebilir, sigortanın atıp atmadığına bakabilirsiniz."
+      ]
+    },
+    {
+      "baslik": "Arıza sürerken yiyecekler ve güvenlik",
+      "paragraflar": [
+        "Servis gelene kadar kapıları mümkün olduğunca kapalı tutun. Çabuk bozulan yiyecekleri başka bir buzdolabına ya da buz aküsü konmuş bir soğutma çantasına alın; çözülüp ılık kalan yiyecekleri yeniden dondurmayın.",
+        "Dondurucudaki buzu bıçak ya da tornavida gibi sivri aletlerle kazımayın; soğutucu gazın dolaştığı kanallar delinirse kaçak oluşur. Buzu eritmek için saç kurutma makinesi ya da ısıtıcı da kullanmayın. Fişi çektikten sonra hemen yeniden takmak yerine birkaç dakika bekleyin; kısa aralıklarla açıp kapatmak kompresörü zorlayabilir.",
+        "Yanık kokusu alırsanız, kıvılcım görürseniz ya da buzdolabı sigortayı attırıyorsa sigortayı kapatın, fişi çekin ve cihazı yeniden çalıştırmadan bizi arayın."
+      ]
+    },
+    {
+      "baslik": "Yerinde onarım nasıl ilerler?",
+      "paragraflar": [
+        "[[/serviscagir|Servis çağırdığınızda]] telefonda belirtileri dinliyor, buzdolabınızın No Frost olup olmadığını ve ekranda bir hata kodu varsa bu kodu soruyoruz. Hata kodları markaya ve modele göre değiştiği için kodu ve modeli söylemeniz olası nedenleri önceden konuşmamızı kolaylaştırır.",
+        "Adresinizde sıcaklık ve defrost sensörlerini, fanları, defrost ısıtıcısını, kompresör rölesini, kapı contasını ve gerekirse soğutma devresini kontrol ederek arızanın kaynağını buluyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; işçilik garantimiz kapsamında, onarımımızdan sonra aynı arıza tekrarlarsa ücretsiz olarak yeniden müdahale ediyoruz."
+      ]
+    },
+    {
+      "baslik": "Ücret neye göre değişir, tamir mi yeni cihaz mı?",
+      "paragraflar": [
+        "Buzdolabı tamiri ücreti arızanın kaynağına göre değişir. Değişmesi gereken parça (sensör, fan motoru, defrost ısıtıcısı, elektronik kart ya da kompresör gibi) ve kaçak onarımı gerekip gerekmediği belirleyicidir. Ne yapılması gerektiğini ve ücreti işe başlamadan önce söylüyoruz.",
+        "Sensör, fan, conta ya da defrost parçalarıyla ilgili arızalarda onarım çoğu zaman mantıklıdır. Kompresör arızasında ya da birkaç büyük parçanın birlikte değişmesi gerektiğinde, özellikle eski bir cihazda yeni bir buzdolabı daha uygun olabilir. Bu kararı arızayı yerinde gördükten sonra birlikte veriyoruz. Cihazınız hâlâ üretici garantisi kapsamındaysa önce garanti koşullarını kontrol etmenizi öneririz.",
+        "Buzdolabınızın yanı sıra [[/camasir-makinesi-tamiri|çamaşır makinesi]], bulaşık makinesi ya da fırın gibi diğer beyaz eşyalarınız için de {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Buzdolabının motoru çalışıyor ama soğutmuyor, neden olabilir?",
+      "cevap": "Motorun çalışması, soğuğun dolabın içine ulaştığını her zaman göstermez. En sık nedenler soğutucu gazın bir kaçak nedeniyle azalması, iç fanın dönmemesi ve buharlaştırıcının buzla kaplanıp havayı geçirmemesidir. Kapı contasını ve havalandırma boşluğunu kontrol ettikten sonra sorun sürüyorsa nedenin yerinde ölçümle bulunması gerekir."
+    },
+    {
+      "soru": "Buzdolabının altından neden su geliyor?",
+      "cevap": "Çoğu buzdolabı, buz çözme sırasında oluşan suyu içerideki küçük bir tahliye deliğinden alttaki damlama kabına gönderir; su orada buharlaşır. Bu kap yerinden çıkmış ya da çatlamışsa veya tahliye hortumu oynamışsa su yere akabilir. Su sebili ya da buz yapıcısı olan modellerde su bağlantısı da kaynak olabilir; bağlantıdan sızıntı görürseniz varsa vanasını kapatın. Su içeride, sebzeliğin altında birikiyorsa tahliye deliği büyük olasılıkla tıkanmıştır; fişi çektikten sonra çevresini ılık suyla temizleyebilirsiniz, içine sivri bir cisim sokmayın."
+    },
+    {
+      "soru": "Buzdolabına gaz dolumu gerekir mi?",
+      "cevap": "Buzdolabının soğutma devresi kapalıdır; gaz normal kullanımda kendiliğinden eksilmez. Gaz azalmışsa bir yerde kaçak vardır, bu yüzden yalnızca gaz eklemek kalıcı bir çözüm olmaz. Önce kaçak bulunup onarılmalı, ardından devre vakumlanıp cihaza uygun gazla doğru miktarda dolum yapılmalıdır. Bazı soğutucu gazlar yanıcı olabildiği için bu iş mutlaka teknisyen tarafından yapılmalıdır. Kaçak, gövdedeki yalıtım köpüğünün içinde kalan borulardaysa onarım her zaman mümkün ya da ekonomik olmayabilir."
+    },
+    {
+      "soru": "Derin dondurucu tamiri de yapıyor musunuz?",
+      "cevap": "Evet. Sandık tipi ve çekmeceli derin dondurucularda da arızayı adresinizde tespit edip onarıyoruz; yetersiz dondurma, aşırı buzlanma, kapağın iyi kapatmaması ya da sürekli çalışma gibi şikâyetlerde buzdolabındakine benzer bir kontrol yapıyoruz. Balkon gibi çok soğuk ya da çok sıcak yerlere konan bazı dondurucular düzgün çalışmayabilir; modelinize uygun ortam sıcaklığı kullanım kılavuzunda yazar."
+    }
+  ]
+}

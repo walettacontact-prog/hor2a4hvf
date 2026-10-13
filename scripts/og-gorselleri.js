@@ -32,13 +32,14 @@ function uygunGorsel(uploadAdi) {
 
 function kartBilgisi(page, data) {
   const bolge = "Bahçelievler · Yenibosna ve çevresi";
+  if (page.kategoriSayfa) return { etiket: "Hizmet", baslik: page.kategoriSayfa.h1, alt: bolge, gorsel: uygunGorsel(`${page.kategoriSayfa.slug}.webp`) };
   if (page.hizmet) return { etiket: "Hizmet", baslik: page.hizmet.baslik, alt: bolge, gorsel: uygunGorsel(page.hizmet.resim) };
   if (page.yazi) {
     const y = page.yazi;
     return { etiket: y.kategori === "kombi" ? "Kombi Rehberi" : "Klima Rehberi", baslik: y.baslik.length <= 66 ? y.baslik : y.kart_baslik, alt: "Fırtına Klima & Kombi · Bahçelievler", gorsel: uygunGorsel(y.resim) };
   }
   const SABIT = {
-    "/": { etiket: "Klima & Kombi Servisi", urun: PUB("images/slider/p3.webp") },
+    "/": { etiket: "Klima · Kombi · Beyaz Eşya", urun: PUB("images/slider/p3.webp") },
     "/hizmetler": { etiket: "Hizmetlerimiz", urun: PUB("images/slider/p3.webp") },
     "/hakkimizda": { etiket: "Hakkımızda", gorsel: uygunGorsel(data.hakkimizda[0].resim) },
     "/serviscagir": { etiket: "Servis Çağır", gorsel: uygunGorsel("kombi-bakimi-teknisyen.webp") },

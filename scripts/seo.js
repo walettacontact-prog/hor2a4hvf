@@ -48,7 +48,7 @@ function isletme({ iletisim, hizmetler, teknikServis, hakkimizda }) {
     url: `${SITE_URL}/`,
     logo: { "@type": "ImageObject", "@id": `${SITE_URL}/#logo`, url: LOGO.url, width: LOGO.width, height: LOGO.height, caption: iletisim.firma_adi },
     image: [SHARE.url, LOGO.url, upload(hakkimizda[0] && hakkimizda[0].resim)].filter(Boolean),
-    description: "Bahçelievler ve Yenibosna merkezli klima ve kombi teknik servisi: klima montajı, klima arıza tamiri, klima bakımı, gaz dolumu, VRF/multi sistem servisi, kombi bakımı ve kombi arıza onarımı.",
+    description: "Bahçelievler ve Yenibosna merkezli klima, kombi ve beyaz eşya teknik servisi: klima montajı, arıza tamiri, bakım ve gaz dolumu; kombi bakımı ve arıza onarımı; çamaşır ve bulaşık makinesi, buzdolabı, fırın ve ocak tamiri.",
     telephone: iletisim.telefon,
     email: iletisim.email,
     address: {
@@ -66,7 +66,7 @@ function isletme({ iletisim, hizmetler, teknikServis, hakkimizda }) {
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       "@id": `${SITE_URL}/#hizmetler`,
-      name: "Klima ve Kombi Servis Hizmetleri",
+      name: "Klima, Kombi ve Beyaz Eşya Servis Hizmetleri",
       itemListElement: hizmetler.map((h) => ({
         "@type": "Offer",
         itemOffered: { "@id": `${SITE_URL}/${h.slug}#hizmet` },
@@ -141,6 +141,7 @@ function seoFor(data, page) {
   // Hizmetler sayfada görünen her hizmet için Service düğümü (hizmet sayfası, hizmetler listesi ve ana sayfa kartları)
   if (page.hizmet) graph.push(hizmetDugumu(page.hizmet, true, iletisim));
   else if (page.route === "/" || page.route === "/hizmetler") hizmetler.forEach((h) => graph.push(hizmetDugumu(h, false, iletisim)));
+  else if (page.kategori) hizmetler.filter((h) => h.kategori === page.kategori).forEach((h) => graph.push(hizmetDugumu(h, false, iletisim)));
 
   if (page.yazi) {
     graph.push({

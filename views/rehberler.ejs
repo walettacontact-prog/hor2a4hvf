@@ -38,7 +38,7 @@
                         <% liste.forEach(function (y) { %>
                         <div class="col-lg-4 col-md-6">
                             <article class="rehber-kart">
-                                <a href="/<%= y.slug %>" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" src="/static/assets/uploads/<%= y.resim %>" alt="<%= y.resim_alt %>"></a>
+                                <a href="/<%= y.slug %>" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" src="/static/assets/uploads/<%= kartGorseli(y.resim) %>" alt="<%= y.resim_alt %>"></a>
                                 <div class="icerik-alan">
                                     <h3><a href="/<%= y.slug %>"><%= y.baslik %></a></h3>
                                     <p><%= y.ozet %></p>

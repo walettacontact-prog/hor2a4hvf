@@ -4,6 +4,7 @@ const path = require("path");
 const { execFileSync } = require("child_process");
 const ejs = require("ejs");
 const { seoFor, telGoster, doldur, SITE_URL } = require("./seo");
+const { cssAyikla } = require("./css-ayikla");
 
 const ROOT = path.resolve(__dirname, "..");
 const DIST = path.join(ROOT, "dist");
@@ -12,32 +13,32 @@ const DIST = path.join(ROOT, "dist");
 const SABIT_SAYFALAR = [
   {
     route: "/", view: "index", file: "index.html", type: "WebPage",
-    title: "Bahçelievler Yenibosna Klima & Kombi Servisi | Fırtına Klima",
-    description: "İstanbul Bahçelievler ve Yenibosna’da tüm marka klima ve kombiye servis: montaj, bakım, arıza, gaz dolumu. Her gün 08–21, çoğu çağrıya aynı gün.",
-    h1: "Bahçelievler ve Yenibosna’da Klima & Kombi Servisi",
+    title: "Klima, Kombi, Beyaz Eşya Servisi Bahçelievler | Fırtına Klima",
+    description: "Bahçelievler ve Yenibosna’da klima, kombi ve beyaz eşya servisi: montaj, bakım, arıza tamiri; çamaşır, bulaşık, buzdolabı, fırın tamiri. Her gün 08–21.",
+    h1: "Bahçelievler ve Yenibosna’da Klima, Kombi ve Beyaz Eşya Servisi",
   },
   {
     route: "/hakkimizda", view: "hakkimizda", file: "hakkimizda.html", type: "AboutPage",
-    title: "Hakkımızda: Bağımsız Klima ve Kombi Servisi | Fırtına Klima",
-    description: "Bahçelievler Hürriyet Mahallesi’nde bağımsız klima ve kombi servisi; yetkili servis değiliz. Tüm markalar, orijinal yedek parça, işçilik garantisi.",
+    title: "Hakkımızda: Klima, Kombi ve Beyaz Eşya Servisi | Fırtına Klima",
+    description: "Bahçelievler Hürriyet Mahallesi’nde bağımsız klima, kombi ve beyaz eşya servisi; yetkili servis değiliz. Tüm markalar, orijinal parça, garanti.",
     h1: "Fırtına Klima & Kombi Hakkında", crumbs: [{ ad: "Hakkımızda", route: "/hakkimizda" }],
   },
   {
     route: "/hizmetler", view: "hizmetler", file: "hizmetler.html", type: "CollectionPage",
-    title: "Klima ve Kombi Hizmetlerimiz Bahçelievler | Fırtına Klima",
-    description: "Klima montajı, tamiri, bakımı, gaz dolumu, VRF/multi servis; kombi bakımı ve arıza onarımı. Tüm markalar; ücret işe başlamadan söylenir. {telefon}",
-    h1: "Klima ve Kombi Servis Hizmetlerimiz", crumbs: [{ ad: "Hizmetler", route: "/hizmetler" }],
+    title: "Klima, Kombi ve Beyaz Eşya Hizmetlerimiz | Fırtına Klima",
+    description: "Klima montajı, tamiri, bakımı ve gaz dolumu; kombi bakımı ve onarımı; çamaşır, bulaşık makinesi, buzdolabı, fırın tamiri. Tüm markalar. {telefon}",
+    h1: "Klima, Kombi ve Beyaz Eşya Servis Hizmetlerimiz", crumbs: [{ ad: "Hizmetler", route: "/hizmetler" }],
   },
   {
     route: "/serviscagir", view: "hizmet_detay", file: "serviscagir.html", type: "WebPage",
-    title: "Klima ve Kombi Servisi Çağır: Aynı Gün İmkânı | Fırtına Klima",
+    title: "Klima, Kombi, Beyaz Eşya Servisi Çağır | Fırtına Klima",
     description: "Telefon veya WhatsApp’tan servis isteyin; çoğu çağrıya aynı gün geliyoruz. Yenibosna, Bahçelievler, Şirinevler, Sefaköy, Bakırköy. {telefon}",
-    h1: "Klima ve Kombi İçin Servis Çağırın", crumbs: [{ ad: "Servis Çağır", route: "/serviscagir" }],
+    h1: "Klima, Kombi ve Beyaz Eşya İçin Servis Çağırın", crumbs: [{ ad: "Servis Çağır", route: "/serviscagir" }],
   },
   {
     route: "/hizmet-bolgeleri", view: "hizmet-bolgeleri", file: "hizmet-bolgeleri.html", type: "WebPage",
     title: "Hizmet Bölgeleri – Bahçelievler, Yenibosna | Fırtına Klima",
-    description: "Bahçelievler’deki servisimizden Yenibosna, Şirinevler, Bakırköy, Ataköy, Küçükçekmece, İkitelli ve çevresine klima ve kombi servisi. {telefon}",
+    description: "Bahçelievler’deki servisimizden Yenibosna, Şirinevler, Bakırköy, Ataköy, Küçükçekmece ve çevresine klima, kombi, beyaz eşya servisi. {telefon}",
     h1: "Hizmet Verdiğimiz Bölgeler: Bahçelievler, Yenibosna ve Çevresi", crumbs: [{ ad: "Hizmet Bölgeleri", route: "/hizmet-bolgeleri" }],
   },
   {
@@ -53,6 +54,13 @@ const SABIT_SAYFALAR = [
     h1: "İletişim ve Adres Bilgilerimiz", crumbs: [{ ad: "İletişim", route: "/iletisim" }],
   },
 ];
+
+// Hizmet kategorileri; "sayfa" varsa content/kategoriler/<sayfa>.json bir kategori (hub) sayfası üretir.
+const KATEGORILER = {
+  klima: { ad: "Klima Servisi" },
+  kombi: { ad: "Kombi Servisi" },
+  "beyaz-esya": { ad: "Beyaz Eşya Tamiri", sayfa: "beyaz-esya-tamiri" },
+};
 
 // Metin içi bağlantı: content JSON'da [[/hedef-sayfa|bağlantı metni]] yazılır. Metin önce HTML-escape edilir,
 // sonra yalnızca sitede var olan sayfalara giden bağlantılar <a>'ya çevrilir (bozuk bağlantı ya da HTML enjeksiyonu olmaz).
@@ -127,7 +135,8 @@ function loadData() {
   const hakkimizda = [{ ...hakkimizdaRaw, resim: imageName(hakkimizdaRaw.resim) }];
 
   const hizmetler = (readContent("hizmetler").hizmetler || []).map((h, i) => {
-    requireFields(`Hizmet #${i + 1}`, h, ["baslik", "slug", "aciklama", "resim", "resim_alt"]);
+    requireFields(`Hizmet #${i + 1}`, h, ["baslik", "slug", "aciklama", "resim", "resim_alt", "kategori"]);
+    if (!KATEGORILER[h.kategori]) throw new Error(`Hizmet ${h.slug}: kategori "${Object.keys(KATEGORILER).join('", "')}" olmalı`);
     return { ...h, resim: imageName(h.resim) };
   });
 
@@ -158,7 +167,17 @@ function loadData() {
     return { ...y, resim: imageName(y.resim) };
   }).sort((a, b) => b.tarih.localeCompare(a.tarih));
 
-  return { iletisim, hakkimizda, hizmetler, teknikServis, bolgeSayfasi, sayfalar, yazilar };
+  // Kategori (hub) sayfaları: content/kategoriler/<slug>.json, örn. beyaz-esya-tamiri
+  const kategoriSayfalari = {};
+  for (const k of readFolder("kategoriler")) {
+    requireFields(`Kategori sayfası ${k.slug}`, k, ["slug", "hizmet", "seo_baslik", "seo_aciklama", "h1"]);
+    checkMetin(`Kategori sayfası ${k.slug}`, k);
+    const anahtar = Object.keys(KATEGORILER).find((x) => KATEGORILER[x].sayfa === k.slug);
+    if (!anahtar) throw new Error(`content/kategoriler/${k.slug}.json: KATEGORILER içinde bu sayfa yok`);
+    kategoriSayfalari[anahtar] = k;
+  }
+
+  return { iletisim, hakkimizda, hizmetler, teknikServis, bolgeSayfasi, sayfalar, yazilar, kategoriSayfalari };
 }
 
 // Sayfaya özel paylaşım (Open Graph) görseli: public/images/og/<ad>.jpg (scripts/og-gorselleri.js üretir)
@@ -174,13 +193,21 @@ function ogEkle(page, iletisim) {
 
 function tumSayfalar(data) {
   const list = SABIT_SAYFALAR.map((p) => ({ ...p }));
+  for (const [anahtar, k] of Object.entries(data.kategoriSayfalari)) {
+    list.push({
+      route: `/${k.slug}`, view: "kategori", file: `${k.slug}.html`, type: "CollectionPage",
+      title: k.seo_baslik, description: k.seo_aciklama, h1: k.h1,
+      crumbs: [{ ad: KATEGORILER[anahtar].ad, route: `/${k.slug}` }],
+      kategori: anahtar, kategoriSayfa: k, lastmod: gitTarih(`content/kategoriler/${k.slug}.json`),
+    });
+  }
   for (const h of data.hizmetler) {
     const s = data.sayfalar[h.slug];
     if (!s) { console.warn(`  ! ${h.slug}: content/sayfalar/${h.slug}.json yok, hizmet sayfası üretilmedi`); continue; }
     list.push({
       route: `/${h.slug}`, view: "hizmet", file: `${h.slug}.html`, type: "WebPage",
       title: s.seo_baslik, description: s.seo_aciklama, h1: s.h1,
-      crumbs: [{ ad: "Hizmetler", route: "/hizmetler" }, { ad: h.baslik, route: `/${h.slug}` }],
+      crumbs: [KATEGORILER[h.kategori].sayfa && data.kategoriSayfalari[h.kategori] ? { ad: KATEGORILER[h.kategori].ad, route: `/${KATEGORILER[h.kategori].sayfa}` } : { ad: "Hizmetler", route: "/hizmetler" }, { ad: h.baslik, route: `/${h.slug}` }],
       hizmet: h, sayfa: s, lastmod: gitTarih(`content/sayfalar/${h.slug}.json`),
     });
   }
@@ -258,11 +285,16 @@ function build() {
 
   const routeSet = new Set(pages.map((p) => p.route));
   const kayit = [];
-  const ortak = { ...data, telGoster, doldur: (s) => doldur(s, data.iletisim), linksiz, routes: pages.map((p) => p.route).filter((r) => r !== "/") };
+  // Kartlarda 700px genişliğinde küçük sürüm (varsa) kullanılır: x.webp -> x-kart.webp
+  const kartGorseli = (ad) => {
+    const kok = String(ad).replace(/\.[a-z]+$/i, "");
+    return fs.existsSync(path.join(ROOT, "public", "assets", "uploads", `${kok}-kart.webp`)) ? `${kok}-kart.webp` : ad;
+  };
+  const ortak = { ...data, KATEGORILER, kartGorseli, telGoster, doldur: (s) => doldur(s, data.iletisim), linksiz, routes: pages.map((p) => p.route).filter((r) => r !== "/") };
   for (const page of [...pages, { view: "404", file: "404.html" }]) {
     const viewFile = path.join(ROOT, "views", `${page.view}.ejs`);
     // WhatsApp mesajı hazır gelsin: işletme hangi hizmet için yazıldığını sohbetin ilk satırında görür.
-    const waMesaj = page.hizmet ? `Merhaba, ${page.hizmet.baslik} için servis istiyorum. Semtim: ` : "Merhaba, klima/kombi servisi için yazıyorum. Semtim: ";
+    const waMesaj = page.hizmet ? `Merhaba, ${page.hizmet.baslik} için servis istiyorum. Semtim: ` : page.kategoriSayfa ? `Merhaba, ${page.kategoriSayfa.hizmet} için servis istiyorum. Semtim: ` : "Merhaba, klima, kombi veya beyaz eşya servisi için yazıyorum. Semtim: ";
     const locals = {
       ...ortak, page, ogType: page.ogType, seo: page.route ? seoFor(data, page) : null,
       linkle: (s) => linkle(s, data.iletisim, page.route, routeSet, kayit),
@@ -299,11 +331,12 @@ function build() {
 module.exports = { loadData, tumSayfalar, ogDosyaAdi, ROOT };
 
 if (require.main === module) {
-  try {
+  (async () => {
     build();
-  } catch (err) {
+    await cssAyikla(DIST);
+  })().catch((err) => {
     // Hata olursa build başarısız olur ve GitHub Pages yayındaki eski sürümü korur.
     console.error(`\nBUILD HATASI: ${err.message}\n`);
     process.exit(1);
-  }
+  });
 }

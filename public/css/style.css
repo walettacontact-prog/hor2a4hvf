@@ -76,7 +76,7 @@ Table of content:
   --bg-dark-3: #303030;
   --bg-grey: #F0F1F3;
   --bg-gradient-1: 0deg, rgba(var(--primary-color-rgb), .1) 0%, rgba(var(--secondary-color-rgb), .2) 100%;
-  --body-font-color: #7b8893;
+  --body-font-color: #56626e;
   --dark-body-font-color: #F5F5F7;
   --swiper-theme-color: var(--secondary-color);
   --rounded-1: 12px;
@@ -123,7 +123,7 @@ html {
 
 body {
   font-family: var(--body-font);
-  font-size: var(--body-font-size)
+  font-size: var(--body-font-size);
   font-weight: 400;
   color: var(--body-font-color);
   padding: 0;
@@ -11724,13 +11724,10 @@ footer .widget{
   border-color: #555;
 }
 
-.widget_tags li a:hover border-color: #eceff3;
+.widget_tags li a:hover {
+  border-color: #eceff3;
 }
-
-footer .widget {
-  border: none;
-  margin-bottom: 0;
-}
+/* Not: "footer .widget { border:none; margin-bottom:0 }" kuralı önceki sözdizimi hatası yüzünden tarayıcıda hiç uygulanmıyordu; görünüm değişmesin diye kaldırıldı. */
 
 .widget_tags ul {
   margin-top: 30px;
@@ -12250,7 +12247,7 @@ i.bg-color-secondary {
 
 
 .owl-carousel.no-hide .owl-stage-outer{
-  overflow: visible; !important;
+  overflow: visible;
 }
 
 .c-item{
@@ -13423,7 +13420,6 @@ body.dark-scheme::-webkit-scrollbar-track,
 #de_modal::-webkit-scrollbar-track {
   background: var(--bg-dark-1);
 }
-*/
 
 .de-item{
   border: solid 0px rgba(var(--primary-color-rgb), 0);

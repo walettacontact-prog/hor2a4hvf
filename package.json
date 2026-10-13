@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "purgecss": "^6.0.0"
   }
 }

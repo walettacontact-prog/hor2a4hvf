@@ -17,29 +17,10 @@
                 <div class="container">
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-9 text-center">
-                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki ekibimizle ev ve iş yerlerinde klima montajı, klima arıza tamiri, klima bakımı, gaz dolumu, VRF/multi sistem servisi, kombi bakımı ve kombi arıza onarımı yapıyoruz. Bir hizmeti seçerek ayrıntılarını okuyabilir ya da hemen arayabilirsiniz.</p>
+                            <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki ekibimizle ev ve iş yerlerinde klima montajı, arıza tamiri, bakım ve gaz dolumu; kombi bakımı ve arıza onarımı; çamaşır ve bulaşık makinesi, buzdolabı, fırın ve ocak tamiri yapıyoruz. Bir hizmeti seçerek ayrıntılarını okuyabilir ya da hemen arayabilirsiniz.</p>
                         </div>
                     </div>
-                    <div class="row g-4 justify-content-center">
-                        <% hizmetler.forEach(function(hizmet) { %>
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <div class="overflow-hidden rounded-5">
-                                <a href="/<%= hizmet.slug %>" class="relative d-block">
-                                    <h2 class="abs-centered z-1000 text-white mb-0 fs-30"><%= hizmet.kart_baslik || hizmet.baslik %></h2>
-                                    <img loading="lazy" decoding="async" src="/static/assets/uploads/<%= hizmet.resim %>" class="img-fluid" alt="<%= hizmet.resim_alt %>">
-                                    <div class="de-overlay-gradient-2"></div>
-                                </a>
-                                <div class="padding40 bg-white relative">
-                                    <img src="/static/images/svg-color/air-conditioner-svgrepo-com.svg"
-                                        class="w-70px p-2 bg-white abs abs-center rounded-1 mt-70" alt="">
-                                    <p class="no-bottom"><%= hizmet.aciklama %></p>
-                                    <div class="spacer-20"></div>
-                                    <a class="btn-main w-100" href="/<%= hizmet.slug %>" aria-label="<%= hizmet.baslik %> hakkında bilgi"><%= hizmet.baslik %> Hakkında</a>
-                                </div>
-                            </div>
-                        </div>
-                        <% }) %>
-                    </div>
+<%- include('partials/hizmet-kartlari', { grupSeviye: 2 }) %>
 
                     <div class="icerik mt-4">
 <%- include('partials/ara-kutusu') %>

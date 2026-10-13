@@ -6,7 +6,7 @@
                         <img loading="lazy" decoding="async" src="/static/logobeyaz.webp" width="450" height="450" alt="<%= iletisim.firma_adi %>" class="footer-logo">
 
                         <div class="spacer-20"></div>
-                        <p>Bahçelievler ve Yenibosna merkezli klima ve kombi teknik servisiyiz. Klima montajı, bakımı, gaz dolumu, kombi bakımı ve arıza onarımı için ev ve iş yerinize geliyoruz.</p>
+                        <p>Bahçelievler ve Yenibosna merkezli klima, kombi ve beyaz eşya teknik servisiyiz. Klima montajı ve bakımı, kombi onarımı, çamaşır ve bulaşık makinesi, buzdolabı ve fırın tamiri için ev ve iş yerinize geliyoruz.</p>
 
                         <div class="social-icons mb-sm-30">
                             <% if (iletisim.facebook) { %><a href="<%= iletisim.facebook %>" aria-label="Facebook"><i class="fa fa-facebook"></i></a><% } %>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="widget">
-                                    <h5>Şirket</h5>
+                                    <h2 class="footer-baslik">Şirket</h2>
                                     <ul>
                                         <li><a href="/">Ana Sayfa</a></li>
                                         <li><a href="/hakkimizda">Hakkımızda</a></li>
@@ -46,11 +46,12 @@
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="widget">
-                                    <h5>Hizmetlerimiz</h5>
+                                    <h2 class="footer-baslik">Hizmetlerimiz</h2>
                                     <ul>
-                                        <% hizmetler.forEach(function(hizmet) { %>
+                                        <% hizmetler.filter(function (h) { return h.kategori !== 'beyaz-esya'; }).forEach(function(hizmet) { %>
                                         <li><a href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
                                         <% }) %>
+                                        <li><a href="/beyaz-esya-tamiri">Beyaz Eşya Tamiri</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,7 +61,7 @@
                     <!-- İletişim -->
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
-                            <h5 class="id-color-2">Servis Hattı</h5>
+                            <h2 class="footer-baslik id-color-2">Servis Hattı</h2>
                             <p style="font-size: 35px;" class="h2 text-white jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-phone id-color-2"></i>
                                 <a href="tel:<%= iletisim.telefon %>" style="color: inherit;"><%= telGoster(iletisim.telefon) %></a>
                             </p>
@@ -91,7 +92,7 @@
                                     &copy; <%= new Date().getFullYear() %> - <%= iletisim.firma_adi %>
                                 </div>
                                 <ul class="menu-simple">
-                                    <li><a href="https://wa.me/905510319632?text=Merhaba%2C%20bilgi%20almak%20istiyorum.">created by <span style="color:red;">Ensar Ocakçı</span></a></li>
+                                    <li><a href="https://wa.me/905510319632?text=Merhaba%2C%20bilgi%20almak%20istiyorum.">created by <span style="color:#ff8f8f;">Ensar Ocakçı</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -106,9 +107,10 @@
     ================================================== -->
     <script src="/static/js/plugins.js"></script>
     <script src="/static/js/designesia.js"></script>
+<% if (page.view === 'index') { %>
     <script src="/static/js/swiper.js"></script>
-    <script src="/static/js/custom-marquee.js"></script>
     <script src="/static/js/custom-swiper-1.js"></script>
+<% } %>
     <!-- WhatsApp ve Telefon Butonları -->
     <% if (wa) { %>
     <a href="<%= wa %>" target="_blank" rel="noopener" class="whatsapp-float" title="WhatsApp" aria-label="WhatsApp ile yazın">
@@ -181,6 +183,19 @@
             }
         }
     </style>
+    <script>
+        // Kaydırmalı alanlardaki nokta düğmelerine ekran okuyucular için ad ver
+        (function () {
+            function adlandir() {
+                document.querySelectorAll('.owl-dot').forEach(function (b) {
+                    var ad = (Array.prototype.indexOf.call(b.parentNode.children, b) + 1) + '. slayt';
+                    if (b.getAttribute('aria-label') !== ad) b.setAttribute('aria-label', ad);
+                });
+            }
+            new MutationObserver(adlandir).observe(document.body, { childList: true, subtree: true });
+            adlandir();
+        })();
+    </script>
     <script>
         // Arama ve WhatsApp tıklamalarını Google Analytics'e dönüşüm olarak bildir
         document.addEventListener("click", function (e) {

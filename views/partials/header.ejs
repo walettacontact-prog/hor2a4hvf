@@ -38,7 +38,7 @@
                                 <!-- logo begin -->
                                 <div id="logo" class="text-start">
                                     <a href="/">
-                                        <img class="logo-main" src="/static/yataylogo.webp" alt="<%= iletisim.firma_adi %>">
+                                        <img class="logo-main" src="/static/yataylogo.webp" width="300" height="97" alt="<%= iletisim.firma_adi %>">
                                     </a>
                                 </div>
                                 <!-- logo close -->
@@ -46,11 +46,17 @@
 
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="/">Ana Sayfa</a></li>
                                     <li><a class="menu-item" href="/hakkimizda">Hakkımızda</a></li>
-                                    <li><a class="menu-item" href="/hizmetler">Hizmetler</a>
+                                    <li><a class="menu-item" href="/hizmetler">Klima &amp; Kombi</a>
                                         <ul>
-                                            <% hizmetler.forEach(function(hizmet) { %>
+                                            <% hizmetler.filter(function (h) { return h.kategori !== 'beyaz-esya'; }).forEach(function(hizmet) { %>
+                                            <li><a class="menu-item" href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
+                                            <% }) %>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="/beyaz-esya-tamiri">Beyaz Eşya</a>
+                                        <ul>
+                                            <% hizmetler.filter(function (h) { return h.kategori === 'beyaz-esya'; }).forEach(function(hizmet) { %>
                                             <li><a class="menu-item" href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
                                             <% }) %>
                                         </ul>
@@ -63,7 +69,7 @@
 
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a style="background-color: #dc1d2c;" href="/serviscagir" class="btn-main bg-color-2">Servis Talebi Oluştur</a>
+                                    <a style="background-color: #dc1d2c;" href="/serviscagir" class="btn-main bg-color-2 text-nowrap">Servis Çağır</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
