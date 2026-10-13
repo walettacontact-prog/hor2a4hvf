@@ -21,6 +21,7 @@
       "slug": "klima-bakimi",
       "aciklama": "Filtre, iç ünite ve dış ünite temizliğiyle düzenli klima bakımı; klimanız daha verimli çalışır, ömrü uzar.",
       "resim": "klima-bakimi-filtre-temizligi.webp",
+      "og_odak": "72% center",
       "resim_alt": "Split klima iç ünitesinden filtrenin çıkarılıp temizlenmesini gösteren çizim",
       "kategori": "klima"
     },
@@ -30,6 +31,7 @@
       "slug": "klima-gaz-dolumu",
       "aciklama": "Klimanız soğutmuyorsa gaz kaçağını tespit edip gideriyor, ardından cihazınıza uygun miktarda gaz dolumu yapıyoruz.",
       "resim": "klima-gaz-dolumu-manometre.webp",
+      "og_odak": "88% center",
       "resim_alt": "Klima dış ünitesine bağlı manometre takımını gösteren çizim",
       "kategori": "klima"
     },
@@ -38,7 +40,7 @@
       "slug": "vrf-multi-klima-servisi",
       "aciklama": "Ev ve iş yerlerindeki multi split ve VRF klima sistemlerinin bakımını, arıza tespitini ve onarımını yapıyoruz.",
       "resim": "vrf-klima-dis-uniteleri.webp",
-      "resim_alt": "Çatıda yan yana dizilmiş VRF klima dış üniteleri",
+      "resim_alt": "Yan yana dizilmiş VRF klima dış üniteleri",
       "kategori": "klima"
     },
     {

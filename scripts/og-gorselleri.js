@@ -35,7 +35,8 @@ function uygunGorsel(uploadAdi) {
 function kartBilgisi(page, data) {
   const bolge = "Bahçelievler · Yenibosna ve çevresi";
   if (page.kategoriSayfa) return { etiket: "Hizmet", baslik: page.kategoriSayfa.h1, alt: bolge, gorsel: uygunGorsel(`${page.kategoriSayfa.slug}.webp`) };
-  if (page.hizmet) return { etiket: "Hizmet", baslik: page.hizmet.baslik, alt: bolge, gorsel: uygunGorsel(page.hizmet.resim) };
+  // og_odak (isteğe bağlı): geniş görselin kartta hangi kısmının görüneceği, ör. "75% center"
+  if (page.hizmet) return { etiket: "Hizmet", baslik: page.hizmet.baslik, alt: bolge, gorsel: uygunGorsel(page.hizmet.resim), odak: page.hizmet.og_odak };
   if (page.yazi) {
     const y = page.yazi;
     return { etiket: y.kategori === "kombi" ? "Kombi Rehberi" : "Klima Rehberi", baslik: y.baslik.length <= 66 ? y.baslik : y.kart_baslik, alt: "Fırtına Klima & Kombi · Bahçelievler", gorsel: uygunGorsel(y.resim) };
@@ -57,7 +58,7 @@ function html(k, data) {
   const uzunluk = k.baslik.length;
   const punto = uzunluk <= 26 ? 74 : uzunluk <= 44 ? 62 : uzunluk <= 60 ? 54 : 48;
   const sag = k.gorsel
-    ? `<div class="foto" style="background-image:url('${k.gorsel}')"></div>`
+    ? `<div class="foto" style="background-image:url('${k.gorsel}');background-position:${k.odak || "center"}"></div>`
     : k.urun ? `<img class="urun" src="${k.urun}">` : `<img class="filigran" src="${PUB("logobeyaz.webp")}">`;
   const genis = k.gorsel || k.urun ? 660 : 960;
   return `<!doctype html><html><head><meta charset="utf-8"><style>

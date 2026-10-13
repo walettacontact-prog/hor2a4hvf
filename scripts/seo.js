@@ -92,7 +92,7 @@ function hizmetDugumu(h, sayfa, iletisim) {
 }
 
 /**
- * page: { route, type, title, description, crumbs: [{ad, route}], image?, hizmet?, yazi? }
+ * page: { route, type, title, description, crumbs: [{ad, route}], hizmet?, yazi?, kategoriSayfa?, ogImage?, ogAlt? }
  * Döner: { url, title, description, siteName, image, imageAlt, themeColor, jsonLd }
  */
 function seoFor(data, page) {

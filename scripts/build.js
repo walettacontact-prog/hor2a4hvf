@@ -278,6 +278,9 @@ function ciktiKontrol(file, html) {
       if (yol.startsWith("/static/") && !fs.existsSync(path.join(DIST, decodeURI(yol)))) throw new Error(`${file}: ${yol} dosyası yok (srcset)`);
     }
   }
+  for (const m of html.matchAll(/"(?:url|contentUrl)":"https:\/\/www\.firtinaklima\.com(\/static\/[^"]+)"/g)) {
+    if (!fs.existsSync(path.join(DIST, decodeURI(m[1])))) throw new Error(`${file}: JSON-LD'deki ${m[1]} dosyası yok`);
+  }
   if (html.includes("[[")) throw new Error(`${file}: işlenmemiş [[...]] bağlantısı var`);
 }
 

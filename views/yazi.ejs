@@ -20,7 +20,7 @@ const idYap = function (metin) {
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '');
 };
-const kullanilanIdler = new Set(['sss', 'top', 'content']);
+const kullanilanIdler = new Set(['sss', 'top', 'content', 'subheader', 'wrapper', 'topbar', 'mainmenu', 'menu-btn', 'logo', 'colors', 'bootstrap']);
 const idler = y.bolumler.map(function (b, i) {
     const kok = idYap(b.baslik) || 'bolum-' + (i + 1);
     let id = kok;
@@ -28,7 +28,7 @@ const idler = y.bolumler.map(function (b, i) {
     kullanilanIdler.add(id);
     return id;
 });
-%>
+-%>
         <!-- content begin -->
         <div id="content" class="no-top no-bottom">
             <div id="top"></div>
