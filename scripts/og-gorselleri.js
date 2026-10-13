@@ -1,5 +1,6 @@
 // Her sayfa için 1200x630 paylaşım kartı (Open Graph görseli) üretir: public/images/og/<ad>.jpg
 // Sayfa başlığı veya görseli değişince yeniden çalıştırın:  CHROME=/yol/chrome node scripts/og-gorselleri.js
+// Yalnızca bazı sayfaları üretmek için rotaları virgülle verin:  SADECE=/klima-bakimi,/klima-gaz-dolumu node scripts/og-gorselleri.js
 // Gerekenler: Chrome ya da chrome-headless-shell (CHROME ortam değişkeni) ve ffmpeg.
 "use strict";
 const fs = require("fs");
@@ -11,6 +12,7 @@ const { telGoster } = require("./seo");
 
 const CIKTI = path.join(ROOT, "public", "images", "og");
 const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+const SADECE = (process.env.SADECE || "").split(",").map((s) => s.trim()).filter(Boolean);
 const PUB = (p) => "file://" + path.join(ROOT, "public", p).split(path.sep).map(encodeURIComponent).join("/");
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -92,6 +94,7 @@ function main() {
   const gecici = fs.mkdtempSync(path.join(os.tmpdir(), "og-"));
   fs.mkdirSync(CIKTI, { recursive: true });
   for (const page of sayfalar) {
+    if (SADECE.length && !SADECE.includes(page.route)) continue;
     const ad = ogDosyaAdi(page.route);
     const htmlDosya = path.join(gecici, `${ad}.html`);
     const png = path.join(gecici, `${ad}.png`);
