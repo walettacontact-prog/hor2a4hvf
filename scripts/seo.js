@@ -39,7 +39,7 @@ function parseHours(text) {
 }
 
 function isletme({ iletisim, hizmetler, teknikServis, hakkimizda }) {
-  const sameAs = [iletisim.instagram, iletisim.facebook, iletisim.youtube].filter(Boolean);
+  const sameAs = [iletisim.instagram, iletisim.facebook, iletisim.youtube, iletisim.harita].filter(Boolean);
   return {
     "@type": "HVACBusiness",
     "@id": `${SITE_URL}/#isletme`,
@@ -114,8 +114,15 @@ function seoFor(data, page) {
 
   // Paylaşım kartı (1200x630): sayfaya özel görsel varsa o, yoksa genel kart
   const og = page.ogImage ? { url: abs(page.ogImage), width: 1200, height: 630, type: "image/jpeg" } : SHARE;
-  // Sayfanın asıl içerik görseli (arama sonuçları ve Görseller için)
-  const image = page.yazi ? { url: upload(page.yazi.resim) } : page.hizmet ? { url: upload(page.hizmet.resim) } : og;
+  // Sayfanın asıl içerik görseli (arama sonuçları ve Görseller için): sayfada gerçekten görünen, yazısız görsel.
+  // Uygun görseli olmayan sayfalarda (hizmetler, rehberler, iletişim, bölgeler, servis çağır) primaryImageOfPage verilmez.
+  const hakkimizda = data.hakkimizda && data.hakkimizda[0];
+  const birincil = page.yazi ? { url: upload(page.yazi.resim), alt: page.yazi.resim_alt }
+    : page.hizmet ? { url: upload(page.hizmet.resim), alt: page.hizmet.resim_alt }
+    : page.kategoriSayfa && page.kategoriSayfa.resim ? { url: upload(page.kategoriSayfa.resim), alt: page.kategoriSayfa.resim_alt }
+    : page.route === "/hakkimizda" && hakkimizda && hakkimizda.resim ? { url: upload(hakkimizda.resim), alt: hakkimizda.resim_alt }
+    : page.route === "/" ? { url: abs("/static/images/slider/p3.webp"), alt: "Duvar tipi split klima iç ünitesi" } // views/index.ejs'teki görsel
+    : null;
   const webpage = {
     "@type": page.type || "WebPage",
     "@id": `${url}#webpage`,
@@ -125,8 +132,8 @@ function seoFor(data, page) {
     inLanguage: "tr-TR",
     isPartOf: { "@id": `${SITE_URL}/#website` },
     about: { "@id": `${SITE_URL}/#isletme` },
-    primaryImageOfPage: { "@type": "ImageObject", url: image.url },
   };
+  if (birincil && birincil.url) webpage.primaryImageOfPage = { "@type": "ImageObject", url: birincil.url, contentUrl: birincil.url, ...(birincil.alt ? { caption: birincil.alt } : {}) };
   if (page.crumbs && page.crumbs.length) webpage.breadcrumb = { "@id": `${url}#breadcrumb` };
   if (page.route === "/hizmetler") webpage.mainEntity = { "@id": `${SITE_URL}/#hizmetler` };
   if (page.route === "/iletisim" || page.route === "/hakkimizda") webpage.mainEntity = { "@id": `${SITE_URL}/#isletme` };

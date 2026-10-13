@@ -10,48 +10,57 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST = path.join(ROOT, "dist");
 
 // Sabit sayfalar: Google başlığı (~60 karakter), açıklama (~120-155 karakter) ve H1. {telefon} otomatik doldurulur.
+// kaynaklar: sayfayı besleyen content dosya/klasörleri; site haritasındaki lastmod bunların son git tarihinden gelir.
+// guncelleme: yalnızca o sayfanın başlığı, açıklaması, H1'i ya da şablona yazılı ana metni gerçekten değişince elle güncelleyin.
 const SABIT_SAYFALAR = [
   {
     route: "/", view: "index", file: "index.html", type: "WebPage",
-    title: "Klima, Kombi, Beyaz Eşya Servisi Bahçelievler | Fırtına Klima",
+    title: "Yenibosna Klima, Kombi, Beyaz Eşya Servisi | Fırtına Klima",
     description: "Bahçelievler ve Yenibosna’da klima, kombi ve beyaz eşya servisi: montaj, bakım, arıza tamiri; çamaşır, bulaşık, buzdolabı, fırın tamiri. Her gün 08–21.",
     h1: "Bahçelievler ve Yenibosna’da Klima, Kombi ve Beyaz Eşya Servisi",
+    kaynaklar: ["content/hizmetler.json", "content/kategoriler", "content/yazilar", "content/bolgeler.json"], guncelleme: "2026-10-13",
   },
   {
     route: "/hakkimizda", view: "hakkimizda", file: "hakkimizda.html", type: "AboutPage",
-    title: "Hakkımızda: Klima, Kombi ve Beyaz Eşya Servisi | Fırtına Klima",
+    title: "Hakkımızda | Fırtına Klima & Kombi, Bahçelievler",
     description: "Bahçelievler Hürriyet Mahallesi’nde bağımsız klima, kombi ve beyaz eşya servisi; yetkili servis değiliz. Tüm markalar, orijinal parça, garanti.",
     h1: "Fırtına Klima & Kombi Hakkında", crumbs: [{ ad: "Hakkımızda", route: "/hakkimizda" }],
+    kaynaklar: ["content/hakkimizda.json"], guncelleme: "2026-10-13",
   },
   {
     route: "/hizmetler", view: "hizmetler", file: "hizmetler.html", type: "CollectionPage",
-    title: "Klima, Kombi ve Beyaz Eşya Hizmetlerimiz | Fırtına Klima",
+    title: "Hizmetlerimiz: Klima, Kombi, Beyaz Eşya | Fırtına Klima",
     description: "Klima montajı, tamiri, bakımı ve gaz dolumu; kombi bakımı ve onarımı; çamaşır, bulaşık makinesi, buzdolabı, fırın tamiri. Tüm markalar. {telefon}",
     h1: "Klima, Kombi ve Beyaz Eşya Servis Hizmetlerimiz", crumbs: [{ ad: "Hizmetler", route: "/hizmetler" }],
+    kaynaklar: ["content/hizmetler.json", "content/kategoriler"], guncelleme: "2026-10-13",
   },
   {
     route: "/serviscagir", view: "hizmet_detay", file: "serviscagir.html", type: "WebPage",
-    title: "Klima, Kombi, Beyaz Eşya Servisi Çağır | Fırtına Klima",
+    title: "Servis Çağır: Telefon ve WhatsApp | Fırtına Klima",
     description: "Telefon veya WhatsApp’tan servis isteyin; çoğu çağrıya aynı gün geliyoruz. Yenibosna, Bahçelievler, Şirinevler, Sefaköy, Bakırköy. {telefon}",
     h1: "Klima, Kombi ve Beyaz Eşya İçin Servis Çağırın", crumbs: [{ ad: "Servis Çağır", route: "/serviscagir" }],
+    kaynaklar: ["content/hizmetler.json", "content/bolgeler.json", "content/iletisim.json"], guncelleme: "2026-10-13",
   },
   {
     route: "/hizmet-bolgeleri", view: "hizmet-bolgeleri", file: "hizmet-bolgeleri.html", type: "WebPage",
     title: "Hizmet Bölgeleri – Bahçelievler, Yenibosna | Fırtına Klima",
     description: "Bahçelievler’deki servisimizden Yenibosna, Şirinevler, Bakırköy, Ataköy, Küçükçekmece ve çevresine klima, kombi, beyaz eşya servisi. {telefon}",
     h1: "Hizmet Verdiğimiz Bölgeler: Bahçelievler, Yenibosna ve Çevresi", crumbs: [{ ad: "Hizmet Bölgeleri", route: "/hizmet-bolgeleri" }],
+    kaynaklar: ["content/bolgeler.json", "content/hizmetler.json"],
   },
   {
     route: "/rehberler", view: "rehberler", file: "rehberler.html", type: "CollectionPage",
-    title: "Klima ve Kombi Rehberleri | Fırtına Klima Bahçelievler",
+    title: "Klima ve Kombi Rehberleri | Fırtına Klima",
     description: "Klima ve kombi rehberleri: kombi basıncı, ısınmayan petekler, sıcak su sorunu, klima montajı, soğutma ve ısıtma sorunları için pratik bilgiler.",
     h1: "Klima ve Kombi Rehberleri", crumbs: [{ ad: "Rehberler", route: "/rehberler" }],
+    kaynaklar: ["content/yazilar"], guncelleme: "2026-10-13",
   },
   {
     route: "/iletisim", view: "iletisim", file: "iletisim.html", type: "ContactPage",
     title: "İletişim ve Adres | Fırtına Klima & Kombi, Bahçelievler",
     description: "Hürriyet, Gazi 1 Sk No:35, 34192 Bahçelievler/İstanbul adresindeyiz; her gün 08.00–21.00 hizmet veriyoruz. Telefon ve WhatsApp: {telefon}.",
     h1: "İletişim ve Adres Bilgilerimiz", crumbs: [{ ad: "İletişim", route: "/iletisim" }],
+    kaynaklar: ["content/iletisim.json"],
   },
 ];
 
@@ -76,13 +85,14 @@ function linkle(s, iletisim, route, routeSet, kayit) {
 // Sadece görünen metin (meta, kart, başlık) gereken yerlerde işaretlemeyi temizler
 const linksiz = (s) => String(s ?? "").replace(LINK_RE, "$2");
 
-// Tam git geçmişi varsa bir dosyanın son değişiklik tarihi (YYYY-MM-DD); sığ klonda tarih uydurmamak için null.
+// Tam git geçmişi varsa bir dosyanın (ya da dosya/klasör listesinin) son değişiklik tarihi (YYYY-MM-DD); sığ klonda tarih uydurmamak için null.
 let derinGecmis;
 function gitTarih(rel) {
   try {
     if (derinGecmis === undefined) derinGecmis = execFileSync("git", ["rev-parse", "--is-shallow-repository"], { cwd: ROOT }).toString().trim() === "false";
     if (!derinGecmis) return null;
-    return execFileSync("git", ["log", "-1", "--format=%cs", "--", rel], { cwd: ROOT }).toString().trim() || null;
+    const yollar = Array.isArray(rel) ? rel : [rel];
+    return execFileSync("git", ["log", "-1", "--format=%cs", "--", ...yollar], { cwd: ROOT }).toString().trim() || null;
   } catch {
     return null;
   }
@@ -192,7 +202,11 @@ function ogEkle(page, iletisim) {
 }
 
 function tumSayfalar(data) {
-  const list = SABIT_SAYFALAR.map((p) => ({ ...p }));
+  // Sabit sayfalar: lastmod, elle girilen guncelleme ile kaynak içeriğin son git tarihinden yeni olanıdır.
+  const list = SABIT_SAYFALAR.map(({ kaynaklar, guncelleme, ...p }) => ({
+    ...p,
+    lastmod: [guncelleme, kaynaklar ? gitTarih(kaynaklar) : null].filter(Boolean).sort().pop() || null,
+  }));
   for (const [anahtar, k] of Object.entries(data.kategoriSayfalari)) {
     list.push({
       route: `/${k.slug}`, view: "kategori", file: `${k.slug}.html`, type: "CollectionPage",
@@ -215,7 +229,7 @@ function tumSayfalar(data) {
     list.push({
       route: `/${y.slug}`, view: "yazi", file: `${y.slug}.html`, type: "WebPage", ogType: "article",
       title: y.seo_baslik, description: y.seo_aciklama, h1: y.baslik,
-      crumbs: [{ ad: y.kart_baslik, route: `/${y.slug}` }],
+      crumbs: [{ ad: "Rehberler", route: "/rehberler" }, { ad: y.kart_baslik, route: `/${y.slug}` }],
       yazi: y, lastmod: y.guncelleme || y.tarih,
     });
   }
