@@ -1,4 +1,4 @@
-<%# Hizmet kartları kategoriye göre gruplu: Klima, Kombi, Beyaz Eşya. Parametreler: sadece (tek kategori), grupSeviye (grup başlığı seviyesi, varsayılan 3) %>
+<%# Hizmet kartları kategoriye göre gruplu: Klima, Kombi, Beyaz Eşya. Parametreler: sadece (tek kategori), grupSeviye (grup başlığı seviyesi, varsayılan 3), girisler (isteğe bağlı, kategori anahtarına göre grup başlığı altındaki giriş metni; yalnızca /hizmetler verir) %>
 <% const grupSeviye = locals.grupSeviye || 3; const grupH = 'h' + grupSeviye; const kartH = locals.sadece ? 'h3' : 'h' + (grupSeviye + 1); %>
 <% const GRUP_SIRASI = locals.sadece ? [locals.sadece] : Object.keys(KATEGORILER); %>
 <% GRUP_SIRASI.forEach(function (anahtar) { %>
@@ -10,6 +10,9 @@
                         <<%= grupH %> class="h3" id="<%= anahtar %>"><%= kat.ad %></<%= grupH %>>
                         <% if (kat.sayfa && kategoriSayfalari[anahtar]) { %><a href="/<%= kat.sayfa %>"><%= kat.ad %> sayfası →</a><% } %>
                     </div>
+                    <%_ if (locals.girisler && locals.girisler[anahtar]) { _%>
+                    <p class="grup-giris metin-linkli"><%- linkle(locals.girisler[anahtar]) %></p>
+                    <%_ } _%>
                     <% } %>
                     <div class="row g-4 justify-content-center mb-5">
                         <% liste.forEach(function (hizmet) { %>

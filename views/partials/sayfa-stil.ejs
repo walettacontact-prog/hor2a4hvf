@@ -16,4 +16,10 @@
         .ara-btn:hover { filter: brightness(1.08); }
         .diger-hizmetler a { display: inline-block; margin: 0 10px 10px 0; padding: 8px 16px; border: 1px solid #234982; border-radius: 30px; color: #234982; font-weight: 600; }
         @media (max-width: 576px) { .ara-btn { width: 100%; justify-content: center; } .icerik h2 { font-size: 24px; } .icerik .giris { font-size: 17px; } .ara-kutusu { padding: 22px 18px; } }
+        /* Sayfa içi bağlantılar: sabit üst menünün altında kalmasın */
+        h2[id], h3[id] { scroll-margin-top: 110px; }
+        .sayfa-ici { background: #f2f6fb; border-radius: 10px; padding: 14px 18px; margin: 0 0 24px; font-size: 15px; }
+        .sayfa-ici ul { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+        .sayfa-ici li { margin: 0; }
+        .grup-giris { max-width: 860px; margin: 0 auto 22px; text-align: center; }
     </style>

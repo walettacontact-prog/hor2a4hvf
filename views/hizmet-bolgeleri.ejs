@@ -21,6 +21,8 @@
                         <p<% if (i === 0) { %> class="giris"<% } %>><%- linkle(p) %></p>
                         <% }) %>
 
+                        <div class="sayfa-ici" role="navigation" aria-label="Bu sayfada"><strong>Bu sayfada:</strong><ul><% s.bolumler.forEach(function (b) { %><li><a href="#<%= b.id %>"><%= b.baslik %></a></li><% }) %><% if (s.sss.length) { %><li><a href="#sss">Sık Sorulan Sorular</a></li><% } %></ul></div>
+
 <%- include('partials/ara-kutusu', { baslik: 'Bölgenize servis için hemen arayın' }) %>
 
                         <% s.bolumler.forEach(function (b) { %>
@@ -36,7 +38,7 @@
                         <p><a href="<%= iletisim.harita %>" target="_blank" rel="noopener">Adresimizi Google Haritalar’da görün</a></p>
 
                         <% if (s.sss.length) { %>
-                        <h2>Sık Sorulan Sorular</h2>
+                        <h2 id="sss">Sık Sorulan Sorular</h2>
                         <% s.sss.forEach(function (q) { %>
                         <h3 class="sss-soru"><%= q.soru %></h3>
                         <p><%- linkle(q.cevap) %></p>

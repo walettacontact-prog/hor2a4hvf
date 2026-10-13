@@ -18,9 +18,18 @@
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-9 text-center">
                             <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki ekibimizle ev ve iş yerlerinde klima montajı, arıza tamiri, bakım ve gaz dolumu; kombi bakımı ve arıza onarımı; çamaşır ve bulaşık makinesi, buzdolabı, fırın ve ocak tamiri yapıyoruz. Bir hizmeti seçerek ayrıntılarını okuyabilir ya da hemen arayabilirsiniz.</p>
+                            <p class="mt-3 mb-0 metin-linkli"><a href="#klima">Klima Servisi</a> · <a href="#kombi">Kombi Servisi</a> · <a href="#beyaz-esya">Beyaz Eşya Tamiri</a></p>
                         </div>
                     </div>
-<%- include('partials/hizmet-kartlari', { grupSeviye: 2 }) %>
+<%- include('partials/hizmet-kartlari', {
+    grupSeviye: 2,
+    // Yalnızca bu sayfada, her grup başlığının altında görünen giriş metinleri
+    girisler: {
+        klima: 'Split, multi split ve VRF klimalarda montaj, arıza tamiri, bakım, gaz dolumu ve kaçak tespiti yapıyoruz; tüm markalara bakan bağımsız bir özel servisiz, herhangi bir markanın yetkili servisi değiliz. Klimanız soğutmuyorsa [[/klima-sogutmuyor|klimanın soğutmama nedenlerini]], ısıtmıyorsa [[/klima-isitmiyor|klima ısıtmıyor rehberimizi]] okuyabilir; yeni klima almadan ya da taşınmadan önce [[/klima-montaji-rehberi|klima montajında dikkat edilecekleri]] ve [[/klima-tasima|klima taşıma adımlarını]] inceleyebilirsiniz.',
+        kombi: 'Kombilerde yıllık bakım ve arıza onarımı yapıyoruz; parça değişimlerinde orijinal yedek parça kullanıyor, ücreti işe başlamadan önce söylüyoruz. Kombinizin basıncı düşüyorsa [[/kombi-su-basinci|kombi su basıncı rehberine]], petekler ısınmıyorsa [[/petekler-isinmiyor|petek ısınma sorunlarına]], sıcak su gelmiyorsa [[/kombi-sicak-su-gelmiyor|sıcak su sorununun nedenlerine]] göz atabilir; kış öncesi kontroller için [[/kombi-bakimi-rehberi|kombi bakımı rehberimizi]] okuyabilirsiniz.',
+        'beyaz-esya': 'Çamaşır ve kurutma makinesi, bulaşık makinesi, buzdolabı ve derin dondurucu, fırın, ocak ve aspiratörde arıza tespiti ve onarım yapıyoruz; çoğu çağrıda aynı gün adresinize geliyoruz.',
+    },
+}) %>
 
                     <div class="icerik mt-4">
 <%- include('partials/ara-kutusu') %>
