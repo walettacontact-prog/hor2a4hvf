@@ -135,7 +135,7 @@
             <section id="section-products" class="section-dark bg-color text-light">
                 <div class="container">
                     <div class="row g-4 justify-content-center">
-                        <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="col-12 text-center">
                             <h2 class="wow fadeInUp mb-0" data-wow-delay=".2s">Klima ve Kombi Rehberi</h2>
                         </div>
                         <% yazilar.forEach(function(yazi) { %>
@@ -395,7 +395,6 @@
 
                             </div>
                         <div class="col-12 text-center mt-4">
-                            <p class="lead mb-3">Müşterilerimizin yorumlarını Google Haritalar profilimizde okuyabilirsiniz.</p>
                             <a class="btn-main" href="<%= iletisim.harita %>" target="_blank" rel="noopener">Google Haritalar’daki profilimizi görün</a>
                             <% if (iletisim.yorum_linki) { %><p class="metin-linkli mt-3 mb-0"><a href="<%= iletisim.yorum_linki %>" target="_blank" rel="noopener">Hizmetimizi Google’da değerlendirin</a></p><% } %>
                         </div>

@@ -201,6 +201,10 @@ function ogEkle(page, iletisim) {
   return page;
 }
 
+// Rehber sayfalarının site haritası tarihi: views/yazi.ejs ya da rehberlerin breadcrumb/yapısal verisi değişince elle güncelleyin.
+// Makale tarihi (dateModified, "Güncellendi") bundan etkilenmez; o content/yazilar/*.json içindeki guncelleme/tarih alanından gelir.
+const YAZI_SABLON_GUNCELLEME = "2026-10-13";
+
 function tumSayfalar(data) {
   // Sabit sayfalar: lastmod, elle girilen guncelleme ile kaynak içeriğin son git tarihinden yeni olanıdır.
   const list = SABIT_SAYFALAR.map(({ kaynaklar, guncelleme, ...p }) => ({
@@ -230,7 +234,7 @@ function tumSayfalar(data) {
       route: `/${y.slug}`, view: "yazi", file: `${y.slug}.html`, type: "WebPage", ogType: "article",
       title: y.seo_baslik, description: y.seo_aciklama, h1: y.baslik,
       crumbs: [{ ad: "Rehberler", route: "/rehberler" }, { ad: y.kart_baslik, route: `/${y.slug}` }],
-      yazi: y, lastmod: y.guncelleme || y.tarih,
+      yazi: y, lastmod: [y.guncelleme || y.tarih, YAZI_SABLON_GUNCELLEME].sort().pop(),
     });
   }
   return list.map((p) => ogEkle(p, data.iletisim));
