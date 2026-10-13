@@ -22,6 +22,11 @@ const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 const TR_DAY = { pazartesi: 0, pzt: 0, salı: 1, sal: 1, çarşamba: 2, çar: 2, perşembe: 3, per: 3, cuma: 4, cum: 4, cumartesi: 5, cmt: 5, pazar: 6, paz: 6 };
 const DAY = "(pazartesi|pzt|salı|sal|çarşamba|çar|perşembe|per|cumartesi|cmt|cuma|cum|pazar|paz)\\.?";
 const TIME = "(\\d{1,2})[.:](\\d{2})\\s*[-–]\\s*(\\d{1,2})[.:](\\d{2})";
+// Google tarih alanlarında saat ve saat dilimi bekler: "2026-10-06" -> "2026-10-06T09:00:00+03:00" (İstanbul)
+function tarihSaat(gun) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(gun) ? `${gun}T09:00:00+03:00` : gun;
+}
+
 function saatAraligi(m) {
   const kapanis = `${m[3].padStart(2, "0")}:${m[4]}`;
   return { opens: `${m[1].padStart(2, "0")}:${m[2]}`, closes: kapanis === "24:00" ? "23:59" : kapanis };
@@ -158,8 +163,8 @@ function seoFor(data, page) {
       headline: page.yazi.baslik,
       description: page.description,
       image: [upload(page.yazi.resim), ...(page.ogImage ? [og.url] : [])],
-      datePublished: page.yazi.tarih,
-      dateModified: page.yazi.guncelleme || page.yazi.tarih,
+      datePublished: tarihSaat(page.yazi.tarih),
+      dateModified: tarihSaat(page.yazi.guncelleme || page.yazi.tarih),
       inLanguage: "tr-TR",
       author: { "@id": `${SITE_URL}/#isletme` },
       publisher: { "@id": `${SITE_URL}/#isletme` },
@@ -183,7 +188,7 @@ function seoFor(data, page) {
     siteName: iletisim.firma_adi,
     image: og,
     imageAlt: page.ogAlt || `${iletisim.firma_adi} – klima ve kombi servisi, ${telGoster(iletisim.telefon)}`,
-    article: page.yazi ? { published: page.yazi.tarih, modified: page.yazi.guncelleme || page.yazi.tarih, section: page.yazi.kategori === "kombi" ? "Kombi" : "Klima" } : null,
+    article: page.yazi ? { published: tarihSaat(page.yazi.tarih), modified: tarihSaat(page.yazi.guncelleme || page.yazi.tarih), section: page.yazi.kategori === "kombi" ? "Kombi" : "Klima" } : null,
     themeColor: THEME_COLOR,
     jsonLd,
   };
