@@ -2,11 +2,11 @@
   "slug": "klima-ariza-tamiri",
   "hizmet": "Klima Arıza ve Tamiri",
   "seo_baslik": "Klima Tamiri Bahçelievler Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Klima açılmıyor, su akıtıyor, ses yapıyor ya da arıza kodu mu veriyor? Çoğu çağrıya aynı gün servis, yerinde tespit ve onarım. Tüm markalar. {telefon}",
-  "h1": "Bahçelievler'de Klima Arıza Tespiti ve Onarımı",
+  "seo_aciklama": "Bahçelievler ve Yenibosna'da klima arıza tamiri: açılmayan, su akıtan, ses yapan ya da arıza kodu veren klimaya yerinde tespit ve onarım. {telefon}",
+  "h1": "Bahçelievler ve Yenibosna'da Klima Arıza Tamiri",
   "giris": [
     "Klimanız açılmıyor, soğutmuyor, su damlatıyor ya da ekranında bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Aynı belirtinin farklı nedenleri olabilir; doğru tespit, gereksiz parça değişiminin önüne geçer.",
-    "Fırtına Klima & Kombi, Yenibosna'daki adresinden çevredeki ev ve iş yerlerine hizmet veren bağımsız bir özel servistir; tüm marka klimalara bakıyoruz, ancak hiçbir markanın yetkili servisi değiliz. Her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün servis verebiliyoruz. Servis için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+    "Fırtına Klima & Kombi, Bahçelievler Hürriyet Mahallesi'ndeki adresinden Yenibosna, Bahçelievler ve çevredeki ev ve iş yerlerine hizmet veren bağımsız bir özel servistir; tüm marka klimalara bakıyoruz, ancak hiçbir markanın yetkili servisi değiliz. Her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün servis verebiliyoruz. Servis için {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
   ],
   "bolumler": [
     {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "baslik": "Servis çağırmadan önce kontrol edebilecekleriniz",
+      "baslik": "Klima servisi çağırmadan önce kontrol edebilecekleriniz",
       "paragraflar": [
         "Bazı şikâyetlerin nedeni arıza değil, yanlış ayar ya da kirli filtredir; [[/klima-sogutmuyor|klima soğutmuyorsa yapılacak kontrolleri]] ayrı bir yazıda topladık. Güvenliğiniz için ünitelerin gövdesini sökmeyin, karta ve kablolara dokunmayın; inverter klimaların kartında, cihaz kapatıldıktan sonra da bir süre tehlikeli gerilim kalabilir. Dış üniteye ulaşmak için pencereden dışarı sarkmayın. Kendi başınıza şunlara bakabilirsiniz:"
       ],
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "baslik": "Arıza tespiti ve onarım nasıl yapılır?",
+      "baslik": "Klima arıza tespiti ve onarım nasıl yapılır?",
       "paragraflar": [
         "Telefonda belirtileri, varsa arıza kodunu ve klimanızın modelini soruyoruz; model bilgisi genellikle iç ünitenin yanındaki etikette yazar. Yerinde besleme gerilimini, elektronik kartı, sensörleri, fan motorlarını, kompresörü ve gaz basıncını kontrol ederek arızanın kaynağını buluyoruz. Yapılacak işi ve ücreti onarıma başlamadan önce bildiriyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; onardığımız arıza tekrarlarsa işçilik garantimiz kapsamında ücretsiz olarak yeniden müdahale ediyoruz.",
         "Gaz basıncı düşükse bu genellikle devrede bir kaçak olduğunu gösterir; kapalı devrede dolaşan gaz, klima kullanıldıkça eksilmez. Bu durumda önce kaçağı bulup gideriyor, devredeki hava ve nemi almak için vakumlama yapıyor, ardından cihazın gaz tipine (R32, R410A gibi) uygun gazı üreticinin belirttiği miktarda dolduruyoruz. Kaçak giderilmeden yapılan dolum geçici bir çözümdür; gaz zamanla yine azalır. Bu adımları [[/klima-gaz-dolumu|kaçak tespiti ve gaz dolumu sayfamızda]] ayrıntılı anlattık."

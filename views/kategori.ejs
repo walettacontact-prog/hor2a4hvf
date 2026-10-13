@@ -23,6 +23,7 @@
                         <p class="giris"><%- linkle(k.giris[0]) %></p>
 <%- include('partials/ara-kutusu', { baslik: k.hizmet + ' için hemen arayın' }) %>
                         <% k.giris.slice(1).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
+                        <% if (k.resim) { %><img loading="lazy" decoding="async" src="/static/assets/uploads/<%= String(k.resim).split('/').pop() %>" alt="<%= k.resim_alt %>" width="1200" height="675" class="rounded-10 mb-4" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;"><% } %>
                     </article>
                 </div>
             </section>

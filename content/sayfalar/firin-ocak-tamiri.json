@@ -1,11 +1,11 @@
 {
   "slug": "firin-ocak-tamiri",
   "hizmet": "Fırın ve Ocak Tamiri",
-  "seo_baslik": "Fırın ve Ocak Tamiri Bahçelievler | Fırtına Klima",
-  "seo_aciklama": "Fırın ısıtmıyor, fanı çalışmıyor ya da ocak yanmıyor mu? Elektrikli fırın, ocak ve aspiratör için yerinde arıza tespiti ve onarım. {telefon}",
+  "seo_baslik": "Fırın ve Ocak Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Fırın, ocak ve aspiratör tamiri Bahçelievler ve Yenibosna'da: ısıtmayan fırın, dönmeyen fan, yanmayan ocak için yerinde onarım. {telefon}",
   "h1": "Bahçelievler'de Fırın, Ocak ve Aspiratör Tamiri",
   "giris": [
-    "Fırınınız ısıtmıyor, fanı dönmüyor, ocağın bir gözü yanmıyor ya da aspiratör eskisi gibi çekmiyorsa sorun çoğu zaman tek bir parçadan kaynaklanır ve yerinde giderilebilir. Fırtına Klima & Kombi olarak Yenibosna ve çevresinde ankastre ya da solo fırın, ocak ve aspiratör arızalarını adresinizde onarıyoruz.",
+    "Fırınınız ısıtmıyor, fanı dönmüyor, ocağın bir gözü yanmıyor ya da aspiratör eskisi gibi çekmiyorsa sorun çoğu zaman tek bir parçadan kaynaklanır ve yerinde giderilebilir. Fırtına Klima & Kombi olarak Bahçelievler, Yenibosna ve çevre semtlerde ankastre ya da solo fırın, ocak ve aspiratör arızalarını adresinizde onarıyoruz.",
     "Tüm marka cihazlara hizmet veren özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Fırın ve ocak onarımı, [[/beyaz-esya-tamiri|beyaz eşya tamiri hizmetimizin]] bir parçasıdır ve çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
   ],
   "bolumler": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "baslik": "Servisi çağırmadan önce güvenle kontrol edebilecekleriniz",
+      "baslik": "Fırın ve ocakta servis öncesi güvenle kontrol edebilecekleriniz",
       "paragraflar": [
         "Herhangi bir kontrolden önce cihazın fişini çekin; ankastre cihazlarda fişe ulaşamıyorsanız sigortasını kapatın. Ayarları denemek için elektriği yeniden verdiğinizde yalnızca düğmeleri ve kontrol panelini kullanın. Fırının arka kapağını, ocağın alt panelini ya da aspiratörün gövdesini açmayın; rezistanslara, kablolara ve gaz bağlantılarına dokunmayın."
       ],
@@ -66,7 +66,7 @@
     {
       "baslik": "Yerinde onarım ve işçilik garantisi",
       "paragraflar": [
-        "Telefonda belirtileri dinleyip olası nedenler hakkında ön bilgi veriyoruz. Adresinize geldiğimizde ölçüm yaparak arızanın kaynağını buluyor, ne yapılacağını ve ücretini işe başlamadan önce söylüyoruz. Talebinizi [[/serviscagir|servis çağırma formundan]] da iletebilirsiniz.",
+        "Telefonda belirtileri dinleyip olası nedenler hakkında ön bilgi veriyoruz. Adresinize geldiğimizde ölçüm yaparak arızanın kaynağını buluyor, ne yapılacağını ve ücretini işe başlamadan önce söylüyoruz. Telefon veya WhatsApp üzerinden servis talebi oluşturma adımlarını [[/serviscagir|servis çağırma sayfamızda]] bulabilirsiniz.",
         "Onarımda orijinal yedek parça kullanıyoruz. İşçilik garantisi kapsamında, onarımdan sonra aynı arıza tekrarlarsa ücretsiz olarak yeniden müdahale ediyoruz. Cihazınız hâlâ üretici garantisi kapsamındaysa önce markanın yetkili servisine başvurmanızı öneririz."
       ]
     }
