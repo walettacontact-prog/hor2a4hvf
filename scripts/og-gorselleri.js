@@ -34,6 +34,7 @@ function uygunGorsel(uploadAdi) {
 
 function kartBilgisi(page, data) {
   const bolge = "Bahçelievler · Yenibosna ve çevresi";
+  if (page.ilce) return { etiket: "Hizmet Bölgesi", baslik: page.h1, alt: "Fırtına Klima & Kombi · Bahçelievler", urun: PUB("images/slider/p3.webp") };
   if (page.kategoriSayfa) return { etiket: "Hizmet", baslik: page.kategoriSayfa.h1, alt: bolge, gorsel: uygunGorsel(`${page.kategoriSayfa.slug}.webp`) };
   // og_odak (isteğe bağlı): geniş görselin kartta hangi kısmının görüneceği, ör. "75% center"
   if (page.hizmet) return { etiket: "Hizmet", baslik: page.hizmet.baslik, alt: bolge, gorsel: uygunGorsel(page.hizmet.resim), odak: page.hizmet.og_odak };

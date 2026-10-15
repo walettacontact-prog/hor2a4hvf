@@ -4,6 +4,7 @@
                         <div class="col-lg-10 text-center">
                             <h2>Hizmet Verdiğimiz Bölgeler</h2>
                             <p class="lead mb-0">Bahçelievler Hürriyet Mahallesi’ndeki adresimizden başta Yenibosna ve Bahçelievler olmak üzere <%= teknikServis.slice(2).map(function (b) { return b.bolge; }).join(', ') %> semtlerindeki ev ve iş yerlerine klima, kombi ve beyaz eşya servisi için geliyoruz; çoğu çağrıya aynı gün ulaşıyoruz. <a href="/hizmet-bolgeleri">Hizmet verdiğimiz bölgelerin ayrıntıları</a> · <a href="/iletisim">Adres ve yol tarifi</a> · <a href="tel:<%= iletisim.telefon %>"><%= telGoster(iletisim.telefon) %></a></p>
+                            <% if (ilceSayfalari.length) { %><p class="metin-linkli mt-3 mb-0"><% ilceSayfalari.forEach(function (x, n) { %><%= n ? ' · ' : '' %><a href="/<%= x.slug %>"><%= x.ad %> klima ve kombi servisi</a><% }) %></p><% } %>
                         </div>
                     </div>
                 </div>

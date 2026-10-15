@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<%- include('partials/head') %>
+<%- include('partials/sayfa-stil') %>
+    <style>
+        .ilce-hizmetleri h3 { font-size: 20px; margin-bottom: 10px; }
+        .ilce-hizmetleri ul { list-style: none; padding: 0; margin: 0; }
+        .ilce-hizmetleri li { padding: 5px 0; border-bottom: 1px solid rgba(26, 58, 96, .08); }
+        .ilce-hizmetleri a { color: #2556a0; font-weight: 600; }
+    </style>
+</head>
+
+<body>
+<%- include('partials/header') %>
+<% const i = page.ilce; %>
+        <!-- content begin -->
+        <div id="content" class="no-top no-bottom">
+            <div id="top"></div>
+<%- include('partials/subheader', { arkaplan: '/static/images/background/4.webp', rozet: 'Hizmet Bölgeleri', h1: i.h1, crumbs: page.crumbs }) %>
+
+            <section class="pb-0">
+                <div class="container">
+                    <article class="icerik">
+                        <p class="giris"><%- linkle(i.giris[0]) %></p>
+<%- include('partials/ara-kutusu', { baslik: i.ad + ' için hemen arayın' }) %>
+                        <% i.giris.slice(1).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
+                    </article>
+                </div>
+            </section>
+
+            <section class="bg-light ilce-hizmetleri mt-4">
+                <div class="container">
+                    <h2 class="text-center mb-4"><%= i.ad %> için hizmetlerimiz</h2>
+                    <div class="row g-4">
+                        <% Object.keys(KATEGORILER).forEach(function (anahtar) { %>
+                        <% const liste = hizmetler.filter(function (h) { return h.kategori === anahtar; }); %>
+                        <% if (!liste.length) return; %>
+                        <div class="col-md-4">
+                            <h3><% if (KATEGORILER[anahtar].sayfa && kategoriSayfalari[anahtar]) { %><a href="/<%= KATEGORILER[anahtar].sayfa %>"><%= KATEGORILER[anahtar].ad %></a><% } else { %><%= KATEGORILER[anahtar].ad %><% } %></h3>
+                            <ul>
+                                <% liste.forEach(function (h) { %><li><a href="/<%= h.slug %>"><%= h.baslik %></a></li><% }) %>
+                            </ul>
+                        </div>
+                        <% }) %>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <article class="icerik">
+                        <% i.bolumler.forEach(function (b) { %>
+                        <h2><%= b.baslik %></h2>
+                        <% (b.paragraflar || []).forEach(function (p) { %><p><%- linkle(p) %></p><% }) %>
+                        <% if (b.maddeler && b.maddeler.length) { %>
+                        <ul>
+                            <% b.maddeler.forEach(function (m) { %><li><%- linkle(m) %></li><% }) %>
+                        </ul>
+                        <% } %>
+                        <% }) %>
+
+                        <% if (i.sss.length) { %>
+                        <h2>Sık Sorulan Sorular</h2>
+                        <% i.sss.forEach(function (q) { %>
+                        <h3 class="sss-soru"><%= q.soru %></h3>
+                        <p><%- linkle(q.cevap) %></p>
+                        <% }) %>
+                        <% } %>
+
+<%- include('partials/ara-kutusu', { baslik: i.ad + ' için servis çağırın' }) %>
+
+                        <h2>Diğer hizmet bölgelerimiz</h2>
+                        <p class="diger-hizmetler">
+                            <% ilceSayfalari.filter(function (x) { return x.slug !== i.slug; }).forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.ad %></a><% }) %><a href="/hizmet-bolgeleri">Tüm hizmet bölgeleri</a>
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+<%- include('partials/cta') %>
+        </div>
+        <!-- content close -->
+<%- include('partials/footer') %>
+</body>
+
+</html>

@@ -21,9 +21,16 @@
                         <p<% if (i === 0) { %> class="giris"<% } %>><%- linkle(p) %></p>
                         <% }) %>
 
-                        <div class="sayfa-ici" role="navigation" aria-label="Bu sayfada"><strong>Bu sayfada:</strong><ul><% s.bolumler.forEach(function (b) { %><li><a href="#<%= b.id %>"><%= b.baslik %></a></li><% }) %><% if (s.sss.length) { %><li><a href="#sss">Sık Sorulan Sorular</a></li><% } %></ul></div>
+                        <div class="sayfa-ici" role="navigation" aria-label="Bu sayfada"><strong>Bu sayfada:</strong><ul><% if (ilceSayfalari.length) { %><li><a href="#ilce-sayfalari">İlçe ve semt sayfalarımız</a></li><% } %><% s.bolumler.forEach(function (b) { %><li><a href="#<%= b.id %>"><%= b.baslik %></a></li><% }) %><% if (s.sss.length) { %><li><a href="#sss">Sık Sorulan Sorular</a></li><% } %></ul></div>
 
 <%- include('partials/ara-kutusu', { baslik: 'Bölgenize servis için hemen arayın' }) %>
+
+                        <% if (ilceSayfalari.length) { %>
+                        <h2 id="ilce-sayfalari">İlçe ve semt sayfalarımız</h2>
+                        <ul>
+                            <% ilceSayfalari.forEach(function (x) { %><li><a href="/<%= x.slug %>"><%= x.ad %> klima, kombi ve beyaz eşya servisi</a><% const diger = x.semtler.filter(function (s) { return s !== x.ad; }).slice(0, 6); if (diger.length) { %>: <%= diger.join(', ') %><% } %></li><% }) %>
+                        </ul>
+                        <% } %>
 
                         <% s.bolumler.forEach(function (b) { %>
                         <h2 id="<%= b.id %>"><%= b.baslik %></h2>

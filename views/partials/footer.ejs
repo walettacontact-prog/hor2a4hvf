@@ -81,6 +81,12 @@
                         </div>
                     </div>
                 </div>
+                <% if (ilceSayfalari.length) { %>
+                <div class="footer-bolgeler">
+                    <span class="fw-bold text-white">Hizmet bölgelerimiz:</span>
+                    <% ilceSayfalari.forEach(function (x, n) { %><%= n ? ' · ' : ' ' %><a href="/<%= x.slug %>"><%= x.ad %></a><% }) %> · <a href="/hizmet-bolgeleri">Tüm bölgeler</a>
+                </div>
+                <% } %>
             </div>
 
             <div class="subfooter">

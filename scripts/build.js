@@ -15,10 +15,10 @@ const DIST = path.join(ROOT, "dist");
 const SABIT_SAYFALAR = [
   {
     route: "/", view: "index", file: "index.html", type: "WebPage",
-    title: "Yenibosna Klima, Kombi, Beyaz Eşya Servisi | Fırtına Klima",
+    title: "Fırtına Klima & Kombi | Bahçelievler ve Yenibosna Klima Servisi",
     description: "Bahçelievler ve Yenibosna’da klima, kombi ve beyaz eşya servisi: montaj, bakım, arıza tamiri; çamaşır, bulaşık, buzdolabı, fırın tamiri. Her gün 08–21.",
     h1: "Bahçelievler ve Yenibosna’da Klima, Kombi ve Beyaz Eşya Servisi",
-    kaynaklar: ["content/hizmetler.json", "content/kategoriler", "content/yazilar", "content/bolgeler.json"], guncelleme: "2026-10-13",
+    kaynaklar: ["content/hizmetler.json", "content/kategoriler", "content/yazilar", "content/bolgeler.json", "content/ilceler"], guncelleme: "2026-10-15",
   },
   {
     route: "/hakkimizda", view: "hakkimizda", file: "hakkimizda.html", type: "AboutPage",
@@ -46,7 +46,7 @@ const SABIT_SAYFALAR = [
     title: "Hizmet Bölgeleri – Bahçelievler, Yenibosna | Fırtına Klima",
     description: "Bahçelievler’deki servisimizden Yenibosna, Şirinevler, Bakırköy, Ataköy, Küçükçekmece ve çevresine klima, kombi, beyaz eşya servisi. {telefon}",
     h1: "Hizmet Verdiğimiz Bölgeler: Bahçelievler, Yenibosna ve Çevresi", crumbs: [{ ad: "Hizmet Bölgeleri", route: "/hizmet-bolgeleri" }],
-    kaynaklar: ["content/bolgeler.json", "content/hizmetler.json"],
+    kaynaklar: ["content/bolgeler.json", "content/hizmetler.json", "content/ilceler"],
   },
   {
     route: "/rehberler", view: "rehberler", file: "rehberler.html", type: "CollectionPage",
@@ -187,7 +187,15 @@ function loadData() {
     kategoriSayfalari[anahtar] = k;
   }
 
-  return { iletisim, hakkimizda, hizmetler, teknikServis, bolgeSayfasi, sayfalar, yazilar, kategoriSayfalari };
+  // İlçe/semt sayfaları: content/ilceler/<slug>.json (yakından uzağa sıralı)
+  const ilceSayfalari = readFolder("ilceler").map((i) => {
+    requireFields(`İlçe sayfası ${i.slug}`, i, ["slug", "ad", "seo_baslik", "seo_aciklama", "h1"]);
+    checkMetin(`İlçe sayfası ${i.slug}`, i);
+    if (!Array.isArray(i.semtler) || !i.semtler.length) throw new Error(`content/ilceler/${i.slug}.json: "semtler" dolu bir liste olmalı`);
+    return i;
+  }).sort((a, b) => (Number(a.uzaklik_km) || 0) - (Number(b.uzaklik_km) || 0));
+
+  return { iletisim, hakkimizda, hizmetler, teknikServis, bolgeSayfasi, sayfalar, yazilar, kategoriSayfalari, ilceSayfalari };
 }
 
 // Sayfaya özel paylaşım (Open Graph) görseli: public/images/og/<ad>.jpg (scripts/og-gorselleri.js üretir)
@@ -227,6 +235,14 @@ function tumSayfalar(data) {
       title: s.seo_baslik, description: s.seo_aciklama, h1: s.h1,
       crumbs: [KATEGORILER[h.kategori].sayfa && data.kategoriSayfalari[h.kategori] ? { ad: KATEGORILER[h.kategori].ad, route: `/${KATEGORILER[h.kategori].sayfa}` } : { ad: "Hizmetler", route: "/hizmetler" }, { ad: h.baslik, route: `/${h.slug}` }],
       hizmet: h, sayfa: s, lastmod: gitTarih(`content/sayfalar/${h.slug}.json`),
+    });
+  }
+  for (const i of data.ilceSayfalari) {
+    list.push({
+      route: `/${i.slug}`, view: "ilce", file: `${i.slug}.html`, type: "WebPage",
+      title: i.seo_baslik, description: i.seo_aciklama, h1: i.h1,
+      crumbs: [{ ad: "Hizmet Bölgeleri", route: "/hizmet-bolgeleri" }, { ad: i.ad, route: `/${i.slug}` }],
+      ilce: i, lastmod: gitTarih(`content/ilceler/${i.slug}.json`),
     });
   }
   for (const y of data.yazilar) {
@@ -315,7 +331,7 @@ function build() {
   for (const page of [...pages, { view: "404", file: "404.html" }]) {
     const viewFile = path.join(ROOT, "views", `${page.view}.ejs`);
     // WhatsApp mesajı hazır gelsin: işletme hangi hizmet için yazıldığını sohbetin ilk satırında görür.
-    const waMesaj = page.hizmet ? `Merhaba, ${page.hizmet.baslik} için servis istiyorum. Semtim: ` : page.kategoriSayfa ? `Merhaba, ${page.kategoriSayfa.hizmet} için servis istiyorum. Semtim: ` : "Merhaba, klima, kombi veya beyaz eşya servisi için yazıyorum. Semtim: ";
+    const waMesaj = page.hizmet ? `Merhaba, ${page.hizmet.baslik} için servis istiyorum. Semtim: ` : page.kategoriSayfa ? `Merhaba, ${page.kategoriSayfa.hizmet} için servis istiyorum. Semtim: ` : page.ilce ? `Merhaba, ${page.ilce.ad} için klima, kombi veya beyaz eşya servisi istiyorum. Adresim: ` : "Merhaba, klima, kombi veya beyaz eşya servisi için yazıyorum. Semtim: ";
     const locals = {
       ...ortak, page, ogType: page.ogType, seo: page.route ? seoFor(data, page) : null,
       linkle: (s) => linkle(s, data.iletisim, page.route, routeSet, kayit),

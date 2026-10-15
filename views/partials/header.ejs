@@ -61,7 +61,16 @@
                                             <% }) %>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="/hizmet-bolgeleri">Bölgeler</a></li>
+                                    <li><a class="menu-item" href="/hizmet-bolgeleri">Bölgeler</a>
+                                        <% if (ilceSayfalari.length) { %>
+                                        <ul>
+                                            <% ilceSayfalari.forEach(function (x) { %>
+                                            <li><a class="menu-item" href="/<%= x.slug %>"><%= x.ad %></a></li>
+                                            <% }) %>
+                                            <li><a class="menu-item" href="/hizmet-bolgeleri">Tüm bölgeler</a></li>
+                                        </ul>
+                                        <% } %>
+                                    </li>
                                     <li><a class="menu-item" href="/rehberler">Rehberler</a></li>
                                     <li><a class="menu-item" href="/iletisim">İletişim</a></li>
                                 </ul>

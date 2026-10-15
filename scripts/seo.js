@@ -97,7 +97,7 @@ function hizmetDugumu(h, sayfa, iletisim) {
 }
 
 /**
- * page: { route, type, title, description, crumbs: [{ad, route}], hizmet?, yazi?, kategoriSayfa?, ogImage?, ogAlt? }
+ * page: { route, type, title, description, crumbs: [{ad, route}], hizmet?, yazi?, kategoriSayfa?, ilce?, ogImage?, ogAlt? }
  * Döner: { url, title, description, siteName, image, imageAlt, themeColor, jsonLd }
  */
 function seoFor(data, page) {
@@ -142,6 +142,7 @@ function seoFor(data, page) {
   if (page.crumbs && page.crumbs.length) webpage.breadcrumb = { "@id": `${url}#breadcrumb` };
   if (page.route === "/hizmetler") webpage.mainEntity = { "@id": `${SITE_URL}/#hizmetler` };
   if (page.route === "/iletisim" || page.route === "/hakkimizda") webpage.mainEntity = { "@id": `${SITE_URL}/#isletme` };
+  if (page.ilce) webpage.mainEntity = { "@id": `${url}#hizmet` };
   if (page.route === "/rehberler") {
     webpage.mainEntity = {
       "@type": "ItemList",
@@ -154,6 +155,21 @@ function seoFor(data, page) {
   if (page.hizmet) graph.push(hizmetDugumu(page.hizmet, true, iletisim));
   else if (page.route === "/" || page.route === "/hizmetler") hizmetler.forEach((h) => graph.push(hizmetDugumu(h, false, iletisim)));
   else if (page.kategori) hizmetler.filter((h) => h.kategori === page.kategori).forEach((h) => graph.push(hizmetDugumu(h, false, iletisim)));
+  else if (page.ilce) {
+    const yer = (ad) => ({ "@type": "Place", name: ad, containedInPlace: { "@id": `${SITE_URL}/#istanbul` } });
+    graph.push({
+      "@type": "Service",
+      "@id": `${url}#hizmet`,
+      name: `${page.ilce.ad} Klima, Kombi ve Beyaz Eşya Servisi`,
+      serviceType: ["Klima servisi", "Kombi servisi", "Beyaz eşya tamiri"],
+      description: page.description,
+      url,
+      provider: { "@id": `${SITE_URL}/#isletme` },
+      areaServed: [yer(page.ilce.ad), ...page.ilce.semtler.filter((s) => s !== page.ilce.ad).map(yer)],
+      mainEntityOfPage: { "@id": `${url}#webpage` },
+      availableChannel: { "@type": "ServiceChannel", servicePhone: { "@type": "ContactPoint", telephone: iletisim.telefon } },
+    });
+  }
 
   if (page.yazi) {
     graph.push({
