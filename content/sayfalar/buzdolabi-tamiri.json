@@ -2,7 +2,7 @@
   "slug": "buzdolabi-tamiri",
   "hizmet": "Buzdolabı Tamiri",
   "seo_baslik": "Buzdolabı Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Buzdolabı tamiri Bahçelievler ve Yenibosna'da: soğutmayan, karlanan, su akıtan ya da ses yapan buzdolabı ve derin dondurucuya onarım. {telefon}",
+  "seo_aciklama": "İstanbul Bahçelievler ve Yenibosna'da buzdolabı ve derin dondurucu tamiri: soğutmayan, karlanan ya da su akıtan cihaza yerinde onarım. {telefon}",
   "h1": "Bahçelievler ve Yenibosna'da Buzdolabı Tamiri",
   "giris": [
     "Buzdolabınız soğutmuyor, dondurucu çalıştığı hâlde taze gıda bölümü ısınıyor, içi karlanıyor, altından su geliyor ya da alışılmadık bir ses çıkarıyorsa sorun çoğu zaman belirli bir parçadan kaynaklanır; doğru tespit gereksiz parça değişiminin de önüne geçer. Fırtına Klima & Kombi olarak [[/beyaz-esya-tamiri|beyaz eşya tamiri]] hizmetimiz kapsamında Bahçelievler Hürriyet Mahallesi'ndeki adresimizden Yenibosna, Bahçelievler ve çevredeki evlere geliyor, buzdolaplarını ve derin dondurucuları yerinde onarıyoruz.",
@@ -48,6 +48,20 @@
       "paragraflar": [
         "[[/serviscagir|Servis çağırdığınızda]] telefonda belirtileri dinliyor, buzdolabınızın No Frost olup olmadığını ve ekranda bir hata kodu varsa bu kodu soruyoruz. Hata kodları markaya ve modele göre değiştiği için kodu ve modeli söylemeniz olası nedenleri önceden konuşmamızı kolaylaştırır.",
         "Adresinizde sıcaklık ve defrost sensörlerini, fanları, defrost ısıtıcısını, kompresör rölesini, kapı contasını ve gerekirse soğutma devresini kontrol ederek arızanın kaynağını buluyoruz. Değişen parçalarda orijinal yedek parça kullanıyoruz; işçilik garantimiz kapsamında, onarımımızdan sonra aynı arıza tekrarlarsa ücretsiz olarak yeniden müdahale ediyoruz."
+      ]
+    },
+    {
+      "baslik": "Buzdolabı tamirine geldiğimiz semtler",
+      "paragraflar": [
+        "Buzdolabı ve derin dondurucu tamiri için Bahçelievler Hürriyet Mahallesi'ndeki dükkânımızdan Yenibosna, Bahçelievler ve İstanbul'un Avrupa Yakası'ndaki yakın semtlerde evlere geliyoruz. Semtinize göre ayrıntıları aşağıdaki sayfalarda bulabilirsiniz."
+      ],
+      "maddeler": [
+        "[[/bahcelievler-klima-kombi-servisi|Bahçelievler ve Şirinevler'de buzdolabı tamiri]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy'de beyaz eşya servisi]]",
+        "[[/gungoren-klima-kombi-servisi|Güngören ve Merter'de buzdolabı servisi]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli'de beyaz eşya tamiri]]",
+        "[[/kucukcekmece-klima-kombi-servisi|Küçükçekmece, Sefaköy ve Halkalı'da buzdolabı onarımı]]",
+        "[[/hizmet-bolgeleri|Servis verdiğimiz tüm bölgeler]]"
       ]
     },
     {

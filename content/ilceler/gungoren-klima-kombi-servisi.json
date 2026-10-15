@@ -1,0 +1,96 @@
+{
+  "slug": "gungoren-klima-kombi-servisi",
+  "ad": "Güngören",
+  "seo_baslik": "Güngören ve Merter Klima, Kombi Servisi | Fırtına Klima",
+  "seo_aciklama": "Güngören ve Merter’de klima montajı, bakımı ve arıza tamiri, kombi bakımı ve onarımı, beyaz eşya tamiri. Her gün 08.00–21.00. {telefon}",
+  "h1": "Güngören ve Merter’de Klima, Kombi ve Beyaz Eşya Servisi",
+  "semtler": [
+    "Abdurrahman Nafiz Gürman",
+    "Akıncılar",
+    "Gençosman",
+    "Güneştepe",
+    "Güven",
+    "Haznedar",
+    "Mareşal Çakmak",
+    "Mehmet Nesih Özmen",
+    "Merkez",
+    "Sanayi",
+    "Tozkoparan",
+    "Merter"
+  ],
+  "uzaklik_km": 3.9,
+  "giris": [
+    "Fırtına Klima & Kombi bağımsız bir özel teknik servis. Dükkânımız Güngören’in batı komşusu Bahçelievler’de, Hürriyet Mahallesi Gazi 1 Sokak No:35’te; Güngören merkezinin kuş uçuşu yaklaşık 3,9 km güneybatısında kalıyor. Haznedar’dan Tozkoparan’a kadar ilçenin bütün mahallelerinde evlere ve iş yerlerine klima, kombi ve beyaz eşya için geliyoruz.",
+    "{telefon} numarasına ister telefonla ulaşın ister WhatsApp’tan yazın. Güngören’de adresi tarif ederken iki ayrıntı işimizi kolaylaştırıyor: Merter’de bir iş hanındaysanız hanın adı ile blok ve kat bilgisi; Tozkoparan’daki dönüşüm konutlarında oturuyorsanız etap ve blok numarası. Bir iş hanında da bir dönüşüm sitesinde de aynı adresin içinde çok sayıda dükkân ya da daire bulunabildiği için sokak adı tek başına yetmeyebilir."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Güngören’deki evlere ve iş yerlerine verdiğimiz servisler",
+      "paragraflar": [
+        "Split klimada montaj ve sökme-takma, klimada bakım, gaz dolumu ve [[/klima-ariza-tamiri|klima arıza tamiri]], kombide yıllık bakım ve [[/kombi-ariza-onarimi|kombi arıza onarımı]] yapıyor, bozulan beyaz eşyaya da adrese gelip [[/beyaz-esya-tamiri|beyaz eşya tamiri]] kapsamında bakıyoruz. Cihazın markası fark etmiyor; aşağıda Güngören’in sık apartmanlarında, dönüşen binalarında ve Merter’in iş yerlerinde bu işlerde nelere dikkat edilmesi gerektiğini anlattık."
+      ]
+    },
+    {
+      "baslik": "Sık apartmanlar ve ışıklıklar: Güngören’de klima dış ünitesinin yeri",
+      "paragraflar": [
+        "Güngören, yaklaşık 7 km²’lik yüz ölçümüyle Türkiye’nin en küçük ilçelerinden biri ve ilçeye bağlı kırsal yerleşim yok. 1960’lardan itibaren göçle hızla dolan mahallelerde apartmanlar çoğu yerde birbirine çok yakın duruyor. Bu dokuda dış ünite için şunlara dikkat edin:"
+      ],
+      "maddeler": [
+        "Dış ünite attığı sıcak havayı rahatça dağıtabilmeli. Karşı binanın penceresine yakın asılan bir ünite hem sesi hem sıcak havayı komşuya yöneltir; uygun yeri montajdan önce birlikte belirliyoruz.",
+        "Dar aydınlık boşluklarına (ışıklıklara) konan dış ünite, kendi attığı sıcak havayı yeniden çekebilir; cihaz zorlanır, soğutma zayıflar. Mümkünse, bina yönetimiyle de konuşarak havanın rahat dolaştığı sokak ya da arka cepheyi tercih edin.",
+        "Ünite ışıklıktan sokak cephesine ya da arka cepheye alındığında boru hattı uzayabilir; yer tespitinden vakuma kadar montaj adımlarını [[/klima-montaji|klima montajı]] sayfamızda anlattık."
+      ]
+    },
+    {
+      "baslik": "Kentsel dönüşümde boşaltılan Güngören binalarında klima sökümü",
+      "paragraflar": [
+        "Güngören’de kentsel dönüşüm sürüyor: Tozkoparan’da etaplar hâlinde ilerleyen büyük bir proje var, Merkez Mahallesi gibi yerlerde de tek tek apartmanlar yıkılıp yeniden yapılıyor. Binanız boşaltılacaksa klimayı son haftaya bırakmayın ve elektrik kesilmeden söktürün. Gazı dış üniteye toplamak için cihazın kısa bir süre soğutmada çalışması gerekir; elektrik yokken yapılan sökümde gazın bir kısmı kaçabilir ve yeni adreste dolum gerekebilir.",
+        "Yeni evde montajdan sonra hattı vakuma alıp kaçak testi yapmadan cihazı çalıştırmıyoruz. Nakliyede ünitelerin nasıl korunacağını [[/klima-tasima|taşınırken klima rehberimizde]] anlattık."
+      ]
+    },
+    {
+      "baslik": "Merter’deki toptancı mağazaları ve Sanayi Mahallesi atölyelerinde klima",
+      "paragraflar": [
+        "Güngören’in güneydoğusunda, D-100 (E-5) kenarındaki Merter, hazır giyim ve tekstil toptancılığıyla bilinen bir ticaret bölgesi; Sanayi Mahallesi’nde de tekstil firmaları ve iş merkezleri bulunuyor. Kumaş tozu ve havın yoğun olduğu mağaza, depo ve atölyelerde iç ünite filtresi evlere göre daha çabuk tıkanır. Filtre tıkandığında üniteden geçen hava azalır, cihaz serinletmekte zorlanır, iç ünite peteği buz tutabilir ve eriyen buz damlama yapabilir. Bu yüzden filtreleri sezon boyunca sık aralıklarla kontrol edin; petek ve drenaj hattı temizliğini [[/klima-bakimi|periyodik klima bakımına]] bırakın.",
+        "İş yerinizde birden çok iç ünite tek bir dış üniteye bağlıysa, bu [[/vrf-multi-klima-servisi|VRF ve multi split sistemlerde]] de periyodik bakımı yapıyor, kaçağı arıyor ve arızayı bulup onarıyoruz. Ararken sisteme kaç iç ünitenin bağlı olduğunu, ünitelerin yerini ve varsa ekranda görünen hata kodunu söylemeniz hazırlıklı gelmemize yardımcı olur."
+      ]
+    },
+    {
+      "baslik": "Güngören’de servis verdiğimiz 11 mahalle",
+      "paragraflar": [
+        "Aşağıdaki listede Merter’i görmeyeceksiniz, çünkü Merter resmî bir mahalle değil, bir semt adı. Merter Tekstil Merkezi ve çevresindeki sokaklar Mehmet Nesih Özmen Mahallesi’nde, Merter metro istasyonunun bulunduğu D-100 yan yolu tarafı ise Abdurrahman Nafiz Gürman Mahallesi’nde kalıyor. Çevre ilçelerde gittiğimiz semtleri [[/hizmet-bolgeleri|hizmet bölgeleri]] sayfasında bulabilirsiniz."
+      ],
+      "maddeler": [
+        "Abdurrahman Nafiz Gürman",
+        "Akıncılar",
+        "Gençosman",
+        "Güneştepe",
+        "Güven",
+        "Haznedar",
+        "Mareşal Çakmak",
+        "Mehmet Nesih Özmen",
+        "Merkez",
+        "Sanayi",
+        "Tozkoparan"
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Dükkânınız Güngören’in hangi mahallelerine daha yakın?",
+      "cevap": "Dükkânımızdan mahalle ortalarına kuş uçuşu ölçüldüğünde en yakın mahalleler yaklaşık 2,8 km ile Haznedar ve yaklaşık 2,9 km ile Mareşal Çakmak; Akıncılar ile Güven de yaklaşık 3 km uzaklıkta. En uzak mahalle olan Tozkoparan yaklaşık 5 km. Yoldaki süre trafiğe göre değiştiği için geliş saatini telefonda birlikte belirliyoruz."
+    },
+    {
+      "soru": "Merter’deki mağazamızın klima bakımını mağazanın kapalı olduğu bir güne alabilir miyiz?",
+      "cevap": "Evet; hafta sonu dâhil her gün 08.00–21.00 arasında çalışıyoruz, günü ve saati telefonda birlikte belirleriz. Yalnız mağazanızın kliması iş hanındaki başka katlarla ortak bir VRF ya da multi split sistemine bağlıysa, bakım sırasında sistemi bir süre durdurmamız gerekebilir; bu da aynı sisteme bağlı komşu mağazaları etkiler. Bu yüzden günü seçmeden önce sistemi paylaştığınız işletmelere haber verin; sizin kapalı olduğunuz gün onlar açık olabilir."
+    },
+    {
+      "soru": "Söktüğünüz klimayı yeni daireye taktığınızda gaz dolumu gerekir mi?",
+      "cevap": "Her zaman gerekmez. Söküm sırasında gaz dış üniteye toplandıysa ve boru hattında kaçak yoksa mevcut gaz çoğu zaman yeter. Yeni yerde boru hattı uzarsa ya da söküm elektrik yokken yapıldıysa eksik gazı tamamlıyoruz; kaçak testinde sorun çıkarsa önce kaçağı gideriyoruz. Bu işlerin ücretini işlemden önce söylüyoruz."
+    },
+    {
+      "soru": "Taşınırken kombinin gaz bağlantısını da söker misiniz?",
+      "cevap": "Hayır. Kombiyi gaz hattından ayırmak ve yeni evde gaz hattına bağlamak doğal gaz tesisatı kapsamında; bu işi yetkili bir doğal gaz tesisat firması yapmalı. Biz kombinin bakımını ve arıza onarımını yapıyoruz. Gaz kokusu alırsanız elektrik düğmelerine dokunmadan vanayı kapatın, ortamı havalandırın ve binanın dışından 187 Doğal Gaz Acil hattını arayın."
+    }
+  ]
+}

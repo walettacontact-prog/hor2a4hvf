@@ -2,7 +2,7 @@
   "slug": "camasir-makinesi-tamiri",
   "hizmet": "Çamaşır ve Kurutma Makinesi Tamiri",
   "seo_baslik": "Çamaşır Makinesi Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Bahçelievler ve Yenibosna'da çamaşır ve kurutma makinesi tamiri: su boşaltmayan, sıkmayan, arıza kodu veren makineye onarım. {telefon}",
+  "seo_aciklama": "İstanbul Bahçelievler ve Yenibosna'da çamaşır ve kurutma makinesi tamiri: su boşaltmayan, sıkmayan, arıza kodu veren makineye yerinde onarım. {telefon}",
   "h1": "Bahçelievler'de Çamaşır ve Kurutma Makinesi Tamiri",
   "giris": [
     "Çamaşır makineniz su boşaltmıyor, sıkmıyor, kapağı açılmıyor ya da ekranda bir arıza kodu mu gösteriyor? Bu sorunlar çoğu zaman tıkanmış bir filtreden, yıpranmış bir parçadan ya da arızalı bir sensörden kaynaklanır ve doğru tespitle giderilebilir. Fırtına Klima & Kombi olarak klima ve kombinin yanında [[/beyaz-esya-tamiri|beyaz eşya tamiri]] de yapıyoruz; çamaşır ve kurutma makinelerini Bahçelievler, Yenibosna ve çevre semtlerde, adresinizde onarıyoruz.",
@@ -63,6 +63,20 @@
       "baslik": "Çamaşır ve kurutma makinesi: tamir mi, yeni makine mi?",
       "paragraflar": [
         "Bu karar, çamaşır makinesinde de kurutma makinesinde de arıza tespit edildikten sonra verilmelidir. Pompa, kapak kilidi, motor kömürü ya da körük gibi parçalardaki arızalar çoğu zaman makul bir onarımla giderilir. Rulman arızası ise bazı modellerde kazanla birlikte değişim gerektirebilir; bu durumda ya da kazan ciddi hasar gördüyse, birden fazla büyük parça aynı anda arızalandıysa veya parça artık bulunamıyorsa onarım ekonomik olmayabilir. Onarım mantıklı değilse bunu açıkça söylüyor, kararı size bırakıyoruz. Cihaz satışı yapmadığımız için önerimiz yalnızca makinenizin durumuna dayanır."
+      ]
+    },
+    {
+      "baslik": "Çamaşır ve kurutma makinesi tamirine geldiğimiz semtler",
+      "paragraflar": [
+        "Bahçelievler Hürriyet Mahallesi'ndeki dükkânımızdan Yenibosna'ya, Bahçelievler'in diğer mahallelerine ve İstanbul'un Avrupa Yakası'ndaki yakın semtlere geliyor, çamaşır ve kurutma makinenizi evinizde onarıyoruz. Semtinize göre ayrıntıları aşağıdaki sayfalarda bulabilir, [[/hizmet-bolgeleri|hizmet verdiğimiz tüm bölgelere]] tek sayfadan göz atabilirsiniz."
+      ],
+      "maddeler": [
+        "Yenibosna ve Şirinevler dâhil [[/bahcelievler-klima-kombi-servisi|Bahçelievler'de çamaşır makinesi tamiri]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy'de beyaz eşya servisi]]",
+        "Sefaköy ve Halkalı'yı da kapsayan [[/kucukcekmece-klima-kombi-servisi|Küçükçekmece'de çamaşır ve kurutma makinesi tamiri]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli'de beyaz eşya onarımı]]",
+        "[[/gungoren-klima-kombi-servisi|Güngören ve Merter'de çamaşır makinesi servisi]]",
+        "[[/ikitelli-klima-kombi-servisi|İkitelli'de kurutma makinesi tamiri]]"
       ]
     }
   ],

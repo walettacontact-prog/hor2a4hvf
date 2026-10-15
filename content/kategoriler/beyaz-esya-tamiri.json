@@ -1,9 +1,9 @@
 {
   "slug": "beyaz-esya-tamiri",
   "hizmet": "Beyaz Eşya Tamiri",
-  "seo_baslik": "Beyaz Eşya Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Bahçelievler ve Yenibosna'da çamaşır, kurutma ve bulaşık makinesi, buzdolabı, fırın ve ocak tamiri. Tüm markalara yerinde servis. {telefon}",
-  "h1": "Bahçelievler ve Yenibosna'da Beyaz Eşya Tamiri",
+  "seo_baslik": "Beyaz Eşya Servisi Yenibosna, Bahçelievler | Fırtına Klima",
+  "seo_aciklama": "İstanbul Bahçelievler ve Yenibosna'da beyaz eşya servisi: çamaşır, kurutma ve bulaşık makinesi, buzdolabı, fırın ve ocak tamiri adresinizde. {telefon}",
+  "h1": "Bahçelievler ve Yenibosna'da Beyaz Eşya Tamiri ve Servisi",
   "resim": "beyaz-esya-tamiri.webp",
   "resim_alt": "Çamaşır makinesi, buzdolabı ve fırın çizimi",
   "giris": [
@@ -63,6 +63,20 @@
         "Arızanın kaynağı ve onarımın ne kadar işçilik gerektirdiği",
         "Değişmesi gereken parça ve bu parçanın bulunabilirliği",
         "Sorunun tek bir parçada mı yoksa birden fazla noktada mı olduğu"
+      ]
+    },
+    {
+      "baslik": "Beyaz eşya servisi verdiğimiz semtler",
+      "paragraflar": [
+        "Bahçelievler Hürriyet Mahallesi'ndeki dükkânımızdan Yenibosna'ya, Bahçelievler'in diğer mahallelerine ve İstanbul Avrupa Yakası'nda yakın semtlerdeki evlere geliyoruz. Çamaşır ve bulaşık makinesi, buzdolabı ya da fırın arızasını cihazın bulunduğu adreste tespit edip yerinde onarıyoruz. Semtinize göre ayrıntıları aşağıdaki sayfalarda bulabilirsiniz:"
+      ],
+      "maddeler": [
+        "[[/bahcelievler-klima-kombi-servisi|Bahçelievler, Yenibosna ve Şirinevler'de beyaz eşya servisi]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy'de beyaz eşya tamiri]]",
+        "[[/gungoren-klima-kombi-servisi|Güngören ve Merter'de beyaz eşya servisi]]",
+        "[[/kucukcekmece-klima-kombi-servisi|Küçükçekmece, Sefaköy ve Halkalı'da beyaz eşya onarımı]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli'de bulaşık makinesi ve fırın tamiri]]",
+        "[[/ikitelli-klima-kombi-servisi|İkitelli'de beyaz eşya tamiri]]"
       ]
     },
     {

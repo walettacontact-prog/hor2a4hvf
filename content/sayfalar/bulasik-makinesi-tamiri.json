@@ -2,7 +2,7 @@
   "slug": "bulasik-makinesi-tamiri",
   "hizmet": "Bulaşık Makinesi Tamiri",
   "seo_baslik": "Bulaşık Makinesi Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Bulaşık makinesi tamiri Bahçelievler ve Yenibosna'da: su boşaltmayan, ısıtmayan, iyi yıkamayan makineye yerinde onarım. {telefon}",
+  "seo_aciklama": "İstanbul Bahçelievler ve Yenibosna'da bulaşık makinesi tamiri: su boşaltmayan, ısıtmayan, iyi yıkamayan makineye adresinizde onarım. {telefon}",
   "h1": "Bahçelievler'de Bulaşık Makinesi Tamiri",
   "giris": [
     "Bulaşık makineniz su boşaltmıyor, ısıtmıyor, iyi yıkamıyor ya da ekranda bir arıza kodu gösteriyorsa önce sorunun kaynağını doğru bulmak gerekir. Bu belirtilerin bir kısmı basit bir tıkanıklıktan, bir kısmı ise pompa, ısıtıcı ya da elektronik kart gibi parçalardan kaynaklanır. Fırtına Klima & Kombi olarak [[/beyaz-esya-tamiri|beyaz eşya tamiri hizmetimiz]] kapsamında Bahçelievler ve Yenibosna'da bulaşık makinesi arızalarını adresinizde tespit edip onarıyoruz.",
@@ -65,6 +65,20 @@
       "paragraflar": [
         "Tahliye pompası, conta, su giriş ventili ya da ısıtıcı arızaları çoğu zaman onarımla giderilebilir. Elektronik kart arızasında, birden fazla parça aynı anda yıprandığında ya da gövdede paslanma, iç tankta hasar varsa makinenin onarıma değip değmeyeceğini birlikte değerlendirmek gerekir.",
         "Bu değerlendirmeyi arızayı yerinde gördükten sonra, makinenin yaşı ve genel durumuyla birlikte yapıyoruz. Cihaz satışı yapmadığımız için önerimiz yalnızca onarımın sizin için mantıklı olup olmadığına dayanır."
+      ]
+    },
+    {
+      "baslik": "Bulaşık makinesi tamirine geldiğimiz semtler",
+      "paragraflar": [
+        "Bahçelievler Hürriyet Mahallesi'ndeki dükkânımızdan Yenibosna, Bahçelievler ve İstanbul'un Avrupa Yakası'ndaki yakın semtlerde adresinize gelip bulaşık makinenizi yerinde tamir ediyoruz. Semtinize özel ayrıntılar aşağıdaki sayfalarda, geldiğimiz tüm semtler ise [[/hizmet-bolgeleri|hizmet bölgelerimiz]] sayfasında yer alıyor."
+      ],
+      "maddeler": [
+        "[[/bahcelievler-klima-kombi-servisi|Bahçelievler ve Şirinevler'de beyaz eşya servisi]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy'de bulaşık makinesi tamiri]]",
+        "[[/gungoren-klima-kombi-servisi|Güngören'de beyaz eşya tamiri]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli'de bulaşık makinesi servisi]]",
+        "[[/kucukcekmece-klima-kombi-servisi|Küçükçekmece, Sefaköy ve Halkalı'da beyaz eşya servisi]]",
+        "[[/ikitelli-klima-kombi-servisi|İkitelli'de bulaşık makinesi ve beyaz eşya tamiri]]"
       ]
     }
   ],

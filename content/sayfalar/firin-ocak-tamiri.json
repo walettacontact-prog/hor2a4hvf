@@ -2,7 +2,7 @@
   "slug": "firin-ocak-tamiri",
   "hizmet": "Fırın ve Ocak Tamiri",
   "seo_baslik": "Fırın ve Ocak Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Fırın, ocak ve aspiratör tamiri Bahçelievler ve Yenibosna'da: ısıtmayan fırın, dönmeyen fan, yanmayan ocak için yerinde onarım. {telefon}",
+  "seo_aciklama": "İstanbul Bahçelievler ve Yenibosna'da fırın, ocak ve aspiratör tamiri: ısıtmayan fırın, yanmayan ocak, çekmeyen aspiratör için yerinde servis. {telefon}",
   "h1": "Bahçelievler'de Fırın, Ocak ve Aspiratör Tamiri",
   "giris": [
     "Fırınınız ısıtmıyor, fanı dönmüyor, ocağın bir gözü yanmıyor ya da aspiratör eskisi gibi çekmiyorsa sorun çoğu zaman tek bir parçadan kaynaklanır ve yerinde giderilebilir. Fırtına Klima & Kombi olarak Bahçelievler, Yenibosna ve çevre semtlerde ankastre ya da solo fırın, ocak ve aspiratör arızalarını adresinizde onarıyoruz.",
@@ -61,6 +61,19 @@
         "Gaz kokusu: elektrik düğmelerine ve prizlere dokunmayın, çakmak ya da kibrit yakmayın, içeride telefon kullanmayın. Güvenle ulaşabiliyorsanız gaz vanasını kapatın, pencereleri açın ve evden çıkın; dışarıdan 187 Doğal Gaz Acil hattını arayın.",
         "Yanık kokusu, duman ya da kıvılcım: cihazı kullanmayı bırakın, sigortayı kapatın, fişini çekin ve bizi arayın.",
         "Sigortanın sürekli atması: sigortayı tekrar tekrar kaldırmayın; kapalı tutup fişi çekin ve cihazı kontrol ettirin."
+      ]
+    },
+    {
+      "baslik": "Fırın ve ocak tamirine geldiğimiz semtler",
+      "paragraflar": [
+        "Bahçelievler Hürriyet Mahallesi'ndeki adresimizden Yenibosna, Bahçelievler ve İstanbul'un Avrupa Yakası'ndaki yakın semtlerde evlere geliyoruz. Fırın, ocak ve aspiratör tamirinin yanı sıra diğer beyaz eşya arızalarına da bu semtlerde adresinizde bakıyoruz; semtinize göre ayrıntıları aşağıdaki sayfalarda bulabilirsiniz."
+      ],
+      "maddeler": [
+        "[[/bahcelievler-klima-kombi-servisi|Bahçelievler ve Şirinevler'de fırın ve ocak tamiri]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy'de beyaz eşya servisi]]",
+        "[[/kucukcekmece-klima-kombi-servisi|Küçükçekmece, Sefaköy ve Halkalı'da fırın tamiri]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli'de ocak ve aspiratör tamiri]]",
+        "[[/gungoren-klima-kombi-servisi|Güngören'de beyaz eşya tamiri]]"
       ]
     },
     {

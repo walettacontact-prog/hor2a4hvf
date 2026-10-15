@@ -352,7 +352,7 @@ function build() {
     kaynakSayisi.set(k.kaynak, (kaynakSayisi.get(k.kaynak) || 0) + 1);
     gelen.set(k.hedef, (gelen.get(k.hedef) || 0) + 1);
   }
-  for (const [r, n] of kaynakSayisi) if (n > 8) console.warn(`  ! ${r}: ${n} metin içi bağlantı (önerilen ≤ 8)`);
+  for (const [r, n] of kaynakSayisi) if (n > 10) console.warn(`  ! ${r}: ${n} metin içi bağlantı (önerilen ≤ 10)`);
   console.log(`  Metin içi bağlantılar: ${kayit.length} (${[...gelen].map(([r, n]) => `${r}:${n}`).join(", ")})`);
 
   const xml = sitemap(pages);
