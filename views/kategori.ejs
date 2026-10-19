@@ -30,7 +30,7 @@
 
             <section class="bg-light kategori-kartlari mt-4">
                 <div class="container">
-                    <h2 class="text-center mb-4">Hangi cihazlara bakıyoruz?</h2>
+                    <h2 class="text-center mb-4"><%= k.kartlar_baslik || 'Hangi cihazlara bakıyoruz?' %></h2>
 <%- include('partials/hizmet-kartlari', { sadece: page.kategori }) %>
                 </div>
             </section>
@@ -56,7 +56,15 @@
                         <% }) %>
                         <% } %>
 
-<%- include('partials/ara-kutusu', { baslik: 'Cihazınız için servis çağırın' }) %>
+                        <% const ilgiliYazilar = yazilar.filter(function (y) { return y.kategori === page.kategori; }); %>
+                        <% if (ilgiliYazilar.length) { %>
+                        <h2>Faydalı Yazılar</h2>
+                        <ul>
+                            <% ilgiliYazilar.forEach(function (y) { %><li><a href="/<%= y.slug %>"><%= y.baslik %></a></li><% }) %>
+                        </ul>
+                        <% } %>
+
+<%- include('partials/ara-kutusu', { baslik: k.son_cagri || 'Cihazınız için servis çağırın' }) %>
 
                         <h2>Diğer Hizmetlerimiz</h2>
                         <p class="diger-hizmetler">

@@ -51,7 +51,8 @@
                                         <% hizmetler.filter(function (h) { return h.kategori !== 'beyaz-esya'; }).forEach(function(hizmet) { %>
                                         <li><a href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
                                         <% }) %>
-                                        <li><a href="/beyaz-esya-tamiri">Beyaz Eşya Tamiri</a></li>
+                                        <% Object.keys(KATEGORILER).forEach(function (a) { if (KATEGORILER[a].sayfa && kategoriSayfalari[a]) { %><li><a href="/<%= KATEGORILER[a].sayfa %>"><%= KATEGORILER[a].ad %></a></li>
+                                        <% } }) %>
                                     </ul>
                                 </div>
                             </div>

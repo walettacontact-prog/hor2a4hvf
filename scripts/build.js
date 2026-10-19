@@ -16,9 +16,9 @@ const SABIT_SAYFALAR = [
   {
     route: "/", view: "index", file: "index.html", type: "WebPage",
     title: "Fırtına Klima & Kombi | Bahçelievler ve Yenibosna Klima Servisi",
-    description: "Bahçelievler ve Yenibosna’da klima, kombi ve beyaz eşya servisi: montaj, bakım, arıza tamiri; çamaşır, bulaşık, buzdolabı, fırın tamiri. Her gün 08–21.",
+    description: "Bahçelievler ve Yenibosna’da klima, kombi ve beyaz eşya servisi: klima montajı, bakım, arıza tamiri; çamaşır, bulaşık, buzdolabı, fırın tamiri. Her gün 08–21.",
     h1: "Bahçelievler ve Yenibosna’da Klima, Kombi ve Beyaz Eşya Servisi",
-    kaynaklar: ["content/hizmetler.json", "content/kategoriler", "content/yazilar", "content/bolgeler.json", "content/ilceler"], guncelleme: "2026-10-15",
+    kaynaklar: ["content/hizmetler.json", "content/kategoriler", "content/yazilar", "content/bolgeler.json", "content/ilceler"], guncelleme: "2026-10-19",
   },
   {
     route: "/hakkimizda", view: "hakkimizda", file: "hakkimizda.html", type: "AboutPage",
@@ -60,14 +60,14 @@ const SABIT_SAYFALAR = [
     title: "İletişim ve Adres | Fırtına Klima & Kombi, Bahçelievler",
     description: "Hürriyet, Gazi 1 Sk No:35, 34192 Bahçelievler/İstanbul adresindeyiz; her gün 08.00–21.00 hizmet veriyoruz. Telefon ve WhatsApp: {telefon}.",
     h1: "İletişim ve Adres Bilgilerimiz", crumbs: [{ ad: "İletişim", route: "/iletisim" }],
-    kaynaklar: ["content/iletisim.json"],
+    kaynaklar: ["content/iletisim.json"], guncelleme: "2026-10-19",
   },
 ];
 
 // Hizmet kategorileri; "sayfa" varsa content/kategoriler/<sayfa>.json bir kategori (hub) sayfası üretir.
 const KATEGORILER = {
   klima: { ad: "Klima Servisi" },
-  kombi: { ad: "Kombi Servisi" },
+  kombi: { ad: "Kombi Servisi", sayfa: "kombi-servisi" },
   "beyaz-esya": { ad: "Beyaz Eşya Tamiri", sayfa: "beyaz-esya-tamiri" },
 };
 
@@ -127,7 +127,7 @@ function readFolder(klasor) {
 function checkMetin(label, s) {
   for (const k of ["bolumler", "sss", "giris"]) if (!Array.isArray(s[k])) throw new Error(`${label}: "${k}" bir liste olmalı`);
   // Bu alanlar meta etiketlerine, kartlara ve başlıklara gidiyor; bağlantı işaretlemesi içeremez.
-  const metaAlanlari = ["seo_baslik", "seo_aciklama", "h1", "baslik", "kart_baslik", "ozet", "resim_alt"].map((k) => s[k]);
+  const metaAlanlari = ["seo_baslik", "seo_aciklama", "h1", "baslik", "kart_baslik", "ozet", "resim_alt", "kartlar_baslik", "son_cagri"].map((k) => s[k]);
   for (const v of [...metaAlanlari, ...s.bolumler.map((b) => b.baslik), ...s.sss.map((q) => q.soru)]) {
     if (String(v ?? "").includes("[[")) throw new Error(`${label}: başlık/meta alanında [[...]] bağlantısı olamaz: "${v}"`);
   }
@@ -211,7 +211,7 @@ function ogEkle(page, iletisim) {
 
 // Rehber sayfalarının site haritası tarihi: views/yazi.ejs ya da rehberlerin breadcrumb/yapısal verisi değişince elle güncelleyin.
 // Makale tarihi (dateModified, "Güncellendi") bundan etkilenmez; o content/yazilar/*.json içindeki guncelleme/tarih alanından gelir.
-const YAZI_SABLON_GUNCELLEME = "2026-10-13";
+const YAZI_SABLON_GUNCELLEME = "2026-10-19";
 
 function tumSayfalar(data) {
   // Sabit sayfalar: lastmod, elle girilen guncelleme ile kaynak içeriğin son git tarihinden yeni olanıdır.

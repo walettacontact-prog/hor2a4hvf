@@ -65,7 +65,7 @@
   "sss": [
     {
       "soru": "Klima bakımı kaç ayda bir yapılmalı?",
-      "cevap": "Genel öneri, klimanın yılda en az bir kez, yaz sezonu başlamadan önce bakımdan geçirilmesidir. Klimayı kışın ısıtma için de kullanıyorsanız ısıtma sezonu öncesinde ikinci bir bakım faydalı olur. Dükkân ve ofis gibi yoğun kullanılan ya da tozlu ortamlarda daha sık bakım gerekebilir."
+      "cevap": "Genel öneri, klimanın yılda en az bir kez, yaz sezonu başlamadan önce bakımdan geçirilmesidir. Klimayı kışın ısıtma için de kullanıyorsanız ısıtma sezonu öncesinde ikinci bir bakım faydalı olur. Dükkân ve ofis gibi yoğun kullanılan ya da tozlu ortamlarda daha sık bakım gerekebilir; örneğin [[/kucukcekmece-klima-kombi-servisi|Sefaköy'de D-100'e bakan dükkânlarda]] dış ünite peteği trafik tozu ve egzoz isiyle daha çabuk kirlenir."
     },
     {
       "soru": "Klima filtresini kendim temizleyebilir miyim?",
@@ -81,7 +81,7 @@
     },
     {
       "soru": "Hangi marka klimalara bakım yapıyorsunuz?",
-      "cevap": "Tüm marka klima ve kombilere hizmet veriyoruz. Bağımsız bir özel servis olarak çalışıyoruz; herhangi bir markanın yetkili servisi değiliz. Split klimaların yanı sıra [[/vrf-multi-klima-servisi|multi ve VRF sistemlerin servisini]] de yapıyoruz."
+      "cevap": "Tüm marka klimalara bakım yapıyoruz; [[/kombi-servisi|kombi servisimiz]] de tüm markalara bakıyor. Bağımsız bir özel servis olarak çalışıyoruz; herhangi bir markanın yetkili servisi değiliz. Split klimaların yanı sıra [[/vrf-multi-klima-servisi|multi ve VRF sistemlerin servisini]] de yapıyoruz."
     }
   ]
 }

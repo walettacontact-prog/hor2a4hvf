@@ -35,7 +35,7 @@
       "paragraflar": [
         "Split klimada soğutucu gaz, iç ve dış ünite arasındaki bakır borularda dolaşır. Sökümden önce teknisyen bu gazı dış üniteye toplar; bu işleme gaz toplama ya da pump-down denir. Klima soğutma modunda çalışırken önce ince borunun servis vanası kapatılır ve kompresör gazı dış üniteye çeker. Basınç manometrede uygun seviyeye inince kalın borunun vanası da kapatılır ve cihaz durdurulur. Borular ancak bundan sonra ayrılır.",
         "Vanaların yanlış sırayla ya da geç kapatılması kompresöre zarar verebilir; işlemin erken bitirilmesi ise gazın bir kısmının boşa gitmesine yol açar. Kompresör çalışırken bağlantıların açılması da ciddi bir güvenlik riskidir. Bu yüzden söküm, manometreyle çalışan bir teknisyen tarafından yapılmalıdır; vanalara ve rakorlara kendiniz müdahale etmeyin.",
-        "Gaz toplamak için klimanın çalışabilmesi gerekir; cihaz arızalıysa ya da devrede zaten bir kaçak varsa gaz bu yolla toplanamayabilir. Böyle bir durumu randevu alırken belirtin."
+        "Gaz toplamak için klimanın çalışabilmesi gerekir; cihaz arızalıysa ya da devrede zaten bir kaçak varsa gaz bu yolla toplanamayabilir. Böyle bir durumu randevu alırken belirtin. Kentsel dönüşüm için boşaltılan binalarda bu yüzden sökümü elektrik kesilmeden yaptırın; [[/gungoren-klima-kombi-servisi|Güngören'de dönüşen binalarda klima sökümünü]] ayrıca anlattık."
       ]
     },
     {
@@ -123,7 +123,7 @@
     },
     {
       "soru": "Sökülen klima ne kadar süre bekletilebilir?",
-      "cevap": "Gaz dış üniteye toplanmış, servis vanaları kapalı ve boru uçları tapalanmışsa klima bir süre depoda bekletilebilir; bunun için kesin bir süre vermek doğru olmaz. Üniteleri kuru bir yerde, dış üniteyi dik konumda ve üzerine yük koymadan saklayın. Montajda hat yine vakumlanır ve basınçlar ölçülür; bekleme sırasında oluşmuş küçük bir kaçak varsa bu kontrollerde fark edilebilir."
+      "cevap": "Gaz dış üniteye toplanmış, servis vanaları kapalı ve boru uçları tapalanmışsa klima bir süre depoda bekletilebilir; bunun için kesin bir süre vermek doğru olmaz. Üniteleri kuru bir yerde, dış üniteyi dik konumda ve üzerine yük koymadan saklayın. Montajda hat yine vakumlanır ve basınçlar ölçülür; bekleme sırasında oluşmuş küçük bir kaçak varsa bu kontrollerde fark edilebilir. Kentsel dönüşüm nedeniyle klimayı inşaat bitene kadar saklayacaksanız dikkat edilecekleri [[/bahcelievler-klima-kombi-servisi|Bahçelievler sayfamızdaki dönüşüm sorusunda]] da anlattık."
     }
   ]
 }

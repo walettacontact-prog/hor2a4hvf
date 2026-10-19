@@ -1,0 +1,157 @@
+{
+  "slug": "kombi-servisi",
+  "hizmet": "Kombi Bakımı ve Onarımı",
+  "seo_baslik": "Yenibosna ve Bahçelievler Kombi Servisi | Fırtına Klima",
+  "seo_aciklama": "Yenibosna ve Bahçelievler’de kombi servisi: tüm marka kombilere yıllık bakım, arıza tespiti ve onarım; çoğu çağrıda aynı gün. {telefon}",
+  "h1": "Yenibosna ve Bahçelievler’de Kombi Servisi: Bakım ve Arıza Onarımı",
+  "resim": "kombi-sicak-su.webp",
+  "resim_alt": "Kombi, petek ve musluk bağlantılarını gösteren çizim: petek ısınıyor, musluktan soğuk su geliyor",
+  "kartlar_baslik": "Kombi için verdiğimiz hizmetler",
+  "son_cagri": "Kombiniz için servis çağırın",
+  "giris": [
+    "Kombiniz ısıtmıyor, sıcak su vermiyor, basıncı sürekli düşüyor ya da ekranında bir arıza kodu yanıp sönüyorsa veya kış gelmeden bakımını yaptırmak istiyorsanız bize ulaşın: Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler’de kombi servisi veriyoruz. Bahçelievler Hürriyet Mahallesi’ndeki dükkânımızdan adresinize gelip arızanın kaynağını yerinde tespit ediyor, [[/kombi-ariza-onarimi|kombi arıza tamiri]] ve [[/kombi-bakimi|yıllık kombi bakımı]] yapıyoruz.",
+    "Tüm marka kombilere bakan bağımsız, özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Hafta sonu dâhil her gün 08.00–21.00 arasında çalışıyor, çoğu çağrıda aynı gün geliyoruz. Kombi cihazının bakımını ve arıza onarımını üstleniyoruz; doğal gaz tesisatı işi yapmıyoruz. Servis için {telefon} numarasını arayabilir ya da WhatsApp’tan yazabilirsiniz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Yenibosna ve Bahçelievler’de hangi kombi arızalarına bakıyoruz?",
+      "paragraflar": [
+        "En sık aşağıdaki belirtilerle çağrılıyoruz. Kesin nedeni bulmak için kombiyi yerinde görüp ölçmek gerekir; yine de olası nedenleri bilirseniz bizi aradığınızda sorunu daha net anlatırsınız."
+      ],
+      "maddeler": [
+        "Kombi çalışıyor ama [[/petekler-isinmiyor|petekler ısınmıyor]]: tesisatta biriken hava, sıkışan sirkülasyon pompası, üç yollu vana ya da gözden kaçan bir ayar.",
+        "Sıcak su gelmiyor ya da ılık geliyor: zayıf su akışı, akış sensörü, ısıtma konumunda takılı kalan üç yollu vana ya da kireçlenmiş plakalı eşanjör.",
+        "Basınç sürekli düşüyor ya da kendiliğinden yükseliyor: kombide veya tesisatta su kaçağı, su atan emniyet ventili, tam kapanmayan doldurma musluğu ya da ön basıncı düşmüş genleşme tankı.",
+        "Kombi su damlatıyor: emniyet ventili, yıpranmış conta ve rakorlar; yoğuşmalı kombilerde tıkanan yoğuşma suyu hattı.",
+        "Uğultu, tıkırtı ya da kaynama sesi: tesisatta kalan hava, pompa ya da fan sesi veya eşanjördeki kireçlenme.",
+        "Sık sık kapanıyor, kırmızı ışık yakıyor ya da kilitleniyor: ateşleme veya alev algılama sorunu, düşük su basıncı, aşırı ısınma, fan ya da baca emniyeti."
+      ]
+    },
+    {
+      "baslik": "Arıza kodu ya da kırmızı ışık: servisi ararken neyi söylemelisiniz?",
+      "paragraflar": [
+        "Kombi ateşleme alamadığında, alevi algılayamadığında ya da su basıncında, sıcaklıkta veya baca tarafında bir sorun gördüğünde kendini güvenlik için kilitler ve ekranda bir kodla ya da kırmızı ışıkla uyarı verir. Kodların anlamı markadan markaya, hatta modelden modele değişir; doğru karşılığına kombinizin kullanım kılavuzundan bakın.",
+        "İlk kez görülen bir kodda reset tuşuna bir kez basarak kombiyi yeniden başlatabilirsiniz. Aynı kod geri geliyorsa üst üste reset atmayın. Bizi ararken kodu, kombinizin markasını ve modelini söyleyin; ekranın ya da model etiketinin fotoğrafını WhatsApp’tan da gönderebilirsiniz. Bu bilgiler olası nedenleri telefonda konuşmamızı ve hazırlık yapmamızı kolaylaştırır."
+      ]
+    },
+    {
+      "baslik": "Yıllık kombi bakımı: ne zaman yaptırmalı, bakımda neler yapılır?",
+      "paragraflar": [
+        "Kombi bakımının yılda bir kez, ısıtma sezonu başlamadan önce yapılması önerilir; eylül ve ekim bunun için uygun aylardır. Hava soğuyunca servis talepleri arttığı için bakımı erken planlamak randevu bulmayı kolaylaştırır, bir parça değişimi gerekirse de zaman kazandırır. Bakım sırasında genel olarak şunlara bakıyoruz:"
+      ],
+      "maddeler": [
+        "Brülör ve yanma odasının temizlenmesi, ateşleme ile alev yapısının kontrolü",
+        "Ana eşanjörde kir birikiminin, kullanım suyu eşanjöründe kireçlenmenin kontrolü",
+        "Fanın temizlenmesi, baca bağlantısı ile contaların kontrolü ve atık gazın dışarıya sorunsuz atıldığının doğrulanması",
+        "Su basıncının ve genleşme tankı ön basıncının ölçülmesi",
+        "Yoğuşmalı kombilerde yoğuşma suyu sifonunun ve tahliye hattının temizlenmesi",
+        "Alev algılama, aşırı ısınma koruması ve emniyet ventili gibi güvenlik sistemlerinin test edilmesi"
+      ]
+    },
+    {
+      "baslik": "Kapağı açmadan evde yapabileceğiniz kontroller",
+      "paragraflar": [
+        "Kombinin çalışmaması her zaman bir arıza anlamına gelmez; sorun bazen elektrikte, gazda, su basıncında ya da bir ayardadır. Aşağıdakilerin hiçbiri için kombinin kapağını açmanız gerekmez:"
+      ],
+      "maddeler": [
+        "Elektrik: Kombinin ekranı ve ışıkları tamamen sönükse sigortanın atıp atmadığına bakın.",
+        "Gaz: Gaz vanasının açık olduğundan emin olun; kartlı sayaçlarda bakiyenin bitmesi de kombinin yanmamasına yol açar.",
+        "Su basıncı: Çoğu kombide soğukken yaklaşık 1–1,5 bar önerilir; doğru değer kılavuzda yazar. Basınç düşükse kombi soğukken doldurma musluğundan yavaşça tamamlayın ve musluğu tam kapatın; musluğu gaz vanasıyla karıştırmayın. Basıncın neden düşüp yükseldiğini [[/kombi-su-basinci|kombi su basıncı rehberimizde]] anlattık.",
+        "Mod ve ayar: Pek çok kombide yaz konumu yalnızca sıcak su verir, petekleri ısıtmaz. Kalorifer ve sıcak su sıcaklığının yanlışlıkla en düşüğe çekilmediğinden emin olun.",
+        "Oda termostatı: Ayarlanan sıcaklık oda sıcaklığının üstünde mi? Kablosuz modellerde pilin bitmesi kombinin hiç devreye girmemesine yol açabilir.",
+        "Musluk: Sıcak su yalnızca tek bir muslukta zayıfsa sorun büyük olasılıkla kombide değil, o musluğun bataryasında ya da ucundaki kireçlenmiş perlatördedir.",
+        "Reset: Ekranda kod varsa kombiyi bir kez resetleyebilirsiniz; yeniden kilitlenirse tekrar denemeyin."
+      ]
+    },
+    {
+      "baslik": "Kombi servisi nasıl işler?",
+      "paragraflar": [
+        "Amacımız arızanın kaynağını doğru bulup gereksiz parça değişiminin önüne geçmek. Süreç genellikle şöyle ilerler:"
+      ],
+      "maddeler": [
+        "Bize ulaştığınızda belirtileri, varsa ekrandaki kodu ve kombinizin modelini anlatırsınız; bunlara göre olası nedenler hakkında telefonda ön bilgi veririz.",
+        "Adresinize gelir, basınç, ateşleme, pompa, sensörler ve baca bağlantısını yerinde kontrol ederek arızanın kaynağını buluruz.",
+        "Ne yapılması gerektiğini ve ücreti işe başlamadan önce söyleriz; onaylarsanız onarıma geçeriz.",
+        "Değişmesi gereken parçalarda orijinal yedek parça kullanırız. Parça temini gerekiyorsa bunu size baştan bildiririz.",
+        "İşçilik garantisi kapsamında, onardığımız arıza tekrarlarsa ücretsiz olarak yeniden müdahale ederiz."
+      ]
+    },
+    {
+      "baslik": "Tamir mi, yeni kombi mi?",
+      "paragraflar": [
+        "Bu kararı arızayı görmeden vermek doğru olmaz. Pek çok kombi arızası sensör, ateşleme elektrodu, pompa, üç yollu vana ya da genleşme tankı gibi tek bir parçanın onarılması veya değiştirilmesiyle giderilebilir.",
+        "Öte yandan kombi çok eskiyse, son dönemde art arda farklı arızalar veriyorsa, gereken parça artık bulunmuyorsa ya da onarım maliyeti cihazın değerine yaklaşıyorsa onarım her zaman mantıklı olmayabilir. Yerinde tespitten sonra seçenekleri açıkça anlatırız; karar sizindir.",
+        "Yeni bir kombiye geçmeye karar verirseniz yeni cihazın takılması ve doğal gaz hattına bağlanması İGDAŞ’ın yetkilendirdiği bir iç tesisat firmasının işidir; biz kombide yalnızca bakım ve arıza onarımı yapıyoruz, doğal gaz tesisatı işi yapmıyoruz."
+      ]
+    },
+    {
+      "baslik": "Kombi servisi ücreti neye göre değişir?",
+      "paragraflar": [
+        "Sabit bir fiyat listemiz yok; ücret yapılacak işe göre belirlenir ve kesin tutar ancak yerinde tespitten sonra netleşir. Ücreti etkileyen başlıca etkenler şunlardır:"
+      ],
+      "maddeler": [
+        "İşin yıllık bakım mı yoksa arıza onarımı mı olduğu",
+        "Arızanın kaynağı ve onarımın ne kadar işçilik gerektirdiği",
+        "Değişmesi gereken parça (elektronik kart, pompa, üç yollu vana, sensör ya da eşanjör gibi) ve bu parçanın bulunabilirliği",
+        "Kombinin yoğuşmalı ya da konvansiyonel olması, yaşı ve en son ne zaman bakım gördüğü",
+        "Sorunun kombiden mi yoksa tesisattan mı kaynaklandığı",
+        "Kombinin dar bir dolabın içinde olması gibi erişim koşulları"
+      ]
+    },
+    {
+      "baslik": "Hangi marka kombilere servis veriyoruz?",
+      "paragraflar": [
+        "DemirDöküm, Vaillant, ECA, Baymak, Bosch ve Ariston başta olmak üzere tüm marka kombilere servis veriyoruz. Bu markaların hiçbirinin yetkili servisi değiliz; üreticilerden bağımsız, özel bir teknik servisiz.",
+        "Kombiniz hâlâ üretici garantisi kapsamındaysa garantinin korunması için önce markanın yetkili servisine danışmanızı öneririz. Garantisi bitmiş kombiler için bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "baslik": "Kombi servisi verdiğimiz semtler",
+      "paragraflar": [
+        "Dükkânımız Bahçelievler’de, Hürriyet Mahallesi Gazi 1 Sokak No:35’te. Yenibosna Merkez, Zafer, Çobançeşme, Kocasinan Merkez, Soğanlı, Siyavuşpaşa, Şirinevler, Cumhuriyet, Fevzi Çakmak, Bahçelievler ve Hürriyet mahallelerindeki evlere ve iş yerlerine kombi bakımı ve arıza onarımı için geliyoruz. Bahçelievler’e ve çevre ilçelerde gittiğimiz semtlere özgü ayrıntıları aşağıdaki sayfalarda bulabilirsiniz:"
+      ],
+      "maddeler": [
+        "[[/bahcelievler-klima-kombi-servisi|Şirinevler, Kocasinan ve Siyavuşpaşa’da kombi bakımı ve onarımı]]",
+        "[[/bakirkoy-klima-kombi-servisi|Bakırköy ve Ataköy’de kombi servisi]]; Yeşilköy, Yeşilyurt ve Florya dâhil",
+        "[[/gungoren-klima-kombi-servisi|Güngören ve Merter’de kombi bakımı]]",
+        "[[/kucukcekmece-klima-kombi-servisi|Küçükçekmece, Sefaköy ve Halkalı’da kombi arıza onarımı]]",
+        "[[/gunesli-klima-kombi-servisi|Güneşli’de kombi onarımı ve yıllık bakım]] (Bağcılar)",
+        "[[/ikitelli-klima-kombi-servisi|İkitelli’deki evlerde kombi bakımı]]: Atatürk, Mehmet Akif ve Ziya Gökalp mahalleleri"
+      ]
+    },
+    {
+      "baslik": "Gaz kokusu alırsanız: önce güvenlik",
+      "paragraflar": [
+        "Gaz kokusu, servis çağırıp bekleyeceğiniz bir arıza değildir. Böyle bir durumda şu adımları izleyin:"
+      ],
+      "maddeler": [
+        "Elektrik düğmelerine, prizlere ve zile dokunmayın; çakmak ya da kibrit yakmayın, gaz kokan ortamda telefon kullanmayın.",
+        "Güvenle ulaşabiliyorsanız sayaçtaki ya da kombinin altındaki gaz vanasını kapatın.",
+        "Kapı ve pencereleri açarak ortamı havalandırın.",
+        "Binadan çıktıktan sonra 187 Doğal Gaz Acil hattını arayın. Kaçağa doğal gaz ekipleri müdahale eder; tesisat güvenli hâle getirildikten sonra kombinizin kontrolü için bizden servis isteyebilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Yenibosna’da aynı gün kombi servisi alabilir miyim?",
+      "cevap": "Çoğu çağrıda evet, ancak her çağrıya aynı gün gelebileceğimizi söyleyemeyiz. Dükkânımız Bahçelievler Hürriyet Mahallesi’nde olduğu için Yenibosna ve Bahçelievler’e en kısa yoldan ulaşıyoruz; ziyaret saatini gün içindeki yoğunluğa göre sizinle birlikte belirleriz. Uygun bir saat için {telefon} numarasını arayabilirsiniz."
+    },
+    {
+      "soru": "Kombi servisi hangi gün ve saatlerde çalışıyor?",
+      "cevap": "Hafta sonu dâhil her gün 08.00–21.00 arasında servis talebi alıyor ve adreslere geliyoruz. Gaz kokusu ise servis beklenecek bir durum değildir; önce yukarıdaki güvenlik adımlarını uygulayın ve 187 Doğal Gaz Acil hattını arayın."
+    },
+    {
+      "soru": "Kombi servisi ücreti ne kadar, fiyat listeniz var mı?",
+      "cevap": "Sabit bir fiyat listemiz yok. Ücret işin bakım mı onarım mı olduğuna, arızanın kaynağına ve değişecek parçaya göre değişir. Telefonda belirtileri ve kombinizin modelini dinleyip olası nedenleri anlatırız; kesin ücreti arızayı tespit ettikten sonra, işe başlamadan önce söyleriz."
+    },
+    {
+      "soru": "Kombim sorunsuz çalışıyor, yine de yıllık bakım gerekir mi?",
+      "cevap": "Evet, öneririz. Brülör ve eşanjörde biriken kir fark edilmeden verimi düşürür ve gaz tüketimini artırabilir; baca ve atık gaz hattındaki bir aksaklık ise karbon monoksit riski nedeniyle doğrudan bir güvenlik konusudur. Sorunsuz görünen bir kombide de bakım, küçük sorunları ilk soğuk günlerden önce ortaya çıkarır."
+    },
+    {
+      "soru": "Taşınırken kombinin gaz bağlantısını söküp takıyor musunuz?",
+      "cevap": "Hayır. Kombiyi gaz hattından ayırmak ve yeni evde gaz hattına bağlamak doğal gaz tesisatı kapsamındadır; bu işi İGDAŞ’ın yetkilendirdiği bir iç tesisat firması yapmalıdır. Biz kombinin bakımını ve arıza onarımını yapıyoruz; yeni adreste kombiniz arıza verirse bizi çağırabilirsiniz."
+    }
+  ]
+}

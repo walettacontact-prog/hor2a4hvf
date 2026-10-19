@@ -1,12 +1,12 @@
 {
   "slug": "kombi-ariza-onarimi",
   "hizmet": "Kombi Arıza Onarımı",
-  "seo_baslik": "Kombi Servisi ve Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
-  "seo_aciklama": "Yenibosna ve Bahçelievler'de kombi servisi: ısıtmayan, kırmızı ışık yakan ya da arıza kodu veren kombiye çoğu çağrıda aynı gün servis. {telefon}",
+  "seo_baslik": "Kombi Arıza Tamiri Bahçelievler, Yenibosna | Fırtına Klima",
+  "seo_aciklama": "Yenibosna ve Bahçelievler'de kombi arıza tamiri: ısıtmayan, kırmızı ışık yakan ya da arıza kodu veren kombiye çoğu çağrıda aynı gün servis. {telefon}",
   "h1": "Bahçelievler ve Yenibosna'da Kombi Arıza Tamiri",
   "giris": [
     "Kombiniz ısıtmıyor, sıcak su vermiyor, basıncı sürekli düşüyor ya da ekranda bir arıza kodu görünüyorsa önce sorunun kaynağını doğru bulmak gerekir. Doğru tespit, gereksiz parça değişiminin önüne geçer. Fırtına Klima & Kombi olarak Bahçelievler Hürriyet Mahallesi'ndeki adresimizden Yenibosna, Bahçelievler ve çevredeki ev ve iş yerlerine kombi arıza onarımı hizmeti veriyoruz.",
-    "Tüm marka kombilere hizmet veren özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
+    "Tüm marka kombilere hizmet veren özel bir teknik servisiz; herhangi bir markanın yetkili servisi değiliz. Çoğu çağrıda aynı gün servis verebiliyoruz. Her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz. [[/kombi-bakimi|Yıllık kombi bakımı]] dâhil bütün işlerimizi [[/kombi-servisi|kombi servisi sayfamızda]] bir arada anlattık."
   ],
   "bolumler": [
     {
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "baslik": "Kombi servisini çağırmadan önce kontrol edebilecekleriniz",
+      "baslik": "Arıza mı, ayar mı? Önce bunlara bakın",
       "paragraflar": [
         "Bazı durumlar arıza değil, basit bir ayar ya da besleme sorunudur. Kombinin kapağını açmadan şunlara bakabilirsiniz:"
       ],

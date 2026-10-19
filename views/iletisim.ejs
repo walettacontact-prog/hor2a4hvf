@@ -24,6 +24,7 @@
                             <li><i class="fa fa-envelope me-2 id-color"></i><strong>E-posta:</strong> <a href="mailto:<%= iletisim.email %>"><%= iletisim.email %></a></li>
                         </ul>
                         <p><a href="<%= iletisim.harita %>" target="_blank" rel="noopener">Google Haritalar’da yol tarifi alın</a></p>
+                        <% if (KATEGORILER.kombi.sayfa && kategoriSayfalari.kombi) { %><p>Servis verdiğimiz Bahçelievler mahallelerini <a href="/bahcelievler-klima-kombi-servisi">Bahçelievler ve Şirinevler sayfamızda</a>, kombi bakımı ve arıza onarımını da <a href="/<%= KATEGORILER.kombi.sayfa %>">kombi servisi sayfamızda</a> anlattık.</p><% } %>
                         <% if (iletisim.yorum_linki) { %><p class="mt-3 mb-0"><a href="<%= iletisim.yorum_linki %>" target="_blank" rel="noopener">Hizmetimizi Google’da değerlendirin</a></p><% } %>
 
 <%- include('partials/ara-kutusu') %>

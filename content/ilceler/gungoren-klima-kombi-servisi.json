@@ -90,7 +90,7 @@
     },
     {
       "soru": "Taşınırken kombinin gaz bağlantısını da söker misiniz?",
-      "cevap": "Hayır. Kombiyi gaz hattından ayırmak ve yeni evde gaz hattına bağlamak doğal gaz tesisatı kapsamında; bu işi yetkili bir doğal gaz tesisat firması yapmalı. Biz kombinin bakımını ve arıza onarımını yapıyoruz. Gaz kokusu alırsanız elektrik düğmelerine dokunmadan vanayı kapatın, ortamı havalandırın ve binanın dışından 187 Doğal Gaz Acil hattını arayın."
+      "cevap": "Hayır. Kombiyi gaz hattından ayırmak ve yeni evde gaz hattına bağlamak doğal gaz tesisatı kapsamında; bu işi yetkili bir doğal gaz tesisat firması yapmalı. Biz [[/kombi-servisi|kombi servisi]] olarak kombinin bakımını ve arıza onarımını yapıyoruz. Gaz kokusu alırsanız elektrik düğmelerine dokunmadan vanayı kapatın, ortamı havalandırın ve binanın dışından 187 Doğal Gaz Acil hattını arayın."
     }
   ]
 }

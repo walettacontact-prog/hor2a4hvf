@@ -105,6 +105,49 @@
                                 </div>
                             </div>
 
+                            <% if (KATEGORILER.kombi.sayfa && kategoriSayfalari.kombi) { %>
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="swiper-inner" data-bgimage="url(/static/images/slider/6.webp)">
+                                    <div class="sw-caption">
+                                        <div class="container">
+                                            <div class="row gx-5 justify-content-center align-items-center">
+                                                <div class="spacer-double"></div>
+
+                                                <div class="col-lg-6 col-6 text-center mb-sm-30">
+                                                    <div class="relative slider-fadeIn">
+                                                        <img src="/static/assets/uploads/kombi-sicak-su.webp" loading="lazy" decoding="async" width="1200" height="675" class="img-fluid rounded-10"
+                                                            alt="Kombi, petek ve musluk bağlantılarını gösteren çizim">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6 mb-sm-30">
+                                                    <div class="sw-text-wrapper border-left">
+                                                        <p class="h6 slider-extra mb-2">Kombi Servisi</p>
+                                                        <h2 class="slider-title mb-2">Kombi Bakımı ve Arıza Onarımı</h2>
+
+                                                        <div class="row g-2">
+                                                            <div class="col-lg-10">
+                                                                <p class="slider-teaser">
+                                                                    Tüm marka kombilerde yıllık bakım ve arıza onarımı;
+                                                                    çoğu çağrıda aynı gün. Ücreti işe başlamadan söylüyoruz.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slider-butonlar">
+                                                            <a class="btn-main bg-color" href="tel:<%= iletisim.telefon %>">Hemen Ara: <%= telGoster(iletisim.telefon) %></a>
+                                                            <a class="btn-line" href="/<%= KATEGORILER.kombi.sayfa %>">Kombi Servisi</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <% } %>
+
                         </div>
 
                         <!-- Swiper Navigation -->

@@ -49,7 +49,13 @@
                                     <li><a class="menu-item" href="/hakkimizda">Hakkımızda</a></li>
                                     <li><a class="menu-item" href="/hizmetler">Klima &amp; Kombi</a>
                                         <ul>
-                                            <% hizmetler.filter(function (h) { return h.kategori !== 'beyaz-esya'; }).forEach(function(hizmet) { %>
+                                            <% hizmetler.filter(function (h) { return h.kategori === 'klima'; }).forEach(function(hizmet) { %>
+                                            <li><a class="menu-item" href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
+                                            <% }) %>
+                                            <% if (KATEGORILER.kombi.sayfa && kategoriSayfalari.kombi) { %>
+                                            <li><a class="menu-item" href="/<%= KATEGORILER.kombi.sayfa %>"><%= KATEGORILER.kombi.ad %></a></li>
+                                            <% } %>
+                                            <% hizmetler.filter(function (h) { return h.kategori === 'kombi'; }).forEach(function(hizmet) { %>
                                             <li><a class="menu-item" href="/<%= hizmet.slug %>"><%= hizmet.baslik %></a></li>
                                             <% }) %>
                                         </ul>

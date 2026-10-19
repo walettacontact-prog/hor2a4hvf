@@ -57,7 +57,7 @@
     {
       "baslik": "Teknisyen çağırmanız gereken uyarı işaretleri",
       "paragraflar": [
-        "Aşağıdaki durumlar basit bir ayarla geçmez ve ertelendikçe arıza büyüyebilir; bu belirtilerde [[/kombi-ariza-onarimi|kombi arıza servisi]] çağırmanızı öneririz:"
+        "Aşağıdaki durumlar basit bir ayarla geçmez ve ertelendikçe arıza büyüyebilir; bu belirtilerde [[/kombi-ariza-onarimi|kombi arıza tamiri]] için servis çağırmanızı öneririz:"
       ],
       "maddeler": [
         "Basıncı tamamladıktan kısa süre sonra ibre yeniden düşüyor; bu çoğu zaman kombide ya da tesisatta bir su kaçağına veya genleşme tankındaki bir soruna işaret eder.",
@@ -81,7 +81,7 @@
       "baslik": "Bakım ücreti neye göre değişir, randevu nasıl alınır?",
       "paragraflar": [
         "Kombi bakım ücreti her cihazda aynı değildir. Kombinin tipi ve yaşı, en son ne zaman bakım gördüğü, ne kadar kirlendiği ve cihaza erişimin kolay olup olmadığı işin süresini, dolayısıyla ücretini belirler. Bakım sırasında conta, sensör ya da genleşme tankı gibi bir parçanın değişmesi gerekirse parça bedeli de eklenir. Bu yüzden ücreti kombinizin markasını, modelini ve durumunu telefonda öğrendikten sonra söylüyoruz; ek bir işlem gerekirse bunu cihazı gördükten sonra ve işe başlamadan önce bildiriyoruz.",
-        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde tüm marka kombilere bakım ve arıza onarımı yapıyoruz. Bağımsız bir özel servisiz, herhangi bir markanın yetkili servisi değiliz; kombiniz hâlâ üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Parça değişimlerinde orijinal yedek parça kullanıyoruz; onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
+        "Fırtına Klima & Kombi olarak Yenibosna ve Bahçelievler başta olmak üzere çevre semtlerde [[/kombi-servisi|kombi servisi]] veriyor, tüm marka kombilere bakım ve arıza onarımı yapıyoruz. Bağımsız bir özel servisiz, herhangi bir markanın yetkili servisi değiliz; kombiniz hâlâ üretici garantisi kapsamındaysa garanti koşullarını önceden kontrol etmenizi öneririz. Parça değişimlerinde orijinal yedek parça kullanıyoruz; onarımımızdan sonra aynı arıza tekrarlarsa işçilik garantisi kapsamında ücretsiz müdahale ediyoruz.",
         "Çoğu çağrıda aynı gün servis verebiliyoruz. Bakım randevusu için her gün 08.00–21.00 arasında {telefon} numarasından arayabilir ya da WhatsApp'tan yazabilirsiniz."
       ]
     }

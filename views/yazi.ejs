@@ -72,10 +72,11 @@ const idler = y.bolumler.map(function (b, i) {
 <%- include('partials/ara-kutusu', { baslik: 'Klima veya kombiniz için servis çağırın' }) %>
 
                         <% const ilgiliHizmetler = hizmetler.filter(function (x) { return (y.ilgili_hizmetler || []).indexOf(x.slug) !== -1; }); %>
+                        <% const yaziKategori = KATEGORILER[y.kategori] && KATEGORILER[y.kategori].sayfa && kategoriSayfalari[y.kategori] ? KATEGORILER[y.kategori] : null; %>
                         <% if (ilgiliHizmetler.length) { %>
                         <h2>İlgili Hizmetlerimiz</h2>
                         <p class="diger-hizmetler">
-                            <% ilgiliHizmetler.forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
+                            <% if (yaziKategori) { %><a href="/<%= yaziKategori.sayfa %>"><%= yaziKategori.ad %></a><% } %><% ilgiliHizmetler.forEach(function (x) { %><a href="/<%= x.slug %>"><%= x.baslik %></a><% }) %>
                         </p>
                         <% } %>
 
