@@ -114,6 +114,7 @@ function seoFor(data, page) {
       alternateName: iletisim.kisa_ad,
       inLanguage: "tr-TR",
       publisher: { "@id": `${SITE_URL}/#isletme` },
+      creator: { "@type": "Person", name: "Nurettin Ensar Ocakçı", url: "https://ensarocakci.com/" },
     },
   ];
 
