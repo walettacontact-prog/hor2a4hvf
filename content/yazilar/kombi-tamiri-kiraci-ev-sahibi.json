@@ -1,0 +1,110 @@
+{
+  "slug": "kombi-tamiri-kiraci-ev-sahibi",
+  "baslik": "Kombi Tamiri Kiracıya mı, Ev Sahibine mi Ait?",
+  "kart_baslik": "Kombi Tamirini Kim Öder?",
+  "seo_baslik": "Kombi Tamiri Kiracıya mı Ev Sahibine mi Ait? Kim Öder?",
+  "seo_aciklama": "Kombi arızasını kiracı mı öder, ev sahibi mi? Yıllık bakım, küçük onarım ve büyük arızalarda genel kural, kanun maddeleri ve anlaşmazlıkta yapılacaklar.",
+  "ozet": "Kiralık evde kombi bozulduğunda masrafı kim öder? Yıllık bakım, küçük onarımlar ve büyük arızalar için genel kural ve anlaşmazlıkta izlenecek yol.",
+  "resim": "/static/assets/uploads/kombi-bakimi-teknisyen.webp",
+  "resim_alt": "Teknisyen duvar tipi kombinin bakımını yapıyor",
+  "tarih": "2026-11-05",
+  "kategori": "kombi",
+  "ilgili_hizmetler": [
+    "kombi-ariza-onarimi",
+    "kombi-bakimi"
+  ],
+  "giris": [
+    "Kış gelip kombi arıza verdiğinde kiralık evlerde ilk sorulan soru çoğu zaman şudur: Bu tamiri kim ödeyecek? Kiracı mı, ev sahibi mi? Cevap arızanın türüne ve nedenine göre değişir. Türk Borçlar Kanunu bu konuda genel bir çerçeve çizer; kira sözleşmenizde özel bir madde varsa ona da bakmak gerekir.",
+    "Bu yazıda yıllık bakım, küçük onarımlar ve büyük arızalar için genel kuralı, hangi durumda hangi tarafın sorumlu sayıldığını ve anlaşmazlıkta nasıl ilerleyebileceğinizi özetledik. Burada yazanlar genel bilgidir, hukuki danışmanlık yerine geçmez; tutarı yüksek ya da tartışmalı durumlarda bir avukata danışmanızı öneririz."
+  ],
+  "bolumler": [
+    {
+      "baslik": "Kısa cevap: bakım kiracıya, büyük arıza ev sahibine",
+      "paragraflar": [
+        "Genel kural şöyle özetlenebilir: Kombinin olağan kullanımından doğan bakım ve küçük giderler kiracıya, cihazın eskimesinden ya da kendi yapısından kaynaklanan büyük arızalar ev sahibine aittir. Arıza kiracının hatalı kullanımından ya da özensizliğinden doğduysa masrafı kiracı karşılar.",
+        "Yani yıllık kombi bakımı ve basınç ayarı gibi işler genellikle kiracının üzerindedir; kart, pompa, eşanjör gibi pahalı parçaların eskime nedeniyle arızalanması ya da kombinin tamamen değişmesi ise genellikle ev sahibinin sorumluluğundadır."
+      ]
+    },
+    {
+      "baslik": "Kanun ne diyor?",
+      "paragraflar": [
+        "Türk Borçlar Kanunu'nun 301. maddesine göre kiraya veren, kiralananı kullanıma elverişli bir durumda teslim etmek ve sözleşme süresince bu durumda bulundurmakla yükümlüdür. Isınmanın kombiyle sağlandığı bir evde kombinin çalışır durumda olması da bunun parçasıdır.",
+        "Aynı kanunun 316. maddesi kiracının kiralananı özenle kullanmasını, 317. maddesi ise kiralananın olağan kullanımı için gerekli temizlik ve bakım giderlerini kiracının ödemesini öngörür. Yıllık bakımın kiracıya, eskimeden doğan büyük arızaların ev sahibine düşmesi bu iki ilkenin sonucudur.",
+        "Kira sözleşmesinde kombi bakımı ya da onarımıyla ilgili özel bir madde varsa öncelikle ona bakılır; ancak sözleşme maddelerinin kanunun emredici hükümlerine aykırı olmaması gerekir."
+      ]
+    },
+    {
+      "baslik": "Genellikle kiracının ödediği giderler",
+      "paragraflar": [
+        "Olağan kullanımdan doğan ve tutarı düşük işler kural olarak kiracıya aittir:"
+      ],
+      "maddeler": [
+        "Isıtma sezonu öncesindeki [[/kombi-bakimi|yıllık kombi bakımı]]",
+        "Düşen su basıncını tamamlamak, peteklerin havasını almak gibi kullanıcı işleri",
+        "Oda termostatının pili gibi küçük sarf malzemeleri",
+        "Kiracının hatalı kullanımından doğan arızalar: örneğin donma riskine karşı önlem alınmayan boş bir evde kombinin ya da tesisatın donması"
+      ]
+    },
+    {
+      "baslik": "Genellikle ev sahibinin ödediği giderler",
+      "paragraflar": [
+        "Cihazın yaşından, yıpranmasından ya da kendi yapısından kaynaklanan ve evin kullanılabilirliğini etkileyen arızalar kural olarak ev sahibine aittir:"
+      ],
+      "maddeler": [
+        "Eskime nedeniyle elektronik kart, sirkülasyon pompası, eşanjör, üç yollu vana ya da genleşme tankı gibi ana parçaların arızalanması",
+        "Onarımı mümkün olmayan ya da ekonomik olmayan kombinin yenisiyle değiştirilmesi",
+        "Kiracı taşınmadan önce de var olan ya da kiracının kullanımından bağımsız gelişen arızalar"
+      ]
+    },
+    {
+      "baslik": "Arızanın nedeni belli değilse ne olur?",
+      "paragraflar": [
+        "Pratikte en çok tartışma, arızanın eskimeden mi yoksa kullanımdan mı kaynaklandığı belli olmadığında çıkar. Burada servisin yaptığı tespit önemlidir. Arızayı yerinde inceleyen teknisyenin, sorunun hangi parçada olduğunu ve olası nedenini açıkça yazması iki tarafın da işini kolaylaştırır.",
+        "Bakımı düzenli yapılmamış bir kombide çıkan arızada ev sahibi, sorunun bakım eksikliğinden doğduğunu ileri sürebilir. Bu yüzden kiracıysanız yıllık bakımı yaptırıp belgesini saklamanız, olası bir anlaşmazlıkta elinizi güçlendirir."
+      ]
+    },
+    {
+      "baslik": "Kombi bozulduğunda kiracı ne yapmalı?",
+      "paragraflar": [
+        "Sorunu büyütmeden ve iki tarafı da koruyarak ilerlemek için şu sırayı izleyebilirsiniz:"
+      ],
+      "maddeler": [
+        "Önce basit kontrolleri yapın: sigorta, gaz vanası, [[/kombi-su-basinci|su basıncı]] ve termostat. Bazı sorunlar arıza değildir.",
+        "Arıza devam ediyorsa ev sahibine hemen ve yazılı olarak (mesaj ya da e-posta) haber verin; ekrandaki hata kodunu ve fotoğrafını ekleyin.",
+        "Servis çağırmadan önce ücreti kimin ödeyeceği konusunda ev sahibiyle anlaşın. Acil bir durumda kendiniz servis çağırdıysanız faturayı ve servis raporunu saklayın.",
+        "Gaz kokusu alırsanız konu tamir masrafı değil güvenliktir: gaz vanasını kapatın, ortamı havalandırın ve 187 Doğal Gaz Acil hattını arayın."
+      ]
+    },
+    {
+      "baslik": "Ev sahibi tamiri yaptırmazsa",
+      "paragraflar": [
+        "Kanun, kiraya verenin gidermesi gereken bir ayıbı makul sürede gidermemesi hâlinde kiracıya bazı haklar tanır; örneğin ayıbın kiraya veren hesabına giderilmesini ya da kira bedelinden indirim istemek gibi. Bu hakların koşulları ve kullanımı somut duruma göre değiştiği için böyle bir yola gitmeden önce bir avukattan ya da kiracı haklarıyla ilgili resmî kaynaklardan bilgi almanızı öneririz.",
+        "Çoğu durumda ise sorun, arızanın açıkça tespit edilmesi ve iki tarafın yazılı olarak bilgilendirilmesiyle çözülür."
+      ]
+    },
+    {
+      "baslik": "Servis tespiti ve onarım",
+      "paragraflar": [
+        "Yenibosna, Bahçelievler ve çevre semtlerde kombiyi yerinde inceleyip arızanın hangi parçada olduğunu ve olası nedenini açıkça anlatıyoruz; ücreti işe başlamadan önce söylüyoruz. Bu bilgiyle kiracı ve ev sahibi masrafı kimin karşılayacağına daha kolay karar verebilir. Ayrıntılar için [[/kombi-servisi|kombi servisi]] sayfamıza bakabilir ya da {telefon} numarasından bize ulaşabilirsiniz."
+      ]
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Yıllık kombi bakımını kiracı mı yaptırır, ev sahibi mi?",
+      "cevap": "Genel kural olarak yıllık bakım, kiralananın olağan kullanımı için gerekli bakım gideri sayıldığından kiracıya aittir. Kira sözleşmesinde farklı bir madde varsa ona bakılır."
+    },
+    {
+      "soru": "Kombinin kartı yandı, parasını kim öder?",
+      "cevap": "Kart arızası eskime ya da cihazın kendi yapısından kaynaklanıyorsa genellikle ev sahibi öder. Arıza kiracının hatalı kullanımından doğduysa, örneğin uygun olmayan bir müdahale yapıldıysa, masraf kiracıya düşebilir. Nedeni servisin tespiti ortaya koyar."
+    },
+    {
+      "soru": "Kombi tamamen değişecekse kim öder?",
+      "cevap": "Kombinin eskimesi ya da onarımının ekonomik olmaması nedeniyle değişmesi genellikle ev sahibinin sorumluluğundadır. Yeni kombinin takılması ve doğal gaz hattına bağlanması İGDAŞ'ın yetkilendirdiği bir iç tesisat firmasının işidir."
+    },
+    {
+      "soru": "Kiracı kendi başına servis çağırıp parasını kiradan düşebilir mi?",
+      "cevap": "Önce ev sahibine yazılı olarak haber verip anlaşmak en sağlıklı yoldur. Ev sahibinin sorumlu olduğu bir arızayı makul sürede gidermemesi durumunda kanun kiracıya bazı haklar tanır; ancak kiradan kendiliğinden düşmek tartışma yaratabileceğinden önce hukuki destek almanızı öneririz."
+    }
+  ]
+}
