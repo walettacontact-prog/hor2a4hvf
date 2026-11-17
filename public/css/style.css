@@ -15571,9 +15571,7 @@ section.bg-grey {
   background: rgba(var(--secondary-color-rgb), .1);
 }
 
-.wow {
-  visibility: hidden;
-}
+/* .wow öğeleri artık gizlenmiyor: içerik açılışta hemen görünsün (kaydırınca beliren animasyonlar kapatıldı) */
 
 #back-to-top {
   background: #ffffff;

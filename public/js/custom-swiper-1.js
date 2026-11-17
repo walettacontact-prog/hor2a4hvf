@@ -1,25 +1,23 @@
 const swiper = new Swiper('.swiper', {
-
-  // Optional parameters
   direction: 'horizontal',
   slidesPerView: 1,
   loop: true,
-  speed: 1200,
+  // Parmağı bırakınca geçiş hızlı ve akıcı olsun (eskiden 1200 ms ve kullanılmayan paralaks vardı)
+  speed: 550,
+  grabCursor: true,
+  threshold: 6,
+  resistanceRatio: 0.6,
   mousewheel: false,
-  watchSlidesProgress: true,
-  parallax: true,
+  keyboard: { enabled: true },
   spaceBetween: -1,
 
-  // If we need pagination
-   pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
 });

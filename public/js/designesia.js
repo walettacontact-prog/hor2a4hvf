@@ -1634,7 +1634,7 @@
          custom_elements();
          init(); 
          
-         new WOW().init();
+         // new WOW().init(); // kaydırınca beliren animasyonlar kapatıldı: içerik gecikmeden görünsün, kaydırma akıcı olsun
 
          
          // one page navigation
@@ -1783,10 +1783,11 @@
          });
          $(function() {
              "use strict";
-             var x = 0;
+             var x = 0, $loop = $('.bg-loop');
+             if (!$loop.length) return; // sayfada .bg-loop yoksa her 50 ms'de boşuna çalışmasın
              setInterval(function() {
                  x -= 1;
-                 $('.bg-loop').css('background-position', x + 'px 0');
+                 $loop.css('background-position', x + 'px 0');
              }, 50);
          })
 		 
