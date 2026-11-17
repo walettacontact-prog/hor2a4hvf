@@ -7,7 +7,9 @@
   "ozet": "Taşınırken klimanın gazı kaçmadan sökülmesi, güvenle taşınması ve yeni evde vakumlanarak kurulması için adım adım rehber.",
   "resim": "/static/assets/uploads/klima-dis-unite-teknisyen.webp",
   "resim_alt": "Teknisyen alet çantasıyla klima dış ünitesinin başında",
+  "kisa_cevap": "Klima sökülmeden önce gaz dış üniteye toplanır (pump-down): klima soğutmada çalışırken önce ince borunun, basınç düşünce kalın borunun vanası kapatılır, sonra borular ayrılır. Doğru yapılırsa gaz kaçmaz. Yeni evde montajdan sonra borular vakumlanır ve gaz kontrol edilir. Bu işlemler manometreyle çalışan bir teknisyen işidir; vanalara kendiniz müdahale etmeyin.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "klima",
   "ilgili_hizmetler": [
     "klima-montaji",

@@ -7,7 +7,9 @@
   "ozet": "Klima taktırmadan önce ünite yerleri, vakumlama, montaj süresi, ücreti belirleyen etkenler ve sık yapılan hatalar üzerine pratik bir rehber.",
   "resim": "/static/assets/uploads/duvar-tipi-split-klima.webp",
   "resim_alt": "Duvara monte edilmiş split klima iç ünitesi ve dış ünitesi",
+  "kisa_cevap": "İç ünite, havayı odanın uzun tarafı boyunca yayabilecek ve doğrudan oturulan ya da yatılan yere üflemeyecek bir duvara, üstünde ve yanlarında boşluk kalacak şekilde ve mümkünse dış duvara yakın takılmalıdır. Dış ünitenin önü ve arkası kapalı olmamalı; sağlam bir duvara titreşim takozlarıyla sabitlenmeli ve bakım için ulaşılabilir olmalıdır. Montajdan sonra vakumlama atlanmamalıdır.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "klima",
   "ilgili_hizmetler": [
     "klima-montaji"

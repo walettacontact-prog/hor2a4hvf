@@ -7,7 +7,9 @@
   "ozet": "Kombi basıncı kaç bar olmalı, neden düşer ya da kendiliğinden yükselir? Güvenle su ekleme, basıncı azaltma ve servis gerektiren durumlar.",
   "resim": "/static/assets/uploads/kombi-basinc-gostergesi.webp",
   "resim_alt": "Kombi basınç göstergesi çizimi: ibre 1–2 bar aralığında",
+  "kisa_cevap": "Çoğu kombide su basıncı, kombi soğukken yaklaşık 1–1,5 bar olmalıdır; çalışırken su ısınıp genleştiği için 2 bara kadar çıkması normaldir. Basınç 1 barın altına düştüyse kombi soğukken doldurma musluğundan yavaşça tamamlanır; sık sık düşüyor ya da 3 bara yaklaşıyorsa kaçak, doldurma musluğu veya genleşme tankı kontrol edilmelidir. Kombinizin kesin değeri kullanım kılavuzunda yazar.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "kombi",
   "ilgili_hizmetler": [
     "kombi-ariza-onarimi",

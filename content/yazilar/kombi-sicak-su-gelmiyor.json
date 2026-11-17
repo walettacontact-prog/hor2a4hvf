@@ -7,7 +7,9 @@
   "ozet": "Petekler ısınıyor ama musluktan soğuk ya da ılık su mu geliyor? Olası nedenleri ve servisten önce yapabileceğiniz kontrolleri anlattık.",
   "resim": "/static/assets/uploads/kombi-sicak-su.webp",
   "resim_alt": "Kombi çizimi: petek tarafı sıcak, musluktan gelen su soğuk",
+  "kisa_cevap": "Petekler ısınıyor ama musluktan sıcak su gelmiyorsa kombi gaz alıp yanabiliyor demektir; sorun büyük olasılıkla sıcak su tarafındadır. Önce sıcak su sıcaklık ayarına, kombinin yaz/kış konumuna ve musluktaki su akışına bakın; su yalnızca tek bir muslukta zayıfsa o musluğun perlatörü kireçlenmiş olabilir. Ayarlar doğruysa akış sensörü, üç yollu vana ya da kireçlenmiş eşanjör gibi parçalar için teknisyen gerekir.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "kombi",
   "ilgili_hizmetler": [
     "kombi-ariza-onarimi"

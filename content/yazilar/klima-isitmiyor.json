@@ -7,7 +7,9 @@
   "ozet": "Klima ısıtmada soğuk üflüyor ya da arada duruyor mu? Ön ısıtma, buz çözme, doğru kullanım ve arıza belirtilerini anlattık.",
   "resim": "/static/assets/uploads/klima-kumandasi.webp",
   "resim_alt": "Elinde klima kumandası tutan kişi",
+  "kisa_cevap": "Isıtma modunda açılışta birkaç dakika hava gelmemesi ya da serin gelmesi normaldir; klima iç ünite ısınana kadar fanı çalıştırmaz. Soğuk havalarda arada üflemeyi kesmesi ve dış üniteden buhar çıkması da buz çözme (defrost) sırasında normaldir. Uzun süre ısıtmıyorsa önce modun ısıtma olduğuna, ayar sıcaklığının oda sıcaklığından yüksek olduğuna ve filtrelerin temiz olduğuna bakın; buna rağmen ısıtmıyorsa gaz eksikliği ya da bir arıza olabilir.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "klima",
   "ilgili_hizmetler": [
     "klima-ariza-tamiri",

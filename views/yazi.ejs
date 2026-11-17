@@ -39,6 +39,9 @@ const idler = y.bolumler.map(function (b, i) {
                     <article class="icerik">
                         <p class="text-muted mb-4"><time datetime="<%= y.tarih %>"><%= tarihYaz(y.tarih) %></time><% if (y.guncelleme && y.guncelleme !== y.tarih) { %> · Güncellendi: <time datetime="<%= y.guncelleme %>"><%= tarihYaz(y.guncelleme) %></time><% } %> · <%= iletisim.firma_adi %></p>
 
+<% if (y.kisa_cevap) { %>
+                        <div class="kisa-cevap"><p><strong>Kısa cevap:</strong> <%- linkle(y.kisa_cevap) %></p></div>
+<% } %>
                         <% y.giris.forEach(function (p, i) { %>
                         <p<% if (i === 0) { %> class="giris"<% } %>><%- linkle(p) %></p>
                         <% }) %>

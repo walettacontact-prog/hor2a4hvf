@@ -7,7 +7,9 @@
   "ozet": "Petekler ısınmıyorsa belirtiye göre ayar, vana, hava alma, tortu ve kombi arızası kontrollerini adım adım anlattık.",
   "resim": "/static/assets/uploads/petek-isitma.webp",
   "resim_alt": "Ellerini kalorifer peteğine yaklaştırarak ısınan kişi",
+  "kisa_cevap": "Peteğin üstü soğuk, altı sıcaksa içinde hava vardır ve hava alma tapasından havası alınır. Üstü sıcak, altı soğuksa tortu birikmiştir. Bazı petekler ısınıp bazıları ısınmıyorsa petek vanalarına, havaya ve su dağılımına bakılır. Hiçbir petek ısınmıyorsa önce ayar, termostat, su basıncı ve gaz kontrol edilir; yine ısınmıyorsa sorun büyük olasılıkla kombidedir.",
   "tarih": "2026-10-06",
+  "guncelleme": "2026-11-17",
   "kategori": "kombi",
   "ilgili_hizmetler": [
     "kombi-ariza-onarimi",
